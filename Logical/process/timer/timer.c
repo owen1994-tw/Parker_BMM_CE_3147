@@ -103,6 +103,7 @@ void _CYCLIC Timer_cyclic(void)
 	
 	/*SafeLogicValve Delay*/
 	timer_10ms(&gMacTimer.SafeLogicValveDelay);
+	timer_10ms(&gMacTimer.SafeLogicValveOffDelay);
 
 }  /* end of _CYCLIC */
 

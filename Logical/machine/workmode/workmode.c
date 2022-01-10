@@ -75,11 +75,13 @@ _CYCLIC void cyclic ( void )
 	}
 	
 
-	//Safe Logic Valve Delay Detect
+	//Safe Logic Valve Check
 	if(gUserPara.RMold.TimeSet.SafeLogicValveDelay <=0 ) gUserPara.RMold.TimeSet.SafeLogicValveDelay = 300;
+	if(gUserPara.RMold.TimeSet.SafeLogicValveOffDelay <=0 ) gUserPara.RMold.TimeSet.SafeLogicValveOffDelay = 100;
 	if(1 == gMachineOut.OilPump )
 	{
-		if(0 == gMachineIn.CalibModeForceDI)
+		//On Check Delay
+		if(0 == gMachineIn.CalibModeForceDI)// manual
 		{
 			if(0 == gMachineInfo.SafeLogicValveDelayDone)
 			{
@@ -100,11 +102,36 @@ _CYCLIC void cyclic ( void )
 			gMacTimer.SafeLogicValveDelay.IN = 0;
 			gMachineInfo.SafeLogicValveDelayDone = 0;
 		}
+		
+		//Off Delay
+		
+		if(0 == gMachineIn.SafeLogicValve)
+		{
+			if(0 == gMachineInfo.SafeLogicValveOffDelayTimeOut)
+			{
+				if(gMacTimer.SafeLogicValveOffDelay.Q)
+				{
+					gMacTimer.SafeLogicValveOffDelay.IN = 0;
+					gMachineInfo.SafeLogicValveOffDelayTimeOut = 1;
+				}
+				else
+				{
+					gMacTimer.SafeLogicValveOffDelay.IN = 1;
+					gMacTimer.SafeLogicValveOffDelay.PT = gUserPara.RMold.TimeSet.SafeLogicValveOffDelay;
+				}
+			}
+		}
+		else
+		{
+			gMachineInfo.SafeLogicValveOffDelayTimeOut = 0;
+		}
+
 	}
 	else
 	{
 		gMacTimer.SafeLogicValveDelay.IN = 0;
 		gMachineInfo.SafeLogicValveDelayDone = 0;
+		gMachineInfo.SafeLogicValveOffDelayTimeOut = 0;
 	}
 	
 	//Safe Related Alarm
@@ -123,7 +150,7 @@ _CYCLIC void cyclic ( void )
 	else
 	{
 		gAlarm.SafeCalibPressure = 0;
-		if(gMachineInfo.SafeLogicValveDelayDone &&  gMachineIn.SafeLogicValve && gMachineOut.OilPump)
+		if(gMachineInfo.SafeLogicValveDelayDone &&  gMachineIn.SafeLogicValve && gMachineInfo.SafeLogicValveOffDelayTimeOut  && gMachineOut.OilPump)
 		{
 			gAlarm.SafeLogicValve = 1;
 		}

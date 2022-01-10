@@ -1715,6 +1715,7 @@ TYPE
 		i40_Parison_ErrID : UINT;
 		oldYield : UDINT;
 		SafeLogicValveDelayDone : USINT;
+		SafeLogicValveOffDelayTimeOut : USINT;
 	END_STRUCT;
 	Machine_In_typ : 	STRUCT 
 		OilPumpEnable : USINT;
@@ -2168,6 +2169,7 @@ TYPE
 		LBlowPinValveClean : timer_typ;
 		ExtParison : timer_typ;
 		SafeLogicValveDelay : timer_typ;
+		SafeLogicValveOffDelay : timer_typ;
 	END_STRUCT;
 	Mbus_Comm_typ : 	STRUCT 
 		ReadStatus : INT; (* read status 0*)
@@ -2831,7 +2833,7 @@ TYPE
 		TopDeflashExtraDelay : UDINT;
 		BottomDeflashExtraDelay : UDINT;
 		SafeLogicValveDelay : UDINT;
-		New_Member1 : UDINT;
+		SafeLogicValveOffDelay : UDINT;
 		New_Member2 : UDINT;
 		New_Member9 : UDINT;
 	END_STRUCT;
