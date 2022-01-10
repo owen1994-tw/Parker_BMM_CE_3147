@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TrendData xmlns="http://br-automation.co.at/AS/VC/Project" Name="Speed">
+  <Property Name="Description" Value=""/>
+  <Property Name="ForeColor" Value="0"/>
+  <Property Name="Index" Value="41"/>
+  <Property Name="RecordMode" Value="Single"/>
+  <Property Name="SampleRate" Value="1"/>
+  <Property Name="SampleRateDatapoint" Value="None"/>
+  <Property Name="TrendDataType" Value="User"/>
+  <Property Name="TrendMaxDatapoint" Value="Source[global].Variable[DataSource_1.screen.Trace.Trace.Data[1].rYMax]"/>
+  <Property Name="TrendMaxValue" Value="None"/>
+  <Property Name="TrendMinDatapoint" Value="Source[global].Variable[DataSource_1.screen.Trace.Trace.Data[1].rYMin]"/>
+  <Property Name="TrendMinValue" Value="None"/>
+  <Property Name="TrendSampleCountDatapoint" Value="Source[global].Variable[DataSource_1.screen.Trace.Trace.uDIndex]"/>
+  <Property Name="TrendSampleDateTimeDatapoint" Value="None"/>
+  <Property Name="TrendSimulationValue" Value="Random"/>
+  <Property Name="TrendValueUserDatapoint" Value="Source[global].Variable[DataSource_1.screen.Trace.Trace.Data[1].rData]"/>
+</TrendData>

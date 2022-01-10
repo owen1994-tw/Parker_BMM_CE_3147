@@ -1,0 +1,22 @@
+(*//-------------------------------------*)
+(*//Task須放在2ms*)
+(*//-------------------------------------*)
+(*Insert your comment here.*)
+VAR
+	rData : ARRAY[0..MAX_NUM] OF REAL; (*暫存接收資料*)
+	Trace : Trace_typ;
+END_VAR
+(**)
+(*Insert your comment here.*)
+VAR CONSTANT
+	MAX_NUM : UINT := 3; (*Max Channel*)
+	MAX_DATA : UINT := 1999; (*最大資料數*)
+END_VAR
+VAR
+	uMotorIndex : USINT;
+END_VAR
+(*Motion Trend Option*)
+VAR
+	uOptMotionTrend : ARRAY[0..15] OF USINT := [16(0)];
+	Max_Torque : REAL;
+END_VAR

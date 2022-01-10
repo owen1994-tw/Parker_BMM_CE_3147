@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Unit_Name">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="26"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="3157294" Value="Flow"/>
+    <Text ID="3157295" Value="Velocity"/>
+    <Text ID="3157296" Value="Pressure"/>
+    <Text ID="3157297" Value="Pos."/>
+    <Text ID="3157304" Value="Torque"/>
+    <Text ID="3754718" Value="Accel"/>
+    <Text ID="3754719" Value="Decel"/>
+    <Text ID="3754720" Value="Setting Tj "/>
+    <Text ID="3754721" Value="Act Tj "/>
+    <Text ID="3754722" Value="Setting Td"/>
+    <Text ID="3754723" Value="Brake decel"/>
+    <Text ID="3754724" Value=""/>
+    <Text ID="3754725" Value=""/>
+    <Text ID="3754726" Value=""/>
+    <Text ID="3754727" Value="Current"/>
+    <Text ID="3754728" Value=""/>
+    <Text ID="3754729" Value=""/>
+    <Text ID="3754730" Value=""/>
+    <Text ID="3754731" Value=""/>
+    <Text ID="3754732" Value=""/>
+    <Text ID="3754733" Value="Max speed"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="3157294" Value="流量"/>
+    <Text ID="3157295" Value="速度"/>
+    <Text ID="3157296" Value="壓力"/>
+    <Text ID="3157297" Value="位置"/>
+    <Text ID="3157304" Value="扭矩"/>
+    <Text ID="3754718" Value="加速度"/>
+    <Text ID="3754719" Value="減速度"/>
+    <Text ID="3754720" Value="刹車曲線S型Tj"/>
+    <Text ID="3754721" Value="實際S型Tj"/>
+    <Text ID="3754722" Value="刹車慣性Td"/>
+    <Text ID="3754723" Value="手動停減速度"/>
+    <Text ID="3754724" Value=""/>
+    <Text ID="3754725" Value=""/>
+    <Text ID="3754726" Value=""/>
+    <Text ID="3754727" Value="電流"/>
+    <Text ID="3754728" Value=""/>
+    <Text ID="3754729" Value=""/>
+    <Text ID="3754730" Value=""/>
+    <Text ID="3754731" Value=""/>
+    <Text ID="3754732" Value=""/>
+    <Text ID="3754733" Value="最大速度"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="3157294" Value="流量"/>
+    <Text ID="3157295" Value="速度"/>
+    <Text ID="3157296" Value="壓力"/>
+    <Text ID="3157297" Value="位置"/>
+    <Text ID="3157304" Value="扭矩"/>
+    <Text ID="3754718" Value="加速度"/>
+    <Text ID="3754719" Value="減速度"/>
+    <Text ID="3754720" Value="刹車曲線S型Tj"/>
+    <Text ID="3754721" Value="實際S型Tj"/>
+    <Text ID="3754722" Value="刹車慣性Td"/>
+    <Text ID="3754723" Value="手動停減速度"/>
+    <Text ID="3754724" Value=""/>
+    <Text ID="3754725" Value=""/>
+    <Text ID="3754726" Value=""/>
+    <Text ID="3754727" Value="電流"/>
+    <Text ID="3754728" Value=""/>
+    <Text ID="3754729" Value=""/>
+    <Text ID="3754730" Value=""/>
+    <Text ID="3754731" Value=""/>
+    <Text ID="3754732" Value=""/>
+    <Text ID="3754733" Value="最大速度"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="3157294" Value="Przeplyw"/>
+    <Text ID="3157295" Value="Predkosc"/>
+    <Text ID="3157296" Value="Cisnienie"/>
+    <Text ID="3157297" Value="Pozycja"/>
+    <Text ID="3157304" Value="Moment\nobrotowy"/>
+    <Text ID="3754718" Value="Przyspieszenie"/>
+    <Text ID="3754719" Value="Opoznienie"/>
+    <Text ID="3754720" Value="Ustawienie Tj"/>
+    <Text ID="3754721" Value="Aktu. Tj"/>
+    <Text ID="3754722" Value="Ustawienie Td"/>
+    <Text ID="3754723" Value="Opoznienie hamowania"/>
+    <Text ID="3754724" Value=""/>
+    <Text ID="3754725" Value=""/>
+    <Text ID="3754726" Value=""/>
+    <Text ID="3754727" Value="Prad"/>
+    <Text ID="3754728" Value=""/>
+    <Text ID="3754729" Value=""/>
+    <Text ID="3754730" Value=""/>
+    <Text ID="3754731" Value=""/>
+    <Text ID="3754732" Value=""/>
+    <Text ID="3754733" Value="Predkosc mak."/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="3157294" Value="0"/>
+    <Index ID="3157295" Value="1"/>
+    <Index ID="3157296" Value="2"/>
+    <Index ID="3157297" Value="3"/>
+    <Index ID="3157304" Value="4"/>
+    <Index ID="3754718" Value="10"/>
+    <Index ID="3754719" Value="11"/>
+    <Index ID="3754720" Value="12"/>
+    <Index ID="3754721" Value="13"/>
+    <Index ID="3754722" Value="14"/>
+    <Index ID="3754723" Value="15"/>
+    <Index ID="3754724" Value="16"/>
+    <Index ID="3754725" Value="9"/>
+    <Index ID="3754726" Value="8"/>
+    <Index ID="3754727" Value="5"/>
+    <Index ID="3754728" Value="7"/>
+    <Index ID="3754729" Value="6"/>
+    <Index ID="3754730" Value="17"/>
+    <Index ID="3754731" Value="18"/>
+    <Index ID="3754732" Value="19"/>
+    <Index ID="3754733" Value="20"/>
+  </IndexMap>
+</TextGroup>

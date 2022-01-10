@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.12.129 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">screen.typ</Object>
+    <Object Type="File" Description="Global variables">screen.var</Object>
+    <Object Type="Program" Language="ANSIC" Description="key led control">keyled</Object>
+    <Object Type="Program" Language="ANSIC" Description="HMI set">hmiset</Object>
+    <Object Type="Program" Language="ANSIC" Description="copy screen to usb disk">scrshot</Object>
+    <Object Type="Program" Language="ANSIC" Description="password login modify">password</Object>
+    <Object Type="Program" Language="ANSIC" Description="IP configure">vpn</Object>
+    <Object Type="Program" Language="ANSIC" Description="panel display">panel</Object>
+    <Object Type="Program" Language="ANSIC" Description="auto copy screen to bmp file">hmi_cpy</Object>
+    <Object Type="Program" Language="IEC">Trace</Object>
+  </Objects>
+</Package>

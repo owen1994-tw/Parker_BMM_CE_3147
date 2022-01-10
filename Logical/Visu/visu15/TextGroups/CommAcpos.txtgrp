@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="CommAcpos">
+  <Property Name="Description" Value="Communication is not active"/>
+  <Property Name="Index" Value="19"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="1627403" Value="Communication is not active"/>
+    <Text ID="1627404" Value="Network initialization"/>
+    <Text ID="1627405" Value="BsLoader has been set up"/>
+    <Text ID="1627406" Value="Wait for communication BsLoader"/>
+    <Text ID="1627407" Value="start of BsLoader "/>
+    <Text ID="1627408" Value="Wait for network initialization"/>
+    <Text ID="1627409" Value="Download  BsLoader"/>
+    <Text ID="1627410" Value="Download of BsLoader run"/>
+    <Text ID="1627411" Value="Download of operating system"/>
+    <Text ID="1627412" Value="Download of operating system"/>
+    <Text ID="1627413" Value="start of operating system"/>
+    <Text ID="1627414" Value="initialization of NC software "/>
+    <Text ID="1627415" Value="Default parameters are transferred "/>
+    <Text ID="1627416" Value="INIT-ACOPOS parameters "/>
+    <Text ID="1627417" Value="Network initialization complete "/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="1627403" Value="无通讯"/>
+    <Text ID="1627404" Value="网络初始化"/>
+    <Text ID="1627405" Value="BsLoader安装"/>
+    <Text ID="1627406" Value="BsLoader 通讯"/>
+    <Text ID="1627407" Value="BsLoader重启"/>
+    <Text ID="1627408" Value="网络初始化等待"/>
+    <Text ID="1627409" Value="BsLoader下载"/>
+    <Text ID="1627410" Value="BsLoader运行"/>
+    <Text ID="1627411" Value="下載操作系统"/>
+    <Text ID="1627412" Value="下載操作系统"/>
+    <Text ID="1627413" Value="操作系统重启"/>
+    <Text ID="1627414" Value="NC 传送"/>
+    <Text ID="1627415" Value="默認參數傳送"/>
+    <Text ID="1627416" Value="初始化参数传送"/>
+    <Text ID="1627417" Value="通讯初始化成功"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="1627403" Value="無通訊"/>
+    <Text ID="1627404" Value="網路初始化"/>
+    <Text ID="1627405" Value="BsLoader安裝"/>
+    <Text ID="1627406" Value="BsLoader 通訊"/>
+    <Text ID="1627407" Value="BsLoader重啟"/>
+    <Text ID="1627408" Value="網路初始化等待"/>
+    <Text ID="1627409" Value="BsLoader下載"/>
+    <Text ID="1627410" Value="BsLoader運行"/>
+    <Text ID="1627411" Value="下載作業系統"/>
+    <Text ID="1627412" Value="下載作業系統"/>
+    <Text ID="1627413" Value="作業系統重啟"/>
+    <Text ID="1627414" Value="NC 傳送"/>
+    <Text ID="1627415" Value="默認參數傳送"/>
+    <Text ID="1627416" Value="初始化參數傳送"/>
+    <Text ID="1627417" Value="通訊初始化成功"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="1627403" Value="Komunikacja nie jest aktywna"/>
+    <Text ID="1627404" Value="Inicjalizacja sieci"/>
+    <Text ID="1627405" Value=""/>
+    <Text ID="1627406" Value=""/>
+    <Text ID="1627407" Value=""/>
+    <Text ID="1627408" Value="Poczekaj na inicjalizację sieci"/>
+    <Text ID="1627409" Value=""/>
+    <Text ID="1627410" Value=""/>
+    <Text ID="1627411" Value="Pobieranie systemu operacyjnego"/>
+    <Text ID="1627412" Value="Pobieranie systemu operacyjnego"/>
+    <Text ID="1627413" Value="Start systemu operacyjnego"/>
+    <Text ID="1627414" Value="Inicjalizacja oprogramowania NC"/>
+    <Text ID="1627415" Value="Domyslne parametry sa przesylane"/>
+    <Text ID="1627416" Value="Inicjalizacja Parametry ACOPOS"/>
+    <Text ID="1627417" Value="Inicjalizacja sieci zakonczona"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1627403" Value="0"/>
+    <Index ID="1627404" Value="1"/>
+    <Index ID="1627405" Value="10"/>
+    <Index ID="1627406" Value="9"/>
+    <Index ID="1627407" Value="20"/>
+    <Index ID="1627408" Value="5"/>
+    <Index ID="1627409" Value="30"/>
+    <Index ID="1627410" Value="31"/>
+    <Index ID="1627411" Value="40"/>
+    <Index ID="1627412" Value="41"/>
+    <Index ID="1627413" Value="50"/>
+    <Index ID="1627414" Value="55"/>
+    <Index ID="1627415" Value="60"/>
+    <Index ID="1627416" Value="70"/>
+    <Index ID="1627417" Value="90"/>
+  </IndexMap>
+</TextGroup>

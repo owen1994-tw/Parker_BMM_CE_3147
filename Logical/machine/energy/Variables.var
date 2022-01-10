@@ -1,0 +1,14 @@
+VAR
+	tTask : REAL := 0.0;
+	RTInfo_v : RTInfo;
+	cntRunTime : UDINT;
+	tEnergyTime_1 : REAL;
+	tEnergyTimeDis_1 : REAL;
+	tEnergyTime_2 : REAL;
+	tEnergyTimeDis_2 : REAL;
+	AvgEnergyOld : REAL;
+	AvgEnergyHeatingOld : REAL;
+	tEnergyTime_3 : REAL;
+	tEnergyTimeDis_3 : REAL;
+	AvgEnergyPumpOld : REAL;
+END_VAR

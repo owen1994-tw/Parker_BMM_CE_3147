@@ -1,0 +1,35 @@
+VAR
+	DatObj_Info : DatObjInfo;
+	DatObj_Create : DatObjCreate;
+	DatObj_Write : DatObjWrite;
+	DatObj_Read : DatObjRead;
+	DataObjOperate : DatObj_Operate_typ;
+	RecipeName : recipeName_typ;
+	RecipeButton : recipeButton_typ;
+	RecipeButtonNeg : recipeButton_typ;
+	cntDealy : UDINT;
+	RecordName : STRING[16];
+	RecordTime : STRING[20];
+	ListName : STRING[16];
+	ListTime : STRING[20];
+	ListIndex : USINT;
+	RenameColor : UINT;
+	ABCColor : ARRAY[0..79] OF UINT;
+	KeyMatric : ARRAY[0..99] OF USINT;
+	OldKeyMatric : ARRAY[0..99] OF USINT;
+	OldLockFlag : USINT;
+	i : UINT;
+	iFlash : UINT;
+	NumName : STRING[4];
+	CurrentInput : INT;
+	FiletypeUSB : USINT;
+	StepRecipeUSB : UINT;
+	cntTime : UINT;
+	fileRecName : STRING[80];
+	FileOpen_0 : FileOpen;
+	FileCreate_0 : FileCreate;
+	FileWrite_0 : FileWrite;
+	FileRead_0 : FileRead;
+	FileClose_0 : FileClose;
+	bHideUSB_Key : USINT;
+END_VAR

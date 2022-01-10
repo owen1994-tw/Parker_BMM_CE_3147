@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Big_Diehead_zone">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="43"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="2444" Value="Source[local].Bitmap[Diehead_zone]"/>
+    <BitmapRef ID="2445" Value="Source[local].Bitmap[Diehead_Heat]"/>
+    <BitmapRef ID="2446" Value="Source[local].Bitmap[Diehead_Cool]"/>
+    <BitmapRef ID="2447" Value="Source[local].Bitmap[Diehead_broken]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="2444" Value="0"/>
+    <Index ID="2445" Value="1"/>
+    <Index ID="2446" Value="2"/>
+    <Index ID="2447" Value="3"/>
+  </IndexMap>
+</BitmapGroup>

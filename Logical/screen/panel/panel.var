@@ -1,0 +1,306 @@
+VAR
+	cntTask : UDINT;
+	bCmdTouch : BOOL;
+	bHideFunctionKey : USINT;
+	bHideVisu : USINT;
+	bHideNoUse : USINT;
+	bHidePurge : UINT;
+	bHideFrame : UINT;
+	bHidePropValvePage : UINT;
+	bHideCarriagePropValve : UINT;
+	bHideClampPropValve : UINT;
+	bHideBlowPinPropValve : UINT;
+	bHideParisonAutoCalib : UINT;
+	bHideRSupportAirTimeVersion : USINT;
+	bHideLSupportAirTimeVersion : USINT;
+	bHideRSupportAir2TimeVersion : USINT;
+	bHideLSupportAir2TimeVersion : USINT;
+	bHideWordSupportAirTimeVersion : USINT;
+	bHideWordSupportAir2TimeVersion : USINT;
+	bHideRSupportSuckAirTimeVersion : USINT;
+	bHideLSupportSuckAirTimeVersion : USINT;
+	bHideWordSupportSuckAirTimeVer : USINT;
+	bHideExtruderVFCtrl : USINT;
+	bHideExtruderVFCtrlPara : USINT;
+	bHideExtrA_VFCtrlPara : USINT;
+	bHideExtrB_VFCtrlPara : USINT;
+	bHideExtrC_VFCtrlPara : USINT;
+	bHideExtrD_VFCtrlPara : USINT;
+	bHideExtrV_VFCtrlPara : USINT;
+END_VAR
+(*HideClamp*)
+VAR
+	bHideClampActuatorElectic : USINT;
+	bHideClampActuatorHyd : USINT;
+	bHideRClampActuatorHyd : USINT;
+	bHideLClampActuatorHyd : USINT;
+	bHideClampActuatorHyd_LVDT : USINT;
+	bHideClampActuatorHyd_Switch : USINT;
+	bHideClampFluxOutput : USINT;
+END_VAR
+(*HideBlowPin*)
+VAR
+	bHideBlowPinActuatorElectic : USINT;
+	bHideBlowPinActuatorHyd : USINT;
+	bHideBlowPinActuatorHyd_LVDT : USINT;
+	bHideBlowPinActuatorHyd_Switch : USINT;
+	bHideLBlowPinActuatorHyd_Switch : USINT;
+	bHideBlowPinFluxOutput : USINT;
+END_VAR
+(*HideCarriage*)
+VAR
+	bHideCarriageActuatorElectic : USINT;
+	bHideCarriageActuatorHyd : USINT;
+	bHideRCarriageActuatorHyd : USINT;
+	bHideLCarriageActuatorHyd : USINT;
+	bHideCarriageActuatorHyd_LVDT : USINT;
+	bHideCarriageActuatorHyd_Switch : USINT;
+	bHideLCarriageActuatorHyd_Switch : USINT;
+	bHideCarriageFluxOutput : USINT;
+END_VAR
+(*HideTopDeflash*)
+VAR
+	bHideTopDeflashActuatorHyd : USINT;
+	bHideRTopDeflashPresOutput : USINT;
+	bHideRTopDeflashFluxOutput : USINT;
+	bHideLTopDeflashPresOutput : USINT;
+	bHideLTopDeflashFluxOutput : USINT;
+END_VAR
+(*HideBottomDeflash*)
+VAR
+	bHideBottomDeflashActuatorHyd : USINT;
+	bHideRBottomDeflashPresOutput : USINT;
+	bHideRBottomDeflashFluxOutput : USINT;
+	bHideLBottomDeflashPresOutput : USINT;
+	bHideLBottomDeflashFluxOutput : USINT;
+END_VAR
+(*HideExtrLift*)
+VAR
+	bHideExtrLiftActuatorHyd : USINT;
+	bHideRExtrLiftActuatorHyd : USINT;
+	bHideLExtrLiftActuatorHyd : USINT;
+	bHideExtrLiftActuatorElectric : USINT;
+	bHideExtrLiftPresOutput : USINT;
+	bHideExtrLiftFluxOutput : USINT;
+END_VAR
+(*HideSubmold*)
+VAR
+	bHideSubmoldActuatorHyd : USINT;
+	bHideRSubMoldPresOutput : USINT;
+	bHideRSubMoldFluxOutput : USINT;
+	bHideLSubMoldPresOutput : USINT;
+	bHideLSubMoldFluxOutput : USINT;
+END_VAR
+(*Hide Plate*)
+VAR
+	bHidePlateActuatorHyd : USINT;
+	bHidePlateUpDnPresOutput : USINT;
+	bHidePlateUpDnFluxOutput : USINT;
+	bHidePlateFwBwPresOutput : USINT;
+	bHidePlateFwBwFluxOutput : USINT;
+END_VAR
+(*HideRobotTransfer*)
+VAR
+	bHideRobotTransferActuatorHyd : USINT;
+	bHideRobotTransferActuatorElec : USINT;
+	bHideRobotTransferActuatorPneu : USINT;
+	bHideRobotUpDnActuatorHyd : USINT;
+	bHideRobotUpDnActuatorElectric : USINT;
+	bHideRobotUpDnActuatorPneu : USINT;
+	bHideRobotOpnClsActuatorHyd : USINT;
+	bHideRobotOpnClsActuatorPneu : USINT;
+	bHideAutoLubr : USINT;
+	MarkerDis : Object_Focus_typ;
+	OptionDis : Object_Focus_typ;
+	OptionWordHide : Option_typ;
+	OptionHide : Machine_Option_typ;
+	MacOptionOld : Machine_Option_typ;
+	KeyMatric : ARRAY[0..MAX_KEY_COUNT] OF USINT;
+	OldSet : Share_Set_typ;
+	OldFunSet : Thick_Function_typ;
+	FLed : ARRAY[0..9] OF USINT;
+	OldIsOpt : USINT;
+	i : INT;
+	Led : USINT;
+	OldStation : USINT;
+	IndexDo : INT;
+	DoColor : ARRAY[0..199] OF UINT;
+	InputColor : UINT;
+	HotSpot : ARRAY[0..32] OF UINT;
+	ready : UINT;
+	touch : TouchAction;
+	VC_HANDLE : UDINT;
+	AoColor : ARRAY[0..19] OF UINT;
+	IndexAo : INT;
+	Zero : ARRAY[0..3] OF INT;
+	Max : ARRAY[0..3] OF INT;
+	IndexCalib : INT;
+	CalibList : ARRAY[0..15] OF INT;
+	ChangePageDly : UDINT;
+	bTimeRtoL : USINT;
+	OldGetPicture : UINT;
+	bHideForceDO : UINT;
+	bAutoHide : UINT;
+	bTimeLtoR : USINT;
+	bZoneHide : ARRAY[0..MAX_IDX_ZONE] OF UINT;
+	bOEMZoneOptionHide : ARRAY[0..MAX_IDX_ZONE] OF UINT;
+	bHideLeftStation : UINT;
+	bHideParison : UINT;
+	bHideParisonActuatorElectic : USINT;
+	bHideParisonActuatorHyd : USINT;
+	bHideBlowUpDuringClampCls : USINT;
+	bHideWordTopDeflashAirOpt : USINT;
+	bHideRTopDeflashAirOpt : USINT;
+	bHideLTopDeflashAirOpt : USINT;
+	bHideWordBottomDeflashAirOpt : USINT;
+	bHideRBottomDeflashAirOpt : USINT;
+	bHideLBottomDeflashAirOpt : USINT;
+	bHideWordCoolBlow : USINT;
+	bHideRCoolBlow : USINT;
+	bHideLCoolBlow : USINT;
+	bHideWordCoolBlow2 : USINT;
+	bHideRCoolBlow2 : USINT;
+	bHideLCoolBlow2 : USINT;
+	bHideWordCoolBlow3 : USINT;
+	bHideRCoolBlow3 : USINT;
+	bHideLCoolBlow3 : USINT;
+	bThickCalibHide : UINT;
+	bLevel3CalibHide : USINT;
+	bLevel4CalibHide : USINT;
+	bHideACCPump : USINT;
+	bHideACCPump_Extrlift : USINT;
+	bHideHighPrsMotor : USINT;
+	bHideCutterHeating : USINT;
+	bHideDieLip : ARRAY[0..7] OF USINT;
+	cntF7 : UDINT;
+	cntF13 : UDINT;
+	cntF8 : UDINT;
+	bHideForceAO : UINT;
+	idxZone : USINT;
+	QuickSetValueFoucs : UINT;
+	HeatingPlanFoucs : ARRAY[0..13] OF UINT;
+	TempEnableFoucs : ARRAY[0..MAX_IDX_ZONE] OF UINT;
+	bLRobotVerZero : BOOL;
+	bLRobotHorZero : BOOL;
+	bRRobotVerZero : BOOL;
+	bRRobotHorZero : BOOL;
+	cntLRobotHorZero : UINT;
+	cntLRobotVerZero : UINT;
+	cntRRobotHorZero : UINT;
+	cntRRobotVerZero : UINT;
+	BtnHeadA : USINT;
+	BtnHeadAOld : USINT;
+	BtnHeadAB : USINT;
+	BtnHeadABOld : USINT;
+	BtnHeadABC : USINT;
+	BtnHeadABCOld : USINT;
+END_VAR
+(*Reset Calibrate Function*)
+VAR
+	uHideDiagResetCalib : USINT;
+	bCmdResetExtrLift : BOOL;
+	bCmdResetClampR : BOOL;
+	bCmdResetClampL : BOOL;
+	bCmdResetBlowPinR : BOOL;
+	bCmdResetBlowPinL : BOOL;
+	bCmdResetBlowPin2R : BOOL;
+	bCmdResetBlowPin2L : BOOL;
+	bCmdResetCarriageR : BOOL;
+	bCmdResetCarriageL : BOOL;
+	bConfirmReset : BOOL;
+	bCancelReset : BOOL;
+	OldLBottomSubMold : USINT;
+	OldLSubMold : USINT;
+	OldRBottomSubMold : USINT;
+	OldRSubMold : USINT;
+	bLBottomSubMold : USINT;
+	bLSubMold : USINT;
+	bRBottomSubMold : USINT;
+	bRSubMold : USINT;
+	bLCoolPin2 : USINT;
+	bRCoolPin2 : USINT;
+	bLCoolPin3 : USINT;
+	bRCoolPin3 : USINT;
+	bHideSealGap : USINT;
+	bExtrA_Hide : USINT;
+	bExtrB_Hide : USINT;
+	bExtrC_Hide : USINT;
+	bExtrD_Hide : USINT;
+	bExtrV_Hide : USINT;
+END_VAR
+(*Parison Option*)
+VAR
+	uOptActorParison : ARRAY[0..3] OF USINT := [4(0)];
+END_VAR
+(*Clamp Option*)
+VAR
+	uOptActorClamp : ARRAY[0..3] OF USINT := [4(0)];
+	uOptPresOutClamp : ARRAY[0..4] OF USINT := [5(0)];
+	uOptFluxOutClamp : ARRAY[0..5] OF USINT := [6(0)];
+END_VAR
+(*Carriage Option*)
+VAR
+	uOptActorCarriage : ARRAY[0..3] OF USINT := [4(0)];
+	uOptPresOutCarriage : ARRAY[0..4] OF USINT := [5(0)];
+	uOptFluxOutCarriage : ARRAY[0..5] OF USINT := [6(0)];
+END_VAR
+(*BlowPin Option*)
+VAR
+	uOptActorBlowPin : ARRAY[0..3] OF USINT := [4(0)];
+	uOptPresOutBlowPin : ARRAY[0..4] OF USINT := [5(0)];
+	uOptFluxOutBlowPin : ARRAY[0..5] OF USINT := [6(0)];
+END_VAR
+(*SubMold Option*)
+VAR
+	uOptActorSubMold : ARRAY[0..3] OF USINT := [4(0)];
+	uOptPresOutSubMold : ARRAY[0..4] OF USINT := [5(0)];
+	uOptFluxOutSubMold : ARRAY[0..5] OF USINT := [6(0)];
+END_VAR
+(*ExtrLift Option*)
+VAR
+	uOptActorExtrLift : ARRAY[0..3] OF USINT := [4(0)];
+	uOptPresOutExtrLift : ARRAY[0..4] OF USINT := [5(0)];
+	uOptFluxOutExtrLift : ARRAY[0..5] OF USINT := [6(0)];
+END_VAR
+(*Plate Option*)
+VAR
+	uOptActorPlate : ARRAY[0..3] OF USINT := [4(0)];
+	uOptPresOutPlate : ARRAY[0..4] OF USINT := [5(0)];
+	uOptFluxOutPlate : ARRAY[0..5] OF USINT := [6(0)];
+END_VAR
+(*Top Deflash Option*)
+VAR
+	uOptActorTopDeflash : ARRAY[0..3] OF USINT := [4(0)];
+	uOptPresOutTopDeflash : ARRAY[0..4] OF USINT := [5(0)];
+	uOptFluxOutTopDeflash : ARRAY[0..5] OF USINT := [6(0)];
+END_VAR
+(*Bottom Deflash Option*)
+VAR
+	uOptActorBottomDeflash : ARRAY[0..3] OF USINT := [4(0)];
+	uOptPresOutBottomDeflash : ARRAY[0..4] OF USINT := [5(0)];
+	uOptFluxOutBottomDeflash : ARRAY[0..5] OF USINT := [6(0)];
+END_VAR
+(*Robot Transfer Option*)
+VAR
+	uOptActorRobotTransfer : ARRAY[0..3] OF USINT := [4(0)];
+	uOptPresOutRobotTransfer : ARRAY[0..4] OF USINT := [5(0)];
+	uOptFluxOutRobotTranfer : ARRAY[0..5] OF USINT := [6(0)];
+END_VAR
+(*Robot UpDn Option*)
+VAR
+	uOptActorRobotUpDn : ARRAY[0..3] OF USINT := [4(0)];
+	uOptPresOutRobotUpDn : ARRAY[0..4] OF USINT := [5(0)];
+	uOptFluxOutRobotUpDn : ARRAY[0..5] OF USINT := [6(0)];
+END_VAR
+(*Robot OpnCls Option*)
+VAR
+	uOptActorRobotOpnCls : ARRAY[0..3] OF USINT := [4(0)];
+	uOptPresOutRobotOpnCls : ARRAY[0..4] OF USINT := [5(0)];
+	uOptFluxOutRobotOpnCls : ARRAY[0..5] OF USINT := [6(0)];
+	keyF5N : USINT;
+	keyF6N : USINT;
+END_VAR
+(*Index*)
+VAR
+	Index : USINT;
+END_VAR

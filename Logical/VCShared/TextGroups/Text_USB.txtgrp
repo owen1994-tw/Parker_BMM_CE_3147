@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Text_USB">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="9"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="1487620" Value="All Recipes of Full Parameter"/>
+    <Text ID="1487621" Value="Single Recipe of Full Parameter"/>
+    <Text ID="1487622" Value="Single Recipe of Mold's Parameter"/>
+    <Text ID="1487623" Value="Single Recipe of Parison's Parameter"/>
+    <Text ID="1487624" Value="Single Recipe of Machine's Parameter"/>
+    <Text ID="1487625" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="1487620" Value="全部配方所有档"/>
+    <Text ID="1487621" Value="单个配方所有档"/>
+    <Text ID="1487622" Value="单个配方模具文件"/>
+    <Text ID="1487623" Value="单个配方曲线档"/>
+    <Text ID="1487624" Value="单个配方机器文件"/>
+    <Text ID="1487625" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="1487620" Value="全配方所有參數"/>
+    <Text ID="1487621" Value="單一配方所有參數"/>
+    <Text ID="1487622" Value="單一配方模具檔"/>
+    <Text ID="1487623" Value="單一配方厚薄檔"/>
+    <Text ID="1487624" Value="單一配方機械參數"/>
+    <Text ID="1487625" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="1487620" Value="Wszystkie pelne parametry"/>
+    <Text ID="1487621" Value="Pojedyncza receptura pelnego parametru"/>
+    <Text ID="1487622" Value="Pojedyncza receptura parametru forma"/>
+    <Text ID="1487623" Value="Pojedynczy parametr Parisona"/>
+    <Text ID="1487624" Value="Pojedyncza receptura parametru maszyny"/>
+    <Text ID="1487625" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1487620" Value="0"/>
+    <Index ID="1487621" Value="1"/>
+    <Index ID="1487622" Value="2"/>
+    <Index ID="1487623" Value="3"/>
+    <Index ID="1487624" Value="4"/>
+    <Index ID="1487625" Value="5"/>
+  </IndexMap>
+</TextGroup>

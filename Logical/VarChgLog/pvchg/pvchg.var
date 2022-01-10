@@ -1,0 +1,39 @@
+(*array length constant*)
+VAR CONSTANT
+	C_PV_NAME_LENGTH : USINT := 45;
+	C_PV_MAX_NO : UINT := 599;
+	C_MAX_LOG__SCREEN : UINT := 19;
+END_VAR
+(*Task variables*)
+VAR
+	pv_get : pv_get_typ;
+	iLine : UINT;
+	VarInfoList : ARRAY[0..C_PV_MAX_NO] OF Var_Info_typ;
+	status : UINT;
+	Dimension : UINT;
+	Length : UDINT;
+	DataObjOperate : DatObj_Operate_typ;
+	DOCreate : DatObjCreate;
+	DOWrite : DatObjWrite;
+	DORead : DatObjRead;
+	DOInfo : DatObjInfo;
+	VarLog : Var_Log_typ;
+	pvChange : BOOL;
+	idxLog : UDINT;
+	VarLogList : ARRAY[0..C_MAX_LOG__SCREEN] OF Var_Log_typ;
+	VarNameList : ARRAY[0..C_MAX_LOG__SCREEN] OF Var_Name_typ;
+	VarLogList_Buffer : ARRAY[0..C_MAX_LOG__SCREEN] OF Var_Log_typ;
+	VarNameList_Buffer : ARRAY[0..C_MAX_LOG__SCREEN] OF Var_Name_typ;
+	pcTextlength : UDINT;
+	idxScreen : UDINT;
+	CmdPageUp : BOOL;
+	CmdPageDown : BOOL;
+	oldIdxLog : UDINT;
+	status_tmpalloc : UINT;
+	status_tmpfree : UINT;
+	CmdDelete : BOOL;
+	bRefresh : BOOL;
+	pData : REFERENCE TO UDINT;
+	OldF7 : USINT;
+	OldF6 : USINT;
+END_VAR

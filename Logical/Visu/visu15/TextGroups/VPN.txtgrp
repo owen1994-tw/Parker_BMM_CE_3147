@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="VPN">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="14"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="1258213" Value="."/>
+    <Text ID="1258214" Value="IP Address"/>
+    <Text ID="1258215" Value="Current IP"/>
+    <Text ID="1258216" Value="VPN"/>
+    <Text ID="1258217" Value=""/>
+    <Text ID="1258218" Value="Auto Get IP Address"/>
+    <Text ID="1258219" Value="Current Subnet Mark"/>
+    <Text ID="1258220" Value="Short tip"/>
+    <Text ID="1258221" Value="Gate Way"/>
+    <Text ID="1258222" Value="Manual Set IP Address"/>
+    <Text ID="1258223" Value="Subnet Mark"/>
+    <Text ID="1258224" Value="Current Gateway"/>
+    <Text ID="1258225" Value="ready"/>
+    <Text ID="1258226" Value="Modify IP is running,please wait"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="1258213" Value="."/>
+    <Text ID="1258214" Value="IP地址"/>
+    <Text ID="1258215" Value="当前IP地址"/>
+    <Text ID="1258216" Value="远程监控"/>
+    <Text ID="1258217" Value=""/>
+    <Text ID="1258218" Value="自動獲取IP位址"/>
+    <Text ID="1258219" Value="当前子网掩码"/>
+    <Text ID="1258220" Value="提示"/>
+    <Text ID="1258221" Value="设定网关"/>
+    <Text ID="1258222" Value="设定IP地址"/>
+    <Text ID="1258223" Value="设定子网掩码"/>
+    <Text ID="1258224" Value="当前网关"/>
+    <Text ID="1258225" Value="就緒"/>
+    <Text ID="1258226" Value="正在進行中，請等待"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="1258213" Value="."/>
+    <Text ID="1258214" Value="IP地址"/>
+    <Text ID="1258215" Value="當前IP地址"/>
+    <Text ID="1258216" Value="遠程監控"/>
+    <Text ID="1258217" Value=""/>
+    <Text ID="1258218" Value="自動獲取IP位址"/>
+    <Text ID="1258219" Value="當前子網路遮罩"/>
+    <Text ID="1258220" Value="提示"/>
+    <Text ID="1258221" Value="設定閘道"/>
+    <Text ID="1258222" Value="設定IP地址"/>
+    <Text ID="1258223" Value="設定子網路遮罩"/>
+    <Text ID="1258224" Value="當前閘道"/>
+    <Text ID="1258225" Value="就緒"/>
+    <Text ID="1258226" Value="正在進行中，請等待"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="1258213" Value="."/>
+    <Text ID="1258214" Value="Adres IP"/>
+    <Text ID="1258215" Value="Aktualny adres IP"/>
+    <Text ID="1258216" Value="VPN"/>
+    <Text ID="1258217" Value=""/>
+    <Text ID="1258218" Value="Automatycznie uzyskaj adres IP"/>
+    <Text ID="1258219" Value="Biezacy Znak Podsieci"/>
+    <Text ID="1258220" Value="Krotka wskazowka"/>
+    <Text ID="1258221" Value="Wejscie"/>
+    <Text ID="1258222" Value="Reczne ustawienie adresu IP"/>
+    <Text ID="1258223" Value="Znak Podsieci"/>
+    <Text ID="1258224" Value="Aktualna Brama"/>
+    <Text ID="1258225" Value="Gotowy"/>
+    <Text ID="1258226" Value="Modyfikuj IP działa, proszę czekać"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1258213" Value="8"/>
+    <Index ID="1258214" Value="6"/>
+    <Index ID="1258215" Value="2"/>
+    <Index ID="1258216" Value="1"/>
+    <Index ID="1258217" Value="0"/>
+    <Index ID="1258218" Value="5"/>
+    <Index ID="1258219" Value="3"/>
+    <Index ID="1258220" Value="11"/>
+    <Index ID="1258221" Value="10"/>
+    <Index ID="1258222" Value="9"/>
+    <Index ID="1258223" Value="7"/>
+    <Index ID="1258224" Value="4"/>
+    <Index ID="1258225" Value="12"/>
+    <Index ID="1258226" Value="13"/>
+  </IndexMap>
+</TextGroup>

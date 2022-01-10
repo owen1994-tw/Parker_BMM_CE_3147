@@ -1,0 +1,18 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: h_pwm
+ * File: h_pwm.var
+ * Author: lij
+ * Created: March 04, 2013
+ ********************************************************************
+ * Local variables of program h_pwm
+ ********************************************************************)
+VAR
+	IsQuickSetValueOld : BOOL;
+	bHeating : BOOL;
+	ZoneIndex : UINT := 0;
+	TON_StatusBG : ARRAY[0..MAX_IDX_ZONE] OF TON;
+	LCRPWM_HeatArray : ARRAY[0..MAX_IDX_ZONE] OF LCRPWM := [MAX_IDX_ZONE+1(0)];
+	LCRPWM_CoolArray : ARRAY[0..MAX_IDX_ZONE] OF LCRPWM := [MAX_IDX_ZONE+1(0)];
+END_VAR

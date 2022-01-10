@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="Page_47_Time_7_Other">
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="768"/>
+  <Property Name="Index" Value="47"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+  <Property Name="Width" Value="1024"/>
+  <Layers>
+    <LayerRef Source="Source[local].Layer[Global_layer_Accu]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Global_layer_Accu"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="0"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[Time_Layor_Frame18]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Time_Layor_Frame18"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="1"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[Time_Layor]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Time_Layor"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="2"/>
+    </LayerRef>
+    <Layer Name="Default">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="768"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="1024"/>
+      <Property Name="Z-Order" Value="3"/>
+      <TextGroup>
+        <TextLayer LanguageId="en-GB">
+          <Text ID="1614575" Value="Core pull open delay"/>
+          <Text ID="1614576" Value="Core pull close delay   "/>
+          <Text ID="2642107" Value="Core pull open Time"/>
+          <Text ID="2645800" Value="Core pull close valve off  delay "/>
+          <Text ID="4120958" Value="Hook pin bw delay"/>
+          <Text ID="4120959" Value="Hook pin fw delay"/>
+        </TextLayer>
+        <TextLayer LanguageId="zh-CN">
+          <Text ID="1614575" Value="開模芯延時"/>
+          <Text ID="1614576" Value="模芯关延时"/>
+          <Text ID="2642107" Value="開模芯時間"/>
+          <Text ID="2645800" Value="關模芯閥延切"/>
+          <Text ID="4120958" Value="掛勾吹針退延時"/>
+          <Text ID="4120959" Value="掛勾吹針進延時"/>
+        </TextLayer>
+        <TextLayer LanguageId="zh-TW">
+          <Text ID="1614575" Value="開模芯延時"/>
+          <Text ID="1614576" Value="關模芯延時"/>
+          <Text ID="2642107" Value="開模芯時間"/>
+          <Text ID="2645800" Value="關模芯閥延切"/>
+          <Text ID="4120958" Value="掛勾吹針退延時"/>
+          <Text ID="4120959" Value="掛勾吹針進延時"/>
+        </TextLayer>
+        <TextLayer LanguageId="pl">
+          <Text ID="1614575" Value="Rdzen otw. opoz."/>
+          <Text ID="1614576" Value="Rdzen zam. opoz."/>
+          <Text ID="2642107" Value="Rdzen czas otw."/>
+          <Text ID="2645800" Value="Opoz. zam. Rdzen zam."/>
+          <Text ID="4120958" Value="Skosny Trzp. Rozdm. opozn. tyl"/>
+          <Text ID="4120959" Value="Skosny Trzp. Rozdm. opozn. przod"/>
+        </TextLayer>
+        <IndexMap>
+          <Index ID="1614575" Value="8"/>
+          <Index ID="1614576" Value="9"/>
+          <Index ID="2642107" Value="20"/>
+          <Index ID="2645800" Value="0"/>
+          <Index ID="4120958" Value="3"/>
+          <Index ID="4120959" Value="4"/>
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001004" Name="Text_32">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Font" Value="Source[local].Font[Font_12_9_Topic]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="380"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Page_Title]"/>
+          <Property Name="TextIndexOffset" Value="47"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="29"/>
+          <Property Name="Width" Value="200"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_23">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Font_12_Number]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="650"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="9900"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.RSubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="118"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.TimeDis.SubMoldOpnDelay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_32">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.DataSave]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="Left" Value="554"/>
+          <Property Name="Locking" Value="Datapoint &lt; Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+          <Property Name="LockingLevel" Value="2"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="300"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.RSubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="118"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.TimeSet.SubMoldOpnDelay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_43">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Font_12_Number]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="249"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="9900"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.LSubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="118"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.TimeDis.SubMoldOpnDelay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_67">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.DataSave]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="Left" Value="154"/>
+          <Property Name="Locking" Value="Datapoint &lt; Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+          <Property Name="LockingLevel" Value="2"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="300"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.LSubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="117"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.TimeSet.SubMoldOpnDelay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_39">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="352"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionWordHide.SubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="8"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="120"/>
+          <Property Name="Width" Value="165"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_40">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="352"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionWordHide.SubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="9"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="178"/>
+          <Property Name="Width" Value="165"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_24">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Font_12_Number]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="650"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="9900"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.RSubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="176"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.TimeDis.SubMoldClsDelay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_33">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.DataSave]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="Left" Value="554"/>
+          <Property Name="Locking" Value="Datapoint &lt; Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+          <Property Name="LockingLevel" Value="2"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="300"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.RSubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="176"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.TimeSet.SubMoldClsDelay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_68">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Font_12_Number]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="249"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="9900"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.LSubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="176"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.TimeDis.SubMoldClsDelay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_69">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.DataSave]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="Left" Value="154"/>
+          <Property Name="Locking" Value="Datapoint &lt; Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+          <Property Name="LockingLevel" Value="2"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="300"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.LSubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="176"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.TimeSet.SubMoldClsDelay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_25">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Font_12_Number]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="650"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="9900"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.RSubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="146"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.TimeDis.SubMoldOpnTime]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_34">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.DataSave]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="Left" Value="554"/>
+          <Property Name="Locking" Value="Datapoint &lt; Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+          <Property Name="LockingLevel" Value="2"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="500"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.RSubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="146"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.TimeSet.SubMoldOpnTime]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_44">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Font_12_Number]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="249"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="9900"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.LSubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="146"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.TimeDis.SubMoldOpnTime]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_70">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.DataSave]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="Left" Value="154"/>
+          <Property Name="Locking" Value="Datapoint &lt; Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+          <Property Name="LockingLevel" Value="2"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="500"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.LSubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="146"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.TimeSet.SubMoldOpnTime]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_41">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="352"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionWordHide.SubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="20"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="148"/>
+          <Property Name="Width" Value="165"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_42">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="352"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionWordHide.SubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="207"/>
+          <Property Name="Width" Value="165"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_26">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Font_12_Number]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="650"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="9900"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.RSubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="205"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.TimeDis.SubMoldClsHoldTime]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_35">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.DataSave]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="Left" Value="554"/>
+          <Property Name="Locking" Value="Datapoint &lt; Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+          <Property Name="LockingLevel" Value="2"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="300"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.RSubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="205"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.TimeSet.SubMoldClsHoldTime]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_71">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Font_12_Number]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="249"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="9900"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.LSubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="205"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.TimeDis.SubMoldClsHoldTime]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_72">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.DataSave]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="Left" Value="154"/>
+          <Property Name="Locking" Value="Datapoint &lt; Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+          <Property Name="LockingLevel" Value="2"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="300"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.LSubMold]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="205"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.TimeSet.SubMoldClsHoldTime]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_27">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Font_12_Number]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="650"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="9900"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.RHookPin]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="263"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.TimeDis.HookPinBwDelay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_36">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.DataSave]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="Left" Value="554"/>
+          <Property Name="Locking" Value="Datapoint &lt; Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+          <Property Name="LockingLevel" Value="2"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="300"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.RHookPin]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="263"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.TimeSet.HookPinBwDelay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_45">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Font_12_Number]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="249"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="9900"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.LHookPin]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="263"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.TimeDis.HookPinBwDelay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_73">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.DataSave]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="Left" Value="154"/>
+          <Property Name="Locking" Value="Datapoint &lt; Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+          <Property Name="LockingLevel" Value="2"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="300"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.LHookPin]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="262"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.TimeSet.HookPinBwDelay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_43">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="344"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionWordHide.HookPin]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="3"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="265"/>
+          <Property Name="Width" Value="180"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_28">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Font_12_Number]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="650"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="9900"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.RHookPin]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="234"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.TimeDis.HookPinFwDelay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_37">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.DataSave]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="Left" Value="554"/>
+          <Property Name="Locking" Value="Datapoint &lt; Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+          <Property Name="LockingLevel" Value="2"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="300"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.RHookPin]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="234"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.TimeSet.HookPinFwDelay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_46">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Font_12_Number]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="249"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="9900"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.LHookPin]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="234"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.TimeDis.HookPinFwDelay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_74">
+          <Property Name="AddFractionDigits" Value="1"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.DataSave]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="Left" Value="154"/>
+          <Property Name="Locking" Value="Datapoint &lt; Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+          <Property Name="LockingLevel" Value="2"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="300"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.LHookPin]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="233"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.TimeSet.HookPinFwDelay]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_44">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="344"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionWordHide.HookPin]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="4"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="235"/>
+          <Property Name="Width" Value="180"/>
+        </Control>
+      </Controls>
+      <KeyMapping/>
+    </Layer>
+    <LayerRef Source="Source[local].Layer[Global_FunctionKey_F1_F16]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="Global_FunctionKey_F1_F16"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="4"/>
+    </LayerRef>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_32]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_34]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_67]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_67]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_36]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_67]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_70]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_32]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_32]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_73]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_33]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_35]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_69]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_69]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_34]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_69]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_72]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_33]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_33]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_70]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_34]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_33]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_70]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_70]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_32]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_70]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_69]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_34]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_34]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_67]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_35]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_37]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_72]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_72]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_33]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_72]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_74]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_35]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_35]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_69]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_36]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_32]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_73]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_73]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_37]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_73]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_67]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_36]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_36]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_74]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_37]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_36]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_74]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_74]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_35]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_74]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_73]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_37]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_37]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_72]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[embedded].Layer[Default].Control[Numeric_23]"/>
+    <TabSeqItem Index="1" Value="Source[embedded].Layer[Default].Control[Numeric_32]"/>
+    <TabSeqItem Index="2" Value="Source[embedded].Layer[Default].Control[Numeric_43]"/>
+    <TabSeqItem Index="3" Value="Source[embedded].Layer[Default].Control[Numeric_67]"/>
+    <TabSeqItem Index="4" Value="Source[embedded].Layer[Default].Control[Numeric_24]"/>
+    <TabSeqItem Index="5" Value="Source[embedded].Layer[Default].Control[Numeric_33]"/>
+    <TabSeqItem Index="6" Value="Source[embedded].Layer[Default].Control[Numeric_68]"/>
+    <TabSeqItem Index="7" Value="Source[embedded].Layer[Default].Control[Numeric_69]"/>
+    <TabSeqItem Index="8" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_5]"/>
+    <TabSeqItem Index="9" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_6]"/>
+    <TabSeqItem Index="10" Value="Source[local].Layer[Global_layer_Accu].Control[String_1]"/>
+    <TabSeqItem Index="11" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_7]"/>
+    <TabSeqItem Index="12" Value="Source[local].Layer[Global_layer_Accu].Control[String_2]"/>
+    <TabSeqItem Index="13" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_8]"/>
+    <TabSeqItem Index="14" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_10]"/>
+    <TabSeqItem Index="15" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_11]"/>
+    <TabSeqItem Index="16" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_9]"/>
+    <TabSeqItem Index="17" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_13]"/>
+    <TabSeqItem Index="18" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_14]"/>
+    <TabSeqItem Index="19" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_15]"/>
+    <TabSeqItem Index="20" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_17]"/>
+    <TabSeqItem Index="21" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_1]"/>
+    <TabSeqItem Index="22" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_40]"/>
+    <TabSeqItem Index="23" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_41]"/>
+    <TabSeqItem Index="24" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_21]"/>
+    <TabSeqItem Index="25" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_22]"/>
+    <TabSeqItem Index="26" Value="Source[embedded].Layer[Default].Control[Numeric_25]"/>
+    <TabSeqItem Index="27" Value="Source[embedded].Layer[Default].Control[Numeric_34]"/>
+    <TabSeqItem Index="28" Value="Source[embedded].Layer[Default].Control[Numeric_44]"/>
+    <TabSeqItem Index="29" Value="Source[embedded].Layer[Default].Control[Numeric_70]"/>
+    <TabSeqItem Index="30" Value="Source[embedded].Layer[Default].Control[Numeric_26]"/>
+    <TabSeqItem Index="31" Value="Source[embedded].Layer[Default].Control[Numeric_35]"/>
+    <TabSeqItem Index="32" Value="Source[embedded].Layer[Default].Control[Numeric_71]"/>
+    <TabSeqItem Index="33" Value="Source[embedded].Layer[Default].Control[Numeric_72]"/>
+    <TabSeqItem Index="34" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_19]"/>
+    <TabSeqItem Index="35" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_26]"/>
+    <TabSeqItem Index="36" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_27]"/>
+    <TabSeqItem Index="37" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_28]"/>
+    <TabSeqItem Index="38" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_23]"/>
+    <TabSeqItem Index="39" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_29]"/>
+    <TabSeqItem Index="40" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_30]"/>
+    <TabSeqItem Index="41" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_18]"/>
+    <TabSeqItem Index="42" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_25]"/>
+    <TabSeqItem Index="43" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_16]"/>
+    <TabSeqItem Index="44" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_20]"/>
+    <TabSeqItem Index="45" Value="Source[embedded].Layer[Default].Control[Numeric_27]"/>
+    <TabSeqItem Index="46" Value="Source[embedded].Layer[Default].Control[Numeric_36]"/>
+    <TabSeqItem Index="47" Value="Source[embedded].Layer[Default].Control[Numeric_45]"/>
+    <TabSeqItem Index="48" Value="Source[embedded].Layer[Default].Control[Numeric_73]"/>
+    <TabSeqItem Index="49" Value="Source[embedded].Layer[Default].Control[Numeric_28]"/>
+    <TabSeqItem Index="50" Value="Source[embedded].Layer[Default].Control[Numeric_37]"/>
+    <TabSeqItem Index="51" Value="Source[embedded].Layer[Default].Control[Numeric_46]"/>
+    <TabSeqItem Index="52" Value="Source[embedded].Layer[Default].Control[Numeric_74]"/>
+  </TabSequence>
+</Page>

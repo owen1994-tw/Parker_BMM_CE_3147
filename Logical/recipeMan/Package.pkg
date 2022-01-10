@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.12.129 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global variables">recipeMan.var</Object>
+    <Object Type="File" Description="Global data types">recipeMan.typ</Object>
+    <Object Type="Program" Language="ANSIC" Description="recipe management">recipe</Object>
+    <Object Type="Program" Language="ANSIC" Description="mold data load/save">multsave</Object>
+    <Object Type="Program" Language="ANSIC" Description="fix dada load/save">oncesave</Object>
+    <Object Type="Program" Language="ANSIC" Description="temperature default parameter load">cfg_cpy</Object>
+    <Object Type="DataObject" Language="Simple" Description="Variable once save / load">var_fix</Object>
+    <Object Type="DataObject" Language="Simple" Description="Variable multiple save /load">var_mold</Object>
+    <Object Type="DataObject" Language="Simple" Description="Config temperature data">cfg_dat</Object>
+  </Objects>
+</Package>

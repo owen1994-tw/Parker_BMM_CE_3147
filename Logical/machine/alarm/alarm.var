@@ -1,0 +1,33 @@
+VAR
+	AlarmBit : ARRAY[0..MAX_ALARM_NUM] OF BOOL;
+	AlarmBand : Alarm_typ;
+	pAlarmband : REFERENCE TO USINT;
+	iFunctionOld : UINT;
+	iFunction : UINT;
+	Status_wcGetAlarmList : UINT;
+	AlarmLength : UINT;
+	lengthTotal : UINT;
+	record : UINT;
+	TimeCounter : UDINT;
+	AlarmSound : USINT;
+	ImplySound : USINT;
+	IsAlarm : USINT;
+	IsWarning : USINT;
+	OldImply : Imply_typ;
+	OldPBit : ARRAY[0..MAX_ALARM_NUM] OF USINT;
+	OldNBit : ARRAY[0..MAX_ALARM_NUM] OF USINT;
+	OldAlarmConfirmOK : USINT;
+	IsHeat : USINT;
+	AlarmCount : UDINT;
+	ap880Battery : USINT;
+	IndexArray : ARRAY[0..9] OF UINT;
+	sAlarmText : ARRAY[0..MAX_ALARM_TEXT] OF UINT;
+	sAlarmTmp : ARRAY[0..MAX_ALARM_TEXT] OF UINT;
+	sAlarmTotalTmp : ARRAY[0..199] OF UINT := [200(0)];
+	sAlarmTotal : ARRAY[0..199] OF UINT;
+	PKeyMatric : ARRAY[0..MAX_KEY_COUNT] OF USINT;
+	NKeyMatric : ARRAY[0..MAX_KEY_COUNT] OF USINT;
+	AirPressureLowStatus : UINT;
+	StatusDelay : USINT;
+	AlarmBuzzerCount : USINT;
+END_VAR

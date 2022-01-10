@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.11.97 SP?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="PC" Type="PC_any" Version="1.1.0.0" OrderNumber="PC">
+    <Connector Name="IF3">
+      <Group ID="Vnc1" />
+      <Parameter ID="VncVcObjectName1" Value="visu15" />
+      <Parameter ID="VncAuthentication1" Value="1" />
+      <Parameter ID="VncPasswordViewOnly1" Value="1" />
+      <Parameter ID="VncPasswordViewControl1" Value="2" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="bmm_AR000" />
+    <Parameter ID="PermanentPvSize" Value="10000" />
+    <Parameter ID="RemanentGlobalPvSize" Value="20000" />
+    <Parameter ID="SystemTick" Value="2000" />
+    <Parameter ID="TaskClassIdleTime" Value="2000" />
+    <Parameter ID="Cyclic1Duration" Value="2000" />
+    <Parameter ID="Cyclic1Tolerance" Value="0" />
+    <Parameter ID="Cyclic1Output" Value="1" />
+    <Parameter ID="Cyclic2Duration" Value="10000" />
+    <Parameter ID="Cyclic2Tolerance" Value="100000" />
+    <Parameter ID="Cyclic3Duration" Value="4000" />
+    <Parameter ID="Cyclic3Tolerance" Value="100000" />
+    <Parameter ID="Cyclic4Duration" Value="20000" />
+    <Parameter ID="Cyclic4Tolerance" Value="200000" />
+    <Parameter ID="Cyclic5Duration" Value="500000" />
+    <Parameter ID="Cyclic5Tolerance" Value="500000" />
+    <Parameter ID="Cyclic5Stack" Value="20000" />
+    <Parameter ID="Cyclic6Duration" Value="30000" />
+    <Parameter ID="Cyclic6Tolerance" Value="3000000" />
+    <Parameter ID="Cyclic7Duration" Value="90000" />
+    <Parameter ID="Cyclic7Tolerance" Value="9000000" />
+    <Parameter ID="Cyclic8Duration" Value="200000" />
+    <Parameter ID="Cyclic8Tolerance" Value="30000000" />
+    <Parameter ID="Cyclic8Stack" Value="30000" />
+  </Module>
+</Hardware>

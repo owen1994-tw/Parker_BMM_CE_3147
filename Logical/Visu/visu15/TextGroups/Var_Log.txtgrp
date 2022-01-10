@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Var_Log">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="11"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="1375652" Value="L-carriage back quick velocity/flow"/>
+    <Text ID="1375653" Value="L-carriage backward slow speed/flow"/>
+    <Text ID="1375654" Value="L-carriage backward quick to slow position"/>
+    <Text ID="1375655" Value="L-carriage backward position"/>
+    <Text ID="1375656" Value="L carriage forward quick velocity"/>
+    <Text ID="1375657" Value="L-carriage forward creep speed"/>
+    <Text ID="1375658" Value="L-carriage forward quick to slow position"/>
+    <Text ID="1375659" Value="L-carriage forward position"/>
+    <Text ID="1375662" Value="R-carriage backward quick to slow position"/>
+    <Text ID="1375663" Value="R-carriage backward position"/>
+    <Text ID="1375666" Value="R-carriage forward quick to slow position"/>
+    <Text ID="1375667" Value="R-carriage forward position"/>
+    <Text ID="1375668" Value="L-carriage forward accel"/>
+    <Text ID="1375669" Value="L-carriage forward decel"/>
+    <Text ID="1375670" Value="L-carriage forward decel end"/>
+    <Text ID="1375671" Value="L-carriage forward Tj"/>
+    <Text ID="1375672" Value="L-carriage forward Td"/>
+    <Text ID="1375673" Value="R-carriage forward accel"/>
+    <Text ID="1375674" Value="R-carriage forward decel"/>
+    <Text ID="1375675" Value="R-carriage forward decel end"/>
+    <Text ID="1375676" Value="R-carriage forward Tj"/>
+    <Text ID="1375677" Value="R-carriage forward Td"/>
+    <Text ID="1375678" Value="L-carriage backward accel"/>
+    <Text ID="1375679" Value="L-carriage backward decel"/>
+    <Text ID="1375680" Value="L-carriage backward decel end"/>
+    <Text ID="1375681" Value="L-carriage backward Tj"/>
+    <Text ID="1375682" Value="L-carriage backward Td"/>
+    <Text ID="1375683" Value="R-carriage backward accel"/>
+    <Text ID="1375684" Value="R-carriage backward decel"/>
+    <Text ID="1375685" Value="R-carriage backward decel end"/>
+    <Text ID="1375686" Value="R-carriage backward Tj"/>
+    <Text ID="1375687" Value="R-carriage backward Td"/>
+    <Text ID="1375688" Value="Left clamp close deadzone voltage"/>
+    <Text ID="1375689" Value="Left clamp close Max voltage"/>
+    <Text ID="1375690" Value="Left clamp close max speed"/>
+    <Text ID="1375691" Value="Left clamp open deadzone voltage"/>
+    <Text ID="1375692" Value="Left clamp open max voltage"/>
+    <Text ID="1375693" Value="Left clamp open max "/>
+    <Text ID="1375694" Value="Right clamp close deadzone voltage"/>
+    <Text ID="1375695" Value="Right clamp close max voltage"/>
+    <Text ID="1375696" Value="Right clamp close max speed"/>
+    <Text ID="1375697" Value="Right clamp open deadzone voltage"/>
+    <Text ID="1375698" Value="Right clamp open max voltage"/>
+    <Text ID="1375699" Value="Right clamp open max speed"/>
+    <Text ID="1375700" Value="Left carriage forward deadzone voltage"/>
+    <Text ID="1375701" Value="Left carriage forward max voltage"/>
+    <Text ID="1375702" Value="Left carriage forward max speed"/>
+    <Text ID="1375703" Value="Left carriage backward deadzone voltage"/>
+    <Text ID="1375704" Value="Left carriage backward max voltage"/>
+    <Text ID="1375705" Value="Left carriage backward max speed"/>
+    <Text ID="1375706" Value="Right carriage forward deadzone voltage"/>
+    <Text ID="1375707" Value="Right carriage forward max voltage"/>
+    <Text ID="1375708" Value="Right carriage forward max speed"/>
+    <Text ID="1375709" Value="Right carriage backward deadzone voltage"/>
+    <Text ID="1375710" Value="Right carriage backwardmax voltage"/>
+    <Text ID="1375711" Value="Right carriage backward max speed"/>
+    <Text ID="1375712" Value="Left clamp zero"/>
+    <Text ID="1375713" Value="Left clamp max"/>
+    <Text ID="1375714" Value="Length of left clamp"/>
+    <Text ID="1375715" Value="Right clamp zero"/>
+    <Text ID="1375716" Value="Right clamp max"/>
+    <Text ID="1375717" Value="Length of right clamp"/>
+    <Text ID="1375718" Value="Left carriage diehead position"/>
+    <Text ID="1375719" Value="Left carriage pin position"/>
+    <Text ID="1375720" Value="Length of left carriage"/>
+    <Text ID="1375721" Value="Right carriage diehead position"/>
+    <Text ID="1375722" Value="Right carriage pin position"/>
+    <Text ID="1375723" Value="Length of right carriage"/>
+    <Text ID="1375724" Value="Tol of clamp"/>
+    <Text ID="1375725" Value="Tol of carriage"/>
+    <Text ID="1375729" Value="L-clamp open quick velocity/flow"/>
+    <Text ID="1375730" Value="L-clamp open slow velocity/flow"/>
+    <Text ID="4056654" Value="L-carriage backward hold speed/flow"/>
+    <Text ID="4056655" Value="L-carriage backward hold Torque/Pressure"/>
+    <Text ID="4056656" Value="L-carriage backward slow Torque/Pressure"/>
+    <Text ID="4056657" Value="L-carriage backward quick Torque/Pressure"/>
+    <Text ID="4056658" Value="L-carriage forward quick velocity/flow"/>
+    <Text ID="4056659" Value="L-carriage forward hold Torque/Pressure"/>
+    <Text ID="4056660" Value="L-carriage forward slow Torque/Pressure"/>
+    <Text ID="4056661" Value="L-carriage foreward quick Torque/Pressure"/>
+    <Text ID="4056662" Value="R-carriage backward quick velocity/flow"/>
+    <Text ID="4056663" Value="R-carriage backward slow speed/flow"/>
+    <Text ID="4056664" Value="P-carriage backward hold speed/flow"/>
+    <Text ID="4056669" Value="R-carriage backward quick Torque/Pressure"/>
+    <Text ID="4056670" Value="R-carriage backward slow Torque/Pressure"/>
+    <Text ID="4056671" Value="R-carriage backward hold Torque/Pressure"/>
+    <Text ID="4056672" Value="R carriage forward quick velocity/flow"/>
+    <Text ID="4056673" Value="R-carriage forward slow speed/flow"/>
+    <Text ID="4056674" Value="R-carriage forward quick velocity/flow"/>
+    <Text ID="4056675" Value="R-carriage foreward quick Torque/Pressure"/>
+    <Text ID="4056676" Value="R-carriage forward slow Torque/Pressure"/>
+    <Text ID="4056677" Value="R-carriage forward hold Torque/Pressure"/>
+    <Text ID="4056682" Value="L-clamp open corepull close position"/>
+    <Text ID="4056683" Value="L-clamp open corepull open position"/>
+    <Text ID="4056684" Value="L-clamp open quick torque/pressure"/>
+    <Text ID="4056685" Value="L-clamp open slow torque/pressure"/>
+    <Text ID="4056686" Value="L-clamp close quick velocity/flow"/>
+    <Text ID="4056687" Value="L-clamp close slow velocity/flow"/>
+    <Text ID="4056688" Value="L-clamp close press velocity/flow"/>
+    <Text ID="4056689" Value="L-clamp close quick torque/pressure"/>
+    <Text ID="4056690" Value="L-clamp close slow torque/pressure"/>
+    <Text ID="4056691" Value="L-clamp close press torque/pressure"/>
+    <Text ID="4056692" Value="L-clamp open position"/>
+    <Text ID="4056694" Value="L-clamp open quick to slow position"/>
+    <Text ID="4056695" Value="L-clamp close quick to slow position"/>
+    <Text ID="4056696" Value="L-clamp close position"/>
+    <Text ID="4056697" Value="R-clamp open quick velocity/flow"/>
+    <Text ID="4056698" Value="R-clamp open slow velocity/flow"/>
+    <Text ID="4056699" Value="R-clamp open quick torque/pressure"/>
+    <Text ID="4056700" Value="R-clamp open slow torque/pressure"/>
+    <Text ID="4056701" Value="R-clamp open corepull open position"/>
+    <Text ID="4056702" Value="R-clamp open corepull close position"/>
+    <Text ID="4056703" Value="R-clamp open quick to slow position"/>
+    <Text ID="4056704" Value="R-clamp open position"/>
+    <Text ID="4056705" Value="R-clamp close quick velocity/flow"/>
+    <Text ID="4056706" Value="R-clamp close slow velocity/flow"/>
+    <Text ID="4056707" Value="R-clamp close press velocity/flow"/>
+    <Text ID="4056708" Value="R-clamp close quick torque/pressure"/>
+    <Text ID="4056709" Value="R-clamp close slow torque/pressure"/>
+    <Text ID="4056710" Value="R-clamp close press torque/pressure"/>
+    <Text ID="4056711" Value="R-clamp close quick to slow position"/>
+    <Text ID="4056712" Value="R-clamp close position"/>
+    <Text ID="4073930" Value="L-blowpin up quick velocity/flow"/>
+    <Text ID="4073931" Value="L-blowpin up slow velocity/flow"/>
+    <Text ID="4073932" Value="L-blowpin up quick torque/pressure"/>
+    <Text ID="4073933" Value="L-blowpin up slow torque/pressure"/>
+    <Text ID="4073934" Value="L-blowpin up position"/>
+    <Text ID="4073935" Value="L-blowpin mirco up position"/>
+    <Text ID="4073938" Value="L-blowpin down quick velocity/flow"/>
+    <Text ID="4073939" Value="L-blowpin down slow velocity/flow"/>
+    <Text ID="4073940" Value="L-blowpin down quick torque/pressure"/>
+    <Text ID="4073941" Value="L-blowpin down slow torque/pressure"/>
+    <Text ID="4073942" Value="L-blowpin down position"/>
+    <Text ID="4073943" Value="L-blowpin down quick to slow position"/>
+    <Text ID="4073944" Value="R-blowpin up quick velocity/flow"/>
+    <Text ID="4073945" Value="R-blowpin up slow velocity/flow"/>
+    <Text ID="4073946" Value="R-blowpin up quick torque/pressure"/>
+    <Text ID="4073947" Value="R-blowpin up slow torque/pressure"/>
+    <Text ID="4073948" Value="R-blowpin up position"/>
+    <Text ID="4073949" Value="R-blowpin mirco up position"/>
+    <Text ID="4073950" Value="R-blowpin down quick velocity/flow"/>
+    <Text ID="4073951" Value="R-blowpin down slow velocity/flow"/>
+    <Text ID="4073952" Value="R-blowpin down quick torque/pressure"/>
+    <Text ID="4073953" Value="R-blowpin down slow torque/pressure"/>
+    <Text ID="4073954" Value="R-blowpin down position"/>
+    <Text ID="4073955" Value="R-blowpin down quick to slow position"/>
+    <Text ID="4082570" Value="L-clamp close decel end"/>
+    <Text ID="4082571" Value="L-clamp close Tj"/>
+    <Text ID="4082573" Value="R-clamp close accel"/>
+    <Text ID="4082574" Value="R-clamp close decel"/>
+    <Text ID="4082575" Value="R-clamp close decel end"/>
+    <Text ID="4082576" Value="R-clamp close Tj"/>
+    <Text ID="4082577" Value="R-clamp close Td"/>
+    <Text ID="4082582" Value="L-clamp close accel"/>
+    <Text ID="4082583" Value="L-clamp close decel"/>
+    <Text ID="4082584" Value="L-clamp open accel"/>
+    <Text ID="4082585" Value="L-clamp open decel"/>
+    <Text ID="4082586" Value="L-clamp open decel end"/>
+    <Text ID="4082587" Value="L-clamp open Tj"/>
+    <Text ID="4082588" Value="L-clamp open Td"/>
+    <Text ID="4082589" Value="R-clamp open accel"/>
+    <Text ID="4082590" Value="R-clamp open decel"/>
+    <Text ID="4082591" Value="R-clamp open decel end"/>
+    <Text ID="4082592" Value="R-clamp open Tj"/>
+    <Text ID="4082593" Value="R-clamp open Td"/>
+    <Text ID="4082614" Value="L-clamp open accel"/>
+    <Text ID="4082615" Value="L-blowpin down decel"/>
+    <Text ID="4082616" Value="L-blowpin down decel end"/>
+    <Text ID="4082617" Value="L-blowpin down Tj"/>
+    <Text ID="4082618" Value="L-blowpin down Td"/>
+    <Text ID="4082619" Value="R-blowpin down accel"/>
+    <Text ID="4082620" Value="R-blowpin down decel"/>
+    <Text ID="4082621" Value="R-blowpin down decel end"/>
+    <Text ID="4082622" Value="R-blowpin down Tj"/>
+    <Text ID="4082623" Value="R-blowpin down Td"/>
+    <Text ID="4082624" Value="L-blowpin down accel"/>
+    <Text ID="4082625" Value="L-blowpin up accel"/>
+    <Text ID="4082626" Value="L-blowpin up decel"/>
+    <Text ID="4082627" Value="L-blowpin up decel end"/>
+    <Text ID="4082628" Value="L-blowpin up Tj"/>
+    <Text ID="4082629" Value="L-blowpin up Td"/>
+    <Text ID="4082630" Value="R-blowpin up accel"/>
+    <Text ID="4082631" Value="R-blowpin up decel"/>
+    <Text ID="4082632" Value="R-blowpin up decel end"/>
+    <Text ID="4082633" Value="R-blowpin up Tj"/>
+    <Text ID="4082634" Value="R-blowpin up Td"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="1375652" Value="左移模下速度/流量"/>
+    <Text ID="1375653" Value="左移模下慢速速度/流量"/>
+    <Text ID="1375654" Value="左移模下快轉慢位置"/>
+    <Text ID="1375655" Value="左移模下终點位置"/>
+    <Text ID="1375656" Value="左移模上速度/流量"/>
+    <Text ID="1375657" Value="左移模上慢速速度/流量"/>
+    <Text ID="1375658" Value="左移模上快轉慢位置"/>
+    <Text ID="1375659" Value="左移模架上終點位置"/>
+    <Text ID="1375662" Value="右移模下快轉慢位置"/>
+    <Text ID="1375663" Value="右移模下退終位置"/>
+    <Text ID="1375666" Value="右移模架进快转慢位置"/>
+    <Text ID="1375667" Value="右移模架进终位置"/>
+    <Text ID="1375668" Value="左移模进加速度"/>
+    <Text ID="1375669" Value="左移模进減速度"/>
+    <Text ID="1375670" Value="左移模进定位減速度"/>
+    <Text ID="1375671" Value="左移模进Tj"/>
+    <Text ID="1375672" Value="左移模进Td"/>
+    <Text ID="1375673" Value="右移模进加速度"/>
+    <Text ID="1375674" Value="右移模进減速度"/>
+    <Text ID="1375675" Value="右移模进定位減速度"/>
+    <Text ID="1375676" Value="右移模进Tj"/>
+    <Text ID="1375677" Value="右移模进Td"/>
+    <Text ID="1375678" Value="左移模退加速度"/>
+    <Text ID="1375679" Value="左移模退減速度"/>
+    <Text ID="1375680" Value="左移模退定位減速度"/>
+    <Text ID="1375681" Value="左移模退Tj"/>
+    <Text ID="1375682" Value="左移模退Td"/>
+    <Text ID="1375683" Value="右移模退加速度"/>
+    <Text ID="1375684" Value="右移模退減速度"/>
+    <Text ID="1375685" Value="右移模退定位減速度"/>
+    <Text ID="1375686" Value="右移模退Tj"/>
+    <Text ID="1375687" Value="右移模退Td"/>
+    <Text ID="1375688" Value="左合模死区电压(负向)"/>
+    <Text ID="1375689" Value="左合模最大电压(负向)"/>
+    <Text ID="1375690" Value="左合模最大速度"/>
+    <Text ID="1375691" Value="左开模死区电压(正向)"/>
+    <Text ID="1375692" Value="左开模最大电压(正向)"/>
+    <Text ID="1375693" Value="左开模最大速度"/>
+    <Text ID="1375694" Value="右合模死区电压(负向)"/>
+    <Text ID="1375695" Value="右合模最大电压(负向)"/>
+    <Text ID="1375696" Value="右合模最大速度"/>
+    <Text ID="1375697" Value="右开模死区电压(正向)"/>
+    <Text ID="1375698" Value="右开模最大电压(正向)"/>
+    <Text ID="1375699" Value="右开模最大速度"/>
+    <Text ID="1375700" Value="左移模进死区电压(负向)"/>
+    <Text ID="1375701" Value="左移模进最大电压(负向)"/>
+    <Text ID="1375702" Value="左移模进最大速度"/>
+    <Text ID="1375703" Value="左移模退死区电压(正向)"/>
+    <Text ID="1375704" Value="左移模退最大电压(正向)"/>
+    <Text ID="1375705" Value="左移模退最大速度"/>
+    <Text ID="1375706" Value="右移模进死区电压(负向)"/>
+    <Text ID="1375707" Value="右移模进最大电压(负向)"/>
+    <Text ID="1375708" Value="右移模进最大速度"/>
+    <Text ID="1375709" Value="右移模退死区电压(正向)"/>
+    <Text ID="1375710" Value="右移模退最大电压(正向)"/>
+    <Text ID="1375711" Value="右移模退最大速度"/>
+    <Text ID="1375712" Value="左开合模零位"/>
+    <Text ID="1375713" Value="左开合模大位"/>
+    <Text ID="1375714" Value="左开合模油缸长度"/>
+    <Text ID="1375715" Value="右开合模零位"/>
+    <Text ID="1375716" Value="右开合模大位"/>
+    <Text ID="1375717" Value="右开合模油缸长度"/>
+    <Text ID="1375718" Value="左移模进位"/>
+    <Text ID="1375719" Value="左移模退位"/>
+    <Text ID="1375720" Value="左移模油缸长度"/>
+    <Text ID="1375721" Value="右移模进位"/>
+    <Text ID="1375722" Value="右移模退位"/>
+    <Text ID="1375723" Value="右移模油缸长度"/>
+    <Text ID="1375724" Value="开合模位置误差"/>
+    <Text ID="1375725" Value="移模位置误差"/>
+    <Text ID="1375729" Value="左開模速度/流量"/>
+    <Text ID="1375730" Value="左開模慢速速度/流量"/>
+    <Text ID="4056654" Value="左移模下保持速度/流量"/>
+    <Text ID="4056655" Value="左移模下保持扭矩/壓力"/>
+    <Text ID="4056656" Value="左移模下慢速扭矩/壓力"/>
+    <Text ID="4056657" Value="左移模下扭矩/壓力"/>
+    <Text ID="4056658" Value="左移模上保持速度/流量"/>
+    <Text ID="4056659" Value="左移模上保持扭矩/壓力"/>
+    <Text ID="4056660" Value="左移模上慢速扭矩/壓力"/>
+    <Text ID="4056661" Value="左移模上扭矩/壓力"/>
+    <Text ID="4056662" Value="右移模下速度/流量"/>
+    <Text ID="4056663" Value="右移模下慢速速度/流量"/>
+    <Text ID="4056664" Value="右移模下保持速度/流量"/>
+    <Text ID="4056669" Value="右移模下扭矩/壓力"/>
+    <Text ID="4056670" Value="右移模下慢速扭矩/壓力"/>
+    <Text ID="4056671" Value="右移模下保持扭矩/壓力"/>
+    <Text ID="4056672" Value="右移模上速度/流量"/>
+    <Text ID="4056673" Value="右移模上慢速速度/流量"/>
+    <Text ID="4056674" Value="右移模上保持速度/流量"/>
+    <Text ID="4056675" Value="右移模上扭矩/壓力"/>
+    <Text ID="4056676" Value="右移模上慢速扭矩/壓力"/>
+    <Text ID="4056677" Value="右移模上保持扭矩/壓力"/>
+    <Text ID="4056682" Value="左開模關模芯位置"/>
+    <Text ID="4056683" Value="左開模開模芯位置"/>
+    <Text ID="4056684" Value="左開模扭矩/壓力"/>
+    <Text ID="4056685" Value="左開模慢速扭矩/壓力"/>
+    <Text ID="4056686" Value="左關模速度/流量"/>
+    <Text ID="4056687" Value="左關模慢速速度/流量"/>
+    <Text ID="4056688" Value="左關模加壓速度/流量"/>
+    <Text ID="4056689" Value="左開模扭矩/壓力"/>
+    <Text ID="4056690" Value="左關模慢速扭矩/壓力"/>
+    <Text ID="4056691" Value="左關模加壓扭矩/壓力"/>
+    <Text ID="4056692" Value="左開模終點位置"/>
+    <Text ID="4056694" Value="左開模快轉慢位置"/>
+    <Text ID="4056695" Value="左關模快轉慢位置"/>
+    <Text ID="4056696" Value="右關模終點位置"/>
+    <Text ID="4056697" Value="右開模速度/流量"/>
+    <Text ID="4056698" Value="右開模慢速速度/流量"/>
+    <Text ID="4056699" Value="右開模扭矩/壓力"/>
+    <Text ID="4056700" Value="右開模慢速扭矩/壓力"/>
+    <Text ID="4056701" Value="右開模開模芯位置"/>
+    <Text ID="4056702" Value="右開模關模芯位置"/>
+    <Text ID="4056703" Value="右開模快轉慢位置"/>
+    <Text ID="4056704" Value="右開模終點位置"/>
+    <Text ID="4056705" Value="右關模速度/流量"/>
+    <Text ID="4056706" Value="右關模慢速速度/流量"/>
+    <Text ID="4056707" Value="右關模加壓速度/流量"/>
+    <Text ID="4056708" Value="右開模扭矩/壓力"/>
+    <Text ID="4056709" Value="右關模慢速扭矩/壓力"/>
+    <Text ID="4056710" Value="右關模加壓扭矩/壓力"/>
+    <Text ID="4056711" Value="右關模快轉慢位置"/>
+    <Text ID="4056712" Value="右關模終點位置"/>
+    <Text ID="4073930" Value="左吹桿上速度/流量"/>
+    <Text ID="4073931" Value="左吹桿微抽速度/流量"/>
+    <Text ID="4073932" Value="左吹桿上扭矩/壓力"/>
+    <Text ID="4073933" Value="左吹桿微抽扭矩/壓力"/>
+    <Text ID="4073934" Value="左吹桿上位置"/>
+    <Text ID="4073935" Value="左吹桿微抽位置"/>
+    <Text ID="4073938" Value="左吹桿下速度/流量"/>
+    <Text ID="4073939" Value="左吹桿下慢速速度/流量"/>
+    <Text ID="4073940" Value="左吹桿下扭矩/壓力"/>
+    <Text ID="4073941" Value="左吹桿下慢速扭矩/壓力"/>
+    <Text ID="4073942" Value="左吹桿下位置"/>
+    <Text ID="4073943" Value="左吹桿下快轉慢位置"/>
+    <Text ID="4073944" Value="右吹桿上速度/流量"/>
+    <Text ID="4073945" Value="右吹桿微抽速度/流量"/>
+    <Text ID="4073946" Value="右吹桿上扭矩/壓力"/>
+    <Text ID="4073947" Value="右吹桿微抽扭矩/壓力"/>
+    <Text ID="4073948" Value="右吹桿上位置"/>
+    <Text ID="4073949" Value="右吹桿微抽位置"/>
+    <Text ID="4073950" Value="右吹桿下速度/流量"/>
+    <Text ID="4073951" Value="右吹桿下慢速速度/流量"/>
+    <Text ID="4073952" Value="右吹桿下扭矩/壓力"/>
+    <Text ID="4073953" Value="右吹桿下慢速扭矩/壓力"/>
+    <Text ID="4073954" Value="右吹桿下位置"/>
+    <Text ID="4073955" Value="右吹桿下快轉慢位置"/>
+    <Text ID="4082570" Value="左移模进定位減速度"/>
+    <Text ID="4082571" Value="左移模进Tj"/>
+    <Text ID="4082573" Value="右移模进加速度"/>
+    <Text ID="4082574" Value="右移模进減速度"/>
+    <Text ID="4082575" Value="右移模进定位減速度"/>
+    <Text ID="4082576" Value="右移模进Tj"/>
+    <Text ID="4082577" Value="右移模进Td"/>
+    <Text ID="4082582" Value="左關模加速度"/>
+    <Text ID="4082583" Value="左關模減速度"/>
+    <Text ID="4082584" Value="左開模加速度"/>
+    <Text ID="4082585" Value="左開模減速度"/>
+    <Text ID="4082586" Value="左移模进定位減速度"/>
+    <Text ID="4082587" Value="左移模进Tj"/>
+    <Text ID="4082588" Value="左移模进Td"/>
+    <Text ID="4082589" Value="右移模进加速度"/>
+    <Text ID="4082590" Value="右移模进減速度"/>
+    <Text ID="4082591" Value="右移模进定位減速度"/>
+    <Text ID="4082592" Value="右移模进Tj"/>
+    <Text ID="4082593" Value="右移模进Td"/>
+    <Text ID="4082614" Value="左開模加速度"/>
+    <Text ID="4082615" Value="左吹桿下減速度"/>
+    <Text ID="4082616" Value="左移模进定位減速度"/>
+    <Text ID="4082617" Value="左移模进Tj"/>
+    <Text ID="4082618" Value="左移模进Td"/>
+    <Text ID="4082619" Value="右移模进加速度"/>
+    <Text ID="4082620" Value="右移模进減速度"/>
+    <Text ID="4082621" Value="右移模进定位減速度"/>
+    <Text ID="4082622" Value="右移模进Tj"/>
+    <Text ID="4082623" Value="右移模进Td"/>
+    <Text ID="4082624" Value="左吹桿下加速度"/>
+    <Text ID="4082625" Value="左吹桿上加速度"/>
+    <Text ID="4082626" Value="左吹桿上減速度"/>
+    <Text ID="4082627" Value="左移模进定位減速度"/>
+    <Text ID="4082628" Value="左移模进Tj"/>
+    <Text ID="4082629" Value="左移模进Td"/>
+    <Text ID="4082630" Value="右移模进加速度"/>
+    <Text ID="4082631" Value="右移模进減速度"/>
+    <Text ID="4082632" Value="右移模进定位減速度"/>
+    <Text ID="4082633" Value="右移模进Tj"/>
+    <Text ID="4082634" Value="右移模进Td"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="1375652" Value="左移模下速度/流量"/>
+    <Text ID="1375653" Value="左移模下慢速速度/流量"/>
+    <Text ID="1375654" Value="左移模下快轉慢位置"/>
+    <Text ID="1375655" Value="左移模下终點位置"/>
+    <Text ID="1375656" Value="左移模上速度/流量"/>
+    <Text ID="1375657" Value="左移模上慢速速度/流量"/>
+    <Text ID="1375658" Value="左移模上快轉慢位置"/>
+    <Text ID="1375659" Value="左移模架上終點位置"/>
+    <Text ID="1375662" Value="右移模下快轉慢位置"/>
+    <Text ID="1375663" Value="右移模下退終位置"/>
+    <Text ID="1375666" Value="右移模架進快轉慢位置"/>
+    <Text ID="1375667" Value="右移模架進終位置"/>
+    <Text ID="1375668" Value="左移模進加速度"/>
+    <Text ID="1375669" Value="左移模進減速度"/>
+    <Text ID="1375670" Value="左移模進定位減速度"/>
+    <Text ID="1375671" Value="左移模進Tj"/>
+    <Text ID="1375672" Value="左移模進Td"/>
+    <Text ID="1375673" Value="右移模進加速度"/>
+    <Text ID="1375674" Value="右移模進減速度"/>
+    <Text ID="1375675" Value="右移模進定位減速度"/>
+    <Text ID="1375676" Value="右移模進Tj"/>
+    <Text ID="1375677" Value="右移模進Td"/>
+    <Text ID="1375678" Value="左移模退加速度"/>
+    <Text ID="1375679" Value="左移模退減速度"/>
+    <Text ID="1375680" Value="左移模退定位減速度"/>
+    <Text ID="1375681" Value="左移模退Tj"/>
+    <Text ID="1375682" Value="左移模退Td"/>
+    <Text ID="1375683" Value="右移模退加速度"/>
+    <Text ID="1375684" Value="右移模退減速度"/>
+    <Text ID="1375685" Value="右移模退定位減速度"/>
+    <Text ID="1375686" Value="右移模退Tj"/>
+    <Text ID="1375687" Value="右移模退Td"/>
+    <Text ID="1375688" Value="左合模死區電壓(負向)"/>
+    <Text ID="1375689" Value="左合模最大電壓(負向)"/>
+    <Text ID="1375690" Value="左合模最大速度"/>
+    <Text ID="1375691" Value="左開模死區電壓(正向)"/>
+    <Text ID="1375692" Value="左開模最大電壓(正向)"/>
+    <Text ID="1375693" Value="左開模最大速度"/>
+    <Text ID="1375694" Value="右合模死區電壓(負向)"/>
+    <Text ID="1375695" Value="右合模最大電壓(負向)"/>
+    <Text ID="1375696" Value="右合模最大速度"/>
+    <Text ID="1375697" Value="右開模死區電壓(正向)"/>
+    <Text ID="1375698" Value="右開模最大電壓(正向)"/>
+    <Text ID="1375699" Value="右開模最大速度"/>
+    <Text ID="1375700" Value="左移模進死區電壓(負向)"/>
+    <Text ID="1375701" Value="左移模進最大電壓(負向)"/>
+    <Text ID="1375702" Value="左移模進最大速度"/>
+    <Text ID="1375703" Value="左移模退死區電壓(正向)"/>
+    <Text ID="1375704" Value="左移模退最大電壓(正向)"/>
+    <Text ID="1375705" Value="左移模退最大速度"/>
+    <Text ID="1375706" Value="右移模進死區電壓(負向)"/>
+    <Text ID="1375707" Value="右移模進最大電壓(負向)"/>
+    <Text ID="1375708" Value="右移模進最大速度"/>
+    <Text ID="1375709" Value="右移模退死區電壓(正向)"/>
+    <Text ID="1375710" Value="右移模退最大電壓(正向)"/>
+    <Text ID="1375711" Value="右移模退最大速度"/>
+    <Text ID="1375712" Value="左開合模零位"/>
+    <Text ID="1375713" Value="左開合模大位"/>
+    <Text ID="1375714" Value="左開合模油缸長度"/>
+    <Text ID="1375715" Value="右開合模零位"/>
+    <Text ID="1375716" Value="右開合模大位"/>
+    <Text ID="1375717" Value="右開合模油缸長度"/>
+    <Text ID="1375718" Value="左移模進位"/>
+    <Text ID="1375719" Value="左移模退位"/>
+    <Text ID="1375720" Value="左移模油缸長度"/>
+    <Text ID="1375721" Value="右移模進位"/>
+    <Text ID="1375722" Value="右移模退位"/>
+    <Text ID="1375723" Value="右移模油缸長度"/>
+    <Text ID="1375724" Value="開合模位置誤差"/>
+    <Text ID="1375725" Value="移模位置誤差"/>
+    <Text ID="1375729" Value="左開模速度/流量"/>
+    <Text ID="1375730" Value="左開模慢速速度/流量"/>
+    <Text ID="4056654" Value="左移模下保持速度/流量"/>
+    <Text ID="4056655" Value="左移模下保持扭矩/壓力"/>
+    <Text ID="4056656" Value="左移模下慢速扭矩/壓力"/>
+    <Text ID="4056657" Value="左移模下扭矩/壓力"/>
+    <Text ID="4056658" Value="左移模上保持速度/流量"/>
+    <Text ID="4056659" Value="左移模上保持扭矩/壓力"/>
+    <Text ID="4056660" Value="左移模上慢速扭矩/壓力"/>
+    <Text ID="4056661" Value="左移模上扭矩/壓力"/>
+    <Text ID="4056662" Value="右移模下速度/流量"/>
+    <Text ID="4056663" Value="右移模下慢速速度/流量"/>
+    <Text ID="4056664" Value="右移模下保持速度/流量"/>
+    <Text ID="4056669" Value="右移模下扭矩/壓力"/>
+    <Text ID="4056670" Value="右移模下慢速扭矩/壓力"/>
+    <Text ID="4056671" Value="右移模下保持扭矩/壓力"/>
+    <Text ID="4056672" Value="右移模上速度/流量"/>
+    <Text ID="4056673" Value="右移模上慢速速度/流量"/>
+    <Text ID="4056674" Value="右移模上保持速度/流量"/>
+    <Text ID="4056675" Value="右移模上扭矩/壓力"/>
+    <Text ID="4056676" Value="右移模上慢速扭矩/壓力"/>
+    <Text ID="4056677" Value="右移模上保持扭矩/壓力"/>
+    <Text ID="4056682" Value="左開模關模芯位置"/>
+    <Text ID="4056683" Value="左開模開模芯位置"/>
+    <Text ID="4056684" Value="左開模扭矩/壓力"/>
+    <Text ID="4056685" Value="左開模慢速扭矩/壓力"/>
+    <Text ID="4056686" Value="左關模速度/流量"/>
+    <Text ID="4056687" Value="左關模慢速速度/流量"/>
+    <Text ID="4056688" Value="左關模加壓速度/流量"/>
+    <Text ID="4056689" Value="左開模扭矩/壓力"/>
+    <Text ID="4056690" Value="左關模慢速扭矩/壓力"/>
+    <Text ID="4056691" Value="左關模加壓扭矩/壓力"/>
+    <Text ID="4056692" Value="左開模終點位置"/>
+    <Text ID="4056694" Value="左開模快轉慢位置"/>
+    <Text ID="4056695" Value="左關模快轉慢位置"/>
+    <Text ID="4056696" Value="右關模終點位置"/>
+    <Text ID="4056697" Value="右開模速度/流量"/>
+    <Text ID="4056698" Value="右開模慢速速度/流量"/>
+    <Text ID="4056699" Value="右開模扭矩/壓力"/>
+    <Text ID="4056700" Value="右開模慢速扭矩/壓力"/>
+    <Text ID="4056701" Value="右開模開模芯位置"/>
+    <Text ID="4056702" Value="右開模關模芯位置"/>
+    <Text ID="4056703" Value="右開模快轉慢位置"/>
+    <Text ID="4056704" Value="右開模終點位置"/>
+    <Text ID="4056705" Value="右關模速度/流量"/>
+    <Text ID="4056706" Value="右關模慢速速度/流量"/>
+    <Text ID="4056707" Value="右關模加壓速度/流量"/>
+    <Text ID="4056708" Value="右開模扭矩/壓力"/>
+    <Text ID="4056709" Value="右關模慢速扭矩/壓力"/>
+    <Text ID="4056710" Value="右關模加壓扭矩/壓力"/>
+    <Text ID="4056711" Value="右關模快轉慢位置"/>
+    <Text ID="4056712" Value="右關模終點位置"/>
+    <Text ID="4073930" Value="左吹桿上速度/流量"/>
+    <Text ID="4073931" Value="左吹桿微抽速度/流量"/>
+    <Text ID="4073932" Value="左吹桿上扭矩/壓力"/>
+    <Text ID="4073933" Value="左吹桿微抽扭矩/壓力"/>
+    <Text ID="4073934" Value="左吹桿上位置"/>
+    <Text ID="4073935" Value="左吹桿微抽位置"/>
+    <Text ID="4073938" Value="左吹桿下速度/流量"/>
+    <Text ID="4073939" Value="左吹桿下慢速速度/流量"/>
+    <Text ID="4073940" Value="左吹桿下扭矩/壓力"/>
+    <Text ID="4073941" Value="左吹桿下慢速扭矩/壓力"/>
+    <Text ID="4073942" Value="左吹桿下位置"/>
+    <Text ID="4073943" Value="左吹桿下快轉慢位置"/>
+    <Text ID="4073944" Value="右吹桿上速度/流量"/>
+    <Text ID="4073945" Value="右吹桿微抽速度/流量"/>
+    <Text ID="4073946" Value="右吹桿上扭矩/壓力"/>
+    <Text ID="4073947" Value="右吹桿微抽扭矩/壓力"/>
+    <Text ID="4073948" Value="右吹桿上位置"/>
+    <Text ID="4073949" Value="右吹桿微抽位置"/>
+    <Text ID="4073950" Value="右吹桿下速度/流量"/>
+    <Text ID="4073951" Value="右吹桿下慢速速度/流量"/>
+    <Text ID="4073952" Value="右吹桿下扭矩/壓力"/>
+    <Text ID="4073953" Value="右吹桿下慢速扭矩/壓力"/>
+    <Text ID="4073954" Value="右吹桿下位置"/>
+    <Text ID="4073955" Value="右吹桿下快轉慢位置"/>
+    <Text ID="4082570" Value="左關模定位減速度"/>
+    <Text ID="4082571" Value="左關模Tj"/>
+    <Text ID="4082573" Value="右關模加速度"/>
+    <Text ID="4082574" Value="右關模減速度"/>
+    <Text ID="4082575" Value="右關模定位減速度"/>
+    <Text ID="4082576" Value="右關模Tj"/>
+    <Text ID="4082577" Value="右關模Td"/>
+    <Text ID="4082582" Value="左關模加速度"/>
+    <Text ID="4082583" Value="左關模減速度"/>
+    <Text ID="4082584" Value="左開模加速度"/>
+    <Text ID="4082585" Value="左開模減速度"/>
+    <Text ID="4082586" Value="左開模定位減速度"/>
+    <Text ID="4082587" Value="左開模Tj"/>
+    <Text ID="4082588" Value="左開模Td"/>
+    <Text ID="4082589" Value="右開模加速度"/>
+    <Text ID="4082590" Value="右開模減速度"/>
+    <Text ID="4082591" Value="右開模定位減速度"/>
+    <Text ID="4082592" Value="右開模Tj"/>
+    <Text ID="4082593" Value="右開模Td"/>
+    <Text ID="4082614" Value="左開模加速度"/>
+    <Text ID="4082615" Value="左吹桿下減速度"/>
+    <Text ID="4082616" Value="左吹桿下定位減速度"/>
+    <Text ID="4082617" Value="左吹桿下Tj"/>
+    <Text ID="4082618" Value="左吹桿下Td"/>
+    <Text ID="4082619" Value="右吹桿下加速度"/>
+    <Text ID="4082620" Value="右吹桿下減速度"/>
+    <Text ID="4082621" Value="右吹桿下定位減速度"/>
+    <Text ID="4082622" Value="右吹桿下Tj"/>
+    <Text ID="4082623" Value="右吹桿下Td"/>
+    <Text ID="4082624" Value="左吹桿下加速度"/>
+    <Text ID="4082625" Value="左吹桿上加速度"/>
+    <Text ID="4082626" Value="左吹桿上減速度"/>
+    <Text ID="4082627" Value="左吹桿上定位減速度"/>
+    <Text ID="4082628" Value="左吹桿上Tj"/>
+    <Text ID="4082629" Value="左吹桿上Td"/>
+    <Text ID="4082630" Value="右吹桿上加速度"/>
+    <Text ID="4082631" Value="右吹桿上減速度"/>
+    <Text ID="4082632" Value="右吹桿上定位減速度"/>
+    <Text ID="4082633" Value="右吹桿上Tj"/>
+    <Text ID="4082634" Value="右吹桿上Td"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="1375652" Value="L - Wozek tyl, szybka predkosc"/>
+    <Text ID="1375653" Value="L - Wozek tyl, wolna predkosc"/>
+    <Text ID="1375654" Value="L - Wozek tyl, szybko do poz. Zwolnienia"/>
+    <Text ID="1375655" Value="L - Wozek pozycja tyl"/>
+    <Text ID="1375656" Value="L - Wozek przod, szybka przedkosc"/>
+    <Text ID="1375657" Value="L - Wozek przod, wolna predkosc"/>
+    <Text ID="1375658" Value="L - Wozek przod, szybko do poz. Zwolnienia"/>
+    <Text ID="1375659" Value="L - Wozek pozycja przod"/>
+    <Text ID="1375662" Value="P - Wozek tyl, szybko do poz. Zwolnienia"/>
+    <Text ID="1375663" Value="P - Wozek pozycja tyl"/>
+    <Text ID="1375666" Value="P - Wozek przod, szybko do poz. Zwolnienia"/>
+    <Text ID="1375667" Value="P - Wozek pozycja przod"/>
+    <Text ID="1375668" Value="L - Wozek przyspieszenie przod"/>
+    <Text ID="1375669" Value="L - Wozek wyhamowanie przod"/>
+    <Text ID="1375670" Value="L - Wozek wyhamow. koniec przod"/>
+    <Text ID="1375671" Value="L - Wozek przod Tj"/>
+    <Text ID="1375672" Value="L - Wozek przod Td"/>
+    <Text ID="1375673" Value="P - Wozek przyspieszenie przod"/>
+    <Text ID="1375674" Value="P - Wozek wyhamowanie przod"/>
+    <Text ID="1375675" Value="PWozek wyhamow. koniec przod"/>
+    <Text ID="1375676" Value="P - Wozek przod Tj"/>
+    <Text ID="1375677" Value="P - Wozek przod Td"/>
+    <Text ID="1375678" Value="L - Wozek przyspieszenie tyl"/>
+    <Text ID="1375679" Value="L - Wozek wyhamowanie tyl"/>
+    <Text ID="1375680" Value="L - Wozek wyhamow. koniec tyl"/>
+    <Text ID="1375681" Value="L - Wozek tyl Tj"/>
+    <Text ID="1375682" Value="L - Wozek tyl Td"/>
+    <Text ID="1375683" Value="P - Wozek przyspieszenie tyl"/>
+    <Text ID="1375684" Value="P - Wozek wyhamowanie tyl"/>
+    <Text ID="1375685" Value="P - Wozek wyhamow. koniec tyl"/>
+    <Text ID="1375686" Value="P - Wozek tyl Tj"/>
+    <Text ID="1375687" Value="P - Wozek tyl Td"/>
+    <Text ID="1375688" Value="L - Forma zam. poza zakres. Napiecia"/>
+    <Text ID="1375689" Value="L - Forma zam. maks. Napiecie"/>
+    <Text ID="1375690" Value="L - Forma zam. maks. Predkosc"/>
+    <Text ID="1375691" Value="L - Forma otw. poza zakres. Napiecia"/>
+    <Text ID="1375692" Value="L - Forma otw. maks. Napiecie"/>
+    <Text ID="1375693" Value="L - Forma otw. maks. Predkosc"/>
+    <Text ID="1375694" Value="P - Forma zam. poza zakres. Napiecia"/>
+    <Text ID="1375695" Value="P - Forma zam. maks. Napiecie"/>
+    <Text ID="1375696" Value="P - Forma zam. maks. Predkosc"/>
+    <Text ID="1375697" Value="P - Forma otw. poza zakres. Napiecia"/>
+    <Text ID="1375698" Value="P - Forma otw. maks. Napiecie"/>
+    <Text ID="1375699" Value="P - Forma otw. maks. Predkosc"/>
+    <Text ID="1375700" Value="L - Wozek przod poza zakres. Napiecia"/>
+    <Text ID="1375701" Value="L - Wozek przod maks. Napiecie"/>
+    <Text ID="1375702" Value="L - Wozek przod maks. Predkosc"/>
+    <Text ID="1375703" Value="L - Wozek tyl poza zakres. Napiecia"/>
+    <Text ID="1375704" Value="L - Wozek tyl maks. Napiecie"/>
+    <Text ID="1375705" Value="L - Wozek tyl maks. Predkosc"/>
+    <Text ID="1375706" Value="P - Wozek przod poza zakres. Napiecia"/>
+    <Text ID="1375707" Value="P - Wozek przod maks. Napiecie"/>
+    <Text ID="1375708" Value="P - Wozek przod maks. Predkosc"/>
+    <Text ID="1375709" Value="P - Wozek tyl poza zakres. Napiecia"/>
+    <Text ID="1375710" Value="P - Wozek tyl maks. Napiecie"/>
+    <Text ID="1375711" Value="P - Wozek tyl maks. Predkosc"/>
+    <Text ID="1375712" Value="L - Forma pozycja zerowa"/>
+    <Text ID="1375713" Value="L - Forma pozycja maks."/>
+    <Text ID="1375714" Value="L - Forma-Skok"/>
+    <Text ID="1375715" Value="P - Forma pozycja zerowa"/>
+    <Text ID="1375716" Value="P - Forma pozycja maks."/>
+    <Text ID="1375717" Value="P - Forma-Skok"/>
+    <Text ID="1375718" Value="L - Wozek pozycja zerowa"/>
+    <Text ID="1375719" Value="L - Wozek pozycja maks."/>
+    <Text ID="1375720" Value="L - Wozek-Skok"/>
+    <Text ID="1375721" Value="P - Wozek pozycja zerowa"/>
+    <Text ID="1375722" Value="P - Wozek pozycja maks."/>
+    <Text ID="1375723" Value="P - Wozek-Skok"/>
+    <Text ID="1375724" Value="Tolerancja Forma"/>
+    <Text ID="1375725" Value="Tolerancja Wozka"/>
+    <Text ID="1375729" Value=""/>
+    <Text ID="1375730" Value=""/>
+    <Text ID="4056654" Value=""/>
+    <Text ID="4056655" Value=""/>
+    <Text ID="4056656" Value=""/>
+    <Text ID="4056657" Value=""/>
+    <Text ID="4056658" Value=""/>
+    <Text ID="4056659" Value=""/>
+    <Text ID="4056660" Value=""/>
+    <Text ID="4056661" Value=""/>
+    <Text ID="4056662" Value="P - Wozek tyl, szybka predkosc"/>
+    <Text ID="4056663" Value="P - Wozek tyl, wolna predkosc"/>
+    <Text ID="4056664" Value=""/>
+    <Text ID="4056669" Value=""/>
+    <Text ID="4056670" Value=""/>
+    <Text ID="4056671" Value=""/>
+    <Text ID="4056672" Value="P - Wozek przod, szybka przedkosc"/>
+    <Text ID="4056673" Value="R - Wozek przod, wolna predkosc"/>
+    <Text ID="4056674" Value=""/>
+    <Text ID="4056675" Value=""/>
+    <Text ID="4056676" Value=""/>
+    <Text ID="4056677" Value=""/>
+    <Text ID="4056682" Value=""/>
+    <Text ID="4056683" Value=""/>
+    <Text ID="4056684" Value=""/>
+    <Text ID="4056685" Value=""/>
+    <Text ID="4056686" Value=""/>
+    <Text ID="4056687" Value=""/>
+    <Text ID="4056688" Value=""/>
+    <Text ID="4056689" Value=""/>
+    <Text ID="4056690" Value=""/>
+    <Text ID="4056691" Value=""/>
+    <Text ID="4056692" Value=""/>
+    <Text ID="4056694" Value=""/>
+    <Text ID="4056695" Value=""/>
+    <Text ID="4056696" Value=""/>
+    <Text ID="4056697" Value=""/>
+    <Text ID="4056698" Value=""/>
+    <Text ID="4056699" Value=""/>
+    <Text ID="4056700" Value=""/>
+    <Text ID="4056701" Value=""/>
+    <Text ID="4056702" Value=""/>
+    <Text ID="4056703" Value=""/>
+    <Text ID="4056704" Value=""/>
+    <Text ID="4056705" Value=""/>
+    <Text ID="4056706" Value=""/>
+    <Text ID="4056707" Value=""/>
+    <Text ID="4056708" Value=""/>
+    <Text ID="4056709" Value=""/>
+    <Text ID="4056710" Value=""/>
+    <Text ID="4056711" Value=""/>
+    <Text ID="4056712" Value=""/>
+    <Text ID="4073930" Value=""/>
+    <Text ID="4073931" Value=""/>
+    <Text ID="4073932" Value=""/>
+    <Text ID="4073933" Value=""/>
+    <Text ID="4073934" Value=""/>
+    <Text ID="4073935" Value=""/>
+    <Text ID="4073938" Value=""/>
+    <Text ID="4073939" Value=""/>
+    <Text ID="4073940" Value=""/>
+    <Text ID="4073941" Value=""/>
+    <Text ID="4073942" Value=""/>
+    <Text ID="4073943" Value=""/>
+    <Text ID="4073944" Value=""/>
+    <Text ID="4073945" Value=""/>
+    <Text ID="4073946" Value=""/>
+    <Text ID="4073947" Value=""/>
+    <Text ID="4073948" Value=""/>
+    <Text ID="4073949" Value=""/>
+    <Text ID="4073950" Value=""/>
+    <Text ID="4073951" Value=""/>
+    <Text ID="4073952" Value=""/>
+    <Text ID="4073953" Value=""/>
+    <Text ID="4073954" Value=""/>
+    <Text ID="4073955" Value=""/>
+    <Text ID="4082570" Value=""/>
+    <Text ID="4082571" Value=""/>
+    <Text ID="4082573" Value=""/>
+    <Text ID="4082574" Value=""/>
+    <Text ID="4082575" Value=""/>
+    <Text ID="4082576" Value=""/>
+    <Text ID="4082577" Value=""/>
+    <Text ID="4082582" Value=""/>
+    <Text ID="4082583" Value=""/>
+    <Text ID="4082584" Value=""/>
+    <Text ID="4082585" Value=""/>
+    <Text ID="4082586" Value=""/>
+    <Text ID="4082587" Value=""/>
+    <Text ID="4082588" Value=""/>
+    <Text ID="4082589" Value=""/>
+    <Text ID="4082590" Value=""/>
+    <Text ID="4082591" Value=""/>
+    <Text ID="4082592" Value=""/>
+    <Text ID="4082593" Value=""/>
+    <Text ID="4082614" Value=""/>
+    <Text ID="4082615" Value=""/>
+    <Text ID="4082616" Value=""/>
+    <Text ID="4082617" Value=""/>
+    <Text ID="4082618" Value=""/>
+    <Text ID="4082619" Value=""/>
+    <Text ID="4082620" Value=""/>
+    <Text ID="4082621" Value=""/>
+    <Text ID="4082622" Value=""/>
+    <Text ID="4082623" Value=""/>
+    <Text ID="4082624" Value=""/>
+    <Text ID="4082625" Value=""/>
+    <Text ID="4082626" Value=""/>
+    <Text ID="4082627" Value=""/>
+    <Text ID="4082628" Value=""/>
+    <Text ID="4082629" Value=""/>
+    <Text ID="4082630" Value=""/>
+    <Text ID="4082631" Value=""/>
+    <Text ID="4082632" Value=""/>
+    <Text ID="4082633" Value=""/>
+    <Text ID="4082634" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1375652" Value="0"/>
+    <Index ID="1375653" Value="1"/>
+    <Index ID="1375654" Value="6"/>
+    <Index ID="1375655" Value="7"/>
+    <Index ID="1375656" Value="8"/>
+    <Index ID="1375657" Value="9"/>
+    <Index ID="1375658" Value="14"/>
+    <Index ID="1375659" Value="15"/>
+    <Index ID="1375662" Value="22"/>
+    <Index ID="1375663" Value="23"/>
+    <Index ID="1375666" Value="30"/>
+    <Index ID="1375667" Value="31"/>
+    <Index ID="1375668" Value="88"/>
+    <Index ID="1375669" Value="89"/>
+    <Index ID="1375670" Value="90"/>
+    <Index ID="1375671" Value="91"/>
+    <Index ID="1375672" Value="92"/>
+    <Index ID="1375673" Value="93"/>
+    <Index ID="1375674" Value="94"/>
+    <Index ID="1375675" Value="95"/>
+    <Index ID="1375676" Value="96"/>
+    <Index ID="1375677" Value="97"/>
+    <Index ID="1375678" Value="98"/>
+    <Index ID="1375679" Value="99"/>
+    <Index ID="1375680" Value="100"/>
+    <Index ID="1375681" Value="101"/>
+    <Index ID="1375682" Value="102"/>
+    <Index ID="1375683" Value="103"/>
+    <Index ID="1375684" Value="104"/>
+    <Index ID="1375685" Value="105"/>
+    <Index ID="1375686" Value="106"/>
+    <Index ID="1375687" Value="107"/>
+    <Index ID="1375688" Value="148"/>
+    <Index ID="1375689" Value="149"/>
+    <Index ID="1375690" Value="150"/>
+    <Index ID="1375691" Value="151"/>
+    <Index ID="1375692" Value="152"/>
+    <Index ID="1375693" Value="153"/>
+    <Index ID="1375694" Value="154"/>
+    <Index ID="1375695" Value="155"/>
+    <Index ID="1375696" Value="156"/>
+    <Index ID="1375697" Value="157"/>
+    <Index ID="1375698" Value="158"/>
+    <Index ID="1375699" Value="159"/>
+    <Index ID="1375700" Value="160"/>
+    <Index ID="1375701" Value="161"/>
+    <Index ID="1375702" Value="162"/>
+    <Index ID="1375703" Value="163"/>
+    <Index ID="1375704" Value="164"/>
+    <Index ID="1375705" Value="165"/>
+    <Index ID="1375706" Value="166"/>
+    <Index ID="1375707" Value="167"/>
+    <Index ID="1375708" Value="168"/>
+    <Index ID="1375709" Value="169"/>
+    <Index ID="1375710" Value="170"/>
+    <Index ID="1375711" Value="171"/>
+    <Index ID="1375712" Value="172"/>
+    <Index ID="1375713" Value="173"/>
+    <Index ID="1375714" Value="174"/>
+    <Index ID="1375715" Value="175"/>
+    <Index ID="1375716" Value="176"/>
+    <Index ID="1375717" Value="177"/>
+    <Index ID="1375718" Value="178"/>
+    <Index ID="1375719" Value="179"/>
+    <Index ID="1375720" Value="180"/>
+    <Index ID="1375721" Value="181"/>
+    <Index ID="1375722" Value="182"/>
+    <Index ID="1375723" Value="183"/>
+    <Index ID="1375724" Value="184"/>
+    <Index ID="1375725" Value="185"/>
+    <Index ID="1375729" Value="32"/>
+    <Index ID="1375730" Value="33"/>
+    <Index ID="4056654" Value="2"/>
+    <Index ID="4056655" Value="5"/>
+    <Index ID="4056656" Value="4"/>
+    <Index ID="4056657" Value="3"/>
+    <Index ID="4056658" Value="10"/>
+    <Index ID="4056659" Value="13"/>
+    <Index ID="4056660" Value="12"/>
+    <Index ID="4056661" Value="11"/>
+    <Index ID="4056662" Value="16"/>
+    <Index ID="4056663" Value="17"/>
+    <Index ID="4056664" Value="18"/>
+    <Index ID="4056669" Value="19"/>
+    <Index ID="4056670" Value="20"/>
+    <Index ID="4056671" Value="21"/>
+    <Index ID="4056672" Value="24"/>
+    <Index ID="4056673" Value="25"/>
+    <Index ID="4056674" Value="26"/>
+    <Index ID="4056675" Value="27"/>
+    <Index ID="4056676" Value="28"/>
+    <Index ID="4056677" Value="29"/>
+    <Index ID="4056682" Value="37"/>
+    <Index ID="4056683" Value="36"/>
+    <Index ID="4056684" Value="34"/>
+    <Index ID="4056685" Value="35"/>
+    <Index ID="4056686" Value="40"/>
+    <Index ID="4056687" Value="41"/>
+    <Index ID="4056688" Value="42"/>
+    <Index ID="4056689" Value="43"/>
+    <Index ID="4056690" Value="44"/>
+    <Index ID="4056691" Value="45"/>
+    <Index ID="4056692" Value="39"/>
+    <Index ID="4056694" Value="38"/>
+    <Index ID="4056695" Value="46"/>
+    <Index ID="4056696" Value="47"/>
+    <Index ID="4056697" Value="48"/>
+    <Index ID="4056698" Value="49"/>
+    <Index ID="4056699" Value="50"/>
+    <Index ID="4056700" Value="51"/>
+    <Index ID="4056701" Value="52"/>
+    <Index ID="4056702" Value="53"/>
+    <Index ID="4056703" Value="54"/>
+    <Index ID="4056704" Value="55"/>
+    <Index ID="4056705" Value="56"/>
+    <Index ID="4056706" Value="57"/>
+    <Index ID="4056707" Value="58"/>
+    <Index ID="4056708" Value="59"/>
+    <Index ID="4056709" Value="60"/>
+    <Index ID="4056710" Value="61"/>
+    <Index ID="4056711" Value="62"/>
+    <Index ID="4056712" Value="63"/>
+    <Index ID="4073930" Value="64"/>
+    <Index ID="4073931" Value="65"/>
+    <Index ID="4073932" Value="66"/>
+    <Index ID="4073933" Value="67"/>
+    <Index ID="4073934" Value="68"/>
+    <Index ID="4073935" Value="69"/>
+    <Index ID="4073938" Value="70"/>
+    <Index ID="4073939" Value="71"/>
+    <Index ID="4073940" Value="72"/>
+    <Index ID="4073941" Value="73"/>
+    <Index ID="4073942" Value="74"/>
+    <Index ID="4073943" Value="75"/>
+    <Index ID="4073944" Value="76"/>
+    <Index ID="4073945" Value="77"/>
+    <Index ID="4073946" Value="78"/>
+    <Index ID="4073947" Value="79"/>
+    <Index ID="4073948" Value="80"/>
+    <Index ID="4073949" Value="81"/>
+    <Index ID="4073950" Value="82"/>
+    <Index ID="4073951" Value="83"/>
+    <Index ID="4073952" Value="84"/>
+    <Index ID="4073953" Value="85"/>
+    <Index ID="4073954" Value="86"/>
+    <Index ID="4073955" Value="87"/>
+    <Index ID="4082570" Value="110"/>
+    <Index ID="4082571" Value="111"/>
+    <Index ID="4082573" Value="113"/>
+    <Index ID="4082574" Value="114"/>
+    <Index ID="4082575" Value="115"/>
+    <Index ID="4082576" Value="116"/>
+    <Index ID="4082577" Value="117"/>
+    <Index ID="4082582" Value="108"/>
+    <Index ID="4082583" Value="109"/>
+    <Index ID="4082584" Value="118"/>
+    <Index ID="4082585" Value="119"/>
+    <Index ID="4082586" Value="120"/>
+    <Index ID="4082587" Value="121"/>
+    <Index ID="4082588" Value="122"/>
+    <Index ID="4082589" Value="123"/>
+    <Index ID="4082590" Value="124"/>
+    <Index ID="4082591" Value="125"/>
+    <Index ID="4082592" Value="126"/>
+    <Index ID="4082593" Value="127"/>
+    <Index ID="4082614" Value="112"/>
+    <Index ID="4082615" Value="129"/>
+    <Index ID="4082616" Value="130"/>
+    <Index ID="4082617" Value="131"/>
+    <Index ID="4082618" Value="132"/>
+    <Index ID="4082619" Value="133"/>
+    <Index ID="4082620" Value="134"/>
+    <Index ID="4082621" Value="135"/>
+    <Index ID="4082622" Value="136"/>
+    <Index ID="4082623" Value="137"/>
+    <Index ID="4082624" Value="128"/>
+    <Index ID="4082625" Value="138"/>
+    <Index ID="4082626" Value="139"/>
+    <Index ID="4082627" Value="140"/>
+    <Index ID="4082628" Value="141"/>
+    <Index ID="4082629" Value="142"/>
+    <Index ID="4082630" Value="143"/>
+    <Index ID="4082631" Value="144"/>
+    <Index ID="4082632" Value="145"/>
+    <Index ID="4082633" Value="146"/>
+    <Index ID="4082634" Value="147"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,19 @@
+VAR
+	step : UINT;
+	statusUSB1 : USINT;
+	statusUSB1_old : USINT;
+	statusUSB2 : USINT;
+	statusUSB2_old : USINT;
+	scrshotFileName : STRING[59];
+	deviceName : STRING[19];
+	DateTimeString_0 : DateTimeString;
+	pHandle : UDINT;
+	DirInfo_1 : DirInfo;
+	DirInfo_2 : DirInfo;
+	DirCreate_1 : DirCreate;
+	dirScreenName : STRING[19];
+	dirSingleName : STRING[19];
+	dirAllName : STRING[19];
+	status : UINT;
+	HideButton : USINT; (*ipis1226*)
+END_VAR

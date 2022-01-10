@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.12.129 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="ANSIC" Description="modem configure / frame drive">modem</Object>
+    <Object Type="Program" Language="ANSIC" Description="communication with frequency inventor">mbusMaster</Object>
+    <Object Type="DataObject" Language="Simple" Description="A simple data object.">mb_cmd</Object>
+    <Object Type="Program" Language="ANSIC">epl</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,11 @@
+VAR
+	tTask : REAL := 0.0;
+	RTInfo_Task : RTInfo := (0);
+	vActHydDT2_R : HydDT2;
+	tErrorDelay : REAL;
+	vActHydDT2_L : HydDT2;
+	New_Variable : USINT;
+	rDown_accel_stop : REAL;
+	rUp_accel_stop : REAL;
+	bBlowPinPropValveOutputInverse : USINT;
+END_VAR

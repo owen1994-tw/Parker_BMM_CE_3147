@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="SupportAirMode">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="39"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="3813172" Value="2 Times"/>
+    <Text ID="3813173" Value="After Clamp Close"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="3813172" Value="一二次"/>
+    <Text ID="3813173" Value="關模後"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="3813172" Value="一二次"/>
+    <Text ID="3813173" Value="關模後"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="3813172" Value=""/>
+    <Text ID="3813173" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="3813172" Value="0"/>
+    <Index ID="3813173" Value="1"/>
+  </IndexMap>
+</TextGroup>

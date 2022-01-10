@@ -1,0 +1,762 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<BR.AS.HardwareTopology Version="0.0.0.1">
+  <Modules>
+    <Module Name="5AP1180.1505-000" Type="5AP1180.1505-000" X="274" Y="178" />
+    <Module Name="5PPC2100_BY01_000" Type="5PPC2100.BY01-000" X="546.5" Y="188" />
+    <Module Name="5ACCIF01.FPSC-001" Type="5ACCIF01.FPSC-001" X="551.5" Y="201" />
+    <Module Name="X20BB80" Type="X20BB80" X="709" Y="-34" />
+    <Module Name="X20BM11" Type="X20BM11" X="747" Y="-34" />
+    <Module Name="X20DIF371_A" Type="X20DIF371" X="747" Y="-34" />
+    <Module Name="X20TB1F" Type="X20TB1F" X="747" Y="-7" />
+    <Module Name="X20BM11a" Type="X20BM11" X="760" Y="-34" />
+    <Module Name="X20DIF371_B" Type="X20DIF371" X="760" Y="-34" />
+    <Module Name="X20TB1F1" Type="X20TB1F" X="760" Y="-7" />
+    <Module Name="X20BM11b" Type="X20BM11" X="773" Y="-34" />
+    <Module Name="X20DIF371_C" Type="X20DIF371" X="773" Y="-34" />
+    <Module Name="X20TB1F2" Type="X20TB1F" X="773" Y="-7" />
+    <Module Name="X20BM11c" Type="X20BM11" X="786" Y="-34" />
+    <Module Name="X20DO8332_A" Type="X20DO8332" X="786" Y="-34" />
+    <Module Name="X20TB12b" Type="X20TB12" X="786" Y="-7" />
+    <Module Name="X20BM11d" Type="X20BM11" X="799" Y="-34" />
+    <Module Name="X20DO8332_B" Type="X20DO8332" X="799" Y="-34" />
+    <Module Name="X20TB12c" Type="X20TB12" X="799" Y="-7" />
+    <Module Name="X20BM11e" Type="X20BM11" X="812" Y="-34" />
+    <Module Name="X20DO8332_C" Type="X20DO8332" X="812" Y="-34" />
+    <Module Name="X20TB12d" Type="X20TB12" X="812" Y="-7" />
+    <Module Name="X20BM11f" Type="X20BM11" X="825" Y="-34" />
+    <Module Name="X20DO8332_D" Type="X20DO8332" X="825" Y="-34" />
+    <Module Name="X20TB12e" Type="X20TB12" X="825" Y="-7" />
+    <Module Name="X20BM11g" Type="X20BM11" X="838" Y="-34" />
+    <Module Name="X20DOF322_A" Type="X20DOF322" X="838" Y="-34" />
+    <Module Name="X20TB1F3" Type="X20TB1F" X="838" Y="-7" />
+    <Module Name="X20BM01" Type="X20BM01" X="851" Y="-34" />
+    <Module Name="X20PS3300" Type="X20PS3300" X="851" Y="-34" />
+    <Module Name="X20TB12f" Type="X20TB12" X="851" Y="-7" />
+    <Module Name="X20BM11h" Type="X20BM11" X="864" Y="-34" />
+    <Module Name="X20DOF322_B" Type="X20DOF322" X="864" Y="-34" />
+    <Module Name="X20TB1F4" Type="X20TB1F" X="864" Y="-7" />
+    <Module Name="X20BM11i" Type="X20BM11" X="877" Y="-34" />
+    <Module Name="X20DOF322_C" Type="X20DOF322" X="877" Y="-34" />
+    <Module Name="X20TB1F5" Type="X20TB1F" X="877" Y="-7" />
+    <Module Name="X20BM11k" Type="X20BM11" X="890" Y="-34" />
+    <Module Name="X20AI4632_A" Type="X20AI4632" X="890" Y="-34" />
+    <Module Name="X20TB12g" Type="X20TB12" X="890" Y="-7" />
+    <Module Name="X20BM11l" Type="X20BM11" X="903" Y="-34" />
+    <Module Name="X20AI4632_B" Type="X20AI4632" X="903" Y="-34" />
+    <Module Name="X20TB12h" Type="X20TB12" X="903" Y="-7" />
+    <Module Name="X20BM11ad" Type="X20BM11" X="916" Y="-34" />
+    <Module Name="X20AO4632_A" Type="X20AO4632" X="916" Y="-34" />
+    <Module Name="X20TB12r" Type="X20TB12" X="916" Y="-7" />
+    <Module Name="X20BM11ae" Type="X20BM11" X="929" Y="-34" />
+    <Module Name="X20AO4632_B" Type="X20AO4632" X="929" Y="-34" />
+    <Module Name="X20TB12s" Type="X20TB12" X="929" Y="-7" />
+    <Module Name="X20BM11q" Type="X20BM11" X="942" Y="-34" />
+    <Module Name="X20ATC402_A" Type="X20ATC402" X="942" Y="-34" />
+    <Module Name="X20TB1E" Type="X20TB1E" X="942" Y="-7" />
+    <Module Name="X20BM11r" Type="X20BM11" X="955" Y="-34" />
+    <Module Name="X20ATC402_B" Type="X20ATC402" X="955" Y="-34" />
+    <Module Name="X20TB1E1" Type="X20TB1E" X="955" Y="-7" />
+    <Module Name="X20BM11s" Type="X20BM11" X="968" Y="-34" />
+    <Module Name="X20ATC402_C" Type="X20ATC402" X="968" Y="-34" />
+    <Module Name="X20TB1E2" Type="X20TB1E" X="968" Y="-7" />
+    <Module Name="X20BM11ac" Type="X20BM11" X="981" Y="-34" />
+    <Module Name="X20AI4632_C" Type="X20AI4632" X="981" Y="-34" />
+    <Module Name="X20TB12p" Type="X20TB12" X="981" Y="-7" />
+    <Module Name="X20BM11af" Type="X20BM11" X="994" Y="-34" />
+    <Module Name="X20AO4632_C" Type="X20AO4632" X="994" Y="-34" />
+    <Module Name="X20TB12t" Type="X20TB12" X="994" Y="-7" />
+    <Module Name="X20BM11ag" Type="X20BM11" X="1007" Y="-34" />
+    <Module Name="X20AO4632_D" Type="X20AO4632" X="1007" Y="-34" />
+    <Module Name="X20TB12u" Type="X20TB12" X="1007" Y="-7" />
+    <Module Name="X20BM11aa" Type="X20BM11" X="1020" Y="-34" />
+    <Module Name="X20DIF371_D" Type="X20DIF371" X="1020" Y="-34" />
+    <Module Name="X20TB1F9" Type="X20TB1F" X="1020" Y="-7" />
+    <Module Name="X20BM11v" Type="X20BM11" X="1033" Y="-34" />
+    <Module Name="X20DO8332_E" Type="X20DO8332" X="1033" Y="-34" />
+    <Module Name="X20TB12l" Type="X20TB12" X="1033" Y="-7" />
+    <Module Name="X20BM11w" Type="X20BM11" X="1046" Y="-34" />
+    <Module Name="X20DO8332_F" Type="X20DO8332" X="1046" Y="-34" />
+    <Module Name="X20TB12m" Type="X20TB12" X="1046" Y="-7" />
+    <Module Name="X20BM11x" Type="X20BM11" X="1059" Y="-34" />
+    <Module Name="X20DO8332_G" Type="X20DO8332" X="1059" Y="-34" />
+    <Module Name="X20TB12n" Type="X20TB12" X="1059" Y="-7" />
+    <Module Name="X20BM11y" Type="X20BM11" X="1072" Y="-34" />
+    <Module Name="X20DO8332_H" Type="X20DO8332" X="1072" Y="-34" />
+    <Module Name="X20TB12o" Type="X20TB12" X="1072" Y="-7" />
+    <Module Name="X20BM01a" Type="X20BM01" X="1085" Y="-34" />
+    <Module Name="X20PS3300a" Type="X20PS3300" X="1085" Y="-34" />
+    <Module Name="X20TB12q" Type="X20TB12" X="1085" Y="-7" />
+    <Module Name="X20BM11m" Type="X20BM11" X="1098" Y="-34" />
+    <Module Name="X20AO4622_A" Type="X20AO4622" X="1098" Y="-34" />
+    <Module Name="X20TB12i" Type="X20TB12" X="1098" Y="-7" />
+    <Module Name="X20BM11n" Type="X20BM11" X="1111" Y="-34" />
+    <Module Name="X20AO4622_B" Type="X20AO4622" X="1111" Y="-34" />
+    <Module Name="X20TB12j" Type="X20TB12" X="1111" Y="-7" />
+    <Module Name="X20BM11o" Type="X20BM11" X="1124" Y="-34" />
+    <Module Name="X20DS1119" Type="X20DS1119" X="1124" Y="-34" />
+    <Module Name="X20TB12k" Type="X20TB12" X="1124" Y="-7" />
+    <Module Name="X20BM32" Type="X20BM32" X="1137" Y="-34" />
+    <Module Name="X20AP3131_A" Type="X20AP3131" X="1137" Y="-34" />
+    <Module Name="X20TB32" Type="X20TB32" X="1150" Y="-7" />
+    <Module Name="X20BM32a" Type="X20BM32" X="1163" Y="-34" />
+    <Module Name="X20AP3131_B" Type="X20AP3131" X="1163" Y="-34" />
+    <Module Name="X20TB32a" Type="X20TB32" X="1176" Y="-7" />
+    <Module Name="X20BM32b" Type="X20BM32" X="1189" Y="-34" />
+    <Module Name="X20AP3131_C" Type="X20AP3131" X="1189" Y="-34" />
+    <Module Name="X20TB32b" Type="X20TB32" X="1202" Y="-7" />
+    <Module Name="X20PS9400" Type="X20PS9400" X="734" Y="-34" />
+    <Module Name="X20TB12" Type="X20TB12" X="734" Y="-7" />
+    <Module Name="X20BC0083" Type="X20BC0083" X="709" Y="-34" />
+    <Module Name="X20BB80a" Type="X20BB80" X="855" Y="995" />
+    <Module Name="X20PS9400a" Type="X20PS9400" X="880" Y="995" />
+    <Module Name="X20TB12a" Type="X20TB12" X="880" Y="1022" />
+    <Module Name="X20BC0083a" Type="X20BC0083" X="855" Y="995" />
+    <Module Name="4XP0101.00-00B" Type="4XP0101.00-00B" X="274" Y="480" />
+    <Module Name="8V1090.001-2_L_BlowPin" Type="8V1090.001-2" X="1008" Y="995" />
+    <Module Name="8AC126.60-1" Type="8AC126.60-1" X="1022" Y="1201.5" />
+    <Module Name="8AC114.60-2" Type="8AC114.60-2" X="1010.8" Y="1201.5" />
+    <Module Name="8LSA57.DB030S200-3" Type="8LSA57.DB030S200-3" X="1008" Y="1307" />
+    <Module Name="8V1090.001-2a_R_BlowPin" Type="8V1090.001-2" X="1128" Y="995" />
+    <Module Name="8AC126.60-1a" Type="8AC126.60-1" X="1142" Y="1201.5" />
+    <Module Name="8AC114.60-2a" Type="8AC114.60-2" X="1130.8" Y="1201.5" />
+    <Module Name="8LSA57.DB030S200-3a" Type="8LSA57.DB030S200-3" X="1128" Y="1307" />
+    <Module Name="8V1180.001-2_L_Carriage" Type="8V1180.001-2" X="1248" Y="995" />
+    <Module Name="8AC126.60-1b" Type="8AC126.60-1" X="1262" Y="1194.5" />
+    <Module Name="8AC114.60-2b" Type="8AC114.60-2" X="1250.8" Y="1194.5" />
+    <Module Name="8LSA75.DB030S000-3" Type="8LSA75.DB030S000-3" X="1248" Y="1308" />
+    <Module Name="8V1180.001-2a_R_Carriage" Type="8V1180.001-2" X="1438" Y="995" />
+    <Module Name="8AC126.60-1c" Type="8AC126.60-1" X="1452" Y="1194.5" />
+    <Module Name="8AC114.60-2c" Type="8AC114.60-2" X="1440.8" Y="1194.5" />
+    <Module Name="8LSA75.DB030S000-3a" Type="8LSA75.DB030S000-3" X="1438" Y="1308" />
+    <Module Name="8I84xxxxxxx.01P-1" Type="8I84xxxxxxx.01P-1" X="1747" Y="986" />
+    <Module Name="8I84xxxxxxx.01P-1a" Type="8I84xxxxxxx.01P-1" X="1861" Y="989" />
+    <Module Name="8I84xxxxxxx.01P-1b" Type="8I84xxxxxxx.01P-1" X="1626" Y="1015" />
+    <Module Name="FEPL-02_and_ACS580a1" Type="FBE.000000B7_ACS580_v2.06.0.0_FEPL-02_1.0" X="1977" Y="27" />
+    <Module Name="FEPL-02_and_ACS580" Type="FBE.000000B7_ACS580_v2.06.0.0_FEPL-02_1.0" X="1452" Y="32" />
+    <Module Name="FEPL-02_and_ACS580a" Type="FBE.000000B7_ACS580_v2.06.0.0_FEPL-02_1.0" X="1862" Y="32" />
+    <Module Name="FEPL-02_and_ACS580a2" Type="FBE.000000B7_ACS580_v2.06.0.0_FEPL-02_1.0" X="1595" Y="32" />
+    <Module Name="FEPL-02_and_ACS580a2a" Type="FBE.000000B7_ACS580_v2.06.0.0_FEPL-02_1.0" X="1730" Y="32" />
+    <Module Name="8B0P0440HW00.001-1" Type="8B0P0440HW00.001-1" X="916" Y="294" />
+    <Module Name="8BVI0330HWS0.000-1" Type="8BVI0330HWS0.000-1" X="1313" Y="294" />
+    <Module Name="8BAC0120.001-2" Type="8BAC0120.001-2" X="1315.8" Y="469" />
+    <Module Name="R-Carriage" Type="MotorSynchronous_any" X="1303" Y="552" />
+    <Module Name="8BVI0110HWS0.000-1" Type="8BVI0110HWS0.000-1" X="2182" Y="290" />
+    <Module Name="8BAC0120.001-2a" Type="8BAC0120.001-2" X="2184.8" Y="465" />
+    <Module Name="Thick" Type="MotorSynchronous_any" X="1586" Y="552" />
+    <Module Name="8BVI0330HWS0.000-1a" Type="8BVI0330HWS0.000-1" X="1431" Y="294" />
+    <Module Name="8BAC0120.001-2b" Type="8BAC0120.001-2" X="1433.8" Y="469" />
+    <Module Name="8BVI0110HWD0.000-1" Type="8BVI0110HWD0.000-1" X="1632" Y="294" />
+    <Module Name="8BAC0120.001-2d" Type="8BAC0120.001-2" X="1651.6" Y="469" />
+    <Module Name="8BAC0120.001-2c" Type="8BAC0120.001-2" X="1634.8" Y="469" />
+    <Module Name="R-BlowPin" Type="MotorSynchronous_any" X="1720" Y="552" />
+    <Module Name="X20BB80b" Type="X20BB80" X="960" Y="114" />
+    <Module Name="X20BM11j" Type="X20BM11" X="998" Y="114" />
+    <Module Name="X20DOF322_D" Type="X20DOF322" X="998" Y="114" />
+    <Module Name="X20TB1F6" Type="X20TB1F" X="998" Y="141" />
+    <Module Name="X20BM11p" Type="X20BM11" X="1011" Y="114" />
+    <Module Name="X20DOF322_E" Type="X20DOF322" X="1011" Y="114" />
+    <Module Name="X20TB1F7" Type="X20TB1F" X="1011" Y="141" />
+    <Module Name="X20BM11z" Type="X20BM11" X="1024" Y="114" />
+    <Module Name="X20DOF322_F" Type="X20DOF322" X="1024" Y="114" />
+    <Module Name="X20TB1F8" Type="X20TB1F" X="1024" Y="141" />
+    <Module Name="X20BM11t" Type="X20BM11" X="1037" Y="114" />
+    <Module Name="X20ATC402_D" Type="X20ATC402" X="1037" Y="114" />
+    <Module Name="X20TB1E3" Type="X20TB1E" X="1037" Y="141" />
+    <Module Name="X20BM11u" Type="X20BM11" X="1050" Y="114" />
+    <Module Name="X20ATC402_E" Type="X20ATC402" X="1050" Y="114" />
+    <Module Name="X20TB1E4" Type="X20TB1E" X="1050" Y="141" />
+    <Module Name="X20BM11ab" Type="X20BM11" X="1063" Y="114" />
+    <Module Name="X20ATC402_F" Type="X20ATC402" X="1063" Y="114" />
+    <Module Name="X20TB1E5" Type="X20TB1E" X="1063" Y="141" />
+    <Module Name="X20PS9400b" Type="X20PS9400" X="985" Y="114" />
+    <Module Name="X20TB12v" Type="X20TB12" X="985" Y="141" />
+    <Module Name="X20BC0083b" Type="X20BC0083" X="960" Y="114" />
+    <Module Name="0AC808.9" Type="0AC808.9" X="670" Y="328" />
+    <Module Name="8LSA35.DB030S000-3" Type="8LSA35.DB030S000-3" X="2162" Y="564" />
+    <Module Name="R-Clamp" Type="MotorSynchronous_any" X="823" Y="735" />
+    <Module Name="8BVI0440HWS0.000-1a" Type="8BVI0440HWS0.000-1" X="1173" Y="294" />
+    <Module Name="8BAC0120.001-2g" Type="8BAC0120.001-2" X="1175.8" Y="469" />
+    <Module Name="L-Clamp" Type="MotorSynchronous_any" X="1173" Y="551" />
+    <Module Name="L-Carriage" Type="MotorSynchronous_any" X="1431" Y="552" />
+    <Module Name="8BVI0028HWD0.000-1" Type="8BVI0028HWD0.000-1" X="1920" Y="294" />
+    <Module Name="8BAC0120.001-2f" Type="8BAC0120.001-2" X="1939.6" Y="469" />
+    <Module Name="8BAC0120.001-2e" Type="8BAC0120.001-2" X="1922.8" Y="469" />
+    <Module Name="8LSA35.DB030S000-3a" Type="8LSA35.DB030S000-3" X="1975" Y="551" />
+    <Module Name="8LSA44.DB030S200-3" Type="8LSA44.DB030S200-3" X="1837" Y="551" />
+    <Module Name="R-Clamp1" Type="MotorSynchronous_any" X="1040" Y="552" />
+    <Module Name="8BVI0330HWS0.000-1b" Type="8BVI0330HWS0.000-1" X="550" Y="580" />
+    <Module Name="8BAC0120.001-2h" Type="8BAC0120.001-2" X="552.8" Y="755" />
+    <Module Name="8BVI0440HWS0.000-1" Type="8BVI0440HWS0.000-1" X="1040" Y="294" />
+    <Module Name="8BAC0120.001-2i" Type="8BAC0120.001-2" X="1042.8" Y="469" />
+  </Modules>
+  <Links>
+    <Link From="5ACCIF01.FPSC-001" To="X20BC0083" FromPort="IF1" ToPort="PLK1" IsRoutedByUser="True">
+      <Point X="592.5" Y="209" />
+      <Point X="592.5" Y="209" />
+      <Point X="602.5" Y="209" />
+      <Point X="615" Y="209" />
+      <Point X="615" Y="41" />
+      <Point X="708" Y="41" />
+      <Point X="723" Y="41" />
+      <Point X="723" Y="41" />
+    </Link>
+    <Link From="8AC114.60-2" To="X20BC0083a" FromPort="PLK1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="1016.89996" Y="1229.3" />
+      <Point X="1016.89996" Y="1229.3" />
+      <Point X="1007.89996" Y="1229.3" />
+      <Point X="995" Y="1229.3" />
+      <Point X="995" Y="1145" />
+      <Point X="869" Y="1145" />
+      <Point X="869" Y="1095" />
+      <Point X="869" Y="1085" />
+      <Point X="869" Y="1085" />
+    </Link>
+    <Link From="8AC114.60-2" To="8AC114.60-2a" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="1018.57788" Y="1240.0564" />
+      <Point X="1018.57788" Y="1240.0564" />
+      <Point X="1009.57788" Y="1240.0564" />
+      <Point X="1001.67792" Y="1240.0564" />
+      <Point X="1001.67792" Y="1272.9563" />
+      <Point X="1071.67786" Y="1272.9563" />
+      <Point X="1071.67786" Y="1230.25635" />
+      <Point X="1129.578" Y="1230.25635" />
+      <Point X="1138.578" Y="1230.25635" />
+      <Point X="1138.578" Y="1230.25635" />
+    </Link>
+    <Link From="8AC114.60-2a" To="8AC114.60-2b" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="1138.57788" Y="1240.0564" />
+      <Point X="1138.57788" Y="1240.0564" />
+      <Point X="1129.57788" Y="1240.0564" />
+      <Point X="1121.67786" Y="1240.0564" />
+      <Point X="1121.67786" Y="1272.9563" />
+      <Point X="1191.67786" Y="1272.9563" />
+      <Point X="1191.67786" Y="1223.25635" />
+      <Point X="1249.57788" Y="1223.25635" />
+      <Point X="1258.57788" Y="1223.25635" />
+      <Point X="1258.57788" Y="1223.25635" />
+    </Link>
+    <Link From="8AC114.60-2b" To="8AC114.60-2c" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="1258.57788" Y="1233.0564" />
+      <Point X="1258.57788" Y="1233.0564" />
+      <Point X="1249.57788" Y="1233.0564" />
+      <Point X="1241.67786" Y="1233.0564" />
+      <Point X="1241.67786" Y="1272.9563" />
+      <Point X="1401.67786" Y="1272.9563" />
+      <Point X="1401.67786" Y="1223.25635" />
+      <Point X="1439.57788" Y="1223.25635" />
+      <Point X="1448.57788" Y="1223.25635" />
+      <Point X="1448.57788" Y="1223.25635" />
+    </Link>
+    <Link From="8AC114.60-2c" To="8I84xxxxxxx.01P-1b" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="1448.57788" Y="1233.0564" />
+      <Point X="1448.57788" Y="1233.0564" />
+      <Point X="1439.57788" Y="1233.0564" />
+      <Point X="1431.67786" Y="1233.0564" />
+      <Point X="1431.67786" Y="1272.95642" />
+      <Point X="1681.67786" Y="1272.95642" />
+      <Point X="1681.67786" Y="1183.95642" />
+      <Point X="1681.67786" Y="1159.95642" />
+      <Point X="1681.67786" Y="1159.95642" />
+    </Link>
+    <Link From="8AC126.60-1" To="8LSA57.DB030S200-3" FromPort="EC" ToPort="EC" IsRoutedByUser="False">
+      <Point X="1028.3" Y="1238.21191" />
+      <Point X="1028.3" Y="1238.21191" />
+      <Point X="1028.3" Y="1258.21191" />
+      <Point X="1030.4" Y="1258.21191" />
+      <Point X="1030.4" Y="1306.61182" />
+      <Point X="1030.4" Y="1313.61182" />
+      <Point X="1030.4" Y="1313.61182" />
+    </Link>
+    <Link From="8AC126.60-1a" To="8LSA57.DB030S200-3a" FromPort="EC" ToPort="EC" IsRoutedByUser="False">
+      <Point X="1147.4" Y="1237.7" />
+      <Point X="1147.4" Y="1237.7" />
+      <Point X="1147.4" Y="1257.7" />
+      <Point X="1149.5" Y="1257.7" />
+      <Point X="1149.5" Y="1306.1" />
+      <Point X="1149.5" Y="1313.1" />
+      <Point X="1149.5" Y="1313.1" />
+    </Link>
+    <Link From="8AC126.60-1b" To="8LSA75.DB030S000-3" FromPort="EC" ToPort="EC" IsRoutedByUser="False">
+      <Point X="1267.4" Y="1230.7" />
+      <Point X="1267.4" Y="1230.7" />
+      <Point X="1267.4" Y="1258.7" />
+      <Point X="1269.5" Y="1258.7" />
+      <Point X="1269.5" Y="1307.1" />
+      <Point X="1269.5" Y="1314.1" />
+      <Point X="1269.5" Y="1314.1" />
+    </Link>
+    <Link From="8AC126.60-1c" To="8LSA75.DB030S000-3a" FromPort="EC" ToPort="EC" IsRoutedByUser="False">
+      <Point X="1457.4" Y="1230.7" />
+      <Point X="1457.4" Y="1230.7" />
+      <Point X="1457.4" Y="1258.7" />
+      <Point X="1459.5" Y="1258.7" />
+      <Point X="1459.5" Y="1307.1" />
+      <Point X="1459.5" Y="1314.1" />
+      <Point X="1459.5" Y="1314.1" />
+    </Link>
+    <Link From="8B0P0440HW00.001-1" To="8BVI0440HWS0.000-1" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="939.8" Y="301" />
+      <Point X="939.8" Y="301" />
+      <Point X="939.8" Y="293" />
+      <Point X="939.8" Y="285" />
+      <Point X="1005" Y="285" />
+      <Point X="1005" Y="301" />
+      <Point X="1039.9" Y="301" />
+      <Point X="1051.9" Y="301" />
+      <Point X="1051.9" Y="301" />
+    </Link>
+    <Link From="8BAC0120.001-2" To="R-Carriage" FromPort="EC" ToPort="EC" IsRoutedByUser="False">
+      <Point X="1322.6001" Y="485.6" />
+      <Point X="1322.6001" Y="485.6" />
+      <Point X="1312.6001" Y="485.6" />
+      <Point X="1305" Y="485.6" />
+      <Point X="1305" Y="525" />
+      <Point X="1324.5" Y="525" />
+      <Point X="1324.5" Y="551.1" />
+      <Point X="1324.5" Y="558.1" />
+      <Point X="1324.5" Y="558.1" />
+    </Link>
+    <Link From="8BAC0120.001-2a" To="8LSA35.DB030S000-3" FromPort="EC" ToPort="EC" IsRoutedByUser="False">
+      <Point X="2191.7002" Y="481.6" />
+      <Point X="2191.7002" Y="481.6" />
+      <Point X="2181.7002" Y="481.6" />
+      <Point X="2173.1" Y="481.6" />
+      <Point X="2173.1" Y="521" />
+      <Point X="2183.6" Y="521" />
+      <Point X="2183.6" Y="563.1" />
+      <Point X="2183.6" Y="570.1" />
+      <Point X="2183.6" Y="570.1" />
+    </Link>
+    <Link From="8BAC0120.001-2b" To="L-Carriage" FromPort="EC" ToPort="EC" IsRoutedByUser="False">
+      <Point X="1440.6001" Y="485.6" />
+      <Point X="1440.6001" Y="485.6" />
+      <Point X="1430.6001" Y="485.6" />
+      <Point X="1425" Y="485.6" />
+      <Point X="1425" Y="532" />
+      <Point X="1452.5" Y="532" />
+      <Point X="1452.5" Y="551.1" />
+      <Point X="1452.5" Y="558.1" />
+      <Point X="1452.5" Y="558.1" />
+    </Link>
+    <Link From="8BAC0120.001-2c" To="Thick" FromPort="EC" ToPort="EC" IsRoutedByUser="False">
+      <Point X="1641.70007" Y="485.6" />
+      <Point X="1641.70007" Y="485.6" />
+      <Point X="1631.70007" Y="485.6" />
+      <Point X="1607.6" Y="485.6" />
+      <Point X="1607.6" Y="551.1" />
+      <Point X="1607.6" Y="558.1" />
+      <Point X="1607.6" Y="558.1" />
+    </Link>
+    <Link From="8BAC0120.001-2d" To="R-BlowPin" FromPort="EC" ToPort="EC" IsRoutedByUser="False">
+      <Point X="1658.5" Y="485.6" />
+      <Point X="1658.5" Y="485.6" />
+      <Point X="1658.5" Y="516.6" />
+      <Point X="1658.5" Y="528" />
+      <Point X="1741.6" Y="528" />
+      <Point X="1741.6" Y="551.1" />
+      <Point X="1741.6" Y="558.1" />
+      <Point X="1741.6" Y="558.1" />
+    </Link>
+    <Link From="8BAC0120.001-2e" To="8LSA44.DB030S200-3" FromPort="EC" ToPort="EC" IsRoutedByUser="False">
+      <Point X="1929.6001" Y="485.6" />
+      <Point X="1929.6001" Y="485.6" />
+      <Point X="1919.6001" Y="485.6" />
+      <Point X="1859.18921" Y="485.6" />
+      <Point X="1859.18921" Y="550.1" />
+      <Point X="1859.18921" Y="557.1" />
+      <Point X="1859.18921" Y="557.1" />
+    </Link>
+    <Link From="8BAC0120.001-2f" To="8LSA35.DB030S000-3a" FromPort="EC" ToPort="EC" IsRoutedByUser="False">
+      <Point X="1946.4" Y="485.6" />
+      <Point X="1946.4" Y="485.6" />
+      <Point X="1957.4" Y="485.6" />
+      <Point X="1996.5" Y="485.6" />
+      <Point X="1996.5" Y="550.1" />
+      <Point X="1996.5" Y="557.1" />
+      <Point X="1996.5" Y="557.1" />
+    </Link>
+    <Link From="8BAC0120.001-2g" To="L-Clamp" FromPort="EC" ToPort="EC" IsRoutedByUser="False">
+      <Point X="1182.6001" Y="485.6" />
+      <Point X="1182.6001" Y="485.6" />
+      <Point X="1172.6001" Y="485.6" />
+      <Point X="1165" Y="485.6" />
+      <Point X="1165" Y="532" />
+      <Point X="1194.5" Y="532" />
+      <Point X="1194.5" Y="550.1" />
+      <Point X="1194.5" Y="557.1" />
+      <Point X="1194.5" Y="557.1" />
+    </Link>
+    <Link From="8BAC0120.001-2i" To="R-Clamp1" FromPort="EC" ToPort="EC" IsRoutedByUser="False">
+      <Point X="1049.6001" Y="485.6" />
+      <Point X="1049.6001" Y="485.6" />
+      <Point X="1039.6001" Y="485.6" />
+      <Point X="1035" Y="485.6" />
+      <Point X="1035" Y="532" />
+      <Point X="1061.5" Y="532" />
+      <Point X="1061.5" Y="551.1" />
+      <Point X="1061.5" Y="558.1" />
+      <Point X="1061.5" Y="558.1" />
+    </Link>
+    <Link From="8BVI0028HWD0.000-1" To="8BVI0110HWD0.000-1" FromPort="PLK1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="1931.9" Y="301" />
+      <Point X="1931.9" Y="301" />
+      <Point X="1919.9" Y="301" />
+      <Point X="1915" Y="301" />
+      <Point X="1915" Y="285" />
+      <Point X="1655.8" Y="285" />
+      <Point X="1655.8" Y="293" />
+      <Point X="1655.8" Y="301" />
+      <Point X="1655.8" Y="301" />
+    </Link>
+    <Link From="8BVI0028HWD0.000-1" To="8LSA44.DB030S200-3" FromPort="MT1" ToPort="MT" IsRoutedByUser="False">
+      <Point X="1936.1" Y="508.9" />
+      <Point X="1936.1" Y="508.9" />
+      <Point X="1919.1" Y="508.9" />
+      <Point X="1887.18921" Y="508.9" />
+      <Point X="1887.18921" Y="550.1" />
+      <Point X="1887.18921" Y="557.1" />
+      <Point X="1887.18921" Y="557.1" />
+    </Link>
+    <Link From="8BVI0028HWD0.000-1" To="8LSA35.DB030S000-3a" FromPort="MT2" ToPort="MT" IsRoutedByUser="False">
+      <Point X="1952.9" Y="508.9" />
+      <Point X="1952.9" Y="508.9" />
+      <Point X="1957.9" Y="508.9" />
+      <Point X="2024.5" Y="508.9" />
+      <Point X="2024.5" Y="550.1" />
+      <Point X="2024.5" Y="557.1" />
+      <Point X="2024.5" Y="557.1" />
+    </Link>
+    <Link From="8BVI0110HWD0.000-1" To="8BVI0330HWS0.000-1a" FromPort="PLK1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="1644" Y="301" />
+      <Point X="1644" Y="301" />
+      <Point X="1632" Y="301" />
+      <Point X="1623.1" Y="301" />
+      <Point X="1623.1" Y="281" />
+      <Point X="1454.9" Y="281" />
+      <Point X="1454.9" Y="293" />
+      <Point X="1454.9" Y="301" />
+      <Point X="1454.9" Y="301" />
+    </Link>
+    <Link From="8BVI0110HWD0.000-1" To="Thick" FromPort="MT1" ToPort="MT" IsRoutedByUser="False">
+      <Point X="1648.2" Y="508.900024" />
+      <Point X="1648.2" Y="508.900024" />
+      <Point X="1648.2" Y="516.9" />
+      <Point X="1648.2" Y="521" />
+      <Point X="1635.6" Y="521" />
+      <Point X="1635.6" Y="551.1" />
+      <Point X="1635.6" Y="558.1" />
+      <Point X="1635.6" Y="558.1" />
+    </Link>
+    <Link From="8BVI0110HWD0.000-1" To="R-BlowPin" FromPort="MT2" ToPort="MT" IsRoutedByUser="False">
+      <Point X="1665" Y="508.900024" />
+      <Point X="1665" Y="508.900024" />
+      <Point X="1665" Y="516.9" />
+      <Point X="1665" Y="521" />
+      <Point X="1769.6" Y="521" />
+      <Point X="1769.6" Y="551.1" />
+      <Point X="1769.6" Y="558.1" />
+      <Point X="1769.6" Y="558.1" />
+    </Link>
+    <Link From="8BVI0110HWS0.000-1" To="8LSA35.DB030S000-3" FromPort="MT1" ToPort="MT" IsRoutedByUser="False">
+      <Point X="2198.2" Y="504.9" />
+      <Point X="2198.2" Y="504.9" />
+      <Point X="2198.2" Y="512.9" />
+      <Point X="2198.2" Y="521" />
+      <Point X="2211.6" Y="521" />
+      <Point X="2211.6" Y="563.1" />
+      <Point X="2211.6" Y="570.1" />
+      <Point X="2211.6" Y="570.1" />
+    </Link>
+    <Link From="8BVI0330HWS0.000-1" To="8BVI0440HWS0.000-1a" FromPort="PLK1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="1324.9" Y="301" />
+      <Point X="1324.9" Y="301" />
+      <Point X="1312.9" Y="301" />
+      <Point X="1305" Y="301" />
+      <Point X="1305" Y="285" />
+      <Point X="1196.8" Y="285" />
+      <Point X="1196.8" Y="293" />
+      <Point X="1196.8" Y="301" />
+      <Point X="1196.8" Y="301" />
+    </Link>
+    <Link From="8BVI0330HWS0.000-1" To="8BVI0330HWS0.000-1a" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="1336.9" Y="301" />
+      <Point X="1336.9" Y="301" />
+      <Point X="1336.9" Y="293" />
+      <Point X="1336.9" Y="281" />
+      <Point X="1393.1" Y="281" />
+      <Point X="1393.1" Y="301" />
+      <Point X="1431" Y="301" />
+      <Point X="1443" Y="301" />
+      <Point X="1443" Y="301" />
+    </Link>
+    <Link From="8BVI0330HWS0.000-1" To="R-Carriage" FromPort="MT1" ToPort="MT" IsRoutedByUser="False">
+      <Point X="1329.1" Y="508.9" />
+      <Point X="1329.1" Y="508.9" />
+      <Point X="1329.1" Y="516.9" />
+      <Point X="1329.1" Y="525" />
+      <Point X="1352.5" Y="525" />
+      <Point X="1352.5" Y="551.1" />
+      <Point X="1352.5" Y="558.1" />
+      <Point X="1352.5" Y="558.1" />
+    </Link>
+    <Link From="8BVI0330HWS0.000-1a" To="L-Carriage" FromPort="MT1" ToPort="MT" IsRoutedByUser="False">
+      <Point X="1447.1" Y="508.9" />
+      <Point X="1447.1" Y="508.9" />
+      <Point X="1447.1" Y="516.9" />
+      <Point X="1447.1" Y="525" />
+      <Point X="1480.5" Y="525" />
+      <Point X="1480.5" Y="551.1" />
+      <Point X="1480.5" Y="558.1" />
+      <Point X="1480.5" Y="558.1" />
+    </Link>
+    <Link From="8BVI0440HWS0.000-1" To="8BVI0440HWS0.000-1a" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="1063.8" Y="301" />
+      <Point X="1063.8" Y="301" />
+      <Point X="1063.8" Y="293" />
+      <Point X="1063.8" Y="285" />
+      <Point X="1125" Y="285" />
+      <Point X="1125" Y="301" />
+      <Point X="1172.9" Y="301" />
+      <Point X="1184.9" Y="301" />
+      <Point X="1184.9" Y="301" />
+    </Link>
+    <Link From="8BVI0440HWS0.000-1" To="R-Clamp1" FromPort="MT1" ToPort="MT" IsRoutedByUser="False">
+      <Point X="1056.1" Y="508.9" />
+      <Point X="1056.1" Y="508.9" />
+      <Point X="1056.1" Y="516.9" />
+      <Point X="1056.1" Y="525" />
+      <Point X="1089.5" Y="525" />
+      <Point X="1089.5" Y="551.1" />
+      <Point X="1089.5" Y="558.1" />
+      <Point X="1089.5" Y="558.1" />
+    </Link>
+    <Link From="8BVI0440HWS0.000-1a" To="L-Clamp" FromPort="MT1" ToPort="MT" IsRoutedByUser="False">
+      <Point X="1189.1" Y="508.9" />
+      <Point X="1189.1" Y="508.9" />
+      <Point X="1189.1" Y="516.9" />
+      <Point X="1189.1" Y="525" />
+      <Point X="1222.5" Y="525" />
+      <Point X="1222.5" Y="550.1" />
+      <Point X="1222.5" Y="557.1" />
+      <Point X="1222.5" Y="557.1" />
+    </Link>
+    <Link From="8I84xxxxxxx.01P-1" To="8I84xxxxxxx.01P-1b" FromPort="PLK1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="1802.67786" Y="1130.95642" />
+      <Point X="1802.67786" Y="1130.95642" />
+      <Point X="1802.67786" Y="1154.95642" />
+      <Point X="1802.67786" Y="1165.95642" />
+      <Point X="1741.67786" Y="1165.95642" />
+      <Point X="1741.67786" Y="1159.95642" />
+      <Point X="1715.67786" Y="1159.95642" />
+      <Point X="1691.67786" Y="1159.95642" />
+      <Point X="1691.67786" Y="1159.95642" />
+    </Link>
+    <Link From="8I84xxxxxxx.01P-1" To="8I84xxxxxxx.01P-1a" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="1812.67786" Y="1130.95642" />
+      <Point X="1812.67786" Y="1130.95642" />
+      <Point X="1836.67786" Y="1130.95642" />
+      <Point X="1841.67786" Y="1130.95642" />
+      <Point X="1841.67786" Y="1165.95642" />
+      <Point X="1916.67786" Y="1165.95642" />
+      <Point X="1916.67786" Y="1157.95642" />
+      <Point X="1916.67786" Y="1133.95642" />
+      <Point X="1916.67786" Y="1133.95642" />
+    </Link>
+    <Link From="8LSA57.DB030S200-3" To="8V1090.001-2_L_BlowPin" FromPort="MT" ToPort="MT1" IsRoutedByUser="False">
+      <Point X="1057.5" Y="1313.1" />
+      <Point X="1057.5" Y="1313.1" />
+      <Point X="1057.5" Y="1306.1" />
+      <Point X="1057.5" Y="1295" />
+      <Point X="1039.3" Y="1295" />
+      <Point X="1039.3" Y="1258.1" />
+      <Point X="1039.3" Y="1253.1" />
+      <Point X="1039.3" Y="1253.1" />
+    </Link>
+    <Link From="8LSA57.DB030S200-3a" To="8V1090.001-2a_R_BlowPin" FromPort="MT" ToPort="MT1" IsRoutedByUser="False">
+      <Point X="1177.5" Y="1313.1" />
+      <Point X="1177.5" Y="1313.1" />
+      <Point X="1177.5" Y="1306.1" />
+      <Point X="1177.5" Y="1295" />
+      <Point X="1159.3" Y="1295" />
+      <Point X="1159.3" Y="1258.1" />
+      <Point X="1159.3" Y="1253.1" />
+      <Point X="1159.3" Y="1253.1" />
+    </Link>
+    <Link From="8LSA75.DB030S000-3" To="8V1180.001-2_L_Carriage" FromPort="MT" ToPort="MT1" IsRoutedByUser="False">
+      <Point X="1297.5" Y="1314.1" />
+      <Point X="1297.5" Y="1314.1" />
+      <Point X="1297.5" Y="1307.1" />
+      <Point X="1297.5" Y="1295" />
+      <Point X="1349.3" Y="1295" />
+      <Point X="1349.3" Y="1259.5" />
+      <Point X="1349.3" Y="1254.5" />
+      <Point X="1349.3" Y="1254.5" />
+    </Link>
+    <Link From="8LSA75.DB030S000-3a" To="8V1180.001-2a_R_Carriage" FromPort="MT" ToPort="MT1" IsRoutedByUser="False">
+      <Point X="1487.5" Y="1314.1" />
+      <Point X="1487.5" Y="1314.1" />
+      <Point X="1487.5" Y="1307.1" />
+      <Point X="1487.5" Y="1295" />
+      <Point X="1539.3" Y="1295" />
+      <Point X="1539.3" Y="1259.5" />
+      <Point X="1539.3" Y="1254.5" />
+      <Point X="1539.3" Y="1254.5" />
+    </Link>
+    <Link From="FEPL-02_and_ACS580" To="X20BC0083" FromPort="PLK1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="1485" Y="71" />
+      <Point X="1485" Y="71" />
+      <Point X="1485" Y="78" />
+      <Point X="1485" Y="85" />
+      <Point X="723" Y="85" />
+      <Point X="723" Y="67" />
+      <Point X="723" Y="56" />
+      <Point X="723" Y="56" />
+    </Link>
+    <Link From="FEPL-02_and_ACS580" To="FEPL-02_and_ACS580a" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="1510" Y="71" />
+      <Point X="1510" Y="71" />
+      <Point X="1510" Y="78" />
+      <Point X="1510" Y="85" />
+      <Point X="1895" Y="85" />
+      <Point X="1895" Y="78" />
+      <Point X="1895" Y="71" />
+      <Point X="1895" Y="71" />
+    </Link>
+    <Link From="FEPL-02_and_ACS580a" To="FEPL-02_and_ACS580a1" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="1920" Y="71" />
+      <Point X="1920" Y="71" />
+      <Point X="1920" Y="78" />
+      <Point X="1920" Y="85" />
+      <Point X="2010" Y="85" />
+      <Point X="2010" Y="73" />
+      <Point X="2010" Y="66" />
+      <Point X="2010" Y="66" />
+    </Link>
+  </Links>
+  <InfoElements>
+    <InfoElementText Id="Textbox_1" X="1450" Y="-37" Width="92" Height="49">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">ExtruA
+Main 20</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_2" X="1862" Y="-36" Width="95" Height="48">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">ExtruD
+R-View 23</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_3" X="1975" Y="-37" Width="92" Height="49">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">ExtruV
+L-View 24</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_4" X="1593" Y="-37" Width="92" Height="49">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">ExtruB
+R-Sub 21</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_5" X="1730" Y="-37" Width="92" Height="49">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">ExtruC
+L-Sub 22</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_6" X="1277" Y="647" Width="111" Height="121">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">R-Carriage
+Stober
+PHV933EZ703U-F1210
+</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_7" X="1573.31079" Y="647" Width="111" Height="121">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">Thick
+Stober
+P731SPSS0100EZ703U
+</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_9" X="1421.1" Y="647" Width="111" Height="121">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">L-Carriage
+Stober
+PHV933EZ703U-F1210
+</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_12" X="1707" Y="647" Width="111" Height="121">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">R-BlowPin
+Stober
+2E1MIEZ503UDGGQ6P119
+</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_15" X="1975" Y="647" Width="117" Height="121">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">Robot Transfer
+B&amp;R
+8LSA35.DB030S000-3</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_16" X="1837.68921" Y="647" Width="111" Height="121">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">ExtrLift
+B&amp;R
+8LSA44.DB030S200-3</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_17" X="326.172852" Y="190.4444" Width="111" Height="121">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">R-Carriage
+Stober
+PHV933EZ703U-F1210
+</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_18" X="470.272827" Y="190.4444" Width="111" Height="121">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">L-Carriage
+Stober
+PHV933EZ703U-F1210
+</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_19" X="316.172852" Y="180.4444" Width="111" Height="121">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">R-Carriage
+Stober
+PHV933EZ703U-F1210
+</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_20" X="823" Y="834" Width="111" Height="121">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">R-Clamp
+Stober
+PHV1033F0910EZ802U(3000 rpm)
+</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_21" X="1148.11121" Y="648" Width="111" Height="121">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">L-Clamp
+Stober
+PHV1033F0910EZ802U(3000 rpm)
+</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_22" X="1008" Y="648" Width="111" Height="121">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">R-Clamp
+Stober
+PHQ10330960EZ805U(2000 rpm)
+</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+  </InfoElements>
+</BR.AS.HardwareTopology>

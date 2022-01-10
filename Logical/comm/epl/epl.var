@@ -1,0 +1,104 @@
+(*Powerlink Read/Write Function*)
+VAR
+	EPLInverter : ARRAY[0..3] OF epl_typ;
+END_VAR
+(*Variable*)
+VAR
+	uIndexRead : ARRAY[0..3] OF USINT; (*Index of regester for read*)
+	uIndexExtru : USINT;
+	sDevice : ARRAY[0..3] OF STRING[80];
+	uIndexOffset : USINT;
+	bTestRead : BOOL;
+	sDeviceAExtr : STRING[80];
+	i : USINT;
+END_VAR
+(*Power Consumption*)
+VAR
+	rActCurrentA : ARRAY[0..59] OF REAL;
+	rActCurrentB : ARRAY[0..59] OF REAL;
+	rActCurrentC : ARRAY[0..59] OF REAL;
+	rActCurrentV : ARRAY[0..59] OF REAL;
+	rActVoltageA : ARRAY[0..59] OF REAL;
+	rActVoltageB : ARRAY[0..59] OF REAL;
+	rActVoltageC : ARRAY[0..59] OF REAL;
+	rActVoltageV : ARRAY[0..59] OF REAL;
+	rPowerA : ARRAY[0..59] OF REAL;
+	rPowerTotalPerSecA : REAL;
+	rPowerPerSecA : REAL;
+	uStepPowerA : UDINT;
+	uCountTimerA : UDINT;
+	uIndexA : UDINT;
+	bCleanPowerA : BOOL;
+	iClickTimeA : INT;
+END_VAR
+VAR RETAIN
+	rPowerTotalA : REAL;
+	rPowerPerHrA : REAL;
+END_VAR
+VAR
+	rPowerB : ARRAY[0..59] OF REAL;
+	rPowerTotalPerSecB : REAL;
+	rPowerPerSecB : REAL;
+	uStepPowerB : UDINT;
+	uCountTimerB : UDINT;
+	uIndexB : UDINT;
+	bCleanPowerB : BOOL;
+	iClickTimeB : INT;
+END_VAR
+VAR RETAIN
+	rPowerTotalB : REAL;
+	rPowerPerHrB : REAL;
+END_VAR
+VAR
+	rPowerC : ARRAY[0..59] OF REAL;
+	rPowerTotalPerSecC : REAL;
+	rPowerPerSecC : REAL;
+	uStepPowerC : UDINT;
+	uCountTimerC : UDINT;
+	uIndexC : UDINT;
+	bCleanPowerC : BOOL;
+	iClickTimeC : INT;
+END_VAR
+VAR RETAIN
+	rPowerTotalC : REAL;
+	rPowerPerHrC : REAL;
+END_VAR
+VAR
+	rPowerV : ARRAY[0..59] OF REAL;
+	rPowerTotalPerSecV : REAL;
+	rPowerPerSecV : REAL;
+	uStepPowerV : UDINT;
+	uCountTimerV : UDINT;
+	uIndexV : UDINT;
+	bCleanPowerV : BOOL;
+	iClickTimeV : INT;
+END_VAR
+VAR RETAIN
+	rPowerTotalV : REAL;
+	rPowerPerHrV : REAL;
+END_VAR
+VAR
+	fnTON_10msA : TON_10ms;
+	fnTON_10msB : TON_10ms;
+	fnTON_10msC : TON_10ms;
+	fnTON_10msV : TON_10ms;
+	i_A : UINT;
+	i_B : UINT;
+	i_C : UINT;
+	i_V : UINT;
+	fnTON_10msA_HR : TON_10ms;
+	fnTON_10msB_HR : TON_10ms;
+	fnTON_10msC_HR : TON_10ms;
+	fnTON_10msV_HR : TON_10ms;
+	uStepPowerHourA : UDINT;
+	uStepPowerHourB : UDINT;
+	uStepPowerHourC : UDINT;
+	uStepPowerHourV : UDINT;
+	bTestAuto : BOOL;
+	rPowerPerMinA : REAL;
+	rPowerPerMinB : REAL;
+	rPowerPerMinC : REAL;
+	rPowerPerMinV : REAL;
+	rTestVoltage : REAL;
+	rTestCurrent : REAL;
+END_VAR

@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Axis_Movement">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="38"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="3737796" Value="Cutter Forward"/>
+    <Text ID="3737797" Value="Swing Up"/>
+    <Text ID="3737798" Value="Swing Down"/>
+    <Text ID="3737799" Value="Carr. Up"/>
+    <Text ID="3737800" Value="Carr. Down"/>
+    <Text ID="3737801" Value="Mold Open"/>
+    <Text ID="3737802" Value="Mold Close"/>
+    <Text ID="3737803" Value="Blow Pin Up"/>
+    <Text ID="3737804" Value="Blow Pin Down"/>
+    <Text ID="3737805" Value="Blow"/>
+    <Text ID="3737806" Value="Fast Page"/>
+    <Text ID="3737807" Value="Punching Fw"/>
+    <Text ID="3737808" Value="Punching Bw"/>
+    <Text ID="3737809" Value="Bottom deflash Fw"/>
+    <Text ID="3737810" Value="Bottom deflash Bw"/>
+    <Text ID="3737811" Value="Corepull Open"/>
+    <Text ID="3737812" Value="Corepull Close"/>
+    <Text ID="3737813" Value="Plate Up"/>
+    <Text ID="3737814" Value="Plate Down"/>
+    <Text ID="3737815" Value="Plate Fw"/>
+    <Text ID="3737816" Value="Plate Bw"/>
+    <Text ID="3737817" Value="Main Heat"/>
+    <Text ID="3737818" Value="Main Extr."/>
+    <Text ID="3737819" Value="Visi Extr."/>
+    <Text ID="3737820" Value="R-Sub Extr."/>
+    <Text ID="3737821" Value="L-Sub Extr."/>
+    <Text ID="3737822" Value="Main Power"/>
+    <Text ID="3737823" Value="Calib. Mode"/>
+    <Text ID="3737824" Value="Auto Mode"/>
+    <Text ID="3737825" Value="Single Cycle"/>
+    <Text ID="3737826" Value=""/>
+    <Text ID="3737827" Value=""/>
+    <Text ID="3737828" Value=""/>
+    <Text ID="3737829" Value=""/>
+    <Text ID="3746265" Value=""/>
+    <Text ID="3746266" Value=""/>
+    <Text ID="3746267" Value="3rd Post Cooling Blow"/>
+    <Text ID="3746268" Value="3rd Post Cooling Down"/>
+    <Text ID="3746269" Value="2nd Postcool  Blow"/>
+    <Text ID="3746270" Value="2nd Post CoolingDown"/>
+    <Text ID="3746271" Value="1st Post Cooling' Blow"/>
+    <Text ID="3746272" Value="1st Post Cooling  Down"/>
+    <Text ID="3746273" Value=""/>
+    <Text ID="3746274" Value="Robot Arm Close"/>
+    <Text ID="3746275" Value="Robot Arm Open"/>
+    <Text ID="3746276" Value="Robot Arm Bw"/>
+    <Text ID="3746277" Value="Robot Arm Fw"/>
+    <Text ID="3746278" Value="Manual Mode"/>
+    <Text ID="3754801" Value="L-Visi Extr"/>
+    <Text ID="3754802" Value="R-Visi Extr"/>
+    <Text ID="3755096" Value="Carriage"/>
+    <Text ID="3755097" Value="Mold"/>
+    <Text ID="3755098" Value="Blow Pin"/>
+    <Text ID="3755099" Value="Swing"/>
+    <Text ID="3755100" Value="Unscrew"/>
+    <Text ID="3755101" Value="Needle pin"/>
+    <Text ID="3755102" Value="Low Blowing"/>
+    <Text ID="3755103" Value="Cutter"/>
+    <Text ID="3755104" Value="Punching"/>
+    <Text ID="3755105" Value="Bottom deflash"/>
+    <Text ID="3755106" Value="Blow pin flash cooling"/>
+    <Text ID="3755107" Value="Robot Arm"/>
+    <Text ID="3755108" Value="Bottom Core Pull"/>
+    <Text ID="3755109" Value="Core Pull"/>
+    <Text ID="3755110" Value="Inflation"/>
+    <Text ID="3755114" Value="&lt;Axis Name&gt;"/>
+    <Text ID="3755115" Value="1st Post Cooling  Down"/>
+    <Text ID="3755116" Value="1st Post Cooling  Blow"/>
+    <Text ID="3755117" Value="2nd Post Cooling  Down"/>
+    <Text ID="3755118" Value="2nd Post Cooling  Blow"/>
+    <Text ID="3755119" Value="3rd Post Cooling  Down"/>
+    <Text ID="3755120" Value="3rd Post Cooling  Blow"/>
+    <Text ID="3755121" Value="Blow"/>
+    <Text ID="3755122" Value="Base"/>
+    <Text ID="3755123" Value="Tonnage Lock"/>
+    <Text ID="3755125" Value="L-Blow Pin"/>
+    <Text ID="3755126" Value="R-Blow Pin"/>
+    <Text ID="3755127" Value="Auto Reset"/>
+    <Text ID="3755128" Value="Left"/>
+    <Text ID="3755129" Value="Right"/>
+    <Text ID="3755130" Value="Machine Step"/>
+    <Text ID="3755131" Value="Auto Step"/>
+    <Text ID="3755132" Value="Robot Arm Up/Dn"/>
+    <Text ID="3755133" Value="Robot Arm Open/Close"/>
+    <Text ID="3755134" Value="Pull Bottom Deflasher"/>
+    <Text ID="3755135" Value="Handle deflash"/>
+    <Text ID="3755136" Value="Ext. Robot Arm"/>
+    <Text ID="3763884" Value="L-Carriage"/>
+    <Text ID="3763885" Value="R-Carriage"/>
+    <Text ID="3763886" Value="L-Clamp"/>
+    <Text ID="3763887" Value="R-Clamp"/>
+    <Text ID="3763900" Value="L-Punching"/>
+    <Text ID="3763901" Value="R-Punching"/>
+    <Text ID="3763902" Value="R-Bottom deflash"/>
+    <Text ID="3763903" Value="L-Bottom deflash"/>
+    <Text ID="3770583" Value="L-CorePull"/>
+    <Text ID="3770584" Value="R-CorePull"/>
+    <Text ID="3770585" Value="L-Bottom Core Pull"/>
+    <Text ID="3770586" Value="R-Bottom Core Pull"/>
+    <Text ID="4120962" Value="Hook Pin"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="3737796" Value="切刀進"/>
+    <Text ID="3737797" Value="抬頭上"/>
+    <Text ID="3737798" Value="抬頭下"/>
+    <Text ID="3737799" Value="移模上"/>
+    <Text ID="3737800" Value="移模下"/>
+    <Text ID="3737801" Value="開模"/>
+    <Text ID="3737802" Value="關模"/>
+    <Text ID="3737803" Value="吹桿上"/>
+    <Text ID="3737804" Value="吹桿下"/>
+    <Text ID="3737805" Value="吹氣"/>
+    <Text ID="3737806" Value="快速頁面"/>
+    <Text ID="3737807" Value="打手把進"/>
+    <Text ID="3737808" Value="打手把退"/>
+    <Text ID="3737809" Value="打瓶底進"/>
+    <Text ID="3737810" Value="打瓶底退"/>
+    <Text ID="3737811" Value="模芯開"/>
+    <Text ID="3737812" Value="模芯關"/>
+    <Text ID="3737813" Value="平台上"/>
+    <Text ID="3737814" Value="平台下"/>
+    <Text ID="3737815" Value="平台進"/>
+    <Text ID="3737816" Value="平台退"/>
+    <Text ID="3737817" Value="總電熱"/>
+    <Text ID="3737818" Value="主軸"/>
+    <Text ID="3737819" Value="視窗線"/>
+    <Text ID="3737820" Value="右副軸"/>
+    <Text ID="3737821" Value="左副軸"/>
+    <Text ID="3737822" Value="主電源"/>
+    <Text ID="3737823" Value="校正模式"/>
+    <Text ID="3737824" Value="全自動模式"/>
+    <Text ID="3737825" Value="單循環"/>
+    <Text ID="3737826" Value=""/>
+    <Text ID="3737827" Value=""/>
+    <Text ID="3737828" Value=""/>
+    <Text ID="3737829" Value=""/>
+    <Text ID="3746265" Value=""/>
+    <Text ID="3746266" Value=""/>
+    <Text ID="3746267" Value="轉三吹冷"/>
+    <Text ID="3746268" Value="轉三下"/>
+    <Text ID="3746269" Value="轉二吹冷"/>
+    <Text ID="3746270" Value="轉二下"/>
+    <Text ID="3746271" Value="轉一吹冷"/>
+    <Text ID="3746272" Value="轉一下"/>
+    <Text ID="3746273" Value=""/>
+    <Text ID="3746274" Value="機械手關"/>
+    <Text ID="3746275" Value="機械手開"/>
+    <Text ID="3746276" Value="機械手退"/>
+    <Text ID="3746277" Value="機械手進"/>
+    <Text ID="3746278" Value="手動模式"/>
+    <Text ID="3754801" Value="左視窗線"/>
+    <Text ID="3754802" Value="右視窗線"/>
+    <Text ID="3755096" Value="移模"/>
+    <Text ID="3755097" Value="開關模"/>
+    <Text ID="3755098" Value="吹桿"/>
+    <Text ID="3755099" Value="抬頭"/>
+    <Text ID="3755100" Value="絞牙"/>
+    <Text ID="3755101" Value="手柄吹針"/>
+    <Text ID="3755102" Value="低壓吹氣"/>
+    <Text ID="3755103" Value="切刀"/>
+    <Text ID="3755104" Value="打手把"/>
+    <Text ID="3755105" Value="打瓶底"/>
+    <Text ID="3755106" Value="吹針處吹冷"/>
+    <Text ID="3755107" Value="機械手"/>
+    <Text ID="3755108" Value="下模芯"/>
+    <Text ID="3755109" Value="模芯"/>
+    <Text ID="3755110" Value="脹風"/>
+    <Text ID="3755114" Value="&lt;機構名稱&gt;"/>
+    <Text ID="3755115" Value="轉一下"/>
+    <Text ID="3755116" Value="轉一吹冷"/>
+    <Text ID="3755117" Value="轉二下"/>
+    <Text ID="3755118" Value="轉二吹冷"/>
+    <Text ID="3755119" Value="轉三下"/>
+    <Text ID="3755120" Value="轉三吹冷"/>
+    <Text ID="3755121" Value="吹氣"/>
+    <Text ID="3755122" Value="平台"/>
+    <Text ID="3755123" Value="鎖模加壓"/>
+    <Text ID="3755125" Value="左吹桿"/>
+    <Text ID="3755126" Value="右吹桿"/>
+    <Text ID="3755127" Value="自動復歸"/>
+    <Text ID="3755128" Value="左模"/>
+    <Text ID="3755129" Value="右模"/>
+    <Text ID="3755130" Value="機器步驟"/>
+    <Text ID="3755131" Value="自動步驟"/>
+    <Text ID="3755132" Value="機械手上下"/>
+    <Text ID="3755133" Value="機械手開關"/>
+    <Text ID="3755134" Value="拉瓶底"/>
+    <Text ID="3755135" Value="打手挽"/>
+    <Text ID="3755136" Value="外部機械手"/>
+    <Text ID="3763884" Value="左移模"/>
+    <Text ID="3763885" Value="右移模"/>
+    <Text ID="3763886" Value="左開關模"/>
+    <Text ID="3763887" Value="右開關模"/>
+    <Text ID="3763900" Value="左打手把"/>
+    <Text ID="3763901" Value="右打手把"/>
+    <Text ID="3763902" Value="右打瓶底"/>
+    <Text ID="3763903" Value="左打瓶底"/>
+    <Text ID="3770583" Value="左模芯"/>
+    <Text ID="3770584" Value="右模芯"/>
+    <Text ID="3770585" Value="左下模芯"/>
+    <Text ID="3770586" Value="右下模芯"/>
+    <Text ID="4120962" Value="掛鉤吹針"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="3737796" Value="切刀進"/>
+    <Text ID="3737797" Value="抬頭上"/>
+    <Text ID="3737798" Value="抬頭下"/>
+    <Text ID="3737799" Value="移模上"/>
+    <Text ID="3737800" Value="移模下"/>
+    <Text ID="3737801" Value="開模"/>
+    <Text ID="3737802" Value="關模"/>
+    <Text ID="3737803" Value="吹桿上"/>
+    <Text ID="3737804" Value="吹桿下"/>
+    <Text ID="3737805" Value="吹氣"/>
+    <Text ID="3737806" Value="快速頁面"/>
+    <Text ID="3737807" Value="打手把進"/>
+    <Text ID="3737808" Value="打手把退"/>
+    <Text ID="3737809" Value="打瓶底進"/>
+    <Text ID="3737810" Value="打瓶底退"/>
+    <Text ID="3737811" Value="模芯開"/>
+    <Text ID="3737812" Value="模芯關"/>
+    <Text ID="3737813" Value="平台上"/>
+    <Text ID="3737814" Value="平台下"/>
+    <Text ID="3737815" Value="平台進"/>
+    <Text ID="3737816" Value="平台退"/>
+    <Text ID="3737817" Value="總電熱"/>
+    <Text ID="3737818" Value="主軸"/>
+    <Text ID="3737819" Value="視窗線"/>
+    <Text ID="3737820" Value="右副軸"/>
+    <Text ID="3737821" Value="左副軸"/>
+    <Text ID="3737822" Value="主電源"/>
+    <Text ID="3737823" Value="校正模式"/>
+    <Text ID="3737824" Value="全自動模式"/>
+    <Text ID="3737825" Value="單循環"/>
+    <Text ID="3737826" Value=""/>
+    <Text ID="3737827" Value=""/>
+    <Text ID="3737828" Value=""/>
+    <Text ID="3737829" Value=""/>
+    <Text ID="3746265" Value=""/>
+    <Text ID="3746266" Value=""/>
+    <Text ID="3746267" Value="轉三吹冷"/>
+    <Text ID="3746268" Value="轉三下"/>
+    <Text ID="3746269" Value="轉二吹冷"/>
+    <Text ID="3746270" Value="轉二下"/>
+    <Text ID="3746271" Value="轉一吹冷"/>
+    <Text ID="3746272" Value="轉一下"/>
+    <Text ID="3746273" Value=""/>
+    <Text ID="3746274" Value="機械手關"/>
+    <Text ID="3746275" Value="機械手開"/>
+    <Text ID="3746276" Value="機械手退"/>
+    <Text ID="3746277" Value="機械手進"/>
+    <Text ID="3746278" Value="手動模式"/>
+    <Text ID="3754801" Value="左視窗線"/>
+    <Text ID="3754802" Value="右視窗線"/>
+    <Text ID="3755096" Value="移模"/>
+    <Text ID="3755097" Value="開關模"/>
+    <Text ID="3755098" Value="吹桿"/>
+    <Text ID="3755099" Value="抬頭"/>
+    <Text ID="3755100" Value="絞牙"/>
+    <Text ID="3755101" Value="手柄吹針"/>
+    <Text ID="3755102" Value="低壓吹氣"/>
+    <Text ID="3755103" Value="切刀"/>
+    <Text ID="3755104" Value="打手把"/>
+    <Text ID="3755105" Value="打瓶底"/>
+    <Text ID="3755106" Value="吹針處吹冷"/>
+    <Text ID="3755107" Value="機械手"/>
+    <Text ID="3755108" Value="下模芯"/>
+    <Text ID="3755109" Value="模芯"/>
+    <Text ID="3755110" Value="脹風"/>
+    <Text ID="3755114" Value="&lt;機構名稱&gt;"/>
+    <Text ID="3755115" Value="轉一下"/>
+    <Text ID="3755116" Value="轉一吹冷"/>
+    <Text ID="3755117" Value="轉二下"/>
+    <Text ID="3755118" Value="轉二吹冷"/>
+    <Text ID="3755119" Value="轉三下"/>
+    <Text ID="3755120" Value="轉三吹冷"/>
+    <Text ID="3755121" Value="吹氣"/>
+    <Text ID="3755122" Value="平台"/>
+    <Text ID="3755123" Value="鎖模加壓"/>
+    <Text ID="3755125" Value="左吹桿"/>
+    <Text ID="3755126" Value="右吹桿"/>
+    <Text ID="3755127" Value="自動復歸"/>
+    <Text ID="3755128" Value="左模"/>
+    <Text ID="3755129" Value="右模"/>
+    <Text ID="3755130" Value="機器步驟"/>
+    <Text ID="3755131" Value="自動步驟"/>
+    <Text ID="3755132" Value="機械手上下"/>
+    <Text ID="3755133" Value="機械手開關"/>
+    <Text ID="3755134" Value="拉瓶底"/>
+    <Text ID="3755135" Value="打手挽"/>
+    <Text ID="3755136" Value="外部機械手"/>
+    <Text ID="3763884" Value="左移模"/>
+    <Text ID="3763885" Value="右移模"/>
+    <Text ID="3763886" Value="左開關模"/>
+    <Text ID="3763887" Value="右開關模"/>
+    <Text ID="3763900" Value="左打手把"/>
+    <Text ID="3763901" Value="右打手把"/>
+    <Text ID="3763902" Value="右打瓶底"/>
+    <Text ID="3763903" Value="左打瓶底"/>
+    <Text ID="3770583" Value="左模芯"/>
+    <Text ID="3770584" Value="右模芯"/>
+    <Text ID="3770585" Value="左下模芯"/>
+    <Text ID="3770586" Value="右下模芯"/>
+    <Text ID="4120962" Value="掛鉤吹針"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="3737796" Value="ciecia przod"/>
+    <Text ID="3737797" Value="Glowica gora"/>
+    <Text ID="3737798" Value="Glowica dol"/>
+    <Text ID="3737799" Value="Wozek przod"/>
+    <Text ID="3737800" Value="Wozek tyl"/>
+    <Text ID="3737801" Value="Forma Otw."/>
+    <Text ID="3737802" Value="Forma Zam."/>
+    <Text ID="3737803" Value="Trzpien Rozdm. Gora"/>
+    <Text ID="3737804" Value="Trzpien Rozdm. Dol"/>
+    <Text ID="3737805" Value="Trzp. Rozdm."/>
+    <Text ID="3737806" Value="Szybkie strony"/>
+    <Text ID="3737807" Value="Gratownik przod"/>
+    <Text ID="3737808" Value="Gratownik tyl"/>
+    <Text ID="3737809" Value="Gratownik dna przod"/>
+    <Text ID="3737810" Value="Gratownik dna tyl"/>
+    <Text ID="3737811" Value="Rdzen otw."/>
+    <Text ID="3737812" Value="Rdzen zam."/>
+    <Text ID="3737813" Value="Baza gora"/>
+    <Text ID="3737814" Value="Baza dol"/>
+    <Text ID="3737815" Value="Baza przod"/>
+    <Text ID="3737816" Value="Baza tyl"/>
+    <Text ID="3737817" Value="Grzanie glowne"/>
+    <Text ID="3737818" Value="Main Extr."/>
+    <Text ID="3737819" Value="Paska wizyj. Ekstruder"/>
+    <Text ID="3737820" Value="R-Sub Extr."/>
+    <Text ID="3737821" Value="L-Sub Extr."/>
+    <Text ID="3737822" Value="Glowne zasilanie"/>
+    <Text ID="3737823" Value="Tryb kalibracji"/>
+    <Text ID="3737824" Value="Tryb Automatyczny"/>
+    <Text ID="3737825" Value="Cykl pojedynczy"/>
+    <Text ID="3737826" Value=""/>
+    <Text ID="3737827" Value=""/>
+    <Text ID="3737828" Value=""/>
+    <Text ID="3737829" Value=""/>
+    <Text ID="3746265" Value=""/>
+    <Text ID="3746266" Value=""/>
+    <Text ID="3746267" Value="Dochłodzenie 3"/>
+    <Text ID="3746268" Value="Dochłodzenie 3 dol"/>
+    <Text ID="3746269" Value="Dochłodzenie 2"/>
+    <Text ID="3746270" Value="Dochłodzenie 2 dol"/>
+    <Text ID="3746271" Value="Dochłodzenie 1"/>
+    <Text ID="3746272" Value="Dochłodzenie 1 dol"/>
+    <Text ID="3746273" Value=""/>
+    <Text ID="3746274" Value="Ramie Robota zam."/>
+    <Text ID="3746275" Value="Ramie Robota otw."/>
+    <Text ID="3746276" Value="Ramie Robota tyl"/>
+    <Text ID="3746277" Value="Ramie Robota Przod"/>
+    <Text ID="3746278" Value="Tryb manualny"/>
+    <Text ID="3754801" Value="L-Visi Extr"/>
+    <Text ID="3754802" Value="R-Visi Extr"/>
+    <Text ID="3755096" Value="Wozek"/>
+    <Text ID="3755097" Value="Forma"/>
+    <Text ID="3755098" Value="Trzp. Rozdm."/>
+    <Text ID="3755099" Value="Glowica"/>
+    <Text ID="3755100" Value="Wykecanie"/>
+    <Text ID="3755101" Value=""/>
+    <Text ID="3755102" Value="L - Rozdm. niskie ciscniene"/>
+    <Text ID="3755103" Value="ciecia"/>
+    <Text ID="3755104" Value="Gratownik"/>
+    <Text ID="3755105" Value="Gratownik dna"/>
+    <Text ID="3755106" Value="Chlodzenie"/>
+    <Text ID="3755107" Value="Ramie Robota"/>
+    <Text ID="3755108" Value="Rdzen (dol)"/>
+    <Text ID="3755109" Value="Rdzen"/>
+    <Text ID="3755110" Value="Nadmuch"/>
+    <Text ID="3755114" Value="&lt;Nazwa osi&gt;"/>
+    <Text ID="3755115" Value="Dochłodzenie 1 dol"/>
+    <Text ID="3755116" Value="Dochłodzenie 1"/>
+    <Text ID="3755117" Value="Dochłodzenie 2 dol"/>
+    <Text ID="3755118" Value="Dochłodzenie 2"/>
+    <Text ID="3755119" Value="Dochłodzenie 3 dol"/>
+    <Text ID="3755120" Value="Dochłodzenie 3"/>
+    <Text ID="3755121" Value="Rozdmuch"/>
+    <Text ID="3755122" Value="Baza"/>
+    <Text ID="3755123" Value=""/>
+    <Text ID="3755125" Value="L - Trzp. Rozdm."/>
+    <Text ID="3755126" Value="P - Trzp. Rozdm."/>
+    <Text ID="3755127" Value="Auto reset"/>
+    <Text ID="3755128" Value="Lewo"/>
+    <Text ID="3755129" Value="Prawo"/>
+    <Text ID="3755130" Value="Steppe Maszyna"/>
+    <Text ID="3755131" Value="Steppe automatyczny"/>
+    <Text ID="3755132" Value="Ramie Robota gora / dol"/>
+    <Text ID="3755133" Value="Ramie Robota otw. / zam."/>
+    <Text ID="3755134" Value="Otwarcie dna"/>
+    <Text ID="3755135" Value="Gratownik raczki"/>
+    <Text ID="3755136" Value="Ext. Ramie Robota"/>
+    <Text ID="3763884" Value="L - Wozek"/>
+    <Text ID="3763885" Value="P - Wozek"/>
+    <Text ID="3763886" Value="L - Forma"/>
+    <Text ID="3763887" Value="P - Forma"/>
+    <Text ID="3763900" Value="L - Gratownik"/>
+    <Text ID="3763901" Value="P - Gratownik"/>
+    <Text ID="3763902" Value="P - Gratownik dna"/>
+    <Text ID="3763903" Value="L - Gratownik dna"/>
+    <Text ID="3770583" Value="L - Rdzen"/>
+    <Text ID="3770584" Value="P - Rdzen"/>
+    <Text ID="3770585" Value="L - Rdzen (dol)"/>
+    <Text ID="3770586" Value="P - Rdzen (dol)"/>
+    <Text ID="4120962" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="3737796" Value="0"/>
+    <Index ID="3737797" Value="1"/>
+    <Index ID="3737798" Value="2"/>
+    <Index ID="3737799" Value="3"/>
+    <Index ID="3737800" Value="4"/>
+    <Index ID="3737801" Value="5"/>
+    <Index ID="3737802" Value="6"/>
+    <Index ID="3737803" Value="7"/>
+    <Index ID="3737804" Value="8"/>
+    <Index ID="3737805" Value="9"/>
+    <Index ID="3737806" Value="10"/>
+    <Index ID="3737807" Value="11"/>
+    <Index ID="3737808" Value="12"/>
+    <Index ID="3737809" Value="13"/>
+    <Index ID="3737810" Value="14"/>
+    <Index ID="3737811" Value="15"/>
+    <Index ID="3737812" Value="16"/>
+    <Index ID="3737813" Value="17"/>
+    <Index ID="3737814" Value="18"/>
+    <Index ID="3737815" Value="19"/>
+    <Index ID="3737816" Value="20"/>
+    <Index ID="3737817" Value="34"/>
+    <Index ID="3737818" Value="35"/>
+    <Index ID="3737819" Value="36"/>
+    <Index ID="3737820" Value="39"/>
+    <Index ID="3737821" Value="40"/>
+    <Index ID="3737822" Value="41"/>
+    <Index ID="3737823" Value="43"/>
+    <Index ID="3737824" Value="44"/>
+    <Index ID="3737825" Value="45"/>
+    <Index ID="3737826" Value="46"/>
+    <Index ID="3737827" Value="47"/>
+    <Index ID="3737828" Value="48"/>
+    <Index ID="3737829" Value="49"/>
+    <Index ID="3746265" Value="33"/>
+    <Index ID="3746266" Value="32"/>
+    <Index ID="3746267" Value="26"/>
+    <Index ID="3746268" Value="25"/>
+    <Index ID="3746269" Value="24"/>
+    <Index ID="3746270" Value="23"/>
+    <Index ID="3746271" Value="22"/>
+    <Index ID="3746272" Value="21"/>
+    <Index ID="3746273" Value="31"/>
+    <Index ID="3746274" Value="30"/>
+    <Index ID="3746275" Value="29"/>
+    <Index ID="3746276" Value="28"/>
+    <Index ID="3746277" Value="27"/>
+    <Index ID="3746278" Value="42"/>
+    <Index ID="3754801" Value="38"/>
+    <Index ID="3754802" Value="37"/>
+    <Index ID="3755096" Value="56"/>
+    <Index ID="3755097" Value="59"/>
+    <Index ID="3755098" Value="62"/>
+    <Index ID="3755099" Value="65"/>
+    <Index ID="3755100" Value="66"/>
+    <Index ID="3755101" Value="67"/>
+    <Index ID="3755102" Value="68"/>
+    <Index ID="3755103" Value="69"/>
+    <Index ID="3755104" Value="70"/>
+    <Index ID="3755105" Value="73"/>
+    <Index ID="3755106" Value="78"/>
+    <Index ID="3755107" Value="80"/>
+    <Index ID="3755108" Value="83"/>
+    <Index ID="3755109" Value="86"/>
+    <Index ID="3755110" Value="89"/>
+    <Index ID="3755114" Value="55"/>
+    <Index ID="3755115" Value="90"/>
+    <Index ID="3755116" Value="91"/>
+    <Index ID="3755117" Value="92"/>
+    <Index ID="3755118" Value="93"/>
+    <Index ID="3755119" Value="94"/>
+    <Index ID="3755120" Value="95"/>
+    <Index ID="3755121" Value="96"/>
+    <Index ID="3755122" Value="97"/>
+    <Index ID="3755123" Value="98"/>
+    <Index ID="3755125" Value="64"/>
+    <Index ID="3755126" Value="63"/>
+    <Index ID="3755127" Value="54"/>
+    <Index ID="3755128" Value="53"/>
+    <Index ID="3755129" Value="52"/>
+    <Index ID="3755130" Value="51"/>
+    <Index ID="3755131" Value="50"/>
+    <Index ID="3755132" Value="81"/>
+    <Index ID="3755133" Value="82"/>
+    <Index ID="3755134" Value="77"/>
+    <Index ID="3755135" Value="76"/>
+    <Index ID="3755136" Value="79"/>
+    <Index ID="3763884" Value="58"/>
+    <Index ID="3763885" Value="57"/>
+    <Index ID="3763886" Value="61"/>
+    <Index ID="3763887" Value="60"/>
+    <Index ID="3763900" Value="72"/>
+    <Index ID="3763901" Value="71"/>
+    <Index ID="3763902" Value="74"/>
+    <Index ID="3763903" Value="75"/>
+    <Index ID="3770583" Value="88"/>
+    <Index ID="3770584" Value="87"/>
+    <Index ID="3770585" Value="85"/>
+    <Index ID="3770586" Value="84"/>
+    <Index ID="4120962" Value="99"/>
+  </IndexMap>
+</TextGroup>

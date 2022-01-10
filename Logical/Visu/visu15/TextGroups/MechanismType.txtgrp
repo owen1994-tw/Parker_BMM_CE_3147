@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MechanismType">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="33"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="3388234" Value="Direct"/>
+    <Text ID="3388235" Value="Toggle"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="3388234" Value="直驅"/>
+    <Text ID="3388235" Value="曲柄"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="3388234" Value="直驅"/>
+    <Text ID="3388235" Value="曲柄"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="3388234" Value="Bezposredni"/>
+    <Text ID="3388235" Value="Przelacznik"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="3388234" Value="0"/>
+    <Index ID="3388235" Value="1"/>
+  </IndexMap>
+</TextGroup>

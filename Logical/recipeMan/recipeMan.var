@@ -1,0 +1,16 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Package: recipeMag
+ * File: recipeMag.var
+ * Author: lij
+ * Created: December 19, 2013
+ ********************************************************************
+ * Variables of package recipeMag
+ ********************************************************************)
+VAR CONSTANT
+	C_MEM_MOLD_LENGTH : UINT := 12191;
+	C_MEM_FIX_LENGTH : UINT := 12191;
+	C_PVNAME_LENGTH : UINT := 31;
+	C_LINE_NUMBER : UINT := 49;
+END_VAR

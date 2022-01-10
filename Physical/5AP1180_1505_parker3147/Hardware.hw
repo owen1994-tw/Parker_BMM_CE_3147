@@ -1,0 +1,1467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.12.129 SP?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="0AC808.9" Type="0AC808.9" Version="1.0.0.0" />
+  <Module Name="4XP0101.00-00B" Type="4XP0101.00-00B" Version="2.1.0.0">
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="5ACCIF01.FPSC-001" Type="5ACCIF01.FPSC-001" Version="1.8.1.0">
+    <Connection Connector="SL" TargetModule="5PPC2100_BY01_000" TargetConnector="SL1" />
+  </Module>
+  <Module Name="5AP1180.1505-000" Type="5AP1180.1505-000" Version="2.0.0.0">
+    <Parameter ID="VcObjectName" Value="visu15" />
+  </Module>
+  <Module Name="5PPC2100_BY01_000" Type="5PPC2100.BY01-000" Version="1.4.0.0">
+    <Connection Connector="SY" TargetModule="5AP1180.1505-000" TargetConnector="SY1" />
+    <Connector Name="IF3">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="Mode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="10.86.100.212" />
+      <Parameter ID="SubnetMask" Value="255.255.255.0" />
+      <Parameter ID="InaNodeNumber" Value="1" />
+      <Group ID="Vnc1" />
+      <Parameter ID="VncVcObjectName1" Value="visu15" />
+      <Parameter ID="VncMaxConnections1" Value="2" />
+    </Connector>
+    <Connector Name="IF4">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="Mode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="192.168.1.100" />
+      <Parameter ID="SubnetMask" Value="255.255.255.0" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="bmm_5AP1180_1505_000" />
+    <Parameter ID="UserRamDevice" Value="PCI.1.PPC21xx.SRAM" />
+    <Parameter ID="UserRamSize" Value="260864" />
+    <Parameter ID="RemMemDevice" Value="PCI.1.PPC21xx.SRAM" />
+    <Parameter ID="RemMemSize" Value="262144" />
+    <Parameter ID="PermanentPvSize" Value="12000" />
+    <Parameter ID="RemanentGlobalPvSize" Value="20000" />
+    <Parameter ID="VolatileGlobalPvSize" Value="200000" />
+    <Parameter ID="EnableUsbRemoteInstall" Value="1" />
+    <Parameter ID="TimerDeviceType" Value="EPLX2X" />
+    <Parameter ID="TimerDevice" Value="5ACCIF01.FPSC-001.IF1" />
+    <Parameter ID="TaskClassIdleTime" Value="2000" />
+    <Parameter ID="Cyclic1Duration" Value="2000" />
+    <Parameter ID="Cyclic1Tolerance" Value="0" />
+    <Parameter ID="Cyclic1Stack" Value="8192" />
+    <Parameter ID="Cyclic1Output" Value="1" />
+    <Parameter ID="Cyclic2Duration" Value="10000" />
+    <Parameter ID="Cyclic2Tolerance" Value="100000" />
+    <Parameter ID="Cyclic2Stack" Value="8192" />
+    <Parameter ID="Cyclic3Duration" Value="4000" />
+    <Parameter ID="Cyclic3Tolerance" Value="100000" />
+    <Parameter ID="Cyclic3Stack" Value="8192" />
+    <Parameter ID="Cyclic4Duration" Value="20000" />
+    <Parameter ID="Cyclic4Tolerance" Value="200000" />
+    <Parameter ID="Cyclic4Stack" Value="8192" />
+    <Parameter ID="Cyclic5Duration" Value="500000" />
+    <Parameter ID="Cyclic5Tolerance" Value="500000" />
+    <Parameter ID="Cyclic5Stack" Value="20000" />
+    <Parameter ID="Cyclic6Duration" Value="30000" />
+    <Parameter ID="Cyclic6Tolerance" Value="3000000" />
+    <Parameter ID="Cyclic6Stack" Value="8192" />
+    <Parameter ID="Cyclic7Duration" Value="50000" />
+    <Parameter ID="Cyclic7Tolerance" Value="5000000" />
+    <Parameter ID="Cyclic7Stack" Value="8192" />
+    <Parameter ID="Cyclic8Duration" Value="200000" />
+    <Parameter ID="Cyclic8Tolerance" Value="30000000" />
+    <Parameter ID="Cyclic8Stack" Value="30000" />
+    <Group ID="FileDevice1" />
+    <Parameter ID="FileDeviceName1" Value="USB_1" />
+    <Parameter ID="FileDevicePath1" Value="/bd0" />
+    <Group ID="FileDevice2" />
+    <Parameter ID="FileDeviceName2" Value="USB_2" />
+    <Parameter ID="FileDevicePath2" Value="/bd16" />
+    <Group ID="FileDevice3" />
+    <Parameter ID="FileDeviceName3" Value="SCREEN_1" />
+    <Parameter ID="FileDevicePath3" Value="/bd0\\ScreenShot" />
+    <Group ID="FileDevice4" />
+    <Parameter ID="FileDeviceName4" Value="SCREEN_2" />
+    <Parameter ID="FileDevicePath4" Value="/bd16\\ScreenShot" />
+    <Group ID="FileDevice5" />
+    <Parameter ID="FileDeviceName5" Value="SINGLE_1" />
+    <Parameter ID="FileDevicePath5" Value="/bd0\\SingleRecipe" />
+    <Group ID="FileDevice6" />
+    <Parameter ID="FileDeviceName6" Value="SINGLE_2" />
+    <Parameter ID="FileDevicePath6" Value="/bd16\\SingleRecipe" />
+    <Group ID="FileDevice7" />
+    <Parameter ID="FileDeviceName7" Value="ALL_1" />
+    <Parameter ID="FileDevicePath7" Value="/bd0\\AllRecipe" />
+    <Group ID="FileDevice8" />
+    <Parameter ID="FileDeviceName8" Value="ALL_2" />
+    <Parameter ID="FileDevicePath8" Value="/bd16\\AllRecipe" />
+    <Group ID="FileDevice9" />
+    <Parameter ID="FileDeviceName9" Value="USER" />
+    <Parameter ID="FileDevicePath9" Value="F:\" />
+    <Group ID="FileDevice10" />
+    <Parameter ID="FileDeviceName10" Value="DOC" />
+    <Parameter ID="FileDevicePath10" Value="C:\AR000\C" />
+    <Parameter ID="TimeZone" Value="315" />
+  </Module>
+  <Module Name="8AC114.60-2" Type="8AC114.60-2" Version="1.0.0.8" Disabled="true">
+    <Connection Connector="SS" TargetModule="8V1090.001-2_L_BlowPin" TargetConnector="SS1" />
+    <Connection Connector="PLK1" TargetModule="X20BC0083a" TargetConnector="PLK2" NodeNumber="3" />
+    <Connection Connector="PLK2" TargetModule="8AC114.60-2a" TargetConnector="PLK1" NodeNumber="3" />
+  </Module>
+  <Module Name="8AC114.60-2a" Type="8AC114.60-2" Version="1.0.0.8" Disabled="true">
+    <Connection Connector="SS" TargetModule="8V1090.001-2a_R_BlowPin" TargetConnector="SS1" />
+    <Connection Connector="PLK1" TargetModule="8AC114.60-2" TargetConnector="PLK2" NodeNumber="4" />
+    <Connection Connector="PLK2" TargetModule="8AC114.60-2b" TargetConnector="PLK1" NodeNumber="4" />
+  </Module>
+  <Module Name="8AC114.60-2b" Type="8AC114.60-2" Version="1.0.0.8" Disabled="true">
+    <Connection Connector="SS" TargetModule="8V1180.001-2_L_Carriage" TargetConnector="SS1" />
+    <Connection Connector="PLK1" TargetModule="8AC114.60-2a" TargetConnector="PLK2" NodeNumber="5" />
+    <Connection Connector="PLK2" TargetModule="8AC114.60-2c" TargetConnector="PLK1" NodeNumber="5" />
+  </Module>
+  <Module Name="8AC114.60-2c" Type="8AC114.60-2" Version="1.0.0.8" Disabled="true">
+    <Connection Connector="SS" TargetModule="8V1180.001-2a_R_Carriage" TargetConnector="SS1" />
+    <Connection Connector="PLK1" TargetModule="8AC114.60-2b" TargetConnector="PLK2" NodeNumber="6" />
+    <Connection Connector="PLK2" TargetModule="8I84xxxxxxx.01P-1b" TargetConnector="PLK1" NodeNumber="6" />
+  </Module>
+  <Module Name="8AC126.60-1" Type="8AC126.60-1" Version="2.2.0.0" Disabled="true">
+    <Connection Connector="SS" TargetModule="8V1090.001-2_L_BlowPin" TargetConnector="SS2" />
+  </Module>
+  <Module Name="8AC126.60-1a" Type="8AC126.60-1" Version="2.2.0.0" Disabled="true">
+    <Connection Connector="SS" TargetModule="8V1090.001-2a_R_BlowPin" TargetConnector="SS2" />
+  </Module>
+  <Module Name="8AC126.60-1b" Type="8AC126.60-1" Version="2.2.0.0" Disabled="true">
+    <Connection Connector="SS" TargetModule="8V1180.001-2_L_Carriage" TargetConnector="SS2" />
+  </Module>
+  <Module Name="8AC126.60-1c" Type="8AC126.60-1" Version="2.2.0.0" Disabled="true">
+    <Connection Connector="SS" TargetModule="8V1180.001-2a_R_Carriage" TargetConnector="SS2" />
+  </Module>
+  <Module Name="8B0P0440HW00.001-1" Type="8B0P0440HW00.001-1" Version="1.0.0.4">
+    <Connection Connector="PLK2" TargetModule="8BVI0440HWS0.000-1" TargetConnector="PLK1" NodeNumber="3" />
+    <Parameter ID="BothEndSwitchesAreNormallyOpen_r1" Value="on" />
+    <Parameter ID="QuickStopIsNormallyOpen_r1" Value="on" />
+  </Module>
+  <Module Name="8BAC0120.001-2" Type="8BAC0120.001-2" Version="2.2.0.0" Disabled="true">
+    <Connection Connector="SS" TargetModule="8BVI0330HWS0.000-1" TargetConnector="SS1" />
+  </Module>
+  <Module Name="8BAC0120.001-2a" Type="8BAC0120.001-2" Version="2.2.0.0" Disabled="true">
+    <Connection Connector="SS" TargetModule="8BVI0110HWS0.000-1" TargetConnector="SS1" />
+  </Module>
+  <Module Name="8BAC0120.001-2b" Type="8BAC0120.001-2" Version="2.2.0.0" Disabled="true">
+    <Connection Connector="SS" TargetModule="8BVI0330HWS0.000-1a" TargetConnector="SS1" />
+  </Module>
+  <Module Name="8BAC0120.001-2c" Type="8BAC0120.001-2" Version="2.2.0.0">
+    <Connection Connector="SS" TargetModule="8BVI0110HWD0.000-1" TargetConnector="SS1" />
+  </Module>
+  <Module Name="8BAC0120.001-2d" Type="8BAC0120.001-2" Version="2.2.0.0">
+    <Connection Connector="SS" TargetModule="8BVI0110HWD0.000-1" TargetConnector="SS2" />
+  </Module>
+  <Module Name="8BAC0120.001-2e" Type="8BAC0120.001-2" Version="2.2.0.0" Disabled="true">
+    <Connection Connector="SS" TargetModule="8BVI0028HWD0.000-1" TargetConnector="SS1" />
+  </Module>
+  <Module Name="8BAC0120.001-2f" Type="8BAC0120.001-2" Version="2.2.0.0" Disabled="true">
+    <Connection Connector="SS" TargetModule="8BVI0028HWD0.000-1" TargetConnector="SS2" />
+  </Module>
+  <Module Name="8BAC0120.001-2g" Type="8BAC0120.001-2" Version="2.2.0.0" Disabled="true">
+    <Connection Connector="SS" TargetModule="8BVI0440HWS0.000-1a" TargetConnector="SS1" />
+  </Module>
+  <Module Name="8BAC0120.001-2h" Type="8BAC0120.001-2" Version="2.2.0.0" Disabled="true">
+    <Connection Connector="SS" TargetModule="8BVI0330HWS0.000-1b" TargetConnector="SS1" />
+  </Module>
+  <Module Name="8BAC0120.001-2i" Type="8BAC0120.001-2" Version="2.2.0.0" Disabled="true">
+    <Connection Connector="SS" TargetModule="8BVI0440HWS0.000-1" TargetConnector="SS1" />
+  </Module>
+  <Module Name="8BVI0028HWD0.000-1" Type="8BVI0028HWD0.000-1" Version="2.3.0.1" Disabled="true">
+    <Connection Connector="PLK1" TargetModule="8BVI0110HWD0.000-1" TargetConnector="PLK2" NodeNumber="12" />
+    <Connection Connector="MT2" TargetModule="8LSA35.DB030S000-3a" TargetConnector="MT" />
+    <Parameter ID="PowerSupply" Value="passive" />
+  </Module>
+  <Module Name="8BVI0110HWD0.000-1" Type="8BVI0110HWD0.000-1" Version="2.3.0.1">
+    <Connection Connector="PLK1" TargetModule="8BVI0330HWS0.000-1a" TargetConnector="PLK2" NodeNumber="11" />
+    <Connection Connector="PLK2" TargetModule="8BVI0028HWD0.000-1" TargetConnector="PLK1" NodeNumber="11" />
+    <Connection Connector="MT2" TargetModule="R-BlowPin" TargetConnector="MT" />
+    <Parameter ID="PowerSupply" Value="passive" />
+  </Module>
+  <Module Name="8BVI0110HWS0.000-1" Type="8BVI0110HWS0.000-1" Version="1.0.0.4" Disabled="true">
+    <Parameter ID="PowerSupply" Value="passive" />
+    <Parameter ID="FunctionModel" Value="SingleAxis" />
+  </Module>
+  <Module Name="8BVI0330HWS0.000-1" Type="8BVI0330HWS0.000-1" Version="2.3.0.1" Disabled="true">
+    <Connection Connector="PLK1" TargetModule="8BVI0440HWS0.000-1a" TargetConnector="PLK2" NodeNumber="9" />
+    <Connection Connector="PLK2" TargetModule="8BVI0330HWS0.000-1a" TargetConnector="PLK1" NodeNumber="9" />
+    <Parameter ID="PowerSupply" Value="passive" />
+    <Parameter ID="FunctionModel" Value="SingleAxis" />
+  </Module>
+  <Module Name="8BVI0330HWS0.000-1a" Type="8BVI0330HWS0.000-1" Version="2.3.0.1" Disabled="true">
+    <Connection Connector="PLK1" TargetModule="8BVI0330HWS0.000-1" TargetConnector="PLK2" NodeNumber="10" />
+    <Connection Connector="PLK2" TargetModule="8BVI0110HWD0.000-1" TargetConnector="PLK1" NodeNumber="10" />
+    <Parameter ID="PowerSupply" Value="passive" />
+    <Parameter ID="FunctionModel" Value="SingleAxis" />
+  </Module>
+  <Module Name="8BVI0330HWS0.000-1b" Type="8BVI0330HWS0.000-1" Version="2.3.0.1" Disabled="true">
+    <Parameter ID="PowerSupply" Value="passive" />
+    <Parameter ID="FunctionModel" Value="SingleAxis" />
+  </Module>
+  <Module Name="8BVI0440HWS0.000-1" Type="8BVI0440HWS0.000-1" Version="1.0.0.4" Disabled="true">
+    <Connection Connector="PLK1" TargetModule="8B0P0440HW00.001-1" TargetConnector="PLK2" NodeNumber="7" />
+    <Connection Connector="PLK2" TargetModule="8BVI0440HWS0.000-1a" TargetConnector="PLK1" NodeNumber="7" />
+  </Module>
+  <Module Name="8BVI0440HWS0.000-1a" Type="8BVI0440HWS0.000-1" Version="1.0.0.4" Disabled="true">
+    <Connection Connector="PLK1" TargetModule="8BVI0440HWS0.000-1" TargetConnector="PLK2" NodeNumber="8" />
+    <Connection Connector="PLK2" TargetModule="8BVI0330HWS0.000-1" TargetConnector="PLK1" NodeNumber="8" />
+  </Module>
+  <Module Name="8I84xxxxxxx.01P-1" Type="8I84xxxxxxx.01P-1" Version="1.0.9.2" Disabled="true">
+    <Connection Connector="PLK1" TargetModule="8I84xxxxxxx.01P-1b" TargetConnector="PLK2" NodeNumber="8" />
+    <Connection Connector="PLK2" TargetModule="8I84xxxxxxx.01P-1a" TargetConnector="PLK1" NodeNumber="8" />
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="ACC" Value="150" />
+    <Parameter ID="DEC" Value="150" />
+    <Parameter ID="AC2" Value="150" />
+    <Parameter ID="DE2" Value="150" />
+    <Parameter ID="ITH" Value="1399" />
+    <Parameter ID="NPR" Value="7500" />
+    <Parameter ID="UNS" Value="380" />
+    <Parameter ID="NCR" Value="1399" />
+    <Parameter ID="NSP" Value="1480" />
+    <Parameter ID="PTCL" Value="1" />
+  </Module>
+  <Module Name="8I84xxxxxxx.01P-1a" Type="8I84xxxxxxx.01P-1" Version="1.0.9.2" Disabled="true">
+    <Connection Connector="PLK1" TargetModule="8I84xxxxxxx.01P-1" TargetConnector="PLK2" NodeNumber="9" />
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="ACC" Value="150" />
+    <Parameter ID="DEC" Value="150" />
+    <Parameter ID="AC2" Value="150" />
+    <Parameter ID="DE2" Value="150" />
+    <Parameter ID="ITH" Value="580" />
+    <Parameter ID="NPR" Value="3000" />
+    <Parameter ID="UNS" Value="380" />
+    <Parameter ID="NCR" Value="580" />
+    <Parameter ID="NSP" Value="1475" />
+    <Parameter ID="PTCL" Value="1" />
+  </Module>
+  <Module Name="8I84xxxxxxx.01P-1b" Type="8I84xxxxxxx.01P-1" Version="1.0.9.2" Disabled="true">
+    <Connection Connector="PLK1" TargetModule="8AC114.60-2c" TargetConnector="PLK2" NodeNumber="7" />
+    <Connection Connector="PLK2" TargetModule="8I84xxxxxxx.01P-1" TargetConnector="PLK1" NodeNumber="7" />
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="ACC" Value="150" />
+    <Parameter ID="DEC" Value="150" />
+    <Parameter ID="AC2" Value="150" />
+    <Parameter ID="DE2" Value="150" />
+    <Parameter ID="ITH" Value="580" />
+    <Parameter ID="NPR" Value="3000" />
+    <Parameter ID="UNS" Value="380" />
+    <Parameter ID="NCR" Value="580" />
+    <Parameter ID="NSP" Value="1475" />
+    <Parameter ID="PTCL" Value="1" />
+  </Module>
+  <Module Name="8LSA35.DB030S000-3" Type="8LSA35.DB030S000-3" Version="1.0.2.34" Disabled="true">
+    <Connection Connector="EC" TargetModule="8BAC0120.001-2a" TargetConnector="EC" />
+    <Connection Connector="MT" TargetModule="8BVI0110HWS0.000-1" TargetConnector="MT1" />
+    <Parameter ID="MOTOR_TYPE" Value="16#0004" />
+    <Parameter ID="MOTOR_COMPATIBILITY" Value="16#0207" />
+    <Parameter ID="MOTOR_WIND_CONNECT" Value="1" />
+    <Parameter ID="MOTOR_BRAKE_TYPE" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_CURR_RATED" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_TORQ_RATED" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_ON_TIME" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_OFF_TIME" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_RESISTANCE" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_INDUCTANCE" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_REL" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_HOLD" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_MAX" Value="0" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR1" Value="31" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR2" Value="289" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR3" Value="-30" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR4" Value="-0.65" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR5" Value="29.06" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR6" Value="58.83" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR7" Value="88.17" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR8" Value="117.42" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR9" Value="147.14" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR10" Value="175" />
+    <Parameter ID="MOTOR_TEMPSENS_TYPE" Value="4353" />
+    <Parameter ID="MOTOR_TEMPSENS_LIM" Value="130" />
+    <Parameter ID="MOTOR_POLEPAIRS" Value="4" />
+    <Parameter ID="MOTOR_VOLTAGE_RATED" Value="400" />
+    <Parameter ID="MOTOR_VOLTAGE_CONST" Value="87.96" />
+    <Parameter ID="MOTOR_SPEED_RATED" Value="3000" />
+    <Parameter ID="MOTOR_SPEED_MAX" Value="9000" />
+    <Parameter ID="MOTOR_TORQ_STALL" Value="2.3" />
+    <Parameter ID="MOTOR_TORQ_RATED" Value="2.1" />
+    <Parameter ID="MOTOR_TORQ_MAX" Value="9.2" />
+    <Parameter ID="MOTOR_TORQ_CONST" Value="1.45" />
+    <Parameter ID="MOTOR_CURR_STALL" Value="1.6" />
+    <Parameter ID="MOTOR_CURR_RATED" Value="1.4" />
+    <Parameter ID="MOTOR_CURR_MAX" Value="6.8" />
+    <Parameter ID="MOTOR_WIND_CROSS_SECT" Value="0.181" />
+    <Parameter ID="MOTOR_STATOR_RESISTANCE" Value="12.22" />
+    <Parameter ID="MOTOR_STATOR_INDUCTANCE" Value="0.063" />
+    <Parameter ID="MOTOR_INERTIA" Value="9E-05" />
+    <Parameter ID="MOTOR_COMMUT_OFFSET" Value="1000000" />
+    <Parameter ID="MOTOR_WIND_TEMP_MAX" Value="110" />
+    <Parameter ID="MOTOR_TAU_THERM" Value="2040" />
+    <Parameter ID="MOTOR_AMB_TEMP_RATED" Value="40" />
+    <Parameter ID="MOTOR_TEMPMODEL_REFSENS" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_RES1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_CAP1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_RES2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_CAP2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_LOSS1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_LOSS2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_MODE" Value="16#FFFF" />
+    <Parameter ID="MOTOR_ENCOD_TEMP_LIM" Value="120" />
+  </Module>
+  <Module Name="8LSA35.DB030S000-3a" Type="8LSA35.DB030S000-3" Version="1.0.2.34" Disabled="true">
+    <Connection Connector="EC" TargetModule="8BAC0120.001-2f" TargetConnector="EC" />
+    <Connection Connector="MT" TargetModule="8BVI0028HWD0.000-1" TargetConnector="MT2" />
+    <Parameter ID="MOTOR_TYPE" Value="16#0004" />
+    <Parameter ID="MOTOR_COMPATIBILITY" Value="16#0207" />
+    <Parameter ID="MOTOR_WIND_CONNECT" Value="1" />
+    <Parameter ID="MOTOR_BRAKE_TYPE" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_CURR_RATED" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_TORQ_RATED" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_ON_TIME" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_OFF_TIME" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_RESISTANCE" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_INDUCTANCE" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_REL" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_HOLD" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_MAX" Value="0" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR1" Value="31" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR2" Value="289" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR3" Value="-30" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR4" Value="-0.65" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR5" Value="29.06" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR6" Value="58.83" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR7" Value="88.17" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR8" Value="117.42" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR9" Value="147.14" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR10" Value="175" />
+    <Parameter ID="MOTOR_TEMPSENS_TYPE" Value="4353" />
+    <Parameter ID="MOTOR_TEMPSENS_LIM" Value="130" />
+    <Parameter ID="MOTOR_POLEPAIRS" Value="4" />
+    <Parameter ID="MOTOR_VOLTAGE_RATED" Value="400" />
+    <Parameter ID="MOTOR_VOLTAGE_CONST" Value="87.96" />
+    <Parameter ID="MOTOR_SPEED_RATED" Value="3000" />
+    <Parameter ID="MOTOR_SPEED_MAX" Value="9000" />
+    <Parameter ID="MOTOR_TORQ_STALL" Value="2.3" />
+    <Parameter ID="MOTOR_TORQ_RATED" Value="2.1" />
+    <Parameter ID="MOTOR_TORQ_MAX" Value="9.2" />
+    <Parameter ID="MOTOR_TORQ_CONST" Value="1.45" />
+    <Parameter ID="MOTOR_CURR_STALL" Value="1.6" />
+    <Parameter ID="MOTOR_CURR_RATED" Value="1.4" />
+    <Parameter ID="MOTOR_CURR_MAX" Value="6.8" />
+    <Parameter ID="MOTOR_WIND_CROSS_SECT" Value="0.181" />
+    <Parameter ID="MOTOR_STATOR_RESISTANCE" Value="12.22" />
+    <Parameter ID="MOTOR_STATOR_INDUCTANCE" Value="0.063" />
+    <Parameter ID="MOTOR_INERTIA" Value="9E-05" />
+    <Parameter ID="MOTOR_COMMUT_OFFSET" Value="1000000" />
+    <Parameter ID="MOTOR_WIND_TEMP_MAX" Value="110" />
+    <Parameter ID="MOTOR_TAU_THERM" Value="2040" />
+    <Parameter ID="MOTOR_AMB_TEMP_RATED" Value="40" />
+    <Parameter ID="MOTOR_TEMPMODEL_REFSENS" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_RES1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_CAP1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_RES2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_CAP2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_LOSS1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_LOSS2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_MODE" Value="16#FFFF" />
+    <Parameter ID="MOTOR_ENCOD_TEMP_LIM" Value="120" />
+  </Module>
+  <Module Name="8LSA44.DB030S200-3" Type="8LSA44.DB030S200-3" Version="1.0.8.37" Disabled="true">
+    <Connection Connector="EC" TargetModule="8BAC0120.001-2e" TargetConnector="EC" />
+    <Connection Connector="MT" TargetModule="8BVI0028HWD0.000-1" TargetConnector="MT1" />
+    <Parameter ID="MOTOR_TYPE" Value="16#0002" />
+    <Parameter ID="MOTOR_COMPATIBILITY" Value="16#0207" />
+    <Parameter ID="MOTOR_WIND_CONNECT" Value="1" />
+    <Parameter ID="MOTOR_BRAKE_TYPE" Value="16#FFFF" />
+    <Parameter ID="MOTOR_BRAKE_CURR_RATED" Value="0.75" />
+    <Parameter ID="MOTOR_BRAKE_TORQ_RATED" Value="8" />
+    <Parameter ID="MOTOR_BRAKE_ON_TIME" Value="0.038" />
+    <Parameter ID="MOTOR_BRAKE_OFF_TIME" Value="0.055" />
+    <Parameter ID="MOTOR_BRAKE_RESISTANCE" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_INDUCTANCE" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_REL" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_HOLD" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_MAX" Value="0" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR1" Value="31" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR2" Value="289" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR3" Value="-30" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR4" Value="-0.65" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR5" Value="29.06" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR6" Value="58.83" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR7" Value="88.17" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR8" Value="117.42" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR9" Value="147.14" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR10" Value="175" />
+    <Parameter ID="MOTOR_TEMPSENS_TYPE" Value="4353" />
+    <Parameter ID="MOTOR_TEMPSENS_LIM" Value="130" />
+    <Parameter ID="MOTOR_POLEPAIRS" Value="5" />
+    <Parameter ID="MOTOR_VOLTAGE_RATED" Value="400" />
+    <Parameter ID="MOTOR_VOLTAGE_CONST" Value="98.44" />
+    <Parameter ID="MOTOR_SPEED_RATED" Value="3000" />
+    <Parameter ID="MOTOR_SPEED_MAX" Value="12000" />
+    <Parameter ID="MOTOR_TORQ_STALL" Value="6" />
+    <Parameter ID="MOTOR_TORQ_RATED" Value="4.62" />
+    <Parameter ID="MOTOR_TORQ_MAX" Value="22.8" />
+    <Parameter ID="MOTOR_TORQ_CONST" Value="1.63" />
+    <Parameter ID="MOTOR_CURR_STALL" Value="3.7" />
+    <Parameter ID="MOTOR_CURR_RATED" Value="2.8" />
+    <Parameter ID="MOTOR_CURR_MAX" Value="21.9" />
+    <Parameter ID="MOTOR_WIND_CROSS_SECT" Value="0.503" />
+    <Parameter ID="MOTOR_STATOR_RESISTANCE" Value="3.6" />
+    <Parameter ID="MOTOR_STATOR_INDUCTANCE" Value="0.024" />
+    <Parameter ID="MOTOR_INERTIA" Value="0.000327" />
+    <Parameter ID="MOTOR_COMMUT_OFFSET" Value="1000000" />
+    <Parameter ID="MOTOR_WIND_TEMP_MAX" Value="110" />
+    <Parameter ID="MOTOR_TAU_THERM" Value="1800" />
+    <Parameter ID="MOTOR_AMB_TEMP_RATED" Value="40" />
+    <Parameter ID="MOTOR_TEMPMODEL_REFSENS" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_RES1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_CAP1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_RES2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_CAP2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_LOSS1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_LOSS2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_MODE" Value="16#FFFF" />
+    <Parameter ID="MOTOR_ENCOD_TEMP_LIM" Value="120" />
+  </Module>
+  <Module Name="8LSA57.DB030S200-3" Type="8LSA57.DB030S200-3" Version="2.2.0.1" Disabled="true">
+    <Connection Connector="EC" TargetModule="8AC126.60-1" TargetConnector="EC" />
+    <Connection Connector="MT" TargetModule="8V1090.001-2_L_BlowPin" TargetConnector="MT1" />
+    <Parameter ID="MOTOR_TYPE" Value="16#0002" />
+    <Parameter ID="MOTOR_COMPATIBILITY" Value="16#0207" />
+    <Parameter ID="MOTOR_WIND_CONNECT" Value="1" />
+    <Parameter ID="MOTOR_BRAKE_TYPE" Value="16#FFFF" />
+    <Parameter ID="MOTOR_BRAKE_CURR_RATED" Value="1" />
+    <Parameter ID="MOTOR_BRAKE_TORQ_RATED" Value="15" />
+    <Parameter ID="MOTOR_BRAKE_ON_TIME" Value="0.01" />
+    <Parameter ID="MOTOR_BRAKE_OFF_TIME" Value="0.05" />
+    <Parameter ID="MOTOR_BRAKE_RESISTANCE" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_INDUCTANCE" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_REL" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_HOLD" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_MAX" Value="0" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR1" Value="31" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR2" Value="289" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR3" Value="-30" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR4" Value="-0.65" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR5" Value="29.06" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR6" Value="58.83" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR7" Value="88.17" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR8" Value="117.42" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR9" Value="147.14" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR10" Value="175" />
+    <Parameter ID="MOTOR_TEMPSENS_TYPE" Value="4353" />
+    <Parameter ID="MOTOR_TEMPSENS_LIM" Value="130" />
+    <Parameter ID="MOTOR_POLEPAIRS" Value="4" />
+    <Parameter ID="MOTOR_VOLTAGE_RATED" Value="400" />
+    <Parameter ID="MOTOR_VOLTAGE_CONST" Value="98.44" />
+    <Parameter ID="MOTOR_SPEED_RATED" Value="3000" />
+    <Parameter ID="MOTOR_SPEED_MAX" Value="9000" />
+    <Parameter ID="MOTOR_TORQ_STALL" Value="20" />
+    <Parameter ID="MOTOR_TORQ_RATED" Value="17.5" />
+    <Parameter ID="MOTOR_TORQ_MAX" Value="69" />
+    <Parameter ID="MOTOR_TORQ_CONST" Value="1.63" />
+    <Parameter ID="MOTOR_CURR_STALL" Value="12.3" />
+    <Parameter ID="MOTOR_CURR_RATED" Value="10.7" />
+    <Parameter ID="MOTOR_CURR_MAX" Value="52.6" />
+    <Parameter ID="MOTOR_WIND_CROSS_SECT" Value="2.01" />
+    <Parameter ID="MOTOR_STATOR_RESISTANCE" Value="0.62" />
+    <Parameter ID="MOTOR_STATOR_INDUCTANCE" Value="0.00721" />
+    <Parameter ID="MOTOR_INERTIA" Value="0.00148" />
+    <Parameter ID="MOTOR_COMMUT_OFFSET" Value="1000000" />
+    <Parameter ID="MOTOR_WIND_TEMP_MAX" Value="110" />
+    <Parameter ID="MOTOR_TAU_THERM" Value="2760" />
+    <Parameter ID="MOTOR_AMB_TEMP_RATED" Value="40" />
+    <Parameter ID="MOTOR_TEMPMODEL_REFSENS" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_RES1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_CAP1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_RES2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_CAP2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_LOSS1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_LOSS2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_MODE" Value="16#FFFF" />
+    <Parameter ID="MOTOR_ENCOD_TEMP_LIM" Value="120" />
+  </Module>
+  <Module Name="8LSA57.DB030S200-3a" Type="8LSA57.DB030S200-3" Version="2.2.0.1" Disabled="true">
+    <Connection Connector="EC" TargetModule="8AC126.60-1a" TargetConnector="EC" />
+    <Connection Connector="MT" TargetModule="8V1090.001-2a_R_BlowPin" TargetConnector="MT1" />
+    <Parameter ID="MOTOR_TYPE" Value="16#0002" />
+    <Parameter ID="MOTOR_COMPATIBILITY" Value="16#0207" />
+    <Parameter ID="MOTOR_WIND_CONNECT" Value="1" />
+    <Parameter ID="MOTOR_BRAKE_TYPE" Value="16#FFFF" />
+    <Parameter ID="MOTOR_BRAKE_CURR_RATED" Value="1" />
+    <Parameter ID="MOTOR_BRAKE_TORQ_RATED" Value="15" />
+    <Parameter ID="MOTOR_BRAKE_ON_TIME" Value="0.01" />
+    <Parameter ID="MOTOR_BRAKE_OFF_TIME" Value="0.05" />
+    <Parameter ID="MOTOR_BRAKE_RESISTANCE" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_INDUCTANCE" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_REL" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_HOLD" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_MAX" Value="0" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR1" Value="31" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR2" Value="289" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR3" Value="-30" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR4" Value="-0.65" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR5" Value="29.06" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR6" Value="58.83" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR7" Value="88.17" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR8" Value="117.42" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR9" Value="147.14" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR10" Value="175" />
+    <Parameter ID="MOTOR_TEMPSENS_TYPE" Value="4353" />
+    <Parameter ID="MOTOR_TEMPSENS_LIM" Value="130" />
+    <Parameter ID="MOTOR_POLEPAIRS" Value="4" />
+    <Parameter ID="MOTOR_VOLTAGE_RATED" Value="400" />
+    <Parameter ID="MOTOR_VOLTAGE_CONST" Value="98.44" />
+    <Parameter ID="MOTOR_SPEED_RATED" Value="3000" />
+    <Parameter ID="MOTOR_SPEED_MAX" Value="9000" />
+    <Parameter ID="MOTOR_TORQ_STALL" Value="20" />
+    <Parameter ID="MOTOR_TORQ_RATED" Value="17.5" />
+    <Parameter ID="MOTOR_TORQ_MAX" Value="69" />
+    <Parameter ID="MOTOR_TORQ_CONST" Value="1.63" />
+    <Parameter ID="MOTOR_CURR_STALL" Value="12.3" />
+    <Parameter ID="MOTOR_CURR_RATED" Value="10.7" />
+    <Parameter ID="MOTOR_CURR_MAX" Value="52.6" />
+    <Parameter ID="MOTOR_WIND_CROSS_SECT" Value="2.01" />
+    <Parameter ID="MOTOR_STATOR_RESISTANCE" Value="0.62" />
+    <Parameter ID="MOTOR_STATOR_INDUCTANCE" Value="0.00721" />
+    <Parameter ID="MOTOR_INERTIA" Value="0.00148" />
+    <Parameter ID="MOTOR_COMMUT_OFFSET" Value="1000000" />
+    <Parameter ID="MOTOR_WIND_TEMP_MAX" Value="110" />
+    <Parameter ID="MOTOR_TAU_THERM" Value="2760" />
+    <Parameter ID="MOTOR_AMB_TEMP_RATED" Value="40" />
+    <Parameter ID="MOTOR_TEMPMODEL_REFSENS" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_RES1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_CAP1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_RES2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_CAP2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_LOSS1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_LOSS2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_MODE" Value="16#FFFF" />
+    <Parameter ID="MOTOR_ENCOD_TEMP_LIM" Value="120" />
+  </Module>
+  <Module Name="8LSA75.DB030S000-3" Type="8LSA75.DB030S000-3" Version="1.0.5.34" Disabled="true">
+    <Connection Connector="EC" TargetModule="8AC126.60-1b" TargetConnector="EC" />
+    <Connection Connector="MT" TargetModule="8V1180.001-2_L_Carriage" TargetConnector="MT1" />
+    <Parameter ID="MOTOR_TYPE" Value="16#0002" />
+    <Parameter ID="MOTOR_COMPATIBILITY" Value="16#0207" />
+    <Parameter ID="MOTOR_WIND_CONNECT" Value="1" />
+    <Parameter ID="MOTOR_BRAKE_TYPE" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_CURR_RATED" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_TORQ_RATED" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_ON_TIME" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_OFF_TIME" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_RESISTANCE" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_INDUCTANCE" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_REL" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_HOLD" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_MAX" Value="0" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR1" Value="31" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR2" Value="289" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR3" Value="-30" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR4" Value="-0.65" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR5" Value="29.06" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR6" Value="58.83" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR7" Value="88.17" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR8" Value="117.42" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR9" Value="147.14" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR10" Value="175" />
+    <Parameter ID="MOTOR_TEMPSENS_TYPE" Value="4353" />
+    <Parameter ID="MOTOR_TEMPSENS_LIM" Value="130" />
+    <Parameter ID="MOTOR_POLEPAIRS" Value="5" />
+    <Parameter ID="MOTOR_VOLTAGE_RATED" Value="400" />
+    <Parameter ID="MOTOR_VOLTAGE_CONST" Value="98.44" />
+    <Parameter ID="MOTOR_SPEED_RATED" Value="3000" />
+    <Parameter ID="MOTOR_SPEED_MAX" Value="4500" />
+    <Parameter ID="MOTOR_TORQ_STALL" Value="43" />
+    <Parameter ID="MOTOR_TORQ_RATED" Value="30" />
+    <Parameter ID="MOTOR_TORQ_MAX" Value="187" />
+    <Parameter ID="MOTOR_TORQ_CONST" Value="1.63" />
+    <Parameter ID="MOTOR_CURR_STALL" Value="26.4" />
+    <Parameter ID="MOTOR_CURR_RATED" Value="18.4" />
+    <Parameter ID="MOTOR_CURR_MAX" Value="168.71" />
+    <Parameter ID="MOTOR_WIND_CROSS_SECT" Value="4.36" />
+    <Parameter ID="MOTOR_STATOR_RESISTANCE" Value="0.21" />
+    <Parameter ID="MOTOR_STATOR_INDUCTANCE" Value="0.0039" />
+    <Parameter ID="MOTOR_INERTIA" Value="0.0074" />
+    <Parameter ID="MOTOR_COMMUT_OFFSET" Value="1000000" />
+    <Parameter ID="MOTOR_WIND_TEMP_MAX" Value="110" />
+    <Parameter ID="MOTOR_TAU_THERM" Value="2760" />
+    <Parameter ID="MOTOR_AMB_TEMP_RATED" Value="40" />
+    <Parameter ID="MOTOR_TEMPMODEL_REFSENS" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_RES1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_CAP1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_RES2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_CAP2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_LOSS1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_LOSS2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_MODE" Value="16#FFFF" />
+    <Parameter ID="MOTOR_ENCOD_TEMP_LIM" Value="120" />
+  </Module>
+  <Module Name="8LSA75.DB030S000-3a" Type="8LSA75.DB030S000-3" Version="1.0.5.34" Disabled="true">
+    <Connection Connector="EC" TargetModule="8AC126.60-1c" TargetConnector="EC" />
+    <Connection Connector="MT" TargetModule="8V1180.001-2a_R_Carriage" TargetConnector="MT1" />
+    <Parameter ID="MOTOR_TYPE" Value="16#0002" />
+    <Parameter ID="MOTOR_COMPATIBILITY" Value="16#0207" />
+    <Parameter ID="MOTOR_WIND_CONNECT" Value="1" />
+    <Parameter ID="MOTOR_BRAKE_TYPE" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_CURR_RATED" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_TORQ_RATED" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_ON_TIME" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_OFF_TIME" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_RESISTANCE" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_INDUCTANCE" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_REL" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_HOLD" Value="0" />
+    <Parameter ID="MOTOR_BRAKE_VOLT_MAX" Value="0" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR1" Value="31" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR2" Value="289" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR3" Value="-30" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR4" Value="-0.65" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR5" Value="29.06" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR6" Value="58.83" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR7" Value="88.17" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR8" Value="117.42" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR9" Value="147.14" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR10" Value="175" />
+    <Parameter ID="MOTOR_TEMPSENS_TYPE" Value="4353" />
+    <Parameter ID="MOTOR_TEMPSENS_LIM" Value="130" />
+    <Parameter ID="MOTOR_POLEPAIRS" Value="5" />
+    <Parameter ID="MOTOR_VOLTAGE_RATED" Value="400" />
+    <Parameter ID="MOTOR_VOLTAGE_CONST" Value="98.44" />
+    <Parameter ID="MOTOR_SPEED_RATED" Value="3000" />
+    <Parameter ID="MOTOR_SPEED_MAX" Value="4500" />
+    <Parameter ID="MOTOR_TORQ_STALL" Value="43" />
+    <Parameter ID="MOTOR_TORQ_RATED" Value="30" />
+    <Parameter ID="MOTOR_TORQ_MAX" Value="187" />
+    <Parameter ID="MOTOR_TORQ_CONST" Value="1.63" />
+    <Parameter ID="MOTOR_CURR_STALL" Value="26.4" />
+    <Parameter ID="MOTOR_CURR_RATED" Value="18.4" />
+    <Parameter ID="MOTOR_CURR_MAX" Value="168.71" />
+    <Parameter ID="MOTOR_WIND_CROSS_SECT" Value="4.36" />
+    <Parameter ID="MOTOR_STATOR_RESISTANCE" Value="0.21" />
+    <Parameter ID="MOTOR_STATOR_INDUCTANCE" Value="0.0039" />
+    <Parameter ID="MOTOR_INERTIA" Value="0.0074" />
+    <Parameter ID="MOTOR_COMMUT_OFFSET" Value="1000000" />
+    <Parameter ID="MOTOR_WIND_TEMP_MAX" Value="110" />
+    <Parameter ID="MOTOR_TAU_THERM" Value="2760" />
+    <Parameter ID="MOTOR_AMB_TEMP_RATED" Value="40" />
+    <Parameter ID="MOTOR_TEMPMODEL_REFSENS" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_RES1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_CAP1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_RES2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_CAP2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_LOSS1" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_LOSS2" Value="0" />
+    <Parameter ID="MOTOR_TEMPMODEL_MODE" Value="16#FFFF" />
+    <Parameter ID="MOTOR_ENCOD_TEMP_LIM" Value="120" />
+  </Module>
+  <Module Name="8V1090.001-2_L_BlowPin" Type="8V1090.001-2" Version="1.0.0.0" Disabled="true" Description="Left Blow Pin ACOPOS servo drive, 3x 400-480 V, 8.8 A, 4 kW, coated, line filter, braking resistor and electronic..." />
+  <Module Name="8V1090.001-2a_R_BlowPin" Type="8V1090.001-2" Version="1.0.0.0" Disabled="true" />
+  <Module Name="8V1180.001-2_L_Carriage" Type="8V1180.001-2" Version="1.0.0.0" Disabled="true" />
+  <Module Name="8V1180.001-2a_R_Carriage" Type="8V1180.001-2" Version="1.0.0.0" Disabled="true" />
+  <Module Name="FEPL-02_and_ACS580" Type="FBE.000000B7_ACS580_v2.06.0.0_FEPL-02_1.0" Version="1.0.0.0" OrderNumber="FEPL-02 and ACS580">
+    <Connection Connector="PLK1" TargetModule="X20BC0083" TargetConnector="PLK2" NodeNumber="20" />
+    <Connection Connector="PLK2" TargetModule="FEPL-02_and_ACS580a" TargetConnector="PLK1" NodeNumber="20" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="p2101_direction" Value="wo" />
+    <Parameter ID="p2102_direction" Value="wo" />
+    <Parameter ID="p2103_direction" Value="wo" />
+    <Parameter ID="p2104_direction" Value="ro" />
+    <Parameter ID="p2105_direction" Value="ro" />
+    <Parameter ID="p2106_direction" Value="ro" />
+    <Parameter ID="p603F_direction" Value="ro" />
+    <Parameter ID="p4001s06_direction" Value="ro" />
+    <Parameter ID="p4001s07_direction" Value="ro" />
+    <Parameter ID="p4001s0B_direction" Value="ro" />
+    <Parameter ID="p4001s0E_direction" Value="ro" />
+  </Module>
+  <Module Name="FEPL-02_and_ACS580a" Type="FBE.000000B7_ACS580_v2.06.0.0_FEPL-02_1.0" Version="1.0.0.0" OrderNumber="FEPL-02 and ACS580">
+    <Connection Connector="PLK1" TargetModule="FEPL-02_and_ACS580" TargetConnector="PLK2" NodeNumber="23" />
+    <Connection Connector="PLK2" TargetModule="FEPL-02_and_ACS580a1" TargetConnector="PLK1" NodeNumber="23" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="p2101_direction" Value="wo" />
+    <Parameter ID="p2102_direction" Value="wo" />
+    <Parameter ID="p2103_direction" Value="wo" />
+    <Parameter ID="p2104_direction" Value="ro" />
+    <Parameter ID="p2105_direction" Value="ro" />
+    <Parameter ID="p2106_direction" Value="ro" />
+    <Parameter ID="p603F_direction" Value="ro" />
+    <Parameter ID="p4001s06_direction" Value="ro" />
+    <Parameter ID="p4001s07_direction" Value="ro" />
+    <Parameter ID="p4001s0B_direction" Value="ro" />
+    <Parameter ID="p4001s0E_direction" Value="ro" />
+  </Module>
+  <Module Name="FEPL-02_and_ACS580a1" Type="FBE.000000B7_ACS580_v2.06.0.0_FEPL-02_1.0" Version="1.0.0.0" OrderNumber="FEPL-02 and ACS580">
+    <Connection Connector="PLK1" TargetModule="FEPL-02_and_ACS580a" TargetConnector="PLK2" NodeNumber="24" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="p2101_direction" Value="wo" />
+    <Parameter ID="p2102_direction" Value="wo" />
+    <Parameter ID="p2103_direction" Value="wo" />
+    <Parameter ID="p2104_direction" Value="ro" />
+    <Parameter ID="p2105_direction" Value="ro" />
+    <Parameter ID="p2106_direction" Value="ro" />
+    <Parameter ID="p603F_direction" Value="ro" />
+    <Parameter ID="p4001s06_direction" Value="ro" />
+    <Parameter ID="p4001s07_direction" Value="ro" />
+    <Parameter ID="p4001s0B_direction" Value="ro" />
+    <Parameter ID="p4001s0E_direction" Value="ro" />
+  </Module>
+  <Module Name="FEPL-02_and_ACS580a2" Type="FBE.000000B7_ACS580_v2.06.0.0_FEPL-02_1.0" Version="1.0.0.0" Disabled="true" OrderNumber="FEPL-02 and ACS580">
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="p2101_direction" Value="wo" />
+    <Parameter ID="p2102_direction" Value="wo" />
+    <Parameter ID="p2103_direction" Value="wo" />
+    <Parameter ID="p2104_direction" Value="ro" />
+    <Parameter ID="p2105_direction" Value="ro" />
+    <Parameter ID="p2106_direction" Value="ro" />
+    <Parameter ID="p603F_direction" Value="ro" />
+    <Parameter ID="p4001s06_direction" Value="ro" />
+    <Parameter ID="p4001s07_direction" Value="ro" />
+    <Parameter ID="p4001s0B_direction" Value="ro" />
+    <Parameter ID="p4001s0E_direction" Value="ro" />
+  </Module>
+  <Module Name="FEPL-02_and_ACS580a2a" Type="FBE.000000B7_ACS580_v2.06.0.0_FEPL-02_1.0" Version="1.0.0.0" Disabled="true" OrderNumber="FEPL-02 and ACS580">
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="p2101_direction" Value="wo" />
+    <Parameter ID="p2102_direction" Value="wo" />
+    <Parameter ID="p2103_direction" Value="wo" />
+    <Parameter ID="p2104_direction" Value="ro" />
+    <Parameter ID="p2105_direction" Value="ro" />
+    <Parameter ID="p2106_direction" Value="ro" />
+    <Parameter ID="p603F_direction" Value="ro" />
+    <Parameter ID="p4001s06_direction" Value="ro" />
+    <Parameter ID="p4001s07_direction" Value="ro" />
+    <Parameter ID="p4001s0B_direction" Value="ro" />
+    <Parameter ID="p4001s0E_direction" Value="ro" />
+  </Module>
+  <Module Name="L-Carriage" Type="MotorSynchronous_any" Version="1.0.1.0">
+    <Connection Connector="EC" TargetModule="8BAC0120.001-2b" TargetConnector="EC" />
+    <Connection Connector="MT" TargetModule="8BVI0330HWS0.000-1a" TargetConnector="MT1" />
+    <Parameter ID="MOTOR_POLEPAIRS" Value="7" />
+    <Parameter ID="BrakeAvailable" Value="False" />
+    <Parameter ID="TempSensType" Value="PTCSwitch" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR1" Value="550" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR2" Value="100" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR3" Value="140" />
+    <Parameter ID="MOTOR_VOLTAGE_RATED" Value="400" />
+    <Parameter ID="MOTOR_VOLTAGE_CONST" Value="99" />
+    <Parameter ID="MOTOR_SPEED_RATED" Value="4500" />
+    <Parameter ID="MOTOR_SPEED_MAX" Value="4500" />
+    <Parameter ID="MOTOR_TORQ_STALL" Value="20.0" />
+    <Parameter ID="MOTOR_TORQ_RATED" Value="12.1" />
+    <Parameter ID="MOTOR_TORQ_MAX" Value="65" />
+    <Parameter ID="MOTOR_TORQ_CONST" Value="1.052174" />
+    <Parameter ID="MOTOR_CURR_STALL" Value="17.8" />
+    <Parameter ID="MOTOR_CURR_RATED" Value="11.5" />
+    <Parameter ID="MOTOR_CURR_MAX" Value="78" />
+    <Parameter ID="MOTOR_WIND_CROSS_SECT" Value="0" />
+    <Parameter ID="MOTOR_STATOR_RESISTANCE" Value="0.54246038" />
+    <Parameter ID="MOTOR_STATOR_INDUCTANCE" Value="0.0036084116" />
+    <Parameter ID="MOTOR_INERTIA" Value="0.0021599999" />
+    <Parameter ID="MOTOR_COMMUT_OFFSET" Value="0.044620514" />
+    <Parameter ID="MOTOR_TAU_THERM" Value="3000" />
+    <Parameter ID="MOTOR_WIND_TEMP_MAX" Value="100" />
+  </Module>
+  <Module Name="L-Clamp" Type="MotorSynchronous_any" Version="1.0.1.0" Disabled="true">
+    <Connection Connector="EC" TargetModule="8BAC0120.001-2g" TargetConnector="EC" />
+    <Connection Connector="MT" TargetModule="8BVI0440HWS0.000-1a" TargetConnector="MT1" />
+    <Parameter ID="MOTOR_POLEPAIRS" Value="8" />
+    <Parameter ID="BrakeAvailable" Value="False" />
+    <Parameter ID="TempSensType" Value="PTCSwitch" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR1" Value="550" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR2" Value="100" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR3" Value="140" />
+    <Parameter ID="MOTOR_VOLTAGE_RATED" Value="400" />
+    <Parameter ID="MOTOR_VOLTAGE_CONST" Value="136" />
+    <Parameter ID="MOTOR_SPEED_RATED" Value="3000" />
+    <Parameter ID="MOTOR_SPEED_MAX" Value="3000" />
+    <Parameter ID="MOTOR_TORQ_STALL" Value="37.1" />
+    <Parameter ID="MOTOR_TORQ_RATED" Value="22.3" />
+    <Parameter ID="MOTOR_TORQ_MAX" Value="100" />
+    <Parameter ID="MOTOR_TORQ_CONST" Value="1.68" />
+    <Parameter ID="MOTOR_CURR_STALL" Value="22.3" />
+    <Parameter ID="MOTOR_CURR_RATED" Value="13.9" />
+    <Parameter ID="MOTOR_CURR_MAX" Value="84" />
+    <Parameter ID="MOTOR_WIND_CROSS_SECT" Value="0" />
+    <Parameter ID="MOTOR_STATOR_RESISTANCE" Value="0.3" />
+    <Parameter ID="MOTOR_STATOR_INDUCTANCE" Value="0.005" />
+    <Parameter ID="MOTOR_INERTIA" Value="0.0058" />
+    <Parameter ID="MOTOR_COMMUT_OFFSET" Value="0.044620514" />
+    <Parameter ID="MOTOR_TAU_THERM" Value="3000" />
+    <Parameter ID="MOTOR_WIND_TEMP_MAX" Value="100" />
+  </Module>
+  <Module Name="R-BlowPin" Type="MotorSynchronous_any" Version="1.0.1.0">
+    <Connection Connector="EC" TargetModule="8BAC0120.001-2d" TargetConnector="EC" />
+    <Connection Connector="MT" TargetModule="8BVI0110HWD0.000-1" TargetConnector="MT2" />
+    <Parameter ID="MOTOR_POLEPAIRS" Value="7" />
+    <Parameter ID="MOTOR_BRAKE_CURR_RATED" Value="1" />
+    <Parameter ID="MOTOR_BRAKE_TORQ_RATED" Value="12" />
+    <Parameter ID="MOTOR_BRAKE_ON_TIME" Value="0.01" />
+    <Parameter ID="MOTOR_BRAKE_OFF_TIME" Value="0.1" />
+    <Parameter ID="TempSensType" Value="PTCSwitch" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR1" Value="550" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR2" Value="100" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR3" Value="140" />
+    <Parameter ID="MOTOR_VOLTAGE_RATED" Value="400" />
+    <Parameter ID="MOTOR_VOLTAGE_CONST" Value="75.673531" />
+    <Parameter ID="MOTOR_SPEED_RATED" Value="3000" />
+    <Parameter ID="MOTOR_SPEED_MAX" Value="6000" />
+    <Parameter ID="MOTOR_TORQ_STALL" Value="9.6000004" />
+    <Parameter ID="MOTOR_TORQ_RATED" Value="9.6000004" />
+    <Parameter ID="MOTOR_TORQ_MAX" Value="43" />
+    <Parameter ID="MOTOR_TORQ_CONST" Value="1.2516297" />
+    <Parameter ID="MOTOR_CURR_STALL" Value="7.6700001" />
+    <Parameter ID="MOTOR_CURR_RATED" Value="7.67" />
+    <Parameter ID="MOTOR_CURR_MAX" Value="41" />
+    <Parameter ID="MOTOR_WIND_CROSS_SECT" Value="0" />
+    <Parameter ID="MOTOR_STATOR_RESISTANCE" Value="1.6416402" />
+    <Parameter ID="MOTOR_STATOR_INDUCTANCE" Value="0.0092184199" />
+    <Parameter ID="MOTOR_INERTIA" Value="0.00075800001" />
+    <Parameter ID="MOTOR_COMMUT_OFFSET" Value="-0.003623" />
+    <Parameter ID="MOTOR_TAU_THERM" Value="3000" />
+    <Parameter ID="MOTOR_WIND_TEMP_MAX" Value="100" />
+  </Module>
+  <Module Name="R-Carriage" Type="MotorSynchronous_any" Version="1.0.1.0" Disabled="true">
+    <Connection Connector="EC" TargetModule="8BAC0120.001-2" TargetConnector="EC" />
+    <Connection Connector="MT" TargetModule="8BVI0330HWS0.000-1" TargetConnector="MT1" />
+    <Parameter ID="MOTOR_POLEPAIRS" Value="7" />
+    <Parameter ID="BrakeAvailable" Value="False" />
+    <Parameter ID="TempSensType" Value="PTCSwitch" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR1" Value="550" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR2" Value="100" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR3" Value="140" />
+    <Parameter ID="MOTOR_VOLTAGE_RATED" Value="400" />
+    <Parameter ID="MOTOR_VOLTAGE_CONST" Value="63.614437" />
+    <Parameter ID="MOTOR_SPEED_RATED" Value="4500" />
+    <Parameter ID="MOTOR_SPEED_MAX" Value="4500" />
+    <Parameter ID="MOTOR_TORQ_STALL" Value="12.1" />
+    <Parameter ID="MOTOR_TORQ_RATED" Value="12.1" />
+    <Parameter ID="MOTOR_TORQ_MAX" Value="65" />
+    <Parameter ID="MOTOR_TORQ_CONST" Value="1.052174" />
+    <Parameter ID="MOTOR_CURR_STALL" Value="11.5" />
+    <Parameter ID="MOTOR_CURR_RATED" Value="11.5" />
+    <Parameter ID="MOTOR_CURR_MAX" Value="78" />
+    <Parameter ID="MOTOR_WIND_CROSS_SECT" Value="0" />
+    <Parameter ID="MOTOR_STATOR_RESISTANCE" Value="0.53999424" />
+    <Parameter ID="MOTOR_STATOR_INDUCTANCE" Value="0.003565806" />
+    <Parameter ID="MOTOR_INERTIA" Value="0.0021599999" />
+    <Parameter ID="MOTOR_COMMUT_OFFSET" Value="0.091310501" />
+    <Parameter ID="MOTOR_TAU_THERM" Value="3000" />
+    <Parameter ID="MOTOR_WIND_TEMP_MAX" Value="100" />
+  </Module>
+  <Module Name="R-Clamp" Type="MotorSynchronous_any" Version="1.0.1.0">
+    <Parameter ID="MOTOR_POLEPAIRS" Value="8" />
+    <Parameter ID="BrakeAvailable" Value="False" />
+    <Parameter ID="TempSensType" Value="PTCSwitch" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR1" Value="550" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR2" Value="100" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR3" Value="140" />
+    <Parameter ID="MOTOR_VOLTAGE_RATED" Value="400" />
+    <Parameter ID="MOTOR_VOLTAGE_CONST" Value="96.996979" />
+    <Parameter ID="MOTOR_SPEED_RATED" Value="3000" />
+    <Parameter ID="MOTOR_SPEED_MAX" Value="3000" />
+    <Parameter ID="MOTOR_TORQ_STALL" Value="22.3" />
+    <Parameter ID="MOTOR_TORQ_RATED" Value="22.3" />
+    <Parameter ID="MOTOR_TORQ_MAX" Value="100" />
+    <Parameter ID="MOTOR_TORQ_CONST" Value="1.6043166" />
+    <Parameter ID="MOTOR_CURR_STALL" Value="13.9" />
+    <Parameter ID="MOTOR_CURR_RATED" Value="13.9" />
+    <Parameter ID="MOTOR_CURR_MAX" Value="84" />
+    <Parameter ID="MOTOR_WIND_CROSS_SECT" Value="0" />
+    <Parameter ID="MOTOR_STATOR_RESISTANCE" Value="0.40099636" />
+    <Parameter ID="MOTOR_STATOR_INDUCTANCE" Value="0.003689728" />
+    <Parameter ID="MOTOR_INERTIA" Value="0.0058" />
+    <Parameter ID="MOTOR_COMMUT_OFFSET" Value="0.026538849" />
+    <Parameter ID="MOTOR_TAU_THERM" Value="3000" />
+    <Parameter ID="MOTOR_WIND_TEMP_MAX" Value="100" />
+  </Module>
+  <Module Name="R-Clamp1" Type="MotorSynchronous_any" Version="1.0.1.0" Disabled="true">
+    <Connection Connector="EC" TargetModule="8BAC0120.001-2i" TargetConnector="EC" />
+    <Connection Connector="MT" TargetModule="8BVI0440HWS0.000-1" TargetConnector="MT1" />
+    <Parameter ID="MOTOR_POLEPAIRS" Value="8" />
+    <Parameter ID="BrakeAvailable" Value="False" />
+    <Parameter ID="TempSensType" Value="PTCSwitch" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR1" Value="550" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR2" Value="100" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR3" Value="140" />
+    <Parameter ID="MOTOR_VOLTAGE_RATED" Value="400" />
+    <Parameter ID="MOTOR_VOLTAGE_CONST" Value="112" />
+    <Parameter ID="MOTOR_SPEED_RATED" Value="2000" />
+    <Parameter ID="MOTOR_SPEED_MAX" Value="4000" />
+    <Parameter ID="MOTOR_TORQ_STALL" Value="66.1" />
+    <Parameter ID="MOTOR_TORQ_RATED" Value="43.7" />
+    <Parameter ID="MOTOR_TORQ_MAX" Value="205" />
+    <Parameter ID="MOTOR_TORQ_CONST" Value="1.75" />
+    <Parameter ID="MOTOR_CURR_STALL" Value="37.9" />
+    <Parameter ID="MOTOR_CURR_RATED" Value="25.9" />
+    <Parameter ID="MOTOR_CURR_MAX" Value="155" />
+    <Parameter ID="MOTOR_WIND_CROSS_SECT" Value="0" />
+    <Parameter ID="MOTOR_STATOR_RESISTANCE" Value="0.13" />
+    <Parameter ID="MOTOR_STATOR_INDUCTANCE" Value="0.00222" />
+    <Parameter ID="MOTOR_INERTIA" Value="0.0133" />
+    <Parameter ID="MOTOR_COMMUT_OFFSET" Value="-0.031101227" />
+    <Parameter ID="MOTOR_TAU_THERM" Value="3000" />
+    <Parameter ID="MOTOR_WIND_TEMP_MAX" Value="100" />
+  </Module>
+  <Module Name="Thick" Type="MotorSynchronous_any" Version="1.0.1.0">
+    <Connection Connector="EC" TargetModule="8BAC0120.001-2c" TargetConnector="EC" />
+    <Connection Connector="MT" TargetModule="8BVI0110HWD0.000-1" TargetConnector="MT1" />
+    <Parameter ID="MOTOR_POLEPAIRS" Value="7" />
+    <Parameter ID="MOTOR_BRAKE_CURR_RATED" Value="1.1" />
+    <Parameter ID="MOTOR_BRAKE_TORQ_RATED" Value="32" />
+    <Parameter ID="MOTOR_BRAKE_ON_TIME" Value="0.02" />
+    <Parameter ID="MOTOR_BRAKE_OFF_TIME" Value="0.01" />
+    <Parameter ID="TempSensType" Value="PTCSwitch" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR1" Value="550" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR2" Value="100" />
+    <Parameter ID="MOTOR_TEMPSENS_PAR3" Value="140" />
+    <Parameter ID="MOTOR_VOLTAGE_RATED" Value="400" />
+    <Parameter ID="MOTOR_VOLTAGE_CONST" Value="87.507896" />
+    <Parameter ID="MOTOR_SPEED_RATED" Value="3000" />
+    <Parameter ID="MOTOR_SPEED_MAX" Value="3000" />
+    <Parameter ID="MOTOR_TORQ_STALL" Value="16.5" />
+    <Parameter ID="MOTOR_TORQ_RATED" Value="16.5" />
+    <Parameter ID="MOTOR_TORQ_MAX" Value="65" />
+    <Parameter ID="MOTOR_TORQ_CONST" Value="1.4473685" />
+    <Parameter ID="MOTOR_CURR_STALL" Value="11.4" />
+    <Parameter ID="MOTOR_CURR_RATED" Value="11.4" />
+    <Parameter ID="MOTOR_CURR_MAX" Value="62" />
+    <Parameter ID="MOTOR_WIND_CROSS_SECT" Value="0" />
+    <Parameter ID="MOTOR_STATOR_RESISTANCE" Value="0.80327398" />
+    <Parameter ID="MOTOR_STATOR_INDUCTANCE" Value="0.0053170878" />
+    <Parameter ID="MOTOR_INERTIA" Value="0.00216" />
+    <Parameter ID="MOTOR_COMMUT_OFFSET" Value="-0.01932621" />
+    <Parameter ID="MOTOR_TAU_THERM" Value="3000" />
+    <Parameter ID="MOTOR_WIND_TEMP_MAX" Value="100" />
+  </Module>
+  <Module Name="X20AI4632_A" Type="X20AI4632" Version="1.2.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12g" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11k" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20AI4632_B" Type="X20AI4632" Version="1.2.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12h" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11l" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20AI4632_C" Type="X20AI4632" Version="1.2.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12p" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11ac" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="ChannelType01" Value="0 to 20mA" />
+    <Parameter ID="ChannelType02" Value="0 to 20mA" />
+    <Parameter ID="ChannelType03" Value="0 to 20mA" />
+    <Parameter ID="ChannelType04" Value="0 to 20mA" />
+  </Module>
+  <Module Name="X20AO4622_A" Type="X20AO4622" Version="1.2.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12i" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11m" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20AO4622_B" Type="X20AO4622" Version="1.2.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12j" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11n" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20AO4632_A" Type="X20AO4632" Version="1.1.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12r" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11ad" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20AO4632_B" Type="X20AO4632" Version="1.1.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12s" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11ae" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20AO4632_C" Type="X20AO4632" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12t" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11af" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20AO4632_D" Type="X20AO4632" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12u" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11ag" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20AP3131_A" Type="X20AP3131" Version="1.4.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB32" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM32" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="EnergyUnit" Value="1Wh" />
+    <Parameter ID="DisIrmsA" Value="on" />
+    <Parameter ID="DisIrmsB" Value="on" />
+    <Parameter ID="DisIrmsC" Value="on" />
+    <Parameter ID="DisQmeanT" Value="off" />
+    <Parameter ID="DisReacEnT" Value="off" />
+  </Module>
+  <Module Name="X20AP3131_B" Type="X20AP3131" Version="1.4.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB32a" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM32a" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="EnergyUnit" Value="1Wh" />
+    <Parameter ID="DisIrmsA" Value="on" />
+    <Parameter ID="DisIrmsB" Value="on" />
+    <Parameter ID="DisIrmsC" Value="on" />
+    <Parameter ID="DisQmeanT" Value="off" />
+    <Parameter ID="DisReacEnT" Value="off" />
+  </Module>
+  <Module Name="X20AP3131_C" Type="X20AP3131" Version="1.4.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB32b" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM32b" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="EnergyUnit" Value="1Wh" />
+    <Parameter ID="DisIrmsA" Value="on" />
+    <Parameter ID="DisIrmsB" Value="on" />
+    <Parameter ID="DisIrmsC" Value="on" />
+    <Parameter ID="DisQmeanT" Value="off" />
+    <Parameter ID="DisReacEnT" Value="off" />
+  </Module>
+  <Module Name="X20ATC402_A" Type="X20ATC402" Version="1.0.2.0">
+    <Connection Connector="SS1" TargetModule="X20TB1E" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11q" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="66.7ms" />
+    <Parameter ID="Temp01" Value="on" />
+    <Parameter ID="SensorType01" Value="Typ_K" />
+    <Parameter ID="Ref01" Value="Reference_B" />
+    <Parameter ID="Temp02" Value="on" />
+    <Parameter ID="SensorType02" Value="Typ_K" />
+    <Parameter ID="Ref02" Value="Reference_B" />
+    <Parameter ID="Temp03" Value="on" />
+    <Parameter ID="SensorType03" Value="Typ_K" />
+    <Parameter ID="Ref03" Value="Reference_B" />
+    <Parameter ID="Temp04" Value="on" />
+    <Parameter ID="SensorType04" Value="Typ_K" />
+    <Parameter ID="Ref04" Value="Reference_B" />
+    <Parameter ID="Temp05" Value="on" />
+    <Parameter ID="SensorType05" Value="Typ_K" />
+    <Parameter ID="Ref05" Value="Reference_B" />
+    <Parameter ID="Temp06" Value="on" />
+    <Parameter ID="SensorType06" Value="Typ_K" />
+    <Parameter ID="Ref06" Value="Reference_B" />
+  </Module>
+  <Module Name="X20ATC402_B" Type="X20ATC402" Version="1.0.2.0">
+    <Connection Connector="SS1" TargetModule="X20TB1E1" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11r" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="66.7ms" />
+    <Parameter ID="Temp01" Value="on" />
+    <Parameter ID="SensorType01" Value="Typ_K" />
+    <Parameter ID="Ref01" Value="Reference_B" />
+    <Parameter ID="Temp02" Value="on" />
+    <Parameter ID="SensorType02" Value="Typ_K" />
+    <Parameter ID="Ref02" Value="Reference_B" />
+    <Parameter ID="Temp03" Value="on" />
+    <Parameter ID="SensorType03" Value="Typ_K" />
+    <Parameter ID="Ref03" Value="Reference_B" />
+    <Parameter ID="Temp04" Value="on" />
+    <Parameter ID="SensorType04" Value="Typ_K" />
+    <Parameter ID="Ref04" Value="Reference_B" />
+    <Parameter ID="Temp05" Value="on" />
+    <Parameter ID="SensorType05" Value="Typ_K" />
+    <Parameter ID="Ref05" Value="Reference_B" />
+    <Parameter ID="Temp06" Value="on" />
+    <Parameter ID="SensorType06" Value="Typ_K" />
+    <Parameter ID="Ref06" Value="Reference_B" />
+  </Module>
+  <Module Name="X20ATC402_C" Type="X20ATC402" Version="1.0.2.0">
+    <Connection Connector="SS1" TargetModule="X20TB1E2" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11s" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="66.7ms" />
+    <Parameter ID="Temp01" Value="on" />
+    <Parameter ID="SensorType01" Value="Typ_K" />
+    <Parameter ID="Ref01" Value="Reference_B" />
+    <Parameter ID="Temp02" Value="on" />
+    <Parameter ID="SensorType02" Value="Typ_K" />
+    <Parameter ID="Ref02" Value="Reference_B" />
+    <Parameter ID="Temp03" Value="on" />
+    <Parameter ID="SensorType03" Value="Typ_K" />
+    <Parameter ID="Ref03" Value="Reference_B" />
+    <Parameter ID="Temp04" Value="on" />
+    <Parameter ID="SensorType04" Value="Typ_K" />
+    <Parameter ID="Ref04" Value="Reference_B" />
+    <Parameter ID="Temp05" Value="on" />
+    <Parameter ID="SensorType05" Value="Typ_K" />
+    <Parameter ID="Ref05" Value="Reference_B" />
+    <Parameter ID="Temp06" Value="on" />
+    <Parameter ID="SensorType06" Value="Typ_K" />
+    <Parameter ID="Ref06" Value="Reference_B" />
+  </Module>
+  <Module Name="X20ATC402_D" Type="X20ATC402" Version="1.0.2.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB1E3" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11t" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="66.7ms" />
+    <Parameter ID="Temp01" Value="on" />
+    <Parameter ID="SensorType01" Value="Typ_K" />
+    <Parameter ID="Ref01" Value="Reference_B" />
+    <Parameter ID="Temp02" Value="on" />
+    <Parameter ID="SensorType02" Value="Typ_K" />
+    <Parameter ID="Ref02" Value="Reference_B" />
+    <Parameter ID="Temp03" Value="on" />
+    <Parameter ID="SensorType03" Value="Typ_K" />
+    <Parameter ID="Ref03" Value="Reference_B" />
+    <Parameter ID="Temp04" Value="on" />
+    <Parameter ID="SensorType04" Value="Typ_K" />
+    <Parameter ID="Ref04" Value="Reference_B" />
+    <Parameter ID="Temp05" Value="on" />
+    <Parameter ID="SensorType05" Value="Typ_K" />
+    <Parameter ID="Ref05" Value="Reference_B" />
+    <Parameter ID="Temp06" Value="on" />
+    <Parameter ID="SensorType06" Value="Typ_K" />
+    <Parameter ID="Ref06" Value="Reference_B" />
+  </Module>
+  <Module Name="X20ATC402_E" Type="X20ATC402" Version="1.0.2.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB1E4" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11u" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="66.7ms" />
+    <Parameter ID="Temp01" Value="on" />
+    <Parameter ID="SensorType01" Value="Typ_K" />
+    <Parameter ID="Ref01" Value="Reference_B" />
+    <Parameter ID="Temp02" Value="on" />
+    <Parameter ID="SensorType02" Value="Typ_K" />
+    <Parameter ID="Ref02" Value="Reference_B" />
+    <Parameter ID="Temp03" Value="on" />
+    <Parameter ID="SensorType03" Value="Typ_K" />
+    <Parameter ID="Ref03" Value="Reference_B" />
+    <Parameter ID="Temp04" Value="on" />
+    <Parameter ID="SensorType04" Value="Typ_K" />
+    <Parameter ID="Ref04" Value="Reference_B" />
+    <Parameter ID="Temp05" Value="on" />
+    <Parameter ID="SensorType05" Value="Typ_K" />
+    <Parameter ID="Ref05" Value="Reference_B" />
+    <Parameter ID="Temp06" Value="on" />
+    <Parameter ID="SensorType06" Value="Typ_K" />
+    <Parameter ID="Ref06" Value="Reference_B" />
+  </Module>
+  <Module Name="X20ATC402_F" Type="X20ATC402" Version="1.0.2.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB1E5" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11ab" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="66.7ms" />
+    <Parameter ID="Temp01" Value="on" />
+    <Parameter ID="SensorType01" Value="Typ_K" />
+    <Parameter ID="Ref01" Value="Reference_B" />
+    <Parameter ID="Temp02" Value="on" />
+    <Parameter ID="SensorType02" Value="Typ_K" />
+    <Parameter ID="Ref02" Value="Reference_B" />
+    <Parameter ID="Temp03" Value="on" />
+    <Parameter ID="SensorType03" Value="Typ_K" />
+    <Parameter ID="Ref03" Value="Reference_B" />
+    <Parameter ID="Temp04" Value="on" />
+    <Parameter ID="SensorType04" Value="Typ_K" />
+    <Parameter ID="Ref04" Value="Reference_B" />
+    <Parameter ID="Temp05" Value="on" />
+    <Parameter ID="SensorType05" Value="Typ_K" />
+    <Parameter ID="Ref05" Value="Reference_B" />
+    <Parameter ID="Temp06" Value="on" />
+    <Parameter ID="SensorType06" Value="Typ_K" />
+    <Parameter ID="Ref06" Value="Reference_B" />
+  </Module>
+  <Module Name="X20BB80" Type="X20BB80" Version="1.0.2.0" />
+  <Module Name="X20BB80a" Type="X20BB80" Version="1.0.2.0" Disabled="true">
+    <Connector Name="IF1" Disabled="true" />
+  </Module>
+  <Module Name="X20BB80b" Type="X20BB80" Version="1.0.2.0" Disabled="true">
+    <Connector Name="IF1" Disabled="true" />
+  </Module>
+  <Module Name="X20BC0083" Type="X20BC0083" Version="2.9.0.0">
+    <Connection Connector="PLK1" TargetModule="5ACCIF01.FPSC-001" TargetConnector="IF1" NodeNumber="2" />
+    <Connection Connector="PLK2" TargetModule="FEPL-02_and_ACS580" TargetConnector="PLK1" NodeNumber="2" />
+    <Connection Connector="SL" TargetModule="X20BB80" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20BC0083a" Type="X20BC0083" Version="2.9.0.0" Disabled="true">
+    <Connection Connector="PLK2" TargetModule="8AC114.60-2" TargetConnector="PLK1" NodeNumber="2" />
+    <Connection Connector="SL" TargetModule="X20BB80a" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20BC0083b" Type="X20BC0083" Version="2.9.0.0" Disabled="true">
+    <Connection Connector="SL" TargetModule="X20BB80b" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20BM01" Type="X20BM01" Version="2.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20BM11g" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM01a" Type="X20BM01" Version="2.1.0.0" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11y" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BB80" TargetConnector="IF1" />
+  </Module>
+  <Module Name="X20BM11a" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11aa" Type="X20BM11" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11ag" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11ab" Type="X20BM11" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11u" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11ac" Type="X20BM11" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11s" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11ad" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11l" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11ae" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11ad" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11af" Type="X20BM11" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11ac" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11ag" Type="X20BM11" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11af" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11b" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11a" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11c" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11b" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11d" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11c" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11e" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11d" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11f" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11e" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11g" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11f" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11h" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM01" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11i" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11h" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11j" Type="X20BM11" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BB80b" TargetConnector="IF1" />
+  </Module>
+  <Module Name="X20BM11k" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11i" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11l" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11k" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11m" Type="X20BM11" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM01a" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11n" Type="X20BM11" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11m" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11o" Type="X20BM11" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11n" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11p" Type="X20BM11" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11j" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11q" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11ae" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11r" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11q" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11s" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20BM11r" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11t" Type="X20BM11" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11z" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11u" Type="X20BM11" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11t" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11v" Type="X20BM11" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11aa" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11w" Type="X20BM11" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11v" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11x" Type="X20BM11" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11w" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11y" Type="X20BM11" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11x" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM11z" Type="X20BM11" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11p" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM32" Type="X20BM32" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM11o" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM32a" Type="X20BM32" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM32" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20BM32b" Type="X20BM32" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20BM32a" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20DIF371_A" Type="X20DIF371" Version="1.0.1.0">
+    <Connection Connector="SS1" TargetModule="X20TB1F" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DIF371_B" Type="X20DIF371" Version="1.0.1.0">
+    <Connection Connector="SS1" TargetModule="X20TB1F1" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11a" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DIF371_C" Type="X20DIF371" Version="1.0.1.0">
+    <Connection Connector="SS1" TargetModule="X20TB1F2" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11b" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DIF371_D" Type="X20DIF371" Version="1.0.1.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB1F9" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11aa" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO8332_A" Type="X20DO8332" Version="1.3.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12b" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11c" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO8332_B" Type="X20DO8332" Version="1.3.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12c" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11d" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO8332_C" Type="X20DO8332" Version="1.3.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12d" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11e" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO8332_D" Type="X20DO8332" Version="1.3.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12e" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11f" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO8332_E" Type="X20DO8332" Version="1.3.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12l" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11v" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO8332_F" Type="X20DO8332" Version="1.3.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12m" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11w" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO8332_G" Type="X20DO8332" Version="1.3.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12n" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11x" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DO8332_H" Type="X20DO8332" Version="1.3.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12o" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11y" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DOF322_A" Type="X20DOF322" Version="1.4.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB1F3" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11g" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DOF322_B" Type="X20DOF322" Version="1.4.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB1F4" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11h" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DOF322_C" Type="X20DOF322" Version="1.4.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB1F5" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11i" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DOF322_D" Type="X20DOF322" Version="1.4.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB1F6" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11j" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DOF322_E" Type="X20DOF322" Version="1.4.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB1F7" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11p" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DOF322_F" Type="X20DOF322" Version="1.4.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB1F8" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11z" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20DS1119" Type="X20DS1119" Version="1.4.1.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12k" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11o" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="Function03" Value="AB" />
+  </Module>
+  <Module Name="X20PS3300" Type="X20PS3300" Version="1.1.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12f" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM01" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20PS3300a" Type="X20PS3300" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12q" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM01a" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20PS9400" Type="X20PS9400" Version="1.0.2.4">
+    <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
+    <Connection Connector="PS" TargetModule="X20BB80" TargetConnector="PS1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20PS9400a" Type="X20PS9400" Version="1.0.2.4" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12a" TargetConnector="SS" />
+    <Connection Connector="PS" TargetModule="X20BB80a" TargetConnector="PS1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20PS9400b" Type="X20PS9400" Version="1.0.2.4" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12v" TargetConnector="SS" />
+    <Connection Connector="PS" TargetModule="X20BB80b" TargetConnector="PS1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12a" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12b" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12c" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12d" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12e" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12f" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12g" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12h" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12i" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12j" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12k" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12l" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12m" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12n" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12o" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12p" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12q" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12r" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12s" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12t" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12u" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB12v" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB1E" Type="X20TB1E" Version="1.0.0.0" />
+  <Module Name="X20TB1E1" Type="X20TB1E" Version="1.0.0.0" />
+  <Module Name="X20TB1E2" Type="X20TB1E" Version="1.0.0.0" />
+  <Module Name="X20TB1E3" Type="X20TB1E" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB1E4" Type="X20TB1E" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB1E5" Type="X20TB1E" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB1F" Type="X20TB1F" Version="1.0.0.0" />
+  <Module Name="X20TB1F1" Type="X20TB1F" Version="1.0.0.0" />
+  <Module Name="X20TB1F2" Type="X20TB1F" Version="1.0.0.0" />
+  <Module Name="X20TB1F3" Type="X20TB1F" Version="1.0.0.0" />
+  <Module Name="X20TB1F4" Type="X20TB1F" Version="1.0.0.0" />
+  <Module Name="X20TB1F5" Type="X20TB1F" Version="1.0.0.0" />
+  <Module Name="X20TB1F6" Type="X20TB1F" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB1F7" Type="X20TB1F" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB1F8" Type="X20TB1F" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB1F9" Type="X20TB1F" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB32" Type="X20TB32" Version="1.0.0.1" Disabled="true" />
+  <Module Name="X20TB32a" Type="X20TB32" Version="1.0.0.1" Disabled="true" />
+  <Module Name="X20TB32b" Type="X20TB32" Version="1.0.0.1" Disabled="true" />
+</Hardware>

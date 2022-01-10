@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="AlarmEvent_long">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="7"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="84" Value="Triggered"/>
+    <Text ID="85" Value="Reset"/>
+    <Text ID="86" Value="Bypassed"/>
+    <Text ID="87" Value="Not Bypassed"/>
+    <Text ID="88" Value="Reset Acknowledged"/>
+    <Text ID="89" Value="Achnowledged Reset"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="84" Value="觸發的"/>
+    <Text ID="85" Value="復位"/>
+    <Text ID="86" Value="可忽略的"/>
+    <Text ID="87" Value="不能忽略的"/>
+    <Text ID="88" Value="復位確認"/>
+    <Text ID="89" Value="確認復位"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="84" Value="觸發的"/>
+    <Text ID="85" Value="復位"/>
+    <Text ID="86" Value="可忽略的"/>
+    <Text ID="87" Value="不能忽略的"/>
+    <Text ID="88" Value="復位確認"/>
+    <Text ID="89" Value="確認復位"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="84" Value="Rozdzielony"/>
+    <Text ID="85" Value="Reset"/>
+    <Text ID="86" Value="Ominiete"/>
+    <Text ID="87" Value="Nie można ominac"/>
+    <Text ID="88" Value="Reset aby potwierdzic"/>
+    <Text ID="89" Value="Reset aby potwierdzic"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="84" Value="0"/>
+    <Index ID="85" Value="1"/>
+    <Index ID="86" Value="2"/>
+    <Index ID="87" Value="3"/>
+    <Index ID="88" Value="4"/>
+    <Index ID="89" Value="5"/>
+  </IndexMap>
+</TextGroup>

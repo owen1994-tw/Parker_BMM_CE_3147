@@ -1,0 +1,29 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: mbusMaster
+ * File: mbusMaster.var
+ * Author: lij
+ * Created: December 12, 2014
+ ********************************************************************
+ * Local variables of program mbusMaster
+ ********************************************************************)
+VAR
+	MOpen : MBMOpen;
+	Master : MBMaster;
+	MClose : MBMClose;
+	fMOpen : BOOL;
+	fMaster : BOOL;
+	fMClose : BOOL;
+	ascii : USINT;
+	statusMOpen : UINT;
+	statusMaster : UINT;
+	statusMClose : UINT;
+	timeout : UINT;
+	ident : UDINT;
+	execute : UDINT;
+	recordnum : UDINT;
+	sDeviceName : STRING[80];
+	sModeName : STRING[80];
+	sConfigName : STRING[80];
+END_VAR

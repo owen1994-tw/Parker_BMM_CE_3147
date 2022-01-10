@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.12.129 SP?>
+<Library Version="1.03.0" Description="simple hydraulic functions - lijianjun B&amp;R china" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>HydCtrl.typ</File>
+    <File>HydCtrl.var</File>
+    <File>HydCtrl.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="asstring" FromVersion="0.00.0" />
+  </Dependencies>
+</Library>

@@ -1,0 +1,66 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: h_pid
+ * File: h_pid.var
+ * Author: lij
+ * Created: February 27, 2013
+ ********************************************************************
+ * Local variables of program h_pid
+ ********************************************************************)
+VAR
+	ZoneIndex : UINT;
+	tTask : REAL := 0.0;
+	tProtectCooling : REAL;
+	StepTune : ARRAY[0..MAX_IDX_ZONE] OF UINT;
+	RTInfo_Task : RTInfo := (0);
+	PIDSTEP : ARRAY[0..MAX_IDX_ZONE] OF UINT;
+	ParTuneOld : ARRAY[0..MAX_IDX_ZONE] OF lcrtemp_pid_opt_typ;
+	LCRTempTune_Array : ARRAY[0..MAX_IDX_ZONE] OF LCRTempTune := [MAX_IDX_ZONE+1(0)];
+END_VAR
+VAR RETAIN
+	LcrTempSet : ARRAY[0..MAX_IDX_ZONE] OF lcrtemp_set_typ;
+END_VAR
+VAR
+	LCRTempPID_Array : ARRAY[0..MAX_IDX_ZONE] OF LCRTempPID := [MAX_IDX_ZONE+1(0)];
+	tHeatNormal : ARRAY[0..MAX_IDX_ZONE] OF REAL;
+	OutBuffer : ARRAY[0..MAX_IDX_ZONE] OF REAL;
+	cntTask : ARRAY[0..MAX_IDX_ZONE] OF UDINT;
+	cntSamples : ARRAY[0..MAX_IDX_ZONE] OF UINT;
+	HeatTest : Heat_Test_typ := (0);
+	HeatSequence : ARRAY[0..MAX_IDX_TEMPGROUP] OF UINT := [MAX_IDX_TEMPGROUP+1(0)];
+	HeatAlarm : Heat_Alarm_typ := (0);
+	grp_TunePos : ARRAY[0..MAX_IDX_TEMPGROUP] OF BOOL;
+	grp_TuneNeg : ARRAY[0..MAX_IDX_TEMPGROUP] OF BOOL;
+	grp_PrePos : ARRAY[0..MAX_IDX_TEMPGROUP] OF BOOL;
+	grp_PreNeg : ARRAY[0..MAX_IDX_TEMPGROUP] OF BOOL;
+	grp_OnOffPos : ARRAY[0..MAX_IDX_TEMPGROUP] OF BOOL;
+	grp_OnOffNeg : ARRAY[0..MAX_IDX_TEMPGROUP] OF BOOL;
+	grpAct : UINT := 0;
+	grpMaxIndex : UINT;
+	grp : UINT := 0;
+END_VAR
+(*Heat  show Time*)
+VAR
+	uDisHeaterTime : UDINT;
+	rHeaterTime : REAL;
+END_VAR
+(*Lowering Option*)
+VAR
+	bLowering : BOOL;
+	TempUpLimit_HMI : ARRAY[0..MAX_IDX_ZONE] OF REAL;
+	TempDwnLimit_HMI : ARRAY[0..MAX_IDX_ZONE] OF REAL;
+	TempUpLimit_Same_HMI : REAL;
+	TempDwnLimit_Same_HMI : REAL;
+	TempInitOK : ARRAY[0..MAX_IDX_ZONE] OF REAL;
+	bLowering_Hmi : BOOL;
+	bLowering_Hmi_Pos : BOOL;
+	TempInitOK_Old : ARRAY[0..MAX_IDX_ZONE] OF REAL;
+	TempProtection : ARRAY[0..MAX_IDX_ZONE] OF REAL;
+	TempProtectionFlag : BOOL;
+	IsHeatPos : BOOL;
+	TempProtectionMode : BOOL;
+	TempProtectionFix_HMI : USINT;
+	TempNotLow : ARRAY[0..MAX_IDX_ZONE] OF REAL;
+	TempNotLowFlag : BOOL;
+END_VAR

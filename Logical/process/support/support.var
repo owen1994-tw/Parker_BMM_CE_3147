@@ -1,0 +1,20 @@
+VAR
+	bTestButton : BOOL;
+	idxThickL : REAL;
+	idxThickR : REAL;
+	SuckAirDelayDis : UDINT;
+	SuckAirTimeDis : UDINT;
+	nCurrentPointL : INT;
+	nCurrentPointR : INT;
+END_VAR
+(*Cycle Time*)
+VAR
+	tTask : REAL := 0.0;
+	RTInfo_Task : RTInfo := (0);
+	uCntTimeR_TON_10ms : TON_10ms;
+	uCntTimeL_TON_10ms : TON_10ms;
+	uCntTimeR : UDINT;
+	uCntTimeL : UDINT;
+	uCntStepR : USINT;
+	uCntStepL : USINT;
+END_VAR

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.12.129 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="ANSIC" Description="task 1 fast input">tk1_in</Object>
+    <Object Type="Program" Language="ANSIC" Description="task 1 fast output">tk1_out</Object>
+    <Object Type="Program" Language="ANSIC" Description="mormal input and output">tk2_io</Object>
+  </Objects>
+</Package>

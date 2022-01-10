@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.12.129 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="DataObject" Language="Ett">acp10etxen</Object>
+    <Object Type="Package">init</Object>
+    <Object Type="Package">para</Object>
+    <Object Type="Program" Language="ANSIC" Description="left robot transfer">l_transfer</Object>
+    <Object Type="Program" Language="ANSIC" Description="right robot transfer">r_transfer</Object>
+    <Object Type="Program" Language="ANSIC" Description="left robot up / down">l_updn</Object>
+    <Object Type="Program" Language="ANSIC" Description="right robot up / down">r_updn</Object>
+    <Object Type="Program" Language="ANSIC" Description="left clamp open / close">l_clamp</Object>
+    <Object Type="Program" Language="ANSIC" Description="right clamp open / close">r_clamp</Object>
+    <Object Type="Program" Language="ANSIC" Description="right blowpin up / down">l_blowpin</Object>
+    <Object Type="Program" Language="ANSIC" Description="left blowpin up / down">r_blowpin</Object>
+    <Object Type="Program" Language="ANSIC" Description="right blowpin up / down">l_blowpin2</Object>
+    <Object Type="Program" Language="ANSIC" Description="left blowpin up / down">r_blowpin2</Object>
+    <Object Type="Program" Language="ANSIC" Description="left carriage forward / backward">l_carriage</Object>
+    <Object Type="Program" Language="ANSIC" Description="right carriage forward / backward">r_carriage</Object>
+    <Object Type="Program" Language="ANSIC" Description="extrlift up /down">mc_extrlift</Object>
+    <Object Type="Program" Language="ANSIC" Description="swing up / down">mc_pwr</Object>
+    <Object Type="Program" Language="ANSIC" Description="left robot up / down">mc_thick</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.12.129 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">thickness.typ</Object>
+    <Object Type="File" Description="Global variables">thickness.var</Object>
+    <Object Type="Program" Language="ANSIC" Description="profile drawing">cur_draw</Object>
+    <Object Type="Program" Language="ANSIC" Description="profile edit">cur_edit</Object>
+    <Object Type="Program" Language="ANSIC" Description="set thick parameter">exchange</Object>
+    <Object Type="Program" Language="ANSIC" Description="profile save">cur_save</Object>
+    <Object Type="Program" Language="ANSIC" Description="profile point value">cur_cal</Object>
+    <Object Type="Program" Language="ANSIC" Description="thickness parison controller">parison</Object>
+  </Objects>
+</Package>

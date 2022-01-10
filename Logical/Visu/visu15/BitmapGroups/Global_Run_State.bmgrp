@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Global_Run_State">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="40"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="2170" Value="Source[local].Bitmap[STATUS_SPACE]"/>
+    <BitmapRef ID="2171" Value="Source[local].Bitmap[ICON_STATE_MANUAL]"/>
+    <BitmapRef ID="2172" Value="Source[local].Bitmap[ICON_STATE_AUTO]"/>
+    <BitmapRef ID="2173" Value="Source[local].Bitmap[ICON_STATE_CALIBRATION]"/>
+    <BitmapRef ID="2454" Value="Source[local].Bitmap[ICON_STATE_STOP]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="2170" Value="0"/>
+    <Index ID="2171" Value="1"/>
+    <Index ID="2172" Value="2"/>
+    <Index ID="2173" Value="3"/>
+    <Index ID="2454" Value="4"/>
+  </IndexMap>
+</BitmapGroup>

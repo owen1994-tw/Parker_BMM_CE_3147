@@ -1,0 +1,66 @@
+(********************************************************************
+
+ * COPYRIGHT -- Microsoft
+
+ ********************************************************************
+
+ * Program: P84Ctl
+
+ * File: Acs380Ctl.var
+
+ * Author: HuangPengbin
+
+ * Created: April 16,2018
+
+ ********************************************************************
+
+ * Local variables of program Acs380Ctl
+
+ ********************************************************************)
+VAR CONSTANT
+	ALARM_BIT : USINT := 3;
+END_VAR
+VAR
+	CycTime : UDINT;
+	FaultFlg : ARRAY[0..NUM_ACS380_MINUS_ONE] OF BOOL;
+	a : BOOL;
+END_VAR
+VAR CONSTANT
+	ACS_FAULT : UINT := 50;
+	ACS_RUN : UINT := 100;
+	ACS_POWER_OFF : UINT := 0;
+END_VAR
+VAR
+	AcsIndex : UINT;
+	RstTimer : ARRAY[0..NUM_ACS380_MINUS_ONE] OF UDINT;
+	RTInfo_0 : RTInfo;
+END_VAR
+VAR CONSTANT
+	STATE_FAULT_RST : UINT := 100;
+	STATE_FAULT_RST_WAIT : UINT := 110;
+	STATE_RUN : UINT := 150;
+	STATE_POWER_OFF : UINT := 50;
+	STATE_WAIT_CMD : UINT := 10;
+	STATE_ESTOP : UINT := 0;
+END_VAR
+VAR
+	Step : ARRAY[0..NUM_ACS380_MINUS_ONE] OF UINT;
+	EstopCon : ARRAY[0..NUM_ACS380_MINUS_ONE] OF UINT;
+	StopCon : ARRAY[0..NUM_ACS380_MINUS_ONE] OF UINT;
+	ReadySwitchOnCon : ARRAY[0..NUM_ACS380_MINUS_ONE] OF UINT;
+	SwitchOnCon : ARRAY[0..NUM_ACS380_MINUS_ONE] OF UINT;
+	OpeationEnCon : ARRAY[0..NUM_ACS380_MINUS_ONE] OF UINT;
+	TempETAD : ARRAY[0..NUM_ACS380_MINUS_ONE] OF UINT;
+	ActTorque : ARRAY[0..NUM_ACS380_MINUS_ONE] OF REAL;
+END_VAR
+VAR CONSTANT
+	MotorSpeedLmtA : INT := 1500;
+	MotorSpeedLmtVisu : INT := 1500;
+	MotorSpeedLmtB : INT := 1500;
+	MotorSpeedLmtC : INT := 1500;
+	MotorSpeedLmtD : INT := 1500;
+END_VAR
+VAR
+	Extruder_Use : ARRAY[0..NUM_ACS380_MINUS_ONE] OF UINT;
+	Extruder_Enable : ARRAY[0..NUM_ACS380_MINUS_ONE] OF UINT;
+END_VAR

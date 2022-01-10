@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="FluxOutputType">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="35"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="3481704" Value="Undefined"/>
+    <Text ID="3481705" Value="System Single"/>
+    <Text ID="3481706" Value="System ACC."/>
+    <Text ID="3481707" Value="Swing ACC."/>
+    <Text ID="3481708" Value="None"/>
+    <Text ID="3481709" Value="Prop Valve Single"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="3481704" Value="無"/>
+    <Text ID="3481705" Value="系統流量"/>
+    <Text ID="3481706" Value="系統蓄壓器"/>
+    <Text ID="3481707" Value="抬頭蓄壓器"/>
+    <Text ID="3481708" Value="不輸出"/>
+    <Text ID="3481709" Value="獨立比例閥"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="3481704" Value="無"/>
+    <Text ID="3481705" Value="系統流量"/>
+    <Text ID="3481706" Value="系統蓄壓器"/>
+    <Text ID="3481707" Value="抬頭蓄壓器"/>
+    <Text ID="3481708" Value="不輸出"/>
+    <Text ID="3481709" Value="獨立比例閥"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="3481704" Value="Nieokreslony"/>
+    <Text ID="3481705" Value="System pojedynczy"/>
+    <Text ID="3481706" Value="System ACC."/>
+    <Text ID="3481707" Value="Glowica ACC."/>
+    <Text ID="3481708" Value="Brak"/>
+    <Text ID="3481709" Value="Zawór proporcjonalny pojedynczy"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="3481704" Value="0"/>
+    <Index ID="3481705" Value="1"/>
+    <Index ID="3481706" Value="3"/>
+    <Index ID="3481707" Value="4"/>
+    <Index ID="3481708" Value="5"/>
+    <Index ID="3481709" Value="2"/>
+  </IndexMap>
+</TextGroup>

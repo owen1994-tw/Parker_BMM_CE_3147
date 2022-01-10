@@ -1,0 +1,45 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: extruder
+ * File: extruder.var
+ * Author: lij
+ * Created: January 05, 2015
+ ********************************************************************
+ * Local variables of program extruder
+ ********************************************************************)
+VAR
+	tTask : REAL := 0.0;
+	RTInfo_Task : RTInfo := (0);
+	tAlarmExtrTempA : REAL;
+	tStopExtrTempA : REAL;
+	tColiTempNormalA : REAL;
+	bHideCurrency : UINT;
+	bHideMeltTemp : UINT;
+	btnZeroExtrA : USINT;
+	btnMaxExtrA : USINT;
+	tMaxExtrA : REAL;
+	tZeroExtrA : REAL;
+	btnZeroExtrB : USINT;
+	btnMaxExtrB : USINT;
+	tMaxExtrB : REAL;
+	ExtrA_HopperKeyOld : USINT;
+	ExtrB_HopperKeyOld : USINT;
+	LubricCheckA : Lubricate_Check_typ;
+	LubricCheckB : Lubricate_Check_typ;
+	LubricCheckVisu : Lubricate_Check_typ;
+	MotorSpeedA : speedAdjust_typ;
+	MotorSpeedB : speedAdjust_typ;
+	MotorSpeedVisu : speedAdjust_typ;
+	tExtrA_OnNormal : REAL;
+	tExtrB_OnNormal : REAL;
+	tExtrV_OnNormal : REAL;
+	cntExtruderStopDelay : UDINT;
+	PKeyMatric : ARRAY[0..MAX_KEY_COUNT] OF USINT;
+	NKeyMatric : ARRAY[0..MAX_KEY_COUNT] OF USINT;
+	oldExtrA_On : USINT;
+	oldExtrB_On : USINT;
+	oldExtrC_On : USINT;
+	oldExtrD_On : USINT;
+	oldExtrVisu_On : USINT;
+END_VAR

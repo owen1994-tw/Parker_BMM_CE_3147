@@ -1,0 +1,21 @@
+VAR
+	hmiStep : UINT;
+	Contrast : UDINT;
+	BackLightTime : UINT;
+END_VAR
+VAR RETAIN
+	hmiBackLightTime_Min : UINT;
+END_VAR
+VAR
+	contrast_old : UINT;
+	Brightness : UDINT;
+	brightness_old : UINT;
+END_VAR
+(*time setting *)
+VAR
+	hmiTimeStep : UINT;
+	Time : STRING[11];
+	CurrentTime : STRING[18];
+	GetRTCTime : RTCtime_typ := (0);
+	SetRTCTime : RTCtime_typ := (0);
+END_VAR

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Help">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="12"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="1061662" Value="Extruder speed add"/>
+    <Text ID="1061663" Value="Extruder 2 enable"/>
+    <Text ID="1061664" Value="Extruder 1 enable"/>
+    <Text ID="1061665" Value="Stop mode"/>
+    <Text ID="1061666" Value="Seal gap"/>
+    <Text ID="1061667" Value="Die gap close"/>
+    <Text ID="1061668" Value="Die gap open"/>
+    <Text ID="1061669" Value=""/>
+    <Text ID="1061670" Value="Alarm reset"/>
+    <Text ID="1061671" Value="Machine reset"/>
+    <Text ID="1061672" Value="Hopper open"/>
+    <Text ID="1061673" Value=""/>
+    <Text ID="1061674" Value="Pump  2"/>
+    <Text ID="1061675" Value="Main pump"/>
+    <Text ID="1061676" Value="Parison pump"/>
+    <Text ID="1061677" Value=""/>
+    <Text ID="1061678" Value="Auto start"/>
+    <Text ID="1061679" Value="Auto mode"/>
+    <Text ID="1061680" Value="Semi auto"/>
+    <Text ID="1061681" Value="Manual"/>
+    <Text ID="1061682" Value=""/>
+    <Text ID="1061683" Value="Auto interval"/>
+    <Text ID="1061684" Value="Robot loose"/>
+    <Text ID="1061685" Value="Robot backward"/>
+    <Text ID="1061686" Value="Open mold"/>
+    <Text ID="1061687" Value="Blowpin tiny-return"/>
+    <Text ID="1061688" Value="Decompress"/>
+    <Text ID="1061689" Value=""/>
+    <Text ID="1061690" Value="Pack"/>
+    <Text ID="1061691" Value="Blow pin down"/>
+    <Text ID="1061692" Value="Mold micro open"/>
+    <Text ID="1061693" Value="Plastic"/>
+    <Text ID="1061694" Value="Robot close"/>
+    <Text ID="1061695" Value="Low pressure blow"/>
+    <Text ID="1061696" Value="Pin 2nd up"/>
+    <Text ID="1061697" Value="Pack close"/>
+    <Text ID="1061698" Value="Blow"/>
+    <Text ID="1061699" Value="Blowpin down"/>
+    <Text ID="1061700" Value="Robot forward"/>
+    <Text ID="1061701" Value="Expand open"/>
+    <Text ID="1061702" Value="Blowpin up"/>
+    <Text ID="1061703" Value="Clamp lock"/>
+    <Text ID="1061704" Value="Injection"/>
+    <Text ID="1061705" Value="Diehead blow"/>
+    <Text ID="1061706" Value="Exapnd close"/>
+    <Text ID="1061707" Value="Close mold"/>
+    <Text ID="1061708" Value="First clamp close"/>
+    <Text ID="1061709" Value=""/>
+    <Text ID="1061710" Value="Extruder speed sub"/>
+    <Text ID="1061711" Value=""/>
+    <Text ID="1061712" Value="Sub mold open"/>
+    <Text ID="1061713" Value="Sub mold close"/>
+    <Text ID="1061714" Value=""/>
+    <Text ID="1061715" Value="Core forward"/>
+    <Text ID="1061716" Value="Core backward"/>
+    <Text ID="1061717" Value=""/>
+    <Text ID="1061718" Value="Ejection forward"/>
+    <Text ID="1061719" Value="Ejection backward"/>
+    <Text ID="1061720" Value=""/>
+    <Text ID="1061721" Value="Expand close/open"/>
+    <Text ID="1061722" Value=""/>
+    <Text ID="1061723" Value="Clamp slow open"/>
+    <Text ID="1061724" Value="Clamp slow close"/>
+    <Text ID="1061725" Value="Calibration step"/>
+    <Text ID="1061726" Value="Sub mold tonnage"/>
+    <Text ID="1061727" Value="Calibration help"/>
+    <Text ID="1061728" Value="1. in thickness init parameter page, select direction of gap."/>
+    <Text ID="1061729" Value="3.in gap tunning page,press F5 button,see control out is negative vlotage,at the same time,see linear transdusor value decrease,otherwise,swap the conection of D&amp;E of servo valve."/>
+    <Text ID="1061730" Value="2.switch to gap calibration page,Tunning mode -- manual,manual move core ,assert move range in (0.5v,9.5v)."/>
+    <Text ID="1061731" Value="4.if No 3 is ok,setting tunning mode : auto mode,when auto tunning is ok,Divergent mode: Die gap zero value is smallest value,Convergent mode:Die gap zero value is biggest value"/>
+    <Text ID="1061732" Value="5.if No 4 is ok,calibration is OK, Othwise swap the conection of D&amp;E of servo valve and swap 0v line and 10v line of linear tansdusor."/>
+    <Text ID="1632050" Value="1. in parison init setting page, select type of diegap."/>
+    <Text ID="1632051" Value="2.switch to parison LVDT calibration page,Tunning mode -- manual,manual move parison ,assert move range in (1.5v,8.5v)."/>
+    <Text ID="1632052" Value="3.In Parison LVDT calibration page,press F5 button,see parison servo valve out is negative vlotage,at the same time,see LDVT voltage decrease,otherwise,swap the connection of D&amp;E of servo valve."/>
+    <Text ID="1632053" Value="4.if No. 3 is ok,setting tunning mode : auto mode,when auto tunning is ok,Divergent mode: Die gap zero value is smallest value,Convergent mode:Die gap zero value is biggest value"/>
+    <Text ID="1632054" Value="5.if No. 4 is ok,calibration is OK, Othwise swap the conection of D&amp;E of servo valve and swap signal line of LVDT."/>
+    <Text ID="1632055" Value="Calibration step"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="1061662" Value="螺杆加速"/>
+    <Text ID="1061663" Value="螺杆二启动"/>
+    <Text ID="1061664" Value="螺杆一启动"/>
+    <Text ID="1061665" Value="停止"/>
+    <Text ID="1061666" Value="封口"/>
+    <Text ID="1061667" Value="口模合"/>
+    <Text ID="1061668" Value="口模开"/>
+    <Text ID="1061669" Value=""/>
+    <Text ID="1061670" Value="报警复位"/>
+    <Text ID="1061671" Value="机器复位"/>
+    <Text ID="1061672" Value="料斗开"/>
+    <Text ID="1061673" Value=""/>
+    <Text ID="1061674" Value="大泵二"/>
+    <Text ID="1061675" Value="主油泵"/>
+    <Text ID="1061676" Value="壁厚泵"/>
+    <Text ID="1061677" Value=""/>
+    <Text ID="1061678" Value="自动启动"/>
+    <Text ID="1061679" Value="全自动"/>
+    <Text ID="1061680" Value="半自动"/>
+    <Text ID="1061681" Value="手動"/>
+    <Text ID="1061682" Value=""/>
+    <Text ID="1061683" Value="自动间隔"/>
+    <Text ID="1061684" Value="机械手松"/>
+    <Text ID="1061685" Value="机械手退"/>
+    <Text ID="1061686" Value="开模"/>
+    <Text ID="1061687" Value="吹針微抽"/>
+    <Text ID="1061688" Value="抽胶"/>
+    <Text ID="1061689" Value=""/>
+    <Text ID="1061690" Value="包封"/>
+    <Text ID="1061691" Value="吹针下"/>
+    <Text ID="1061692" Value="模具微开"/>
+    <Text ID="1061693" Value="熔胶"/>
+    <Text ID="1061694" Value="机械手夹"/>
+    <Text ID="1061695" Value="低压吹气"/>
+    <Text ID="1061696" Value="吹针二次上"/>
+    <Text ID="1061697" Value="包封闭"/>
+    <Text ID="1061698" Value="高压吹气"/>
+    <Text ID="1061699" Value="吹针下"/>
+    <Text ID="1061700" Value="机械手进"/>
+    <Text ID="1061701" Value="撐料开"/>
+    <Text ID="1061702" Value="吹针上"/>
+    <Text ID="1061703" Value="迫紧"/>
+    <Text ID="1061704" Value="射料"/>
+    <Text ID="1061705" Value="模头吹氣"/>
+    <Text ID="1061706" Value="撐料闭"/>
+    <Text ID="1061707" Value="合模"/>
+    <Text ID="1061708" Value="预合模"/>
+    <Text ID="1061709" Value=""/>
+    <Text ID="1061710" Value="螺杆減速"/>
+    <Text ID="1061711" Value=""/>
+    <Text ID="1061712" Value="下子模开"/>
+    <Text ID="1061713" Value="下子模合"/>
+    <Text ID="1061714" Value=""/>
+    <Text ID="1061715" Value="抽芯进"/>
+    <Text ID="1061716" Value="抽芯退"/>
+    <Text ID="1061717" Value=""/>
+    <Text ID="1061718" Value="顶出进"/>
+    <Text ID="1061719" Value="頂出退"/>
+    <Text ID="1061720" Value=""/>
+    <Text ID="1061721" Value="撐料开合"/>
+    <Text ID="1061722" Value=""/>
+    <Text ID="1061723" Value="慢速开模"/>
+    <Text ID="1061724" Value="慢速合模"/>
+    <Text ID="1061725" Value="型芯校調步驟"/>
+    <Text ID="1061726" Value="子模锁模"/>
+    <Text ID="1061727" Value="校调帮助"/>
+    <Text ID="1061728" Value="1.先在壁厚初始參數介面中選擇型芯模式：擴張型/收縮型。"/>
+    <Text ID="1061729" Value="3.在口模調校介面，按F3鍵看到控制器輸出為負電壓，同時看到電子尺回饋資料減小，否則反伺服閥輸出的D和E。"/>
+    <Text ID="1061730" Value="2.切換到口模調校介面，將調校模式切換到手動模式，按型芯上下可以移動型芯，確保型芯油缸行程在壁厚電子尺範圍內，即型芯移動時不會出現0v和10v，儘量兩邊留的區域對稱,如（1.0v，9.0v)。"/>
+    <Text ID="1061731" Value="4.滿足第3條就可以自動校調，將調校模式切換到自動模式，自動調校後，擴張型時，口模開度零位為小數值，口模開度最大位為大數值，收縮型時，口模開度零位為大數值，口模開度最大位為小數值。"/>
+    <Text ID="1061732" Value="5.如果不符合第4條，反伺服閥輸出的D及E，反壁厚電子尺的的電源線0V和10V線，如果滿足第4條，調校OK。"/>
+    <Text ID="1632050" Value="1.先在壁厚初始参数界面中选择型芯模式：扩张型/收缩型。"/>
+    <Text ID="1632051" Value="2.切换到口模调校界面，将调校模式切换到手动模式，按型芯上下可以移动型芯，确保型芯油缸行程在壁厚电子尺范围内，即型芯移动时不会出现0v和10v，尽量两边留的区域对称,如（1.0v，9.0v)。"/>
+    <Text ID="1632052" Value="3.在口模调校界面，按F5键看到控制器输出为负电压，同时看到电子尺反馈数据减小，否则反伺服阀输出的D和E。"/>
+    <Text ID="1632053" Value="4.满足第3条就可以自动校调，将调校模式切换到自动模式，自动调校后，扩张型时，口模开度零位为小数值，口模开度最大位为大数值，收缩型时，口模开度零位为大数值，口模开度最大位为小数值。"/>
+    <Text ID="1632054" Value="5.如果不符合第4条，反伺服阀输出的D及E，反壁厚电子尺的的电源线0V和10V线，按第4条重调，如果满足第4条，调校OK。"/>
+    <Text ID="1632055" Value="型芯校调步骤"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="1061662" Value="螺杆加速"/>
+    <Text ID="1061663" Value="螺杆二啟動"/>
+    <Text ID="1061664" Value="螺杆一啟動"/>
+    <Text ID="1061665" Value="停止"/>
+    <Text ID="1061666" Value="封口"/>
+    <Text ID="1061667" Value="口模合"/>
+    <Text ID="1061668" Value="口模開"/>
+    <Text ID="1061669" Value=""/>
+    <Text ID="1061670" Value="報警復位"/>
+    <Text ID="1061671" Value="機器復位"/>
+    <Text ID="1061672" Value="料斗開"/>
+    <Text ID="1061673" Value=""/>
+    <Text ID="1061674" Value="大泵二"/>
+    <Text ID="1061675" Value="主油泵"/>
+    <Text ID="1061676" Value="壁厚泵"/>
+    <Text ID="1061677" Value=""/>
+    <Text ID="1061678" Value="自動啟動"/>
+    <Text ID="1061679" Value="全自動"/>
+    <Text ID="1061680" Value="半自動"/>
+    <Text ID="1061681" Value="手動"/>
+    <Text ID="1061682" Value=""/>
+    <Text ID="1061683" Value="自動間隔"/>
+    <Text ID="1061684" Value="機械手松"/>
+    <Text ID="1061685" Value="機械手退"/>
+    <Text ID="1061686" Value="開模"/>
+    <Text ID="1061687" Value="吹針微抽"/>
+    <Text ID="1061688" Value="抽膠"/>
+    <Text ID="1061689" Value=""/>
+    <Text ID="1061690" Value="包封"/>
+    <Text ID="1061691" Value="吹針下"/>
+    <Text ID="1061692" Value="模具微開"/>
+    <Text ID="1061693" Value="熔膠"/>
+    <Text ID="1061694" Value="機械手夾"/>
+    <Text ID="1061695" Value="低壓吹氣"/>
+    <Text ID="1061696" Value="吹針二次上"/>
+    <Text ID="1061697" Value="包封閉"/>
+    <Text ID="1061698" Value="高壓吹氣"/>
+    <Text ID="1061699" Value="吹針下"/>
+    <Text ID="1061700" Value="機械手進"/>
+    <Text ID="1061701" Value="撐料開"/>
+    <Text ID="1061702" Value="吹針上"/>
+    <Text ID="1061703" Value="迫緊"/>
+    <Text ID="1061704" Value="射料"/>
+    <Text ID="1061705" Value="模頭吹氣"/>
+    <Text ID="1061706" Value="撐料閉"/>
+    <Text ID="1061707" Value="合模"/>
+    <Text ID="1061708" Value="預合模"/>
+    <Text ID="1061709" Value=""/>
+    <Text ID="1061710" Value="螺杆減速"/>
+    <Text ID="1061711" Value=""/>
+    <Text ID="1061712" Value="下子模開"/>
+    <Text ID="1061713" Value="下子模合"/>
+    <Text ID="1061714" Value=""/>
+    <Text ID="1061715" Value="抽芯進"/>
+    <Text ID="1061716" Value="抽芯退"/>
+    <Text ID="1061717" Value=""/>
+    <Text ID="1061718" Value="頂出進"/>
+    <Text ID="1061719" Value="頂出退"/>
+    <Text ID="1061720" Value=""/>
+    <Text ID="1061721" Value="撐料開合"/>
+    <Text ID="1061722" Value=""/>
+    <Text ID="1061723" Value="慢速開模"/>
+    <Text ID="1061724" Value="慢速合模"/>
+    <Text ID="1061725" Value="型芯校調步驟"/>
+    <Text ID="1061726" Value="子模鎖模"/>
+    <Text ID="1061727" Value="校調幫助"/>
+    <Text ID="1061728" Value="1.先在壁厚初始參數介面中選擇型芯模式：擴張型/收縮型。"/>
+    <Text ID="1061729" Value="3.在口模調校介面，按F3鍵看到控制器輸出為負電壓，同時看到電子尺回饋資料減小，否則反伺服閥輸出的D和E。"/>
+    <Text ID="1061730" Value="2.切換到口模調校介面，將調校模式切換到手動模式，按型芯上下可以移動型芯，確保型芯油缸行程在壁厚電子尺範圍內，即型芯移動時不會出現0v和10v，儘量兩邊留的區域對稱,如（1.0v，9.0v)。"/>
+    <Text ID="1061731" Value="4.滿足第3條就可以自動校調，將調校模式切換到自動模式，自動調校後，擴張型時，口模開度零位為小數值，口模開度最大位為大數值，收縮型時，口模開度零位為大數值，口模開度最大位為小數值。"/>
+    <Text ID="1061732" Value="5.如果不符合第4條，反伺服閥輸出的D及E，反壁厚電子尺的的電源線0V和10V線，如果滿足第4條，調校OK。"/>
+    <Text ID="1632050" Value="1.先在壁厚初始參數介面中選擇型芯模式：擴張型/收縮型。"/>
+    <Text ID="1632051" Value="2.切換到口模調校介面，將調校模式切換到手動模式，按型芯上下可以移動型芯，確保型芯油缸行程在壁厚電子尺範圍內，即型芯移動時不會出現0v和10v，儘量兩邊留的區域對稱,如（1.0v，9.0v)。"/>
+    <Text ID="1632052" Value="3.在口模調校介面，按F5鍵看到控制器輸出為負電壓，同時看到電子尺回饋資料減小，否則反伺服閥輸出的D和E。"/>
+    <Text ID="1632053" Value="4.滿足第3條就可以自動校調，將調校模式切換到自動模式，自動調校後，擴張型時，口模開度零位為小數值，口模開度最大位為大數值，收縮型時，口模開度零位為大數值，口模開度最大位為小數值。"/>
+    <Text ID="1632054" Value="5.如果不符合第4條，反伺服閥輸出的D及E，反壁厚電子尺的的電源線0V和10V線，按第4條重調，如果滿足第4條，調校OK。"/>
+    <Text ID="1632055" Value="型芯校調步驟"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="1061662" Value=""/>
+    <Text ID="1061663" Value="Ekstruder 2 Wlaczony"/>
+    <Text ID="1061664" Value="Ekstruder 1 Wlaczony"/>
+    <Text ID="1061665" Value="Tryb Zatrzymania"/>
+    <Text ID="1061666" Value=""/>
+    <Text ID="1061667" Value="Narzedzi Rekawowych Zam."/>
+    <Text ID="1061668" Value="Narzedzi Rekawowych Otw."/>
+    <Text ID="1061669" Value=""/>
+    <Text ID="1061670" Value="Reset alarmu"/>
+    <Text ID="1061671" Value="Reset maszyny"/>
+    <Text ID="1061672" Value="Zasobnik Otw."/>
+    <Text ID="1061673" Value=""/>
+    <Text ID="1061674" Value="Hydrauliczny Silnik 2"/>
+    <Text ID="1061675" Value="Hydrauliczny Silnik"/>
+    <Text ID="1061676" Value="Parison Silnik"/>
+    <Text ID="1061677" Value=""/>
+    <Text ID="1061678" Value="Automatyczny początek"/>
+    <Text ID="1061679" Value="Tryb Automatyczny"/>
+    <Text ID="1061680" Value="Tryb Polautomatyczny"/>
+    <Text ID="1061681" Value="Tryb Manualny"/>
+    <Text ID="1061682" Value=""/>
+    <Text ID="1061683" Value="interwalu automatycznego"/>
+    <Text ID="1061684" Value=""/>
+    <Text ID="1061685" Value="Ramie Robota Wstecz"/>
+    <Text ID="1061686" Value="Forma Otw."/>
+    <Text ID="1061687" Value="L - Trzp. Rozdm. lekki w górę"/>
+    <Text ID="1061688" Value=""/>
+    <Text ID="1061689" Value=""/>
+    <Text ID="1061690" Value=""/>
+    <Text ID="1061691" Value="Trzp. Rozdm. w Dol"/>
+    <Text ID="1061692" Value="Forma wstepne otw."/>
+    <Text ID="1061693" Value=""/>
+    <Text ID="1061694" Value="Ramie Robota zam."/>
+    <Text ID="1061695" Value="Rozdmuch Niskie Cisnienie"/>
+    <Text ID="1061696" Value="Trzp. Rozdm. 2 w Gore"/>
+    <Text ID="1061697" Value=""/>
+    <Text ID="1061698" Value="Rozdmuch"/>
+    <Text ID="1061699" Value="Trzp. Rozdm. w Dol"/>
+    <Text ID="1061700" Value="Ramie Robota Przod"/>
+    <Text ID="1061701" Value=""/>
+    <Text ID="1061702" Value="Trzp. Rozdm. w Gore"/>
+    <Text ID="1061703" Value=""/>
+    <Text ID="1061704" Value=""/>
+    <Text ID="1061705" Value="Nadmuch"/>
+    <Text ID="1061706" Value=""/>
+    <Text ID="1061707" Value="Forma Zam."/>
+    <Text ID="1061708" Value="Forma Najpierw Zam."/>
+    <Text ID="1061709" Value=""/>
+    <Text ID="1061710" Value=""/>
+    <Text ID="1061711" Value=""/>
+    <Text ID="1061712" Value="Rdzen Otw."/>
+    <Text ID="1061713" Value="Rdzen Zam."/>
+    <Text ID="1061714" Value=""/>
+    <Text ID="1061715" Value=""/>
+    <Text ID="1061716" Value=""/>
+    <Text ID="1061717" Value=""/>
+    <Text ID="1061718" Value=""/>
+    <Text ID="1061719" Value=""/>
+    <Text ID="1061720" Value=""/>
+    <Text ID="1061721" Value=""/>
+    <Text ID="1061722" Value=""/>
+    <Text ID="1061723" Value="Forma Wolne Otw."/>
+    <Text ID="1061724" Value="Forma Wolne Zam."/>
+    <Text ID="1061725" Value="Kroki Kalibracji"/>
+    <Text ID="1061726" Value=""/>
+    <Text ID="1061727" Value="Pomoc w Kalibracji"/>
+    <Text ID="1061728" Value="1. w pogrubianiu. Strona parametrow, wybierz kierunek przerwy."/>
+    <Text ID="1061729" Value="3. na stronie dostrajania szczelin nacisnij przycisk F5, wyjscie sterowania jest sterowane napieciem ujemnym, w tym samym czasie patrz spadek wartosci przetwornika liniowego, w przeciwnym razie zamien polaczenie D i E serwozaworu."/>
+    <Text ID="1061730" Value="2. Przelacz na strone kalibracji szczeliny, tryb strojenia - reczny, tryb ruchu,  zakres ruchu (0,5 v, 9,5 v)."/>
+    <Text ID="1061731" Value="4. jesli punkt 3. jest poprawny, ustawienie trybu czasowego: tryb automatyczny, gdy automatyczne strojenie jest w poprawne, tryb rozbieżny: zerowa szczelina matrycy jest najmniejsza wartoscia, tryb zbiezny: zerowa szczelina matrycy jest najwieksza wartoscia"/>
+    <Text ID="1061732" Value="5. Jesli punkt 4. jest poprawny, kalibracja jest poprawna, w przeciwnym razie zamien polaczenie D&amp;E serwozaworu i zamien linie 0 V i linie 10 V przetwornika liniowego."/>
+    <Text ID="1632050" Value="1. w pogrubianiu. Strona parametrow, wybierz kierunek przerwy."/>
+    <Text ID="1632051" Value="2. Przelacz na strone kalibracji szczeliny, tryb strojenia - reczny, tryb ruchu,  zakres ruchu (0,5 v, 9,5 v)."/>
+    <Text ID="1632052" Value="3. na stronie dostrajania szczelin nacisnij przycisk F5, wyjscie sterowania jest sterowane napieciem ujemnym, w tym samym czasie patrz spadek wartosci przetwornika liniowego, w przeciwnym razie zamien polaczenie D i E serwozaworu."/>
+    <Text ID="1632053" Value="4. jesli punkt 3. jest poprawny, ustawienie trybu czasowego: tryb automatyczny, gdy automatyczne strojenie jest w poprawne, tryb rozbieżny: zerowa szczelina matrycy jest najmniejsza wartoscia, tryb zbiezny: zerowa szczelina matrycy jest najwieksza wartoscia"/>
+    <Text ID="1632054" Value="5. Jesli punkt 4. jest poprawny, kalibracja jest poprawna, w przeciwnym razie zamien polaczenie D&amp;E serwozaworu i zamien linie 0 V i linie 10 V przetwornika liniowego."/>
+    <Text ID="1632055" Value="Kroki Kalibracji"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1061662" Value="47"/>
+    <Index ID="1061663" Value="46"/>
+    <Index ID="1061664" Value="45"/>
+    <Index ID="1061665" Value="44"/>
+    <Index ID="1061666" Value="43"/>
+    <Index ID="1061667" Value="42"/>
+    <Index ID="1061668" Value="41"/>
+    <Index ID="1061669" Value="40"/>
+    <Index ID="1061670" Value="39"/>
+    <Index ID="1061671" Value="38"/>
+    <Index ID="1061672" Value="37"/>
+    <Index ID="1061673" Value="36"/>
+    <Index ID="1061674" Value="35"/>
+    <Index ID="1061675" Value="34"/>
+    <Index ID="1061676" Value="33"/>
+    <Index ID="1061677" Value="32"/>
+    <Index ID="1061678" Value="31"/>
+    <Index ID="1061679" Value="30"/>
+    <Index ID="1061680" Value="29"/>
+    <Index ID="1061681" Value="28"/>
+    <Index ID="1061682" Value="27"/>
+    <Index ID="1061683" Value="26"/>
+    <Index ID="1061684" Value="25"/>
+    <Index ID="1061685" Value="24"/>
+    <Index ID="1061686" Value="23"/>
+    <Index ID="1061687" Value="22"/>
+    <Index ID="1061688" Value="21"/>
+    <Index ID="1061689" Value="20"/>
+    <Index ID="1061690" Value="19"/>
+    <Index ID="1061691" Value="18"/>
+    <Index ID="1061692" Value="17"/>
+    <Index ID="1061693" Value="16"/>
+    <Index ID="1061694" Value="15"/>
+    <Index ID="1061695" Value="14"/>
+    <Index ID="1061696" Value="13"/>
+    <Index ID="1061697" Value="12"/>
+    <Index ID="1061698" Value="11"/>
+    <Index ID="1061699" Value="10"/>
+    <Index ID="1061700" Value="9"/>
+    <Index ID="1061701" Value="8"/>
+    <Index ID="1061702" Value="7"/>
+    <Index ID="1061703" Value="6"/>
+    <Index ID="1061704" Value="5"/>
+    <Index ID="1061705" Value="4"/>
+    <Index ID="1061706" Value="3"/>
+    <Index ID="1061707" Value="2"/>
+    <Index ID="1061708" Value="1"/>
+    <Index ID="1061709" Value="0"/>
+    <Index ID="1061710" Value="48"/>
+    <Index ID="1061711" Value="49"/>
+    <Index ID="1061712" Value="50"/>
+    <Index ID="1061713" Value="51"/>
+    <Index ID="1061714" Value="52"/>
+    <Index ID="1061715" Value="53"/>
+    <Index ID="1061716" Value="54"/>
+    <Index ID="1061717" Value="55"/>
+    <Index ID="1061718" Value="56"/>
+    <Index ID="1061719" Value="57"/>
+    <Index ID="1061720" Value="58"/>
+    <Index ID="1061721" Value="59"/>
+    <Index ID="1061722" Value="60"/>
+    <Index ID="1061723" Value="61"/>
+    <Index ID="1061724" Value="62"/>
+    <Index ID="1061725" Value="65"/>
+    <Index ID="1061726" Value="63"/>
+    <Index ID="1061727" Value="64"/>
+    <Index ID="1061728" Value="66"/>
+    <Index ID="1061729" Value="68"/>
+    <Index ID="1061730" Value="67"/>
+    <Index ID="1061731" Value="69"/>
+    <Index ID="1061732" Value="70"/>
+    <Index ID="1632050" Value="78"/>
+    <Index ID="1632051" Value="79"/>
+    <Index ID="1632052" Value="80"/>
+    <Index ID="1632053" Value="81"/>
+    <Index ID="1632054" Value="82"/>
+    <Index ID="1632055" Value="77"/>
+  </IndexMap>
+</TextGroup>

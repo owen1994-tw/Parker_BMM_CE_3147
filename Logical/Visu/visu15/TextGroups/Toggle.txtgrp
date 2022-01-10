@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Toggle">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="13"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="3754837" Value="Mech Position"/>
+    <Text ID="3754838" Value="Motor Position"/>
+    <Text ID="3754839" Value="Linear Status"/>
+    <Text ID="3754840" Value="Error Node Number"/>
+    <Text ID="3754841" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="3754837" Value="機構位置"/>
+    <Text ID="3754838" Value="馬達位置"/>
+    <Text ID="3754839" Value="線性化狀態"/>
+    <Text ID="3754840" Value="錯誤點號"/>
+    <Text ID="3754841" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="3754837" Value="機構位置"/>
+    <Text ID="3754838" Value="馬達位置"/>
+    <Text ID="3754839" Value="線性化狀態"/>
+    <Text ID="3754840" Value="錯誤點號"/>
+    <Text ID="3754841" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="3754837" Value="Pozycja mechanizmu"/>
+    <Text ID="3754838" Value="Pozycja silnika"/>
+    <Text ID="3754839" Value="Status liniowy"/>
+    <Text ID="3754840" Value="Numer wezla bledu"/>
+    <Text ID="3754841" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="3754837" Value="0"/>
+    <Index ID="3754838" Value="1"/>
+    <Index ID="3754839" Value="2"/>
+    <Index ID="3754840" Value="3"/>
+    <Index ID="3754841" Value="4"/>
+  </IndexMap>
+</TextGroup>

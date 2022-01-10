@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<Languages xmlns="http://br-automation.co.at/AS/VC/Project">
+  <Property Name="Default" Value="en-GB"/>
+  <Property Name="FallBackLanguage" Value="en-GB"/>
+  <Language ID="en-GB">
+    <Property Name="BidiMode" Value="True"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="1"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+  <Language ID="zh-CN">
+    <Property Name="BidiMode" Value="True"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="0"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+  <Language ID="zh-TW">
+    <Property Name="BidiMode" Value="False"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="2"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+  <Language ID="pl">
+    <Property Name="BidiMode" Value="False"/>
+    <Property Name="Compile" Value="True"/>
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="3"/>
+    <Property Name="InputMethod" Value="None"/>
+  </Language>
+</Languages>

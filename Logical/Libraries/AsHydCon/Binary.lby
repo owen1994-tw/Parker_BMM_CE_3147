@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.12.129 SP?>
+<Library Version="3.10.0" Description="This library contains control algorithms for hydraulics." xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Function blocks.">AsHydCon.fun</File>
+    <File Description="Constants.">AsHydCon.var</File>
+    <File Description="Data types.">AsHydCon.typ</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="brsystem" Target="SG4" />
+    <Dependency ObjectName="sys_lib" Target="SG4" />
+  </Dependencies>
+</Library>

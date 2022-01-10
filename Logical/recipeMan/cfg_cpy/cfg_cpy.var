@@ -1,0 +1,6 @@
+VAR
+	wCfgLoad : USINT;
+	cfg_cpy : var_rd_typ;
+	DMSTATUS : INT;
+	DM_ER_STR : STRING[48];
+END_VAR

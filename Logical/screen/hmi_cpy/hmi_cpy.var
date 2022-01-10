@@ -1,0 +1,17 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: hmi_cpy
+ * File: hmi_cpy.var
+ * Author: lij
+ * Created: May 27, 2015
+ ********************************************************************
+ * Local variables of program hmi_cpy
+ ********************************************************************)
+VAR
+	tTask : REAL := 0.0;
+	RTInfo_Task : RTInfo := (0);
+	tTimeOut : REAL;
+	idxPicture : UINT;
+	StepCopyScreen : UINT;
+END_VAR

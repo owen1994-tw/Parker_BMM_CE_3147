@@ -1,0 +1,17 @@
+VAR
+	TimeStep : UINT;
+	Count : UDINT;
+	LubrPumpWorkDisL : UDINT;
+	LubrPumpWorkDisR : USINT;
+	LubrPumpWorkDis : UDINT;
+	LubrPumpStopDis : UDINT;
+	OilPump : USINT;
+	LubricateStep : UDINT;
+	OldCycleTimes : UDINT;
+	OldCycleTimesL : UDINT;
+	OldCycleTimesR : UDINT;
+	CycleTimeReachFlag : USINT;
+	PCycleTimeReachFlag : USINT;
+	bCycleTimeReset : BOOL;
+	bBatchDoneCountReset : USINT;
+END_VAR

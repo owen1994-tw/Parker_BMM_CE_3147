@@ -1,0 +1,49 @@
+(*General Variables*)
+VAR
+	StepReadID : UINT := 0;
+	StepWriteID : UINT := 0;
+	CyclicPositionSet : MC_CYCLIC_POSITION;
+	mcAxis : MC_Axis_typ := (0);
+	mcParID_RW : Par_RW_typ := (0);
+	mcParID_Value : ParID_Value_typ := (0);
+	mcDriverStatus : MC_DRIVESTATUS_TYP := (0);
+	OldAlarmConfirmOK : USINT := 0;
+	cmdStopPosOld : BOOL := 0;
+	cmdHomeOld : BOOL;
+END_VAR
+(*Used Functionblocks*)
+VAR
+	fubRamp : HydRampCos;
+	MC_MoveVelocity_0 : MC_MoveVelocity; (*Function Block*)
+	MC_Reset_0 : MC_Reset; (*Function Block*)
+	MC_Home_0 : MC_Home; (*Function Block*)
+	MC_Stop_0 : MC_Stop; (*Function Block*)
+	MC_Power_0 : MC_Power; (*Function Block*)
+	MC_ReadAxisError_0 : MC_ReadAxisError; (*Function Block*)
+	MC_ReadStatus_0 : MC_ReadStatus; (*Function Block*)
+	MC_MoveAdditive_0 : MC_MoveAdditive; (*Function Block*)
+	MC_MoveAbsolute_0 : MC_MoveAbsolute; (*Function Block*)
+	MC_Halt_0 : MC_Halt; (*Function Block*)
+	MC_BR_ReadDriveStatus_0 : MC_BR_ReadDriveStatus; (*Function Block*)
+	MC_BR_CyclicRead_0 : MC_BR_CyclicRead := (0); (*Function Block*)
+	MC_BR_CyclicRead_1 : MC_BR_CyclicRead := (0); (*Function Block*)
+	MC_BR_CyclicRead_2 : MC_BR_CyclicRead := (0); (*Function Block*)
+	MC_BR_CyclicRead_3 : MC_BR_CyclicRead := (0); (*Function Block*)
+	MC_BR_CyclicWrite_0 : MC_BR_CyclicWrite := (0); (*Function Block*)
+	MC_BR_CyclicWrite_1 : MC_BR_CyclicWrite := (0); (*Function Block*)
+	MC_BR_CyclicWrite_2 : MC_BR_CyclicWrite := (0); (*Function Block*)
+	MC_BR_CyclicWrite_3 : MC_BR_CyclicWrite := (0); (*Function Block*)
+	MC_BR_MoveCyclicPosition_0 : MC_BR_MoveCyclicPosition := (0);
+	MC_BR_ReadParID_0 : MC_BR_ReadParID := (0); (*Function Block*)
+	MC_BR_WriteParID_0 : MC_BR_WriteParID := (0); (*Function Block*)
+END_VAR
+(*HWSwitch*)
+VAR
+	diNegHWSwitch : INT;
+	diPosHWSwitch : INT;
+	ActCurrent : REAL;
+	NegNetworkInit : USINT;
+	TestUnitFactor : REAL;
+	TestInverse : REAL;
+	Test_V_Fator : REAL;
+END_VAR

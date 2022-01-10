@@ -1,0 +1,18 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Package: machine
+ * File: machine.var
+ * Author: lij
+ * Created: December 19, 2013
+ ********************************************************************
+ * Variables of package machine
+ ********************************************************************)
+VAR
+	LeftRight : USINT;
+	LeftRightOld : USINT;
+	LeftOption : USINT;
+	LeftOptionOld : USINT;
+	RightOption : USINT;
+	RightOptionOld : USINT;
+END_VAR

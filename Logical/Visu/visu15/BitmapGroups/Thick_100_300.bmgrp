@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Thick_100_300">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="11"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="2452" Value="Source[local].Bitmap[BTN_CURVE_Y_100]"/>
+    <BitmapRef ID="2453" Value="Source[local].Bitmap[BTN_CURVE_Y_300]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="2452" Value="1"/>
+    <Index ID="2453" Value="0"/>
+  </IndexMap>
+</BitmapGroup>

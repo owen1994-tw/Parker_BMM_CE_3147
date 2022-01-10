@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Start_Auto">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="27"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="3166999" Value="R-Carriage calibration OK"/>
+    <Text ID="3167000" Value="Hydraulic Motor Start up"/>
+    <Text ID="3167001" Value="safety gate"/>
+    <Text ID="3167002" Value="R-Mold calibration OK"/>
+    <Text ID="3167003" Value="R-Blow Pin calibration OK"/>
+    <Text ID="3167004" Value="Swing calibration OK"/>
+    <Text ID="3167005" Value="R-Carriage backward"/>
+    <Text ID="3167006" Value="R-Mold open"/>
+    <Text ID="3167007" Value="R-Blow Pin up"/>
+    <Text ID="3167008" Value="Swing down"/>
+    <Text ID="3167009" Value="R-Punching backward"/>
+    <Text ID="3167014" Value=""/>
+    <Text ID="3167015" Value="R-1st Post Cooling up"/>
+    <Text ID="3167016" Value="R-2nd Post Cooling up"/>
+    <Text ID="3167017" Value="R-3rd Post Cooling up"/>
+    <Text ID="3167018" Value="R-Robot Hand Backward"/>
+    <Text ID="3167019" Value="R-Ext Robot Hand Backward"/>
+    <Text ID="3167020" Value="R-Blow Pin2 down"/>
+    <Text ID="3167047" Value="R-Robot Hand Open"/>
+    <Text ID="3167048" Value="R-Robot Hand Transfer calibration OK"/>
+    <Text ID="3167049" Value="R-Robot Hand UpDn calibration OK"/>
+    <Text ID="3167050" Value="R-Robot Hand Up Position"/>
+    <Text ID="3167051" Value="R-Hook Pin Backward"/>
+    <Text ID="3167052" Value=""/>
+    <Text ID="3167053" Value=""/>
+    <Text ID="3167054" Value=""/>
+    <Text ID="3167055" Value=""/>
+    <Text ID="3167056" Value=""/>
+    <Text ID="3167057" Value=""/>
+    <Text ID="3167058" Value=""/>
+    <Text ID="3167059" Value=""/>
+    <Text ID="3167073" Value="L-Carriage calibration OK"/>
+    <Text ID="3167074" Value="L-Mold calibration OK"/>
+    <Text ID="3167075" Value="L-Blow Pin calibration OK"/>
+    <Text ID="3167077" Value="L-Carriage backward"/>
+    <Text ID="3167078" Value="L-Mold open"/>
+    <Text ID="3167079" Value="L-Blow Pin up"/>
+    <Text ID="3167081" Value="L-Punching backward"/>
+    <Text ID="3167082" Value="L-1st Post Cooling up"/>
+    <Text ID="3167083" Value="L-2nd Post Cooling up"/>
+    <Text ID="3167084" Value="L-3rd Post Cooling up"/>
+    <Text ID="3167085" Value="L-Robot Hand Backward"/>
+    <Text ID="3232863" Value="R-Blow Pin1 down"/>
+    <Text ID="3232864" Value="L-Blow Pin1 down"/>
+    <Text ID="3422441" Value="R-Bottom Deflash backward"/>
+    <Text ID="3422442" Value="L-Bottom Deflash backward"/>
+    <Text ID="3430245" Value="R-Handle Deflash backward"/>
+    <Text ID="3430246" Value="L-Handle Deflash backward"/>
+    <Text ID="3438049" Value="R-CorePull close"/>
+    <Text ID="3438050" Value="L-CorePull close"/>
+    <Text ID="3438051" Value="L-Ext Robot Hand Backward"/>
+    <Text ID="3569977" Value="L-Blow Pin2 down"/>
+    <Text ID="3784169" Value="L-Robot Hand Open Positon"/>
+    <Text ID="3791015" Value="L-Robot Hand Transfer calibration OK"/>
+    <Text ID="3791016" Value="L-Robot Hand UpDn calibration OK"/>
+    <Text ID="3791017" Value="L-Robot Hand Up Position"/>
+    <Text ID="4145754" Value="L-Hook Pin Backward"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="3166999" Value="右移模調校好"/>
+    <Text ID="3167000" Value="油壓馬達啟動"/>
+    <Text ID="3167001" Value="安全門"/>
+    <Text ID="3167002" Value="右開關模調校好"/>
+    <Text ID="3167003" Value="右吹桿調校好"/>
+    <Text ID="3167004" Value="抬頭調校好"/>
+    <Text ID="3167005" Value="右移模後退位置"/>
+    <Text ID="3167006" Value="右模開位置"/>
+    <Text ID="3167007" Value="右吹桿上位置"/>
+    <Text ID="3167008" Value="抬頭下位置"/>
+    <Text ID="3167009" Value="右打手把退位置"/>
+    <Text ID="3167014" Value=""/>
+    <Text ID="3167015" Value="右一次冷卻上位置"/>
+    <Text ID="3167016" Value="右二次冷卻上位置"/>
+    <Text ID="3167017" Value="右三次冷卻上位置"/>
+    <Text ID="3167018" Value="右機械手退止"/>
+    <Text ID="3167019" Value="外部右機械手退止"/>
+    <Text ID="3167020" Value="右吹桿2下位置"/>
+    <Text ID="3167047" Value="右機械手開止"/>
+    <Text ID="3167048" Value="右機械手進退調校好"/>
+    <Text ID="3167049" Value="右機械手上下調校好"/>
+    <Text ID="3167050" Value="右機械手上位置"/>
+    <Text ID="3167051" Value="右掛勾吹針退止"/>
+    <Text ID="3167052" Value=""/>
+    <Text ID="3167053" Value=""/>
+    <Text ID="3167054" Value=""/>
+    <Text ID="3167055" Value=""/>
+    <Text ID="3167056" Value=""/>
+    <Text ID="3167057" Value=""/>
+    <Text ID="3167058" Value=""/>
+    <Text ID="3167059" Value=""/>
+    <Text ID="3167073" Value="左移模調校好"/>
+    <Text ID="3167074" Value="左開關模調校好"/>
+    <Text ID="3167075" Value="左吹桿調校好"/>
+    <Text ID="3167077" Value="左移模後退位置"/>
+    <Text ID="3167078" Value="左模開位置"/>
+    <Text ID="3167079" Value="左吹桿上位置"/>
+    <Text ID="3167081" Value="左打手把退位置"/>
+    <Text ID="3167082" Value="左一次冷卻上位置"/>
+    <Text ID="3167083" Value="左二次冷卻上位置"/>
+    <Text ID="3167084" Value="左三次冷卻上位置"/>
+    <Text ID="3167085" Value="左機械手退止"/>
+    <Text ID="3232863" Value="右吹桿1下位置"/>
+    <Text ID="3232864" Value="左吹桿1下位置"/>
+    <Text ID="3422441" Value="右打瓶底退位置"/>
+    <Text ID="3422442" Value="左打瓶底退位置"/>
+    <Text ID="3430245" Value="右打手挽退位置"/>
+    <Text ID="3430246" Value="左打手挽退位置"/>
+    <Text ID="3438049" Value="右模芯關位置"/>
+    <Text ID="3438050" Value="左模芯關位置"/>
+    <Text ID="3438051" Value="左外部機械手退止"/>
+    <Text ID="3569977" Value="左吹桿2下位置"/>
+    <Text ID="3784169" Value="左機械手開止"/>
+    <Text ID="3791015" Value="左機械手進退調校好"/>
+    <Text ID="3791016" Value="左機械手上下調校好"/>
+    <Text ID="3791017" Value="左機械手上位置"/>
+    <Text ID="4145754" Value="左掛勾吹針退止"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="3166999" Value="右移模調校好"/>
+    <Text ID="3167000" Value="油壓馬達啟動"/>
+    <Text ID="3167001" Value="安全門"/>
+    <Text ID="3167002" Value="右開關模調校好"/>
+    <Text ID="3167003" Value="右吹桿調校好"/>
+    <Text ID="3167004" Value="抬頭調校好"/>
+    <Text ID="3167005" Value="右移模後退位置"/>
+    <Text ID="3167006" Value="右模開位置"/>
+    <Text ID="3167007" Value="右吹桿上位置"/>
+    <Text ID="3167008" Value="抬頭下位置"/>
+    <Text ID="3167009" Value="右打手把退位置"/>
+    <Text ID="3167014" Value=""/>
+    <Text ID="3167015" Value="右一次冷卻上位置"/>
+    <Text ID="3167016" Value="右二次冷卻上位置"/>
+    <Text ID="3167017" Value="右三次冷卻上位置"/>
+    <Text ID="3167018" Value="右機械手退止"/>
+    <Text ID="3167019" Value="外部右機械手退止"/>
+    <Text ID="3167020" Value="右吹桿2下位置"/>
+    <Text ID="3167047" Value="右機械手開止"/>
+    <Text ID="3167048" Value="右機械手進退調校好"/>
+    <Text ID="3167049" Value="右機械手上下調校好"/>
+    <Text ID="3167050" Value="右機械手上位置"/>
+    <Text ID="3167051" Value="右掛勾吹針退止"/>
+    <Text ID="3167052" Value=""/>
+    <Text ID="3167053" Value=""/>
+    <Text ID="3167054" Value=""/>
+    <Text ID="3167055" Value=""/>
+    <Text ID="3167056" Value=""/>
+    <Text ID="3167057" Value=""/>
+    <Text ID="3167058" Value=""/>
+    <Text ID="3167059" Value=""/>
+    <Text ID="3167073" Value="左移模調校好"/>
+    <Text ID="3167074" Value="左開關模調校好"/>
+    <Text ID="3167075" Value="左吹桿調校好"/>
+    <Text ID="3167077" Value="左移模後退位置"/>
+    <Text ID="3167078" Value="左模開位置"/>
+    <Text ID="3167079" Value="左吹桿上位置"/>
+    <Text ID="3167081" Value="左打手把退位置"/>
+    <Text ID="3167082" Value="左一次冷卻上位置"/>
+    <Text ID="3167083" Value="左二次冷卻上位置"/>
+    <Text ID="3167084" Value="左三次冷卻上位置"/>
+    <Text ID="3167085" Value="左機械手退止"/>
+    <Text ID="3232863" Value="右吹桿1下位置"/>
+    <Text ID="3232864" Value="左吹桿1下位置"/>
+    <Text ID="3422441" Value="右打瓶底退位置"/>
+    <Text ID="3422442" Value="左打瓶底退位置"/>
+    <Text ID="3430245" Value="右打手挽退位置"/>
+    <Text ID="3430246" Value="左打手挽退位置"/>
+    <Text ID="3438049" Value="右模芯關位置"/>
+    <Text ID="3438050" Value="左模芯關位置"/>
+    <Text ID="3438051" Value="左外部機械手退止"/>
+    <Text ID="3569977" Value="左吹桿2下位置"/>
+    <Text ID="3784169" Value="左機械手開止"/>
+    <Text ID="3791015" Value="左機械手進退調校好"/>
+    <Text ID="3791016" Value="左機械手上下調校好"/>
+    <Text ID="3791017" Value="左機械手上位置"/>
+    <Text ID="4145754" Value="左掛勾吹針退止"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="3166999" Value="P - Wozek kalibracja OK"/>
+    <Text ID="3167000" Value="Silnik hydrauliczny Start"/>
+    <Text ID="3167001" Value="Drzwi bezpiecz."/>
+    <Text ID="3167002" Value="P - Forma kalibracja OK"/>
+    <Text ID="3167003" Value="P - Trzp. Rozdm. kalibracja OK"/>
+    <Text ID="3167004" Value="Glowica kalibracja OK"/>
+    <Text ID="3167005" Value="P - Wozek tyl"/>
+    <Text ID="3167006" Value="P - Forma Otw."/>
+    <Text ID="3167007" Value="P - Trzp. Rozdm. w Gore"/>
+    <Text ID="3167008" Value="Glowica w dole"/>
+    <Text ID="3167009" Value="P - Gratownik tyl"/>
+    <Text ID="3167014" Value=""/>
+    <Text ID="3167015" Value="P - Dochłodzenie 1 w gorze"/>
+    <Text ID="3167016" Value="P - Dochłodzenie 2 w gorze"/>
+    <Text ID="3167017" Value="P - Dochłodzenie 3 w gorze"/>
+    <Text ID="3167018" Value="P - Ramie Robota Wstecz"/>
+    <Text ID="3167019" Value="P - Ext. Ramie Robota Wstecz"/>
+    <Text ID="3167020" Value="P - Trzp. Rozdm. 2 w Dol"/>
+    <Text ID="3167047" Value=""/>
+    <Text ID="3167048" Value=""/>
+    <Text ID="3167049" Value=""/>
+    <Text ID="3167050" Value=""/>
+    <Text ID="3167051" Value=""/>
+    <Text ID="3167052" Value=""/>
+    <Text ID="3167053" Value=""/>
+    <Text ID="3167054" Value=""/>
+    <Text ID="3167055" Value=""/>
+    <Text ID="3167056" Value=""/>
+    <Text ID="3167057" Value=""/>
+    <Text ID="3167058" Value=""/>
+    <Text ID="3167059" Value=""/>
+    <Text ID="3167073" Value="L - Wozek kalibracja OK"/>
+    <Text ID="3167074" Value="L - Forma kalibracja OK"/>
+    <Text ID="3167075" Value="L - Trzp. Rozdm. kalibracja OK"/>
+    <Text ID="3167077" Value="L - Wozek tyl"/>
+    <Text ID="3167078" Value="L - Forma Otw."/>
+    <Text ID="3167079" Value="L - Trzp. Rozdm. w Gore"/>
+    <Text ID="3167081" Value="L - Gratownik w tyle"/>
+    <Text ID="3167082" Value="L - Dochłodzenie 1 w gorze"/>
+    <Text ID="3167083" Value="L - Dochłodzenie 2 w gorze"/>
+    <Text ID="3167084" Value="L - Dochłodzenie 3 w gorze"/>
+    <Text ID="3167085" Value="L - Ramie Robota w tyle"/>
+    <Text ID="3232863" Value="P - Trzp. Rozdm. 1 w Dol"/>
+    <Text ID="3232864" Value="L - Trzp. Rozdm. 1 w Dol"/>
+    <Text ID="3422441" Value="P - Gratownik dna tyl"/>
+    <Text ID="3422442" Value="L - Gratownik dna tyl"/>
+    <Text ID="3430245" Value="P - Gratownik raczki w tyle"/>
+    <Text ID="3430246" Value="L - Gratownik raczki w tyle"/>
+    <Text ID="3438049" Value="P - Rdzen zam."/>
+    <Text ID="3438050" Value="L - Rdzen zam."/>
+    <Text ID="3438051" Value="L - Ext. Ramie Robota Wstecz"/>
+    <Text ID="3569977" Value="L - Trzp. Rozdm. 2 w Dol"/>
+    <Text ID="3784169" Value=""/>
+    <Text ID="3791015" Value=""/>
+    <Text ID="3791016" Value=""/>
+    <Text ID="3791017" Value=""/>
+    <Text ID="4145754" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="3166999" Value="2"/>
+    <Index ID="3167000" Value="1"/>
+    <Index ID="3167001" Value="0"/>
+    <Index ID="3167002" Value="3"/>
+    <Index ID="3167003" Value="4"/>
+    <Index ID="3167004" Value="5"/>
+    <Index ID="3167005" Value="6"/>
+    <Index ID="3167006" Value="7"/>
+    <Index ID="3167007" Value="9"/>
+    <Index ID="3167008" Value="11"/>
+    <Index ID="3167009" Value="12"/>
+    <Index ID="3167014" Value="34"/>
+    <Index ID="3167015" Value="15"/>
+    <Index ID="3167016" Value="16"/>
+    <Index ID="3167017" Value="17"/>
+    <Index ID="3167018" Value="18"/>
+    <Index ID="3167019" Value="19"/>
+    <Index ID="3167020" Value="20"/>
+    <Index ID="3167047" Value="21"/>
+    <Index ID="3167048" Value="22"/>
+    <Index ID="3167049" Value="23"/>
+    <Index ID="3167050" Value="24"/>
+    <Index ID="3167051" Value="25"/>
+    <Index ID="3167052" Value="26"/>
+    <Index ID="3167053" Value="27"/>
+    <Index ID="3167054" Value="28"/>
+    <Index ID="3167055" Value="29"/>
+    <Index ID="3167056" Value="30"/>
+    <Index ID="3167057" Value="31"/>
+    <Index ID="3167058" Value="32"/>
+    <Index ID="3167059" Value="33"/>
+    <Index ID="3167073" Value="35"/>
+    <Index ID="3167074" Value="36"/>
+    <Index ID="3167075" Value="37"/>
+    <Index ID="3167077" Value="38"/>
+    <Index ID="3167078" Value="39"/>
+    <Index ID="3167079" Value="41"/>
+    <Index ID="3167081" Value="43"/>
+    <Index ID="3167082" Value="46"/>
+    <Index ID="3167083" Value="47"/>
+    <Index ID="3167084" Value="48"/>
+    <Index ID="3167085" Value="49"/>
+    <Index ID="3232863" Value="10"/>
+    <Index ID="3232864" Value="42"/>
+    <Index ID="3422441" Value="13"/>
+    <Index ID="3422442" Value="44"/>
+    <Index ID="3430245" Value="14"/>
+    <Index ID="3430246" Value="45"/>
+    <Index ID="3438049" Value="8"/>
+    <Index ID="3438050" Value="40"/>
+    <Index ID="3438051" Value="50"/>
+    <Index ID="3569977" Value="51"/>
+    <Index ID="3784169" Value="52"/>
+    <Index ID="3791015" Value="53"/>
+    <Index ID="3791016" Value="54"/>
+    <Index ID="3791017" Value="55"/>
+    <Index ID="4145754" Value="56"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,23 @@
+VAR
+	DataObjOperate : DatObj_Operate_typ;
+	indexRecipe : UINT;
+	DatObj_Info : DatObjInfo;
+	DatObj_Create : DatObjCreate;
+	DatObj_Write : DatObjWrite;
+	DatObj_Read : DatObjRead;
+	i : UINT;
+	counter : UINT;
+	curveIndex : UINT;
+	curveIndexOld : UINT;
+	curveData : ARRAY[0..4] OF curveData_typ;
+	status_tmpalloc : UINT;
+	status_tmpfree : UINT;
+	pCurveData : UDINT;
+	fileSingleName : STRING[80];
+	fileAllName : STRING[80];
+	FileOpen_0 : FileOpen;
+	FileCreate_0 : FileCreate;
+	FileWrite_0 : FileWrite;
+	FileRead_0 : FileRead;
+	FileClose_0 : FileClose;
+END_VAR

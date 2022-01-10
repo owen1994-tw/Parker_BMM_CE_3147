@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="PressureOutputType">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="34"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="3481697" Value="Undefined"/>
+    <Text ID="3481698" Value="System Single"/>
+    <Text ID="3481701" Value="System ACC."/>
+    <Text ID="3481702" Value="Swing ACC."/>
+    <Text ID="3481703" Value="None"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="3481697" Value="無"/>
+    <Text ID="3481698" Value="系統壓力"/>
+    <Text ID="3481701" Value="系統蓄壓器"/>
+    <Text ID="3481702" Value="抬頭蓄壓器"/>
+    <Text ID="3481703" Value="不輸出"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="3481697" Value="無"/>
+    <Text ID="3481698" Value="系統壓力"/>
+    <Text ID="3481701" Value="系統蓄壓器"/>
+    <Text ID="3481702" Value="抬頭蓄壓器"/>
+    <Text ID="3481703" Value="不輸出"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="3481697" Value="Nieokreslony"/>
+    <Text ID="3481698" Value="System pojedynczy"/>
+    <Text ID="3481701" Value="System ACC."/>
+    <Text ID="3481702" Value="Glowica ACC."/>
+    <Text ID="3481703" Value="Brak"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="3481697" Value="0"/>
+    <Index ID="3481698" Value="1"/>
+    <Index ID="3481701" Value="2"/>
+    <Index ID="3481702" Value="3"/>
+    <Index ID="3481703" Value="4"/>
+  </IndexMap>
+</TextGroup>

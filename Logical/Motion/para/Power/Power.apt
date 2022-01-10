@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.12.129 SP?>
+<AcoposParameterTable>
+  <Root Name="Parameters">
+    <Group Name="8B0W0079H000.000-1 mounting vertical V1" Disabled="FALSE" Description="Reference: Series and parallel connection of braking resistors ">
+      <Group Name="brake " Disabled="FALSE" Description=" DO NOT USE with ACOPOS Firmware before V2.27.0" />
+      <Parameter Name="R_BLEEDER_EXT" ID="10" Value="11" Unit="Ohm" Disabled="FALSE" Description="Bleeder: External: Resistance" />
+      <Parameter Name="RTH_BLEEDER_AMB_EXT" ID="12" Value="0.284" Unit="K/W" Disabled="FALSE" Description="Bleeder: External: Thermic resistance" />
+      <Parameter Name="TEMP_MAX_BLEEDER_EXT" ID="11" Value="670" Unit="H" Disabled="FALSE" Description="Bleeder: External: Limit temperature" />
+      <Parameter Name="CTH_BLEEDER_EXT" ID="13" Value="122.04" Unit="Ws/K" Disabled="FALSE" Description="Bleeder: External: Thermic capacity" />
+      <Parameter Name="BLEEDER_SELECTOR_EXT" ID="398" Value="1" Disabled="FALSE" Description="Bleeder: Selector" />
+    </Group>
+  </Root>
+</AcoposParameterTable>

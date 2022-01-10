@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.12.129 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">process.typ</Object>
+    <Object Type="File" Description="Global variables">process.var</Object>
+    <Object Type="Program" Language="ANSIC" Description="timer">timer</Object>
+    <Object Type="Program" Language="ANSIC" Description="length control">length</Object>
+    <Object Type="Program" Language="ANSIC" Description="carriage move control">carriage</Object>
+    <Object Type="Program" Language="ANSIC" Description="clamp close / open control">clamp</Object>
+    <Object Type="Program" Language="ANSIC" Description="lock mold">tonnage</Object>
+    <Object Type="Program" Language="ANSIC" Description="air support">support</Object>
+    <Object Type="Program" Language="ANSIC" Description="blow pin">blowpin</Object>
+    <Object Type="Program" Language="ANSIC" Description="blow pin">blowpin2</Object>
+    <Object Type="Program" Language="ANSIC" Description="bottom blow pin control">bblowpin</Object>
+    <Object Type="Program" Language="ANSIC" Description="extruder lift">extrlift</Object>
+    <Object Type="Program" Language="ANSIC" Description="Low pressure blowing">lowblow</Object>
+    <Object Type="Program" Language="ANSIC" Description="Main blowing air">highblow</Object>
+    <Object Type="Program" Language="ANSIC" Description="bottom deflash">bdeflash</Object>
+    <Object Type="Program" Language="ANSIC" Description="top deflash">tdeflash</Object>
+    <Object Type="Program" Language="ANSIC" Description="cooling deflash in pin">blowdef</Object>
+    <Object Type="Program" Language="ANSIC" Description="cooling deflash in deflash">cooldef</Object>
+    <Object Type="Program" Language="ANSIC" Description="cut neck">cutneck</Object>
+    <Object Type="Program" Language="ANSIC" Description="inner pin">inerpin</Object>
+    <Object Type="Program" Language="ANSIC" Description="pull bottom">pullbottom</Object>
+    <Object Type="Program" Language="ANSIC" Description="hook pin">hookpin</Object>
+    <Object Type="Program" Language="ANSIC" Description="cool pin">coolpin</Object>
+    <Object Type="Program" Language="ANSIC" Description="cool pin 2">coolpin2</Object>
+    <Object Type="Program" Language="ANSIC" Description="cool pin 3">coolpin3</Object>
+    <Object Type="Program" Language="ANSIC" Description="cooling blow">coolblw</Object>
+    <Object Type="Program" Language="ANSIC" Description="cool blow 2">coolblw2</Object>
+    <Object Type="Program" Language="ANSIC" Description="cool blow 3">coolblw3</Object>
+    <Object Type="Program" Language="ANSIC" Description="cutter">cutter</Object>
+    <Object Type="Program" Language="ANSIC" Description="sensor up / down">sensor</Object>
+    <Object Type="Program" Language="ANSIC" Description="robot">robot</Object>
+    <Object Type="Program" Language="ANSIC" Description="robot open /close">robotopncls</Object>
+    <Object Type="Program" Language="ANSIC" Description="chute deflash">chutedeflash</Object>
+    <Object Type="Program" Language="ANSIC" Description="screw">screw</Object>
+    <Object Type="Program" Language="ANSIC" Description="pin part">pinpart</Object>
+    <Object Type="Program" Language="ANSIC" Description="sub mold">submold</Object>
+    <Object Type="Program" Language="ANSIC" Description="parison sealer">sealer</Object>
+    <Object Type="Program" Language="ANSIC">plate</Object>
+    <Object Type="Program" Language="ANSIC" Description="auto run task">autorun</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,36 @@
+VAR
+	vpn : VPN_typ;
+	step : UINT;
+	setIPString : STRING[15];
+	setSubnetMarkString : STRING[15];
+	setGatewayString : STRING[15];
+	vpnDevice : STRING[15];
+	tempString : STRING[3];
+	CfgGetIPAddr_0 : CfgGetIPAddr;
+	CfgGetSubnetMask_0 : CfgGetSubnetMask;
+	CfgGetDefaultGateway_0 : CfgGetDefaultGateway;
+	CfgGetEthConfigMode_0 : CfgGetEthConfigMode;
+	CfgSetIPAddr_0 : CfgSetIPAddr;
+	CfgSetSubnetMask_0 : CfgSetSubnetMask;
+	CfgSetDefaultGateway_0 : CfgSetDefaultGateway;
+	CfgSetEthConfigMode_0 : CfgSetEthConfigMode;
+	R_TRIG_KeyF5 : R_TRIG;
+	F5_bHiden : UINT;
+END_VAR
+(*Fix IP*)
+VAR
+	bGetCurrentIP_USINT : BOOL;
+	Charr : BYTE;
+	ii : USINT;
+	sTempAddress1 : STRING[3];
+	sTempAddress2 : STRING[3];
+	sTempAddress3 : STRING[3];
+	sTempAddress0 : STRING[3];
+	Char_num : USINT;
+	old_Char_num : USINT;
+	Part_num_count : USINT;
+	uConfigAddress0 : USINT;
+	uConfigAddress1 : USINT;
+	uConfigAddress2 : USINT;
+	uConfigAddress3 : USINT;
+END_VAR

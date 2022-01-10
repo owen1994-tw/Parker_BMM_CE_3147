@@ -1,0 +1,42 @@
+VAR
+	tTask : REAL := 0.0;
+	RTInfo_Task : RTInfo := (0);
+	TimeCtrlStep : INT;
+	AccuCtrlStep : INT;
+	CalibrateStep : INT;
+	cmdAutoCalibrate : BOOL;
+	cmdServoUp : BOOL;
+	cmdServoDn : BOOL;
+	SetValue : INT;
+	ServeSetValue : INT;
+	CycleTimeCount : UDINT;
+	Wave : INT;
+	SetPID : DINT;
+	ServeOut : DINT;
+	TimeCount : UDINT;
+	CurrentInput : INT;
+	LastInput : INT;
+	MarkerTime : UDINT;
+	ContolEndTime : UDINT;
+	SealValue : INT;
+	rSetPercent : REAL;
+	rActPercent : REAL;
+	StartTime : UDINT;
+	CalibPid : Thick_PID_typ;
+	bSetCalibPos : USINT;
+	bCalibPosMode : USINT;
+	bCalibPosModeOld : USINT;
+	PurgeOld : USINT;
+	SetGapValue : REAL;
+	RampCalibSet : HydSCurveRamp;
+	RampSet : HydRampCos;
+	vHydDT2Set : HydDT2;
+	vSetLimit : REAL;
+	vHydDT2Act : HydDT2;
+	vActLimit : REAL;
+	SetGapPercent : REAL;
+END_VAR
+(*Insert your comment here.*)
+VAR
+	uTIndex : UINT;
+END_VAR

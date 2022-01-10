@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="USB">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="44"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="2448" Value="Source[local].Bitmap[GLOBAL_USBa]"/>
+    <BitmapRef ID="2449" Value="Source[local].Bitmap[GLOBAL_USBb]"/>
+    <BitmapRef ID="2450" Value="Source[local].Bitmap[GLOBAL_USBc]"/>
+    <BitmapRef ID="2451" Value="Source[local].Bitmap[GLOBAl_USBd]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="2448" Value="0"/>
+    <Index ID="2449" Value="1"/>
+    <Index ID="2450" Value="2"/>
+    <Index ID="2451" Value="3"/>
+  </IndexMap>
+</BitmapGroup>

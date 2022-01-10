@@ -1,0 +1,18 @@
+VAR
+	oldSetPos : ARRAY[0..399] OF position_typ;
+	enable : USINT;
+	calStep : UINT;
+	oldV1 : INT;
+	oldV2 : INT;
+	oldV03 : INT;
+	v1 : INT;
+	v2 : INT;
+	v03 : INT;
+	interval0 : REAL;
+	interval1 : REAL;
+	t0 : REAL;
+	t1 : REAL;
+	i : UINT;
+	p0 : REFERENCE TO curveNode_typ;
+	p1 : REFERENCE TO curveNode_typ;
+END_VAR

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.12.129 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="DataObject" Language="Ax">UpDnR</Object>
+    <Object Type="DataObject" Language="Ax">UpDnL</Object>
+    <Object Type="DataObject" Language="Ax">TransferR</Object>
+    <Object Type="DataObject" Language="Ax">TransferL</Object>
+    <Object Type="DataObject" Language="Ax">ClampR</Object>
+    <Object Type="DataObject" Language="Ax">ClampL</Object>
+    <Object Type="DataObject" Language="Ax">CarriageR</Object>
+    <Object Type="DataObject" Language="Ax">CarriageL</Object>
+    <Object Type="DataObject" Language="Ax">BlowPinR</Object>
+    <Object Type="DataObject" Language="Ax">BlowPinL</Object>
+    <Object Type="DataObject" Language="Ax">BlowPin2R</Object>
+    <Object Type="DataObject" Language="Ax">BlowPin2L</Object>
+    <Object Type="DataObject" Language="Ax">Power</Object>
+    <Object Type="DataObject" Language="Ax">ExtrLift</Object>
+    <Object Type="DataObject" Language="Ax">ThickInit</Object>
+  </Objects>
+</Package>

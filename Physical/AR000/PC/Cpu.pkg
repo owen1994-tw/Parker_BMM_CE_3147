@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.11.97 SP?>
+<Cpu xmlns="http://br-automation.co.at/AS/Cpu">
+  <Objects>
+    <Object Type="File" Description="Software configuration">Cpu.sw</Object>
+    <Object Type="File" Description="Permanent variables">Cpu.per</Object>
+    <Object Type="File" Description="I/O mapping">IoMap.iom</Object>
+    <Object Type="File" Description="Variable mapping">PvMap.vvm</Object>
+    <Object Type="Package">mappControl</Object>
+    <Object Type="Package">mappServices</Object>
+    <Object Type="Package">Connectivity</Object>
+    <Object Type="Package">TextSystem</Object>
+    <Object Type="Package">AccessAndSecurity</Object>
+    <Object Type="Package">Motion</Object>
+  </Objects>
+  <Configuration HasNcOperatingSystem="true" LocalVariablesMemory="MemoryPool" ModuleId="PC_any">
+    <AutomationRuntime Version="D4.26" />
+    <Build AnsicIncludeDirectories="\Logical\GlobalIncludes\" GccVersion="4.1.2" GeneratePPCode="false" />
+    <DefaultTargetMemory DataObjects="UserROM" Libraries="UserROM" Tasks="UserROM" />
+    <Opc EncryptOpcs="false" UseShortNames="false" WindowsServer="true" />
+    <TaskClasses DefaultIoTaskClass="Automatic" DefaultTaskClass="Cyclic4" />
+    <Transfer AdditionalUserDir="" AddToUserPart="false" AllowWarmRestart="true" DownloadMode="Overload" ExecuteInitExitProgram="true" ForceInitialTransfer="false" GeneratePviTransferList="true" IgnoreBrDependencies="false" IgnoreTargetOnlyObjects="false" KeepNonVolatileMemory="false" PackedArConfig="false" PackedIoMap="false" PreserveVariableValues="false" ProjectConsistent="true" PromptBeforeProject="false" PromptBeforeTask="false" RebootDuringTransfer="false" TransferInServiceMode="false" TransferOnlyRelevantChanges="false" UserFilesIgnoreDifference="false" />
+    <Vc FirmwareVersion="V4.26.8" />
+    <Io ArConfigDataModule="false" ArConfigDataModulePath="$(AS_CPU_PATH)\AS\CfgData.br" DisabledHardware="false" IoMapDataModule="false" IoMapDataModulePath="$(AS_CPU_PATH)\AS\IomData.br" ManualIoOffsets="false" Supervision="true" />
+    <Simulation StartAR000="true" TerminateAR000="true" />
+    <Safety SafetyRelease="0.0" />
+  </Configuration>
+</Cpu>

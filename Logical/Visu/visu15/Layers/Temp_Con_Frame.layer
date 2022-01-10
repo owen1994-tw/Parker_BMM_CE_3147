@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="Temp_Con_Frame">
+  <Property Name="BackColor" Value="9"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="768"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="1024"/>
+  <TextGroup>
+    <TextLayer LanguageId="en-GB">
+      <Text ID="3535488" Value="Min SSR Output Time"/>
+      <Text ID="3535489" Value="SSR Output Cycle"/>
+      <Text ID="3535490" Value="Protection time /s"/>
+      <Text ID="3535491" Value="Heating Group"/>
+      <Text ID="3535492" Value="Heating Protection"/>
+      <Text ID="3535493" Value="Fan Enable"/>
+      <Text ID="3535494" Value="Heater Enable"/>
+      <Text ID="3535495" Value="Max Temp."/>
+      <Text ID="3535496" Value="Alarm Filter Time"/>
+      <Text ID="3535502" Value="Temp. Compensation"/>
+      <Text ID="3535503" Value="Min Fan Output Time"/>
+      <Text ID="3535504" Value="Fan Output Cycle"/>
+      <Text ID="3535505" Value="°C"/>
+      <Text ID="3535506" Value="Max High Alarm"/>
+      <Text ID="3535507" Value="°C"/>
+      <Text ID="3535508" Value="Max Low Alarm "/>
+      <Text ID="3535509" Value="°C"/>
+      <Text ID="3535510" Value="Min"/>
+      <Text ID="3535511" Value="Protection Cooling Time"/>
+      <Text ID="3535512" Value="min"/>
+      <Text ID="3535513" Value="°C"/>
+      <Text ID="3535514" Value="Obliged Protection Temp."/>
+      <Text ID="3535515" Value="Heater burnout check delay(Heating)"/>
+      <Text ID="4038085" Value="Max Num. of Heat Zone"/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-CN">
+      <Text ID="3535488" Value="最小SSR輸出時間"/>
+      <Text ID="3535489" Value="SSR輸出週期"/>
+      <Text ID="3535490" Value="保护时间/s"/>
+      <Text ID="3535491" Value="電熱組號"/>
+      <Text ID="3535492" Value="電熱保護"/>
+      <Text ID="3535493" Value="冷却选择"/>
+      <Text ID="3535494" Value="電熱選擇"/>
+      <Text ID="3535495" Value="最大限制溫度"/>
+      <Text ID="3535496" Value="报警滤波时间"/>
+      <Text ID="3535502" Value="溫度補償"/>
+      <Text ID="3535503" Value="最小風車輸出時間"/>
+      <Text ID="3535504" Value="風車輸出週期"/>
+      <Text ID="3535505" Value="°C"/>
+      <Text ID="3535506" Value="高溫警報限制"/>
+      <Text ID="3535507" Value="°C"/>
+      <Text ID="3535508" Value="低溫警報限制"/>
+      <Text ID="3535509" Value="°C"/>
+      <Text ID="3535510" Value="Min"/>
+      <Text ID="3535511" Value=""/>
+      <Text ID="3535512" Value=""/>
+      <Text ID="3535513" Value=""/>
+      <Text ID="3535514" Value=""/>
+      <Text ID="3535515" Value="电热故障侦测时间(加熱時間檢測)"/>
+      <Text ID="4038085" Value="溫區最大段數"/>
+    </TextLayer>
+    <TextLayer LanguageId="zh-TW">
+      <Text ID="3535488" Value="最小SSR輸出時間"/>
+      <Text ID="3535489" Value="SSR輸出週期"/>
+      <Text ID="3535490" Value="保護時間/s"/>
+      <Text ID="3535491" Value="電熱組號"/>
+      <Text ID="3535492" Value="電熱保護"/>
+      <Text ID="3535493" Value="風車選擇"/>
+      <Text ID="3535494" Value="電熱選擇"/>
+      <Text ID="3535495" Value="最大限制溫度"/>
+      <Text ID="3535496" Value="報警濾波時間"/>
+      <Text ID="3535502" Value="溫度補償"/>
+      <Text ID="3535503" Value="最小風車輸出時間"/>
+      <Text ID="3535504" Value="風車輸出週期"/>
+      <Text ID="3535505" Value="°C"/>
+      <Text ID="3535506" Value="高溫警報限制"/>
+      <Text ID="3535507" Value="°C"/>
+      <Text ID="3535508" Value="低溫警報限制"/>
+      <Text ID="3535509" Value="°C"/>
+      <Text ID="3535510" Value="Min"/>
+      <Text ID="3535511" Value="防冷時間"/>
+      <Text ID="3535512" Value="分"/>
+      <Text ID="3535513" Value="°C"/>
+      <Text ID="3535514" Value="防冷偵測溫度"/>
+      <Text ID="3535515" Value="电热故障侦测时间(加熱時間檢測)"/>
+      <Text ID="4038085" Value="溫區最大段數"/>
+    </TextLayer>
+    <TextLayer LanguageId="pl">
+      <Text ID="3535488" Value="Min czas wyjscia SSR"/>
+      <Text ID="3535489" Value="Cykl wyjscia SSR"/>
+      <Text ID="3535490" Value="Czas zabezpieczenia /s"/>
+      <Text ID="3535491" Value="Grupa grzania"/>
+      <Text ID="3535492" Value="Ochrona grzania"/>
+      <Text ID="3535493" Value="Wentylator - wlaczenie"/>
+      <Text ID="3535494" Value="Grzanie - wlaczenie"/>
+      <Text ID="3535495" Value="Max Temp."/>
+      <Text ID="3535496" Value="Czas alarmu"/>
+      <Text ID="3535502" Value="Kompensacja temp."/>
+      <Text ID="3535503" Value="Min. czas pracy wentylatora"/>
+      <Text ID="3535504" Value="Cykl pracy wentylatora"/>
+      <Text ID="3535505" Value="°C"/>
+      <Text ID="3535506" Value="Alarm Temp. Maks."/>
+      <Text ID="3535507" Value="°C"/>
+      <Text ID="3535508" Value="Alarm Temp. Mini."/>
+      <Text ID="3535509" Value="°C"/>
+      <Text ID="3535510" Value="Min"/>
+      <Text ID="3535511" Value="Zapobieganie czasu chlodzenia "/>
+      <Text ID="3535512" Value="minuta"/>
+      <Text ID="3535513" Value="°C"/>
+      <Text ID="3535514" Value="Obowiazkowa Temp. Ochrony"/>
+      <Text ID="3535515" Value="Opoz. sprawdzenia przepalenia grzałki (grzanie)"/>
+      <Text ID="4038085" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="3535488" Value="6"/>
+      <Index ID="3535489" Value="7"/>
+      <Index ID="3535490" Value="8"/>
+      <Index ID="3535491" Value="9"/>
+      <Index ID="3535492" Value="10"/>
+      <Index ID="3535493" Value="11"/>
+      <Index ID="3535494" Value="12"/>
+      <Index ID="3535495" Value="13"/>
+      <Index ID="3535496" Value="14"/>
+      <Index ID="3535502" Value="20"/>
+      <Index ID="3535503" Value="21"/>
+      <Index ID="3535504" Value="22"/>
+      <Index ID="3535505" Value="23"/>
+      <Index ID="3535506" Value="24"/>
+      <Index ID="3535507" Value="25"/>
+      <Index ID="3535508" Value="26"/>
+      <Index ID="3535509" Value="27"/>
+      <Index ID="3535510" Value="28"/>
+      <Index ID="3535511" Value="29"/>
+      <Index ID="3535512" Value="30"/>
+      <Index ID="3535513" Value="31"/>
+      <Index ID="3535514" Value="32"/>
+      <Index ID="3535515" Value="33"/>
+      <Index ID="4038085" Value="0"/>
+    </IndexMap>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001001" Name="Shape_3">
+      <Property Name="BackColor" Value="53"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="8"/>
+      <Property Name="Height" Value="426"/>
+      <Property Name="Left" Value="17"/>
+      <Property Name="LineWidth" Value="2"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+      <Property Name="Top" Value="114"/>
+      <Property Name="Width" Value="836"/>
+    </Control>
+    <Control ClassId="0x00001001" Name="Shape_1">
+      <Property Name="BackColor" Value="127"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="8"/>
+      <Property Name="Height" Value="31"/>
+      <Property Name="Left" Value="17"/>
+      <Property Name="LineWidth" Value="2"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+      <Property Name="Top" Value="85"/>
+      <Property Name="Width" Value="836"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_10">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="19"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="6"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="177"/>
+      <Property Name="Width" Value="138"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_11">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="19"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="7"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="218"/>
+      <Property Name="Width" Value="138"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_15">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="19"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="8"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="341"/>
+      <Property Name="Width" Value="138"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_16">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="19"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="9"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="382"/>
+      <Property Name="Width" Value="138"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_17">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="19"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="10"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="423"/>
+      <Property Name="Width" Value="138"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_22">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="19"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="11"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="464"/>
+      <Property Name="Width" Value="138"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_23">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="21"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="12"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="504"/>
+      <Property Name="Width" Value="135"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_13">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="24"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="13"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="550"/>
+      <Property Name="Width" Value="130"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_7">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.OnceSave]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+      <Property Name="Left" Value="162"/>
+      <Property Name="Locking" Value="Datapoint &lt; Level"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+      <Property Name="LockingLevel" Value="4"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="400"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="250"/>
+      <Property Name="SimulationValue" Value="10"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="550"/>
+      <Property Name="UnitText" Value="Abbreviation"/>
+      <Property Name="UnitTextAlignment" Value="Left"/>
+      <Property Name="UnitTextPosition" Value="Right"/>
+      <Property Name="UnitTextWidth" Value="0"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.gT_Par.Fix.AT_MAX]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="55"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_18">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="24"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="14"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="585"/>
+      <Property Name="Width" Value="130"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_10">
+      <Property Name="AddFractionDigits" Value="1"/>
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.OnceSave]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+      <Property Name="Left" Value="162"/>
+      <Property Name="Locking" Value="Datapoint &lt; Level"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+      <Property Name="LockingLevel" Value="4"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="300"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="1"/>
+      <Property Name="SimulationValue" Value="10"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="585"/>
+      <Property Name="UnitText" Value="Abbreviation"/>
+      <Property Name="UnitTextAlignment" Value="Left"/>
+      <Property Name="UnitTextPosition" Value="Right"/>
+      <Property Name="UnitTextWidth" Value="0"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.gT_Par.Fix.tCheck]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="55"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_94">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.OnceSave]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+      <Property Name="Left" Value="162"/>
+      <Property Name="Locking" Value="Datapoint &lt; Level"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+      <Property Name="LockingLevel" Value="4"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="300"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="1"/>
+      <Property Name="SimulationValue" Value="10"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="621"/>
+      <Property Name="UnitText" Value="Abbreviation"/>
+      <Property Name="UnitTextAlignment" Value="Left"/>
+      <Property Name="UnitTextPosition" Value="Right"/>
+      <Property Name="UnitTextWidth" Value="0"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.gUserFix_new.HeatLowTimeOut]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="55"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_21">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="19"/>
+      <Property Name="Multiline" Value="Automatic"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="20"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="134"/>
+      <Property Name="Width" Value="138"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_12">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="19"/>
+      <Property Name="Multiline" Value="Automatic"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="21"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="259"/>
+      <Property Name="Width" Value="138"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_14">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="19"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="22"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="301"/>
+      <Property Name="Width" Value="138"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_24">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+      <Property Name="Height" Value="22"/>
+      <Property Name="Left" Value="226"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="23"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="551"/>
+      <Property Name="Width" Value="26"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_25">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="268"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="24"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="550"/>
+      <Property Name="Width" Value="130"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_105">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.OnceSave]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+      <Property Name="Left" Value="403"/>
+      <Property Name="Locking" Value="Datapoint &lt; Level"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+      <Property Name="LockingLevel" Value="4"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="100"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="0"/>
+      <Property Name="SimulationValue" Value="10"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="550"/>
+      <Property Name="UnitText" Value="Abbreviation"/>
+      <Property Name="UnitTextAlignment" Value="Left"/>
+      <Property Name="UnitTextPosition" Value="Right"/>
+      <Property Name="UnitTextWidth" Value="0"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.gUserFix_new.TempUpRange]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="55"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_26">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+      <Property Name="Height" Value="22"/>
+      <Property Name="Left" Value="463"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="25"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="551"/>
+      <Property Name="Width" Value="26"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_28">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="268"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="26"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="585"/>
+      <Property Name="Width" Value="130"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_106">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.OnceSave]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+      <Property Name="Left" Value="403"/>
+      <Property Name="Locking" Value="Datapoint &lt; Level"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+      <Property Name="LockingLevel" Value="4"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="100"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="0"/>
+      <Property Name="SimulationValue" Value="10"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="585"/>
+      <Property Name="UnitText" Value="Abbreviation"/>
+      <Property Name="UnitTextAlignment" Value="Left"/>
+      <Property Name="UnitTextPosition" Value="Right"/>
+      <Property Name="UnitTextWidth" Value="0"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.gUserFix_new.TempDwnRange]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="55"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_29">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+      <Property Name="Height" Value="22"/>
+      <Property Name="Left" Value="464"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="27"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="586"/>
+      <Property Name="Width" Value="26"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_30">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+      <Property Name="Height" Value="22"/>
+      <Property Name="Left" Value="226"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="28"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="622"/>
+      <Property Name="Width" Value="26"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_109">
+      <Property Name="AddFractionDigits" Value="1"/>
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="762"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="7200"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="585"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.Heating.h_pid.tProtectCooling]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="55"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_110">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.OnceSave]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad_Limits]"/>
+      <Property Name="Left" Value="701"/>
+      <Property Name="Locking" Value="Datapoint &lt; Level"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+      <Property Name="LockingLevel" Value="4"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="60000"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="0"/>
+      <Property Name="SimulationValue" Value="7200"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="585"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.gT_Par.Fix.tProtectCoolingFix]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="55"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_33">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="561"/>
+      <Property Name="Multiline" Value="Automatic"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="29"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="585"/>
+      <Property Name="Width" Value="130"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_34">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="804"/>
+      <Property Name="Multiline" Value="Automatic"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="30"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="587"/>
+      <Property Name="Width" Value="60"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_111">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.OnceSave]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+      <Property Name="Left" Value="701"/>
+      <Property Name="Locking" Value="Datapoint &lt; Level"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+      <Property Name="LockingLevel" Value="4"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="200"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="0"/>
+      <Property Name="SimulationValue" Value="10"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="550"/>
+      <Property Name="UnitText" Value="Abbreviation"/>
+      <Property Name="UnitTextAlignment" Value="Left"/>
+      <Property Name="UnitTextPosition" Value="Right"/>
+      <Property Name="UnitTextWidth" Value="0"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.gUserFix_new.ProtectionTemp]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="55"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_35">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+      <Property Name="Height" Value="22"/>
+      <Property Name="Left" Value="760"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="31"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="551"/>
+      <Property Name="Width" Value="26"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_36">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="561"/>
+      <Property Name="Multiline" Value="Automatic"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="32"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="550"/>
+      <Property Name="Width" Value="130"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_31">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+      <Property Name="Height" Value="42"/>
+      <Property Name="Left" Value="32"/>
+      <Property Name="Multiline" Value="Automatic"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="33"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="612"/>
+      <Property Name="Width" Value="120"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_8">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.OnceSave]"/>
+      <Property Name="CompletionValue" Value="1"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+      <Property Name="Left" Value="702"/>
+      <Property Name="Locking" Value="Datapoint &lt; Level"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+      <Property Name="LockingLevel" Value="4"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="33"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="1"/>
+      <Property Name="SimulationValue" Value="10"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="621"/>
+      <Property Name="UnitText" Value="Abbreviation"/>
+      <Property Name="UnitTextAlignment" Value="Left"/>
+      <Property Name="UnitTextPosition" Value="Right"/>
+      <Property Name="UnitTextWidth" Value="0"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.gT_Par.Fix.OEMZoneOptionNum]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="55"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_19">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Transparent"/>
+      <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="560"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="621"/>
+      <Property Name="Width" Value="130"/>
+    </Control>
+  </Controls>
+  <KeyMapping/>
+</Layer>

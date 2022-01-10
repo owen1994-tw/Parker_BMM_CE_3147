@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="BypassState_long">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="5"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="86" Value="Bypassed"/>
+    <Text ID="87" Value="Not Bypassed"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="86" Value="可忽略的"/>
+    <Text ID="87" Value="不能忽略的"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="86" Value="可忽略的"/>
+    <Text ID="87" Value="不能忽略的"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="86" Value="Ominiete"/>
+    <Text ID="87" Value="Nie można ominac"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="86" Value="1"/>
+    <Index ID="87" Value="0"/>
+  </IndexMap>
+</TextGroup>

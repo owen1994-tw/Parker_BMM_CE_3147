@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Global_F8_Button">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="53"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="3092" Value="Source[local].Bitmap[GLOBAL_TAB_INACTIVE_1]"/>
+    <BitmapRef ID="3093" Value="Source[local].Bitmap[GLOBAL_TAB_ACTIVE]"/>
+    <BitmapRef ID="3094" Value="Source[local].Bitmap[GLOBAL_TAB_SUBPAGE]"/>
+    <BitmapRef ID="3095" Value="Source[local].Bitmap[GLOBAL_TAB_SUBBUTTON]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="3092" Value="0"/>
+    <Index ID="3093" Value="2"/>
+    <Index ID="3094" Value="1"/>
+    <Index ID="3095" Value="3"/>
+  </IndexMap>
+</BitmapGroup>

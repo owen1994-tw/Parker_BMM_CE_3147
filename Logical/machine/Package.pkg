@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.12.129 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">machine.typ</Object>
+    <Object Type="File" Description="Global variables">machine.var</Object>
+    <Object Type="Program" Language="ANSIC" Description="mode management">mode</Object>
+    <Object Type="Program" Language="ANSIC" Description="work mode change">workmode</Object>
+    <Object Type="Program" Language="ANSIC" Description="calibration task">calib</Object>
+    <Object Type="Program" Language="ANSIC" Description="machine reset task">reset</Object>
+    <Object Type="Program" Language="ANSIC" Description="manual task">manual</Object>
+    <Object Type="Program" Language="ANSIC" Description="extruder control(Do)">extruder</Object>
+    <Object Type="Program" Language="ANSIC" Description="pump,extruder on off">pump</Object>
+    <Object Type="Program" Language="ANSIC" Description="machine lubrication">mac_lubr</Object>
+    <Object Type="Program" Language="ANSIC" Description="oil accumulator control">oil_accu</Object>
+    <Object Type="Program" Language="ANSIC" Description="alarm info">alarm</Object>
+    <Object Type="Program" Language="ANSIC">energy</Object>
+    <Object Type="Program" Language="ANSIC">extru_plk</Object>
+    <Object Type="Program" Language="IEC">Acs580Ctl</Object>
+    <Object Type="Program" Language="ANSIC" Description="extruder control">extruder_Mix</Object>
+    <Object Type="Program" Language="ANSIC" Description="clean proportional valve">clean</Object>
+  </Objects>
+</Package>

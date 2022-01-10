@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Text_Imply">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="8"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="1637894" Value=" "/>
+    <Text ID="1637895" Value="Main oil pump not On"/>
+    <Text ID="1637896" Value="Cooling pump not On"/>
+    <Text ID="1637897" Value="Inverter not on"/>
+    <Text ID="1637898" Value="Servo pump not on"/>
+    <Text ID="1637899" Value="Heater temperature low or Protection time not reach"/>
+    <Text ID="1637900" Value="Safety gate open"/>
+    <Text ID="1637901" Value="Heating off"/>
+    <Text ID="1637902" Value="Machine Auto setup"/>
+    <Text ID="1637903" Value="Value mus small than 6.7V"/>
+    <Text ID="1637904" Value="Value must bigger than 6.7V"/>
+    <Text ID="1637905" Value="safety gate open,safe valve no feedback"/>
+    <Text ID="1637906" Value="Force analog, be careful"/>
+    <Text ID="1637907" Value="Machne auto setup ok"/>
+    <Text ID="1637908" Value="Machine auto setup false !"/>
+    <Text ID="1637909" Value="Auto running stop, waiting!"/>
+    <Text ID="1637910" Value="This function need calibration mode"/>
+    <Text ID="1637911" Value="Left carriage not at forward"/>
+    <Text ID="1637912" Value="Left bottom deflash not at backward"/>
+    <Text ID="1637913" Value="Left 1st postcooling not at up"/>
+    <Text ID="1637914" Value="Left grip not at backward "/>
+    <Text ID="1637915" Value="Left grip not at forward "/>
+    <Text ID="1637916" Value="Left grip not at open"/>
+    <Text ID="1637917" Value="Left mold insert not at open"/>
+    <Text ID="1637918" Value="Left Needle pin not at backward "/>
+    <Text ID="1637919" Value="Left cut neck not at backward "/>
+    <Text ID="1637920" Value="Left seal  not at backward "/>
+    <Text ID="1637921" Value="L-Mold potentiometer not cailibrate ok"/>
+    <Text ID="1637922" Value="L-Carriage potentiometer not cailibrate ok"/>
+    <Text ID="1637923" Value="L-grip not at forward or backward"/>
+    <Text ID="1637924" Value="L-grip not at up"/>
+    <Text ID="1637925" Value="Right carriage not at forward"/>
+    <Text ID="1637926" Value="Right carriage not at backward"/>
+    <Text ID="1637927" Value="Right mold not at open or open limit"/>
+    <Text ID="1637928" Value="Left top deflash not at backward"/>
+    <Text ID="1637929" Value="Left blow pin1 not at down"/>
+    <Text ID="1637930" Value="Left mold not at close"/>
+    <Text ID="1637931" Value="Left blow pin1 not at up"/>
+    <Text ID="1637932" Value="Left carriage not at backward"/>
+    <Text ID="1637933" Value="Left mold not at open or open limit"/>
+    <Text ID="1637934" Value="Right mold not at close"/>
+    <Text ID="1637935" Value="Right blow pin1  not at up"/>
+    <Text ID="1637936" Value="Right blow pin1  not at down"/>
+    <Text ID="1637937" Value="Right top deflash not at backward"/>
+    <Text ID="1637938" Value="Right bottom deflash not at backward"/>
+    <Text ID="1637939" Value="Right 1st postcooling not at up"/>
+    <Text ID="1637940" Value="Right grip not at backward"/>
+    <Text ID="1637941" Value="Right grip not at forward"/>
+    <Text ID="1637942" Value="Right grip not at open"/>
+    <Text ID="1637943" Value="Right mold insert not at open"/>
+    <Text ID="1637944" Value="Right needle pin not at backward"/>
+    <Text ID="1637945" Value="Right cut neck not at backward"/>
+    <Text ID="1637946" Value="Right parison sealing not at backward"/>
+    <Text ID="1637947" Value="R-Mold Potentiometer not cailibrate ok"/>
+    <Text ID="1637948" Value="R-Carriage Potentiometer not cailibrate ok"/>
+    <Text ID="1637949" Value="R-Grip not at forward or backward"/>
+    <Text ID="1637950" Value="Right Grip not at up"/>
+    <Text ID="1637951" Value="Need password level 1 or up"/>
+    <Text ID="1637952" Value="Need password level 2"/>
+    <Text ID="1637953" Value="Need password level 3"/>
+    <Text ID="1637954" Value="Need password level 4"/>
+    <Text ID="1637955" Value="Press ESC cancel, press ENTER confirm"/>
+    <Text ID="1637956" Value="Not on manual mode"/>
+    <Text ID="1637957" Value="Machine auto setup ok"/>
+    <Text ID="1637958" Value="Machine auto setup false"/>
+    <Text ID="1637959" Value="Penumatic pressure not enough"/>
+    <Text ID="1637960" Value="Left servo enable is off"/>
+    <Text ID="1637961" Value="Right servo enable is off"/>
+    <Text ID="1637962" Value="It is pay time,contact with sales!"/>
+    <Text ID="1637963" Value="Left unscrew not at backward "/>
+    <Text ID="1637964" Value="Left unscrew not at forward "/>
+    <Text ID="1637965" Value="Left 2nd postcooling not at up"/>
+    <Text ID="1637966" Value="Left 3rd postcooling not at up"/>
+    <Text ID="1637967" Value="Left top mold insert not at close"/>
+    <Text ID="1637968" Value="Left top mold insert not at open"/>
+    <Text ID="1637969" Value="Left blow pin retainer not at forward "/>
+    <Text ID="1637970" Value="Left blow pin retainer not at backward "/>
+    <Text ID="1637971" Value="Right unscrew not at backward"/>
+    <Text ID="1637972" Value="Right 2nd postcooling not at up"/>
+    <Text ID="1637973" Value="Right 3rd postcooling not at up"/>
+    <Text ID="1637974" Value="Right top mold insert not at close"/>
+    <Text ID="1637975" Value="Right blow pin retainer not at backward"/>
+    <Text ID="1637976" Value="Right unscrew not at forward"/>
+    <Text ID="1637977" Value="Right blow pin retainer not at forward"/>
+    <Text ID="1637978" Value="Right top mold insert not at open"/>
+    <Text ID="1637979" Value="This function no select"/>
+    <Text ID="1637980" Value="Carriage is not enable !"/>
+    <Text ID="1637981" Value="Press grip reset key,then grip normal"/>
+    <Text ID="1637982" Value="No USB disk"/>
+    <Text ID="1637983" Value="Left grip not at backward"/>
+    <Text ID="1637984" Value="Left grip not at forward"/>
+    <Text ID="1637985" Value="Right grip not at backward"/>
+    <Text ID="1637986" Value="Right grip not at forward"/>
+    <Text ID="1637987" Value="USB disk no mold file!"/>
+    <Text ID="1637988" Value="USB disk mold file length not correct"/>
+    <Text ID="1637989" Value="USB disk mold file operation OK"/>
+    <Text ID="1637990" Value="USB disk mold file operation false"/>
+    <Text ID="1637991" Value="USB disk no machine file!"/>
+    <Text ID="1637992" Value="USB disk machine file length not correct"/>
+    <Text ID="1637993" Value="USB disk machine file operation OK"/>
+    <Text ID="1637994" Value="USB disk machine file operation flase"/>
+    <Text ID="1637995" Value="USB disk no parison file!"/>
+    <Text ID="1637996" Value="USB disk parison file length not correct"/>
+    <Text ID="1637997" Value="USB disk pariosn file operation OK"/>
+    <Text ID="1637998" Value="USB disk parison file operation false"/>
+    <Text ID="1637999" Value="L-Mechanical lock limit"/>
+    <Text ID="1638000" Value="R-Mechanical lock limit"/>
+    <Text ID="1638001" Value="Left Hook pin  not at Fw"/>
+    <Text ID="1638002" Value="Left Hook pin  not at bw"/>
+    <Text ID="1638003" Value="L-Blow pin Proportional valve is not ok"/>
+    <Text ID="1638004" Value="L-Clamp Proportional valve is not ok"/>
+    <Text ID="1638005" Value="L-Carriage Proportional valve is not ok"/>
+    <Text ID="1638006" Value="Right Hook Pin not at fw"/>
+    <Text ID="1638007" Value="Right Hook Pin not at bw"/>
+    <Text ID="1638008" Value="R-Blow pin Proportional valve is not ok"/>
+    <Text ID="1638009" Value="R-Clamp Proportional valve is not ok"/>
+    <Text ID="1638010" Value="R-Carriage Proportional valve is not ok"/>
+    <Text ID="1638011" Value="Copy screen false"/>
+    <Text ID="1679523" Value="Reset to blow pin calibration mode"/>
+    <Text ID="1679524" Value="Reset to blow pin calibration mode False"/>
+    <Text ID="1679525" Value="Reset to blow pin calibration mode success"/>
+    <Text ID="1739964" Value="Main Extruder not On"/>
+    <Text ID="1739965" Value="B Extruder not On"/>
+    <Text ID="1739966" Value="C Extruder not On"/>
+    <Text ID="1739967" Value="Visi Extruder not On"/>
+    <Text ID="1739968" Value="80 Extruder not output"/>
+    <Text ID="1739969" Value="25  Extruder not output"/>
+    <Text ID="1739970" Value="C  Extruder not output"/>
+    <Text ID="1739971" Value="VISI  Extruder not output"/>
+    <Text ID="1746289" Value="Main pump condition"/>
+    <Text ID="1746290" Value="Parison pump condition"/>
+    <Text ID="1746291" Value="Cooling pump condition"/>
+    <Text ID="1853965" Value="Left Blow Pin1 calibration error"/>
+    <Text ID="1853966" Value="L-Grip transfer calibration error"/>
+    <Text ID="1853967" Value="L-Grip up / down calibration error"/>
+    <Text ID="1853968" Value="L-Sensor Up/Down calibration Error"/>
+    <Text ID="1853969" Value="L-Sensor not at Zero Point"/>
+    <Text ID="1853970" Value="Right Blow Pin1 calibration error"/>
+    <Text ID="1853971" Value="R-Grip transfer calibration error"/>
+    <Text ID="1853972" Value="R-Sensor Up/Down calibration Error"/>
+    <Text ID="1853973" Value="R-Sensor Up/Down calibration Error"/>
+    <Text ID="1853974" Value="R-Sensor not at Zero Point"/>
+    <Text ID="2032374" Value="No Right Deflasher"/>
+    <Text ID="2032375" Value="No Left Deflasher"/>
+    <Text ID="2109526" Value="Disable Cutter In Calibration Mode"/>
+    <Text ID="2146120" Value="Parison Calibration Mode Is Not Manual"/>
+    <Text ID="2311275" Value="Heater Power Not On"/>
+    <Text ID="2320795" Value="Main Inverter P84 Error"/>
+    <Text ID="2320796" Value="B-Inverter P84 Error"/>
+    <Text ID="2320797" Value="C-Inverter P84 Error"/>
+    <Text ID="2320798" Value="D-Inverter P84 Error"/>
+    <Text ID="2320799" Value="E-Inverter P84 Error"/>
+    <Text ID="2320800" Value="Visi-Inverter P84 Error"/>
+    <Text ID="2477073" Value="Left bottom mold insert not at close"/>
+    <Text ID="2477074" Value="Left bottom mold insert not at open"/>
+    <Text ID="2477075" Value="Right mold  mold insert not at close"/>
+    <Text ID="2477076" Value="Right mold  mold insert not at open"/>
+    <Text ID="2486336" Value="Left handle deflash not at backward"/>
+    <Text ID="2486337" Value="Right handle deflash not at backward"/>
+    <Text ID="2495597" Value="Left mold not over clamp &quot;Pre-Open&quot; psoition "/>
+    <Text ID="2495598" Value="Right mold not over clamp &quot;Pre-Open&quot; psoition "/>
+    <Text ID="2504858" Value="Left robot not open_L "/>
+    <Text ID="2504859" Value="Left robot not open_R"/>
+    <Text ID="2504860" Value="Right robot not open_L "/>
+    <Text ID="2504861" Value="Right robot not open_R"/>
+    <Text ID="2604059" Value="Left punching not at forward"/>
+    <Text ID="2604060" Value="Right punching not at forward"/>
+    <Text ID="2622248" Value="Left Product Aux Clamp not Opn"/>
+    <Text ID="2631647" Value="Right Product Aux Clamp not Opn"/>
+    <Text ID="2655534" Value="No choose L-Gripper"/>
+    <Text ID="2655535" Value="No choose R-Gripper"/>
+    <Text ID="2670935" Value="Left carriage not at forward or backward"/>
+    <Text ID="2670936" Value="Right carriage not at forward or backward"/>
+    <Text ID="2670937" Value="Left mold not at open or close"/>
+    <Text ID="2670938" Value="Right mold not at open or close"/>
+    <Text ID="2777173" Value="Password level too low"/>
+    <Text ID="2795701" Value="Temperature holding function is active"/>
+    <Text ID="2795702" Value="Extruder motor or parison motor is operating"/>
+    <Text ID="2816659" Value="Can not change in &quot;Auto&quot; mode"/>
+    <Text ID="2850424" Value="D Extruder not On"/>
+    <Text ID="2860006" Value="Extruder  no choose"/>
+    <Text ID="2937924" Value="Base up limit"/>
+    <Text ID="2937925" Value="Base down limit"/>
+    <Text ID="2974663" Value="Main Extruder delay switch on not ready"/>
+    <Text ID="2974664" Value="B Extruder delay switch on not ready"/>
+    <Text ID="2974665" Value="C Extruder delay switch on not ready"/>
+    <Text ID="2974666" Value="L-Visi Extruder delay switch on not ready"/>
+    <Text ID="2974667" Value="R-Visi Extruder delay switch on not ready"/>
+    <Text ID="3046620" Value="Ext R-Gripper  not at up"/>
+    <Text ID="3046621" Value="Ext L-Gripper not at up"/>
+    <Text ID="3458405" Value="Left blow pin2 not at up"/>
+    <Text ID="3458406" Value="Left blow pin2 not at down"/>
+    <Text ID="3458407" Value="Right blow pin2 not at up"/>
+    <Text ID="3458408" Value="Right blow pin2 not at down"/>
+    <Text ID="3458409" Value="Left Blow Pin2 calibration error"/>
+    <Text ID="3458410" Value="Right Blow Pin2 calibration error"/>
+    <Text ID="3580090" Value="Driver Initialization Not Finish"/>
+    <Text ID="3633357" Value="RBlowpin1 Disable"/>
+    <Text ID="3633358" Value="RBlowpin2 Disable"/>
+    <Text ID="3633359" Value="LBlowpin1 Disable"/>
+    <Text ID="3633360" Value="LBlowpin2 Disable"/>
+    <Text ID="3714127" Value="Die lip off or set temp too low"/>
+    <Text ID="3726329" Value="Swing not at up"/>
+    <Text ID="3726330" Value="Swing not at down"/>
+    <Text ID="3889035" Value="Base forward backward  limit (Base too low)"/>
+    <Text ID="3933772" Value="Enable Right Topdelash and Bottom Deflahsh interlock with Pull Bottom"/>
+    <Text ID="3933773" Value="Enable Left Topdelash and Bottom Deflahsh interlock with Pull Bottom"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="1637894" Value=" "/>
+    <Text ID="1637895" Value="主电源未启动"/>
+    <Text ID="1637896" Value="冷却泵浦未启动"/>
+    <Text ID="1637897" Value="变頻器未启动"/>
+    <Text ID="1637898" Value="型胚泵浦未启动"/>
+    <Text ID="1637899" Value="电热温度过低"/>
+    <Text ID="1637900" Value="安全门开"/>
+    <Text ID="1637901" Value="电热未加热"/>
+    <Text ID="1637902" Value="机器自动复位中"/>
+    <Text ID="1637903" Value="必須小于6.7v"/>
+    <Text ID="1637904" Value="必須大于6.7v"/>
+    <Text ID="1637905" Value="安全门开，低压安全阀反馈无"/>
+    <Text ID="1637906" Value="強制模拟量，请小心。"/>
+    <Text ID="1637907" Value="自动复位完成"/>
+    <Text ID="1637908" Value="自动复位未完成"/>
+    <Text ID="1637909" Value="自动停止中，请等待！"/>
+    <Text ID="1637910" Value="此功能需调校模式"/>
+    <Text ID="1637911" Value="左移模不在前进位"/>
+    <Text ID="1637912" Value="左打瓶底不在后退位"/>
+    <Text ID="1637913" Value="左一次冷却不在上位"/>
+    <Text ID="1637914" Value="左机械手不在后退位"/>
+    <Text ID="1637915" Value="左机械手不在前进位"/>
+    <Text ID="1637916" Value="左机械手不在开终位"/>
+    <Text ID="1637917" Value="左子模不在子模开终位"/>
+    <Text ID="1637918" Value="左模手柄吹针不在后退位"/>
+    <Text ID="1637919" Value="左切瓶口不在后退位"/>
+    <Text ID="1637920" Value="左封口气缸不在回位"/>
+    <Text ID="1637921" Value="左开关模电阻尺未调校"/>
+    <Text ID="1637922" Value="左移模电阻尺未调校"/>
+    <Text ID="1637923" Value="左机械手不在后退位或前进位"/>
+    <Text ID="1637924" Value="左机械手不在上位"/>
+    <Text ID="1637925" Value="右移模不在前进位"/>
+    <Text ID="1637926" Value="右移模不在后退位"/>
+    <Text ID="1637927" Value="右模不在開模終位或開模安全限"/>
+    <Text ID="1637928" Value="左上打手把不在后退位"/>
+    <Text ID="1637929" Value="左吹针1不在下位"/>
+    <Text ID="1637930" Value="左模不在关模终位"/>
+    <Text ID="1637931" Value="左吹针1不在上位"/>
+    <Text ID="1637932" Value="左移模不在后退位"/>
+    <Text ID="1637933" Value="左模不在開模終位或開模安全限"/>
+    <Text ID="1637934" Value="右模不在关模终位"/>
+    <Text ID="1637935" Value="右吹针1不在上位"/>
+    <Text ID="1637936" Value="右吹针1不在下位"/>
+    <Text ID="1637937" Value="右上打手把不在后退位"/>
+    <Text ID="1637938" Value="右打瓶底不在后退位"/>
+    <Text ID="1637939" Value="右一次冷却不在上位"/>
+    <Text ID="1637940" Value="右机械手不在后退位"/>
+    <Text ID="1637941" Value="右机械手不在前进位"/>
+    <Text ID="1637942" Value="右机械手不在开终位"/>
+    <Text ID="1637943" Value="右子模不在子模开终位"/>
+    <Text ID="1637944" Value="右模手柄吹针不在后退位"/>
+    <Text ID="1637945" Value="右切瓶口不在后退位"/>
+    <Text ID="1637946" Value="右封口气缸不在后退位"/>
+    <Text ID="1637947" Value="右开关模电阻尺未调校"/>
+    <Text ID="1637948" Value="右移模电阻尺未调校"/>
+    <Text ID="1637949" Value="右机械手不在前进位或后退位"/>
+    <Text ID="1637950" Value="右机械手不在上位"/>
+    <Text ID="1637951" Value="需密码级別1"/>
+    <Text ID="1637952" Value="需密码级別2"/>
+    <Text ID="1637953" Value="需密码级別3"/>
+    <Text ID="1637954" Value="需密码级別4"/>
+    <Text ID="1637955" Value="按ESC取消操作，按ENTER确认操作"/>
+    <Text ID="1637956" Value="不在手动狀態"/>
+    <Text ID="1637957" Value="自动复位完成"/>
+    <Text ID="1637958" Value="自动复位未完成"/>
+    <Text ID="1637959" Value="空压压力來源不足"/>
+    <Text ID="1637960" Value="左伺服使能未开"/>
+    <Text ID="1637961" Value="右伺服使能未开"/>
+    <Text ID="1637962" Value="付款时间到，无法启动自动！请联系原厂"/>
+    <Text ID="1637963" Value="左绞牙不在后退位"/>
+    <Text ID="1637964" Value="左绞牙不在前进位"/>
+    <Text ID="1637965" Value="左二次冷却不在上位"/>
+    <Text ID="1637966" Value="左三次冷却不在上位"/>
+    <Text ID="1637967" Value="左上模芯不在子模关终位"/>
+    <Text ID="1637968" Value="左上模芯不在子模开终位"/>
+    <Text ID="1637969" Value="左吹针下挡板不在前进位"/>
+    <Text ID="1637970" Value="左吹针下挡板不在后退位"/>
+    <Text ID="1637971" Value="右绞牙不在后退位"/>
+    <Text ID="1637972" Value="右二次冷却不在上位"/>
+    <Text ID="1637973" Value="右三次冷却不在上位"/>
+    <Text ID="1637974" Value="右上模芯不在子模关终位"/>
+    <Text ID="1637975" Value="右吹针下挡板不在后退位"/>
+    <Text ID="1637976" Value="右绞牙不在前进位"/>
+    <Text ID="1637977" Value="右吹针下挡板不在前进位"/>
+    <Text ID="1637978" Value="右上模芯不在子模开终位"/>
+    <Text ID="1637979" Value="沒选用该动作！"/>
+    <Text ID="1637980" Value="不允许移模移动！"/>
+    <Text ID="1637981" Value="确认无瓶，按下机械手复位键，机械手正常"/>
+    <Text ID="1637982" Value="沒有插入USB隨身碟"/>
+    <Text ID="1637983" Value="左机械手不在后退位"/>
+    <Text ID="1637984" Value="左机械手不在前进位"/>
+    <Text ID="1637985" Value="右机械手不在后退位"/>
+    <Text ID="1637986" Value="右机械手不在前进位"/>
+    <Text ID="1637987" Value="USB隨身碟无模具参数文件，无法读取！"/>
+    <Text ID="1637988" Value="USB隨身碟模具参数文件长度不对，无法读取！"/>
+    <Text ID="1637989" Value="USB隨身碟模具参数文件操作成功"/>
+    <Text ID="1637990" Value="USB隨身碟模具参数文件操作失败"/>
+    <Text ID="1637991" Value="USB隨身碟无机器参数文件，无法读取！"/>
+    <Text ID="1637992" Value="USB隨身碟机器参数文件长度不对，无法读取！"/>
+    <Text ID="1637993" Value="USB隨身碟机器参数文件操作成功"/>
+    <Text ID="1637994" Value="USB隨身碟机器参数文件操作失败"/>
+    <Text ID="1637995" Value="USB隨身碟无曲线文件，无法读取！"/>
+    <Text ID="1637996" Value="USB隨身碟曲线文件长度不对，无法读取！"/>
+    <Text ID="1637997" Value="USB隨身碟曲线文件操作成功"/>
+    <Text ID="1637998" Value="USB隨身碟曲线文件操作失败"/>
+    <Text ID="1637999" Value="左移模上锁"/>
+    <Text ID="1638000" Value="右移模上锁"/>
+    <Text ID="1638001" Value="左掛鉤吹針不在進位"/>
+    <Text ID="1638002" Value="左掛鉤吹針不在退位"/>
+    <Text ID="1638003" Value="左吹针比例阀未调校好"/>
+    <Text ID="1638004" Value="左开关模比例阀未调校好"/>
+    <Text ID="1638005" Value="左移模比例阀未调校好"/>
+    <Text ID="1638006" Value="右掛鉤吹針不在進位"/>
+    <Text ID="1638007" Value="右掛鉤吹針不在退位"/>
+    <Text ID="1638008" Value="右吹针比例阀未调校好"/>
+    <Text ID="1638009" Value="右开关模比例阀未调校好"/>
+    <Text ID="1638010" Value="右移模比例阀未调校好"/>
+    <Text ID="1638011" Value="拷貝屏幕失败"/>
+    <Text ID="1679523" Value="复位到吹针最校调模式"/>
+    <Text ID="1679524" Value="复位到吹针最校调模式失败"/>
+    <Text ID="1679525" Value="复位到吹针最校调模式成功"/>
+    <Text ID="1739964" Value="80挤出机未启动"/>
+    <Text ID="1739965" Value="25 挤出机未启动"/>
+    <Text ID="1739966" Value="C挤出机未启动"/>
+    <Text ID="1739967" Value="刻度線押出機未上電"/>
+    <Text ID="1739968" Value="80挤出机未输出"/>
+    <Text ID="1739969" Value="25 挤出机未输出"/>
+    <Text ID="1739970" Value="C挤出机未输出"/>
+    <Text ID="1739971" Value="视窗挤出机未输出"/>
+    <Text ID="1746289" Value="允许主油泵启动条件"/>
+    <Text ID="1746290" Value="型胚油泵启动条件"/>
+    <Text ID="1746291" Value="冷却泵启动条件"/>
+    <Text ID="1853965" Value="左吹針1校調錯"/>
+    <Text ID="1853966" Value="左机械手进退校调错"/>
+    <Text ID="1853967" Value="左机械手上下校调错"/>
+    <Text ID="1853968" Value="左侦测电眼上下校调错"/>
+    <Text ID="1853969" Value="左侦测电眼不在零点"/>
+    <Text ID="1853970" Value="右吹针1校调错"/>
+    <Text ID="1853971" Value="右机械手进退校调错"/>
+    <Text ID="1853972" Value="右机械手上下校调错"/>
+    <Text ID="1853973" Value="右侦测电眼上下校调错"/>
+    <Text ID="1853974" Value="右侦测电眼不在零点"/>
+    <Text ID="2032374" Value="没选右顶打飞边"/>
+    <Text ID="2032375" Value="没选左顶打飞边"/>
+    <Text ID="2109526" Value="调校模式不允许用切刀"/>
+    <Text ID="2146120" Value="型胚调校模式不是手动模式"/>
+    <Text ID="2311275" Value="總電熱電源未開"/>
+    <Text ID="2320795" Value="主押出機變頻器P84異常"/>
+    <Text ID="2320796" Value="B-押出機變頻器P84異常"/>
+    <Text ID="2320797" Value="C-押出機變頻器P84異常"/>
+    <Text ID="2320798" Value="D-押出機變頻器P84異常"/>
+    <Text ID="2320799" Value="E-押出機變頻器P84異常"/>
+    <Text ID="2320800" Value="視窗押出機變頻器P84異常"/>
+    <Text ID="2477073" Value="左下模芯不在子模关终位"/>
+    <Text ID="2477074" Value="右下模芯不在子模开终位"/>
+    <Text ID="2477075" Value="右下模芯不在子模关终位"/>
+    <Text ID="2477076" Value="右下模芯不在子模开终位"/>
+    <Text ID="2486336" Value="左打手挽不在退位"/>
+    <Text ID="2486337" Value="右打手挽不在退位"/>
+    <Text ID="2495597" Value="左模未大於開模半限"/>
+    <Text ID="2495598" Value="右模未大於開模半限"/>
+    <Text ID="2504858" Value="左模機械手不在開限_L"/>
+    <Text ID="2504859" Value="左模機械手不在開限_R"/>
+    <Text ID="2504860" Value="右模機械手不在開限_L"/>
+    <Text ID="2504861" Value="右模機械手不在開限_R"/>
+    <Text ID="2604059" Value="左上打手把不在前進位"/>
+    <Text ID="2604060" Value="右上打手把不在前進位"/>
+    <Text ID="2622248" Value="左成品輔助夾不在開位"/>
+    <Text ID="2631647" Value="右成品輔助夾不在開位"/>
+    <Text ID="2655534" Value="未選左機械手功能"/>
+    <Text ID="2655535" Value="未選右機械手功能"/>
+    <Text ID="2670935" Value="左移模不在上限或下限"/>
+    <Text ID="2670936" Value="右移模不在上限或下限"/>
+    <Text ID="2670937" Value="左模不在開位限或關模安全限"/>
+    <Text ID="2670938" Value="右模不在開位限或關模安全限"/>
+    <Text ID="2777173" Value=""/>
+    <Text ID="2795701" Value=""/>
+    <Text ID="2795702" Value=""/>
+    <Text ID="2816659" Value=""/>
+    <Text ID="2850424" Value="D挤出机未启动"/>
+    <Text ID="2860006" Value="押出機未選用"/>
+    <Text ID="2937924" Value="平台上極限到達"/>
+    <Text ID="2937925" Value="平台下極限到達"/>
+    <Text ID="2974663" Value="主押出機啟動延時未到"/>
+    <Text ID="2974664" Value="B押出機啟動延時未到"/>
+    <Text ID="2974665" Value="C押出機啟動延時未到"/>
+    <Text ID="2974666" Value="左刻度線押出機啟動延時未到"/>
+    <Text ID="2974667" Value="右刻度線押出機啟動延時未到"/>
+    <Text ID="3046620" Value="右外部機械手不在上限"/>
+    <Text ID="3046621" Value="左外部機械手不在上限"/>
+    <Text ID="3458405" Value="左吹針2不在上位"/>
+    <Text ID="3458406" Value="左吹针2不在下位"/>
+    <Text ID="3458407" Value="右吹针2不在上位"/>
+    <Text ID="3458408" Value="左吹針2不在下位"/>
+    <Text ID="3458409" Value="左吹針2校調錯"/>
+    <Text ID="3458410" Value="右吹針2校調錯"/>
+    <Text ID="3580090" Value="驅動器初始化未完成"/>
+    <Text ID="3633357" Value="右1吹氣桿未選用"/>
+    <Text ID="3633358" Value="右2吹氣桿未選用"/>
+    <Text ID="3633359" Value="左1吹氣桿未選用"/>
+    <Text ID="3633360" Value="左2吹氣桿未選用"/>
+    <Text ID="3714127" Value="模嘴未啟動或設定值過低"/>
+    <Text ID="3726329" Value="抬頭不在上位"/>
+    <Text ID="3726330" Value=" 抬頭不在下位"/>
+    <Text ID="3889035" Value="平台前進退限到達(平台過低)"/>
+    <Text ID="3933772" Value="選用右打手把打瓶底與拉瓶底互鎖"/>
+    <Text ID="3933773" Value="選用左打手把打瓶底與拉瓶底互鎖"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="1637894" Value=" "/>
+    <Text ID="1637895" Value="主油壓未啟動"/>
+    <Text ID="1637896" Value="冷卻泵浦未啟動"/>
+    <Text ID="1637897" Value="變頻器未啟動"/>
+    <Text ID="1637898" Value="型胚泵浦未啟動"/>
+    <Text ID="1637899" Value="電熱溫度過低或防冷時間未到"/>
+    <Text ID="1637900" Value="安全門開"/>
+    <Text ID="1637901" Value="電熱未加熱"/>
+    <Text ID="1637902" Value="機器自動復位中"/>
+    <Text ID="1637903" Value="必須小於6.7v"/>
+    <Text ID="1637904" Value="必須大於6.7v"/>
+    <Text ID="1637905" Value="安全門開，低壓安全閥回饋無"/>
+    <Text ID="1637906" Value="強制模擬量，請小心。"/>
+    <Text ID="1637907" Value="自動復位完成"/>
+    <Text ID="1637908" Value="自動復位未完成"/>
+    <Text ID="1637909" Value="自動停止中，請等待！"/>
+    <Text ID="1637910" Value="此功能需調校模式"/>
+    <Text ID="1637911" Value="左移模不在前進位"/>
+    <Text ID="1637912" Value="左打瓶底不在後退位"/>
+    <Text ID="1637913" Value="左一次冷卻不在上位"/>
+    <Text ID="1637914" Value="左機械手不在後退位"/>
+    <Text ID="1637915" Value="左機械手不在前進位"/>
+    <Text ID="1637916" Value="左機械手不在開終位"/>
+    <Text ID="1637917" Value="左子模不在子模開終位"/>
+    <Text ID="1637918" Value="左模手柄吹針不在後退位"/>
+    <Text ID="1637919" Value="左切瓶口不在後退位"/>
+    <Text ID="1637920" Value="左封口氣缸不在回位"/>
+    <Text ID="1637921" Value="左開關模電阻尺未調校"/>
+    <Text ID="1637922" Value="左移模電阻尺未調校"/>
+    <Text ID="1637923" Value="左機械手不在後退位或前進位"/>
+    <Text ID="1637924" Value="左機械手不在上位"/>
+    <Text ID="1637925" Value="右移模不在前進位"/>
+    <Text ID="1637926" Value="右移模不在後退位"/>
+    <Text ID="1637927" Value="右模不在開模終位或開模安全限"/>
+    <Text ID="1637928" Value="左上打手把不在後退位"/>
+    <Text ID="1637929" Value="左吹針1不在下位"/>
+    <Text ID="1637930" Value="左模不在關模終位"/>
+    <Text ID="1637931" Value="左吹針1不在上位"/>
+    <Text ID="1637932" Value="左移模不在後退位"/>
+    <Text ID="1637933" Value="左模不在開模終位或開模安全限"/>
+    <Text ID="1637934" Value="右模不在關模終位"/>
+    <Text ID="1637935" Value="右吹针1不在上位"/>
+    <Text ID="1637936" Value="右吹针1不在下位"/>
+    <Text ID="1637937" Value="右上打手把不在後退位"/>
+    <Text ID="1637938" Value="右打瓶底不在後退位"/>
+    <Text ID="1637939" Value="右一次冷卻不在上位"/>
+    <Text ID="1637940" Value="右機械手不在後退位"/>
+    <Text ID="1637941" Value="右機械手不在前進位"/>
+    <Text ID="1637942" Value="右機械手不在開終位"/>
+    <Text ID="1637943" Value="右子模不在子模開終位"/>
+    <Text ID="1637944" Value="右模手柄吹針不在後退位"/>
+    <Text ID="1637945" Value="右切瓶口不在後退位"/>
+    <Text ID="1637946" Value="右封口氣缸不在後退位"/>
+    <Text ID="1637947" Value="右開關模電阻尺未調校"/>
+    <Text ID="1637948" Value="右移模電阻尺未調校"/>
+    <Text ID="1637949" Value="右機械手不在前進位或後退位"/>
+    <Text ID="1637950" Value="右機械手不在上位"/>
+    <Text ID="1637951" Value="需密碼級別1以上"/>
+    <Text ID="1637952" Value="需密碼級別2"/>
+    <Text ID="1637953" Value="需密碼級別3"/>
+    <Text ID="1637954" Value="需密碼級別4"/>
+    <Text ID="1637955" Value="按ESC取消操作，按ENTER確認操作"/>
+    <Text ID="1637956" Value="不在手動狀態"/>
+    <Text ID="1637957" Value="自動復位完成"/>
+    <Text ID="1637958" Value="自動復位未完成"/>
+    <Text ID="1637959" Value="空壓壓力來源不足"/>
+    <Text ID="1637960" Value="左伺服使能未開"/>
+    <Text ID="1637961" Value="右伺服使能未開"/>
+    <Text ID="1637962" Value="付款時間到，無法啟動自動！請聯繫原廠"/>
+    <Text ID="1637963" Value="左絞牙不在後退位"/>
+    <Text ID="1637964" Value="左絞牙不在前進位"/>
+    <Text ID="1637965" Value="左二次冷卻不在上位"/>
+    <Text ID="1637966" Value="左三次冷卻不在上位"/>
+    <Text ID="1637967" Value="左上模芯不在關終位"/>
+    <Text ID="1637968" Value="左上模芯不在開終位"/>
+    <Text ID="1637969" Value="左吹針下擋板不在前進位"/>
+    <Text ID="1637970" Value="左吹針下擋板不在後退位"/>
+    <Text ID="1637971" Value="右絞牙不在後退位"/>
+    <Text ID="1637972" Value="右二次冷卻不在上位"/>
+    <Text ID="1637973" Value="右三次冷卻不在上位"/>
+    <Text ID="1637974" Value="右上模芯不在關終位"/>
+    <Text ID="1637975" Value="右吹針下擋板不在後退位"/>
+    <Text ID="1637976" Value="右絞牙不在前進位"/>
+    <Text ID="1637977" Value="右吹針下擋板不在前進位"/>
+    <Text ID="1637978" Value="右上模芯不在開終位"/>
+    <Text ID="1637979" Value="沒選用該動作！"/>
+    <Text ID="1637980" Value="不允許移模移動！"/>
+    <Text ID="1637981" Value="確認無瓶，按下機械手復位鍵，機械手正常"/>
+    <Text ID="1637982" Value="沒有插入USB隨身碟"/>
+    <Text ID="1637983" Value="左機械手不在後退位"/>
+    <Text ID="1637984" Value="左機械手不在前進位"/>
+    <Text ID="1637985" Value="右機械手不在後退位"/>
+    <Text ID="1637986" Value="右機械手不在前進位"/>
+    <Text ID="1637987" Value="USB隨身碟無模具參數文件，無法讀取！"/>
+    <Text ID="1637988" Value="USB隨身碟模具參數檔長度不對，無法讀取！"/>
+    <Text ID="1637989" Value="USB隨身碟模具參數檔操作成功"/>
+    <Text ID="1637990" Value="USB隨身碟模具參數檔操作失敗"/>
+    <Text ID="1637991" Value="USB隨身碟無機器參數文件，無法讀取！"/>
+    <Text ID="1637992" Value="USB隨身碟機器參數檔長度不對，無法讀取！"/>
+    <Text ID="1637993" Value="USB隨身碟機器參數檔操作成功"/>
+    <Text ID="1637994" Value="USB隨身碟機器參數檔操作失敗"/>
+    <Text ID="1637995" Value="USB隨身碟無曲線檔，無法讀取！"/>
+    <Text ID="1637996" Value="USB隨身碟曲線檔長度不對，無法讀取！"/>
+    <Text ID="1637997" Value="USB隨身碟曲線檔操作成功"/>
+    <Text ID="1637998" Value="USB隨身碟曲線檔操作失敗"/>
+    <Text ID="1637999" Value="左移模上鎖"/>
+    <Text ID="1638000" Value="右移模上鎖"/>
+    <Text ID="1638001" Value="左掛鉤吹針不在進位"/>
+    <Text ID="1638002" Value="左掛鉤吹針不在退位"/>
+    <Text ID="1638003" Value="左吹針比例閥未調校好"/>
+    <Text ID="1638004" Value="左開關模比例閥未調校好"/>
+    <Text ID="1638005" Value="左移模比例閥未調校好"/>
+    <Text ID="1638006" Value="右掛鉤吹針不在進位"/>
+    <Text ID="1638007" Value="右掛鉤吹針不在退位"/>
+    <Text ID="1638008" Value="右吹針比例閥未調校好"/>
+    <Text ID="1638009" Value="右開關模比例閥未調校好"/>
+    <Text ID="1638010" Value="右移模比例閥未調校好"/>
+    <Text ID="1638011" Value="拷貝螢幕失敗"/>
+    <Text ID="1679523" Value="重定到吹針最校調模式"/>
+    <Text ID="1679524" Value="重定到吹針最校調模式失敗"/>
+    <Text ID="1679525" Value="重定到吹針最校調模式成功"/>
+    <Text ID="1739964" Value="主押出機未上電"/>
+    <Text ID="1739965" Value="B押出機未上電"/>
+    <Text ID="1739966" Value="C押出機未上電"/>
+    <Text ID="1739967" Value="刻度線押出機未上電"/>
+    <Text ID="1739968" Value="80擠出機未輸出"/>
+    <Text ID="1739969" Value="25 擠出機未輸出"/>
+    <Text ID="1739970" Value="C擠出機未輸出"/>
+    <Text ID="1739971" Value="視窗擠出機未輸出"/>
+    <Text ID="1746289" Value="允許主油泵啟動條件"/>
+    <Text ID="1746290" Value="型胚油泵啟動條件"/>
+    <Text ID="1746291" Value="冷卻泵啟動條件"/>
+    <Text ID="1853965" Value="左吹針1校調錯"/>
+    <Text ID="1853966" Value="左機械手進退校調錯"/>
+    <Text ID="1853967" Value="左機械手上下校調錯"/>
+    <Text ID="1853968" Value="左偵測電眼上下校調錯"/>
+    <Text ID="1853969" Value="左偵測電眼不在零點"/>
+    <Text ID="1853970" Value="右吹針1校調錯"/>
+    <Text ID="1853971" Value="右機械手進退校調錯"/>
+    <Text ID="1853972" Value="右機械手上下校調錯"/>
+    <Text ID="1853973" Value="右偵測電眼上下校調錯"/>
+    <Text ID="1853974" Value="右偵測電眼不在零點"/>
+    <Text ID="2032374" Value="沒選右頂打飛邊"/>
+    <Text ID="2032375" Value="沒選左頂打飛邊"/>
+    <Text ID="2109526" Value="調校模式不允許用切刀"/>
+    <Text ID="2146120" Value="型胚調校模式不是手動模式"/>
+    <Text ID="2311275" Value="總電熱電源未開"/>
+    <Text ID="2320795" Value="主押出機變頻器P84異常"/>
+    <Text ID="2320796" Value="B-押出機變頻器P84異常"/>
+    <Text ID="2320797" Value="C-押出機變頻器P84異常"/>
+    <Text ID="2320798" Value="D-押出機變頻器P84異常"/>
+    <Text ID="2320799" Value="E-押出機變頻器P84異常"/>
+    <Text ID="2320800" Value="視窗押出機變頻器P84異常"/>
+    <Text ID="2477073" Value="左下模芯不在關終位"/>
+    <Text ID="2477074" Value="右下模芯不在開終位"/>
+    <Text ID="2477075" Value="右下模芯不在關終位"/>
+    <Text ID="2477076" Value="右下模芯不在開終位"/>
+    <Text ID="2486336" Value="左打手挽不在退位"/>
+    <Text ID="2486337" Value="右打手挽不在退位"/>
+    <Text ID="2495597" Value="左模未大於微開模位置"/>
+    <Text ID="2495598" Value="右模未大於微開模位置"/>
+    <Text ID="2504858" Value="左模機械手不在開限_L"/>
+    <Text ID="2504859" Value="左模機械手不在開限_R"/>
+    <Text ID="2504860" Value="右模機械手不在開限_L"/>
+    <Text ID="2504861" Value="右模機械手不在開限_R"/>
+    <Text ID="2604059" Value="左上打手把不在前進位"/>
+    <Text ID="2604060" Value="右上打手把不在前進位"/>
+    <Text ID="2622248" Value="左成品輔助夾不在開位"/>
+    <Text ID="2631647" Value="右成品輔助夾不在開位"/>
+    <Text ID="2655534" Value="未選左機械手功能"/>
+    <Text ID="2655535" Value="未選右機械手功能"/>
+    <Text ID="2670935" Value="左移模不在上限或下限"/>
+    <Text ID="2670936" Value="右移模不在上限或下限"/>
+    <Text ID="2670937" Value="左模不在開位限或關模安全限"/>
+    <Text ID="2670938" Value="右模不在開位限或關模安全限"/>
+    <Text ID="2777173" Value="權限不足"/>
+    <Text ID="2795701" Value="溫度保溫功能已啟動"/>
+    <Text ID="2795702" Value="押出機或厚薄馬達已運轉"/>
+    <Text ID="2816659" Value="自動模式下無法切換"/>
+    <Text ID="2850424" Value="D押出機未上電"/>
+    <Text ID="2860006" Value="押出機未選用"/>
+    <Text ID="2937924" Value="平台上極限到達"/>
+    <Text ID="2937925" Value="平台下極限到達"/>
+    <Text ID="2974663" Value="主押出機啟動延時未到"/>
+    <Text ID="2974664" Value="B押出機啟動延時未到"/>
+    <Text ID="2974665" Value="C押出機啟動延時未到"/>
+    <Text ID="2974666" Value="左刻度線押出機啟動延時未到"/>
+    <Text ID="2974667" Value="右刻度押出機啟動延時未到"/>
+    <Text ID="3046620" Value="右外部機械手不在上限"/>
+    <Text ID="3046621" Value="左外部機械手不在上限"/>
+    <Text ID="3458405" Value="左吹針2不在上位"/>
+    <Text ID="3458406" Value="左吹针2不在下位"/>
+    <Text ID="3458407" Value="右吹针2不在上位"/>
+    <Text ID="3458408" Value="左吹針2不在下位"/>
+    <Text ID="3458409" Value="左吹針2校調錯"/>
+    <Text ID="3458410" Value="右吹針2校調錯"/>
+    <Text ID="3580090" Value="驅動器初始化未完成"/>
+    <Text ID="3633357" Value="右1吹氣桿未選用"/>
+    <Text ID="3633358" Value="右2吹氣桿未選用"/>
+    <Text ID="3633359" Value="左1吹氣桿未選用"/>
+    <Text ID="3633360" Value="左2吹氣桿未選用"/>
+    <Text ID="3714127" Value="模嘴未啟動或設定值過低"/>
+    <Text ID="3726329" Value="抬頭不在上位"/>
+    <Text ID="3726330" Value="抬頭不在下位"/>
+    <Text ID="3889035" Value="平台前進退限到達(平台過低)"/>
+    <Text ID="3933772" Value="選用右打手把打瓶底與拉瓶底互鎖"/>
+    <Text ID="3933773" Value="選用左打手把打瓶底與拉瓶底互鎖"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="1637894" Value=""/>
+    <Text ID="1637895" Value="Glowna pompa olejowa nie jest wlaczona"/>
+    <Text ID="1637896" Value="Pompa chlodzaca nie jest wlaczona"/>
+    <Text ID="1637897" Value="Falownik nie wlaczony"/>
+    <Text ID="1637898" Value="Pompa serwo nie jest wlaczona"/>
+    <Text ID="1637899" Value="Niska temperatura grzalki lub czas ochrony nie osiagniety"/>
+    <Text ID="1637900" Value="Drzwi bezpiecz. otw."/>
+    <Text ID="1637901" Value="Grzanie wylaczone"/>
+    <Text ID="1637902" Value="Automatyczna konfiguracja maszyny"/>
+    <Text ID="1637903" Value=""/>
+    <Text ID="1637904" Value=""/>
+    <Text ID="1637905" Value=""/>
+    <Text ID="1637906" Value="Wymuś analogowe, bądź ostrożny"/>
+    <Text ID="1637907" Value="Automatyczna konfiguracja maszyny ok"/>
+    <Text ID="1637908" Value="Automatyczna konfiguracja maszyny fałsz !"/>
+    <Text ID="1637909" Value="Automatyczne zatrzymanie, czekaj!"/>
+    <Text ID="1637910" Value="Ta funkcja wymaga trybu kalibracji"/>
+    <Text ID="1637911" Value="L - Wozek nie w przodzie"/>
+    <Text ID="1637912" Value="L - Dolny gratownik nie w tyle"/>
+    <Text ID="1637913" Value="L - Dochłodzenie 1 nie w gorze"/>
+    <Text ID="1637914" Value="L - Ramie robota nie w wstecz"/>
+    <Text ID="1637915" Value="L - Ramie robota nie w naprzód"/>
+    <Text ID="1637916" Value="L - Ramie robota nie w otw."/>
+    <Text ID="1637917" Value="L - Rdzen nie otw."/>
+    <Text ID="1637918" Value=""/>
+    <Text ID="1637919" Value=""/>
+    <Text ID="1637920" Value=""/>
+    <Text ID="1637921" Value="L - Forma - potencjomert nie skalibrowany"/>
+    <Text ID="1637922" Value="L - Wozek - potencjomert nie skalibrowany"/>
+    <Text ID="1637923" Value="L - Robot ramie nie z przodu lub tylu"/>
+    <Text ID="1637924" Value="L - Ramie robota nie w gorze"/>
+    <Text ID="1637925" Value="P - Wozek nie w przodzie"/>
+    <Text ID="1637926" Value="P - Wozek nie z tylu"/>
+    <Text ID="1637927" Value="P - Forma nie otw. lub poza zakresem otw."/>
+    <Text ID="1637928" Value="L - Gratownik nie w tyle"/>
+    <Text ID="1637929" Value="L - Trzp. Rozdm. 1 nie w dole"/>
+    <Text ID="1637930" Value="L - Forma nie zam."/>
+    <Text ID="1637931" Value="L - Trzp. Rozdm. 1 nie w gorze"/>
+    <Text ID="1637932" Value="L - Wozek nie z tylu"/>
+    <Text ID="1637933" Value="L - Forma nie otw. lub poza zakresem otw."/>
+    <Text ID="1637934" Value="P - Forma nie zam."/>
+    <Text ID="1637935" Value="P - Trzp. Rozdm. 1 nie w gorze"/>
+    <Text ID="1637936" Value="P - Trzp. Rozdm. 1 nie w dole"/>
+    <Text ID="1637937" Value="P - Gratownik nie w tyle"/>
+    <Text ID="1637938" Value="P - Dolny gratownik nie w tyle"/>
+    <Text ID="1637939" Value="P - Dochłodzenie 1 nie w gorze"/>
+    <Text ID="1637940" Value="P - Ramie robota nie w wstecz"/>
+    <Text ID="1637941" Value="P - Ramie robota nie w naprzód"/>
+    <Text ID="1637942" Value="P - Ramie robota nie w otw."/>
+    <Text ID="1637943" Value="P - Rdzen nie otw."/>
+    <Text ID="1637944" Value=""/>
+    <Text ID="1637945" Value=""/>
+    <Text ID="1637946" Value=""/>
+    <Text ID="1637947" Value="P - Forma - potencjomert nie skalibrowany"/>
+    <Text ID="1637948" Value="P - Wozek - potencjomert nie skalibrowany"/>
+    <Text ID="1637949" Value="P - Ramie robota nie z przodu lub tylu"/>
+    <Text ID="1637950" Value="P - Ramie robota nie w gorze"/>
+    <Text ID="1637951" Value="Potrzebujesz hasla na poziomie 1 lub wyzszym"/>
+    <Text ID="1637952" Value="Potrzebujesz hasla na poziomie 2 lub wyzszym"/>
+    <Text ID="1637953" Value="Potrzebujesz hasla na poziomie 3"/>
+    <Text ID="1637954" Value="Potrzebujesz hasla na poziomie 4"/>
+    <Text ID="1637955" Value="Nacisnij ESC anuluj, nacisnij ENTER potwierdz"/>
+    <Text ID="1637956" Value="Nie w trybie recznym"/>
+    <Text ID="1637957" Value="Automatyczna konfiguracja maszyny Ok"/>
+    <Text ID="1637958" Value="Automatyczna konfiguracja maszyny - blad"/>
+    <Text ID="1637959" Value="Cisnienie pneumatyczne za niskie"/>
+    <Text ID="1637960" Value=""/>
+    <Text ID="1637961" Value=""/>
+    <Text ID="1637962" Value=""/>
+    <Text ID="1637963" Value="L - Wykecanie nie w tyle"/>
+    <Text ID="1637964" Value="L - Wykecanie nie w przodzie"/>
+    <Text ID="1637965" Value="L - Dochłodzenie 2 nie w gorze"/>
+    <Text ID="1637966" Value="L - Dochłodzenie 3 nie w gorze"/>
+    <Text ID="1637967" Value="L - Gorny rdzen nie zam."/>
+    <Text ID="1637968" Value="L - Gorny rdzen nie otw."/>
+    <Text ID="1637969" Value=""/>
+    <Text ID="1637970" Value=""/>
+    <Text ID="1637971" Value="P - Wykecanie nie w tyle"/>
+    <Text ID="1637972" Value="P - Dochłodzenie 2 nie w gorze"/>
+    <Text ID="1637973" Value="P - Dochłodzenie 3 nie w gorze"/>
+    <Text ID="1637974" Value="P - Gorny rdzen nie zam."/>
+    <Text ID="1637975" Value=""/>
+    <Text ID="1637976" Value="P - Wykecanie nie w przodzie"/>
+    <Text ID="1637977" Value=""/>
+    <Text ID="1637978" Value="P - Gorny rdzen nie otw."/>
+    <Text ID="1637979" Value="Ta funkcja nie jets przypisana"/>
+    <Text ID="1637980" Value="Wozek nie jest wlaczony!"/>
+    <Text ID="1637981" Value=""/>
+    <Text ID="1637982" Value="Brak dysku USB"/>
+    <Text ID="1637983" Value="L - Ramie robota nie z wstecz"/>
+    <Text ID="1637984" Value="L - Ramie robota nie w naprzód"/>
+    <Text ID="1637985" Value="P - Ramie robota nie z wstecz"/>
+    <Text ID="1637986" Value="P - Ramie robota nie w naprzód"/>
+    <Text ID="1637987" Value="Dysk USB bez pliku forma!"/>
+    <Text ID="1637988" Value="Dysk USB nieprawidlowa dlugosc pliku forma"/>
+    <Text ID="1637989" Value="Dysk USB plik forma na dysku OK"/>
+    <Text ID="1637990" Value="Dysk USB plik forma na dysku - blad"/>
+    <Text ID="1637991" Value="Dysk USB brak pliku maszyny!"/>
+    <Text ID="1637992" Value="Dysk USB wielkosc pliku maszyny jest nieprawidlowa"/>
+    <Text ID="1637993" Value="Dysk USB plik maszyny OK"/>
+    <Text ID="1637994" Value="Dysk USB plik maszyny - blad"/>
+    <Text ID="1637995" Value="Dysk USB bez pliku parison!"/>
+    <Text ID="1637996" Value="Dysk USB nieprawidlowa dlugosc pliku parison"/>
+    <Text ID="1637997" Value="Dysk USB plik parison OK"/>
+    <Text ID="1637998" Value="Dysk USB plik parison - blad"/>
+    <Text ID="1637999" Value=""/>
+    <Text ID="1638000" Value=""/>
+    <Text ID="1638001" Value=""/>
+    <Text ID="1638002" Value=""/>
+    <Text ID="1638003" Value="L - Trzp. Rozdm. - zawor proporcjonalny - problem"/>
+    <Text ID="1638004" Value="L - Forma - zawor proporcjonalny - problem"/>
+    <Text ID="1638005" Value="L - Wozek - zawor proporcjonalny - problem"/>
+    <Text ID="1638006" Value=""/>
+    <Text ID="1638007" Value=""/>
+    <Text ID="1638008" Value="P - Trzp. Rozdm. - zawor proporcjonalny - problem"/>
+    <Text ID="1638009" Value="P - Forma - zawor proporcjonalny - problem"/>
+    <Text ID="1638010" Value="P - Wozek - zawor proporcjonalny - problem"/>
+    <Text ID="1638011" Value="Zrzut ekranu - blad"/>
+    <Text ID="1679523" Value=""/>
+    <Text ID="1679524" Value=""/>
+    <Text ID="1679525" Value=""/>
+    <Text ID="1739964" Value="Glowny Ekstruder nie włączyć"/>
+    <Text ID="1739965" Value="Ekstruder B nie włączyć"/>
+    <Text ID="1739966" Value="Ekstruder C nie włączyć"/>
+    <Text ID="1739967" Value="Pasek wizyjny Ekstruder nie włączyć"/>
+    <Text ID="1739968" Value="Ekstruder 80 nie włączyć"/>
+    <Text ID="1739969" Value="Ekstruder 25 nie włączyć"/>
+    <Text ID="1739970" Value="Ekstruder C nie włączyć"/>
+    <Text ID="1739971" Value="Pasek wizyjny Ekstruder nie włączyć"/>
+    <Text ID="1746289" Value="Start pompy glownej"/>
+    <Text ID="1746290" Value="Start pompy parison"/>
+    <Text ID="1746291" Value="Chłodzenie pompy parison"/>
+    <Text ID="1853965" Value="L - Trzp. Rozdm.1 - blad kalibracji"/>
+    <Text ID="1853966" Value="L - Odbior - blad kalibracji"/>
+    <Text ID="1853967" Value="L - Odbior gora/dol - blad kalibracji"/>
+    <Text ID="1853968" Value=""/>
+    <Text ID="1853969" Value=""/>
+    <Text ID="1853970" Value="P -  Trzp. Rozdm.1 - blad kalibracji"/>
+    <Text ID="1853971" Value="P - Odbior - blad kalibracji"/>
+    <Text ID="1853972" Value="P - Odbior gora/dol - blad kalibracji"/>
+    <Text ID="1853973" Value=""/>
+    <Text ID="1853974" Value=""/>
+    <Text ID="2032374" Value="Brak prawego gratownika"/>
+    <Text ID="2032375" Value="Brak lewego gratownika"/>
+    <Text ID="2109526" Value=""/>
+    <Text ID="2146120" Value="Kalibracja Parisona nie jest w trybie recznym"/>
+    <Text ID="2311275" Value="Zasilanie grzalki nie jest wlaczone"/>
+    <Text ID="2320795" Value=""/>
+    <Text ID="2320796" Value=""/>
+    <Text ID="2320797" Value=""/>
+    <Text ID="2320798" Value=""/>
+    <Text ID="2320799" Value=""/>
+    <Text ID="2320800" Value=""/>
+    <Text ID="2477073" Value="L - Na dole rdzen nie zam."/>
+    <Text ID="2477074" Value="L - Na dole rdzen nie otw."/>
+    <Text ID="2477075" Value="P - Na dole rdzen nie zam."/>
+    <Text ID="2477076" Value="P - Na dole rdzen nie otw."/>
+    <Text ID="2486336" Value="L - Gratownik raczki nie w tyle"/>
+    <Text ID="2486337" Value="P - Gratownik raczki nie w tyle"/>
+    <Text ID="2495597" Value="L - Forma nie w pozycji wstepnego otw."/>
+    <Text ID="2495598" Value="P - Forma nie w pozycji wstepnego otw."/>
+    <Text ID="2504858" Value="L - Ramie robota nie otw. - L"/>
+    <Text ID="2504859" Value="L - Ramie robota nie otw. - R"/>
+    <Text ID="2504860" Value="P - Ramie robota nie otw. - L"/>
+    <Text ID="2504861" Value="P - Ramie robota nie otw. - R"/>
+    <Text ID="2604059" Value="L - Gratownik nie w przodzie"/>
+    <Text ID="2604060" Value="P - Gratownik nie w przodzie"/>
+    <Text ID="2622248" Value="L - Zacisk produktu nie jest otw."/>
+    <Text ID="2631647" Value="P - Zacisk produktu nie jest otw."/>
+    <Text ID="2655534" Value="L - Ramie robota nie wybrany"/>
+    <Text ID="2655535" Value="P - Ramie robota nie wybrany"/>
+    <Text ID="2670935" Value="L - Wozek nie w przodzie lub zniżkowy  "/>
+    <Text ID="2670936" Value="P - Wozek nie w przodzie lub zniżkowy  "/>
+    <Text ID="2670937" Value="L - Forma nie otw. lub zam."/>
+    <Text ID="2670938" Value="P - Forma nie otw. lub zam."/>
+    <Text ID="2777173" Value="Poziom hasla za niski"/>
+    <Text ID="2795701" Value="Wlaaczona funkcja podtrzymywnia temperatury"/>
+    <Text ID="2795702" Value=""/>
+    <Text ID="2816659" Value="Nie mozna zmienic w trybie „Auto”"/>
+    <Text ID="2850424" Value="Ekstruder D nie włączyć"/>
+    <Text ID="2860006" Value="Ekstruder nie wybrany"/>
+    <Text ID="2937924" Value="Baza gorny limit"/>
+    <Text ID="2937925" Value="Baza dolny limit"/>
+    <Text ID="2974663" Value="Glowny przelacznik opoznienia ekstrudera nie jest gotowy"/>
+    <Text ID="2974664" Value="B przelacznik opoznienia ekstrudera nie jest gotowy"/>
+    <Text ID="2974665" Value="C przelacznik opoznienia ekstrudera nie jest gotowy"/>
+    <Text ID="2974666" Value="paska wizyj przelacznik opoznienia ekstrudera nie jest gotowy"/>
+    <Text ID="2974667" Value="Glowny przelacznik opoznienia ekstrudera nie jest gotowy"/>
+    <Text ID="3046620" Value="P - Zewnętrzny ramie robota nie jest w gorze"/>
+    <Text ID="3046621" Value="L - Zewnętrzny ramie robota nie jest w gorze"/>
+    <Text ID="3458405" Value="L - Trzp. Rozdm. 2 nie w gorze"/>
+    <Text ID="3458406" Value="L - Trzp. Rozdm. 2 nie w dole"/>
+    <Text ID="3458407" Value="P - Trzp. Rozdm. 2 nie w gorze"/>
+    <Text ID="3458408" Value="P - Trzp. Rozdm. 2 nie w dole"/>
+    <Text ID="3458409" Value="L - Trzp. Rozdm. 2 - blad kalibracji"/>
+    <Text ID="3458410" Value="P - Trzp. Rozdm. 2 - blad kalibracji"/>
+    <Text ID="3580090" Value="Inicjalizacja sterownika nie zostala zakonczona"/>
+    <Text ID="3633357" Value="P - Trzp. Rozdm. 1 nie wybrany"/>
+    <Text ID="3633358" Value="P - Trzp. Rozdm. 2 nie wybrany"/>
+    <Text ID="3633359" Value="L - Trzp. Rozdm. 1 nie wybrany"/>
+    <Text ID="3633360" Value="L - Trzp. Rozdm. 2 nie wybrany"/>
+    <Text ID="3714127" Value="Podgrzewacz matrycy wylaczony lub ustawiony na 0"/>
+    <Text ID="3726329" Value="Glowica nie w gorze"/>
+    <Text ID="3726330" Value="Glowica nie w dole"/>
+    <Text ID="3889035" Value=""/>
+    <Text ID="3933772" Value=""/>
+    <Text ID="3933773" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1637894" Value="0"/>
+    <Index ID="1637895" Value="1"/>
+    <Index ID="1637896" Value="2"/>
+    <Index ID="1637897" Value="3"/>
+    <Index ID="1637898" Value="4"/>
+    <Index ID="1637899" Value="5"/>
+    <Index ID="1637900" Value="7"/>
+    <Index ID="1637901" Value="6"/>
+    <Index ID="1637902" Value="8"/>
+    <Index ID="1637903" Value="9"/>
+    <Index ID="1637904" Value="10"/>
+    <Index ID="1637905" Value="11"/>
+    <Index ID="1637906" Value="12"/>
+    <Index ID="1637907" Value="13"/>
+    <Index ID="1637908" Value="14"/>
+    <Index ID="1637909" Value="15"/>
+    <Index ID="1637910" Value="16"/>
+    <Index ID="1637911" Value="17"/>
+    <Index ID="1637912" Value="24"/>
+    <Index ID="1637913" Value="25"/>
+    <Index ID="1637914" Value="36"/>
+    <Index ID="1637915" Value="37"/>
+    <Index ID="1637916" Value="38"/>
+    <Index ID="1637917" Value="41"/>
+    <Index ID="1637918" Value="42"/>
+    <Index ID="1637919" Value="43"/>
+    <Index ID="1637920" Value="44"/>
+    <Index ID="1637921" Value="45"/>
+    <Index ID="1637922" Value="46"/>
+    <Index ID="1637923" Value="50"/>
+    <Index ID="1637924" Value="51"/>
+    <Index ID="1637925" Value="52"/>
+    <Index ID="1637926" Value="53"/>
+    <Index ID="1637927" Value="54"/>
+    <Index ID="1637928" Value="23"/>
+    <Index ID="1637929" Value="22"/>
+    <Index ID="1637930" Value="20"/>
+    <Index ID="1637931" Value="21"/>
+    <Index ID="1637932" Value="18"/>
+    <Index ID="1637933" Value="19"/>
+    <Index ID="1637934" Value="55"/>
+    <Index ID="1637935" Value="56"/>
+    <Index ID="1637936" Value="57"/>
+    <Index ID="1637937" Value="58"/>
+    <Index ID="1637938" Value="59"/>
+    <Index ID="1637939" Value="60"/>
+    <Index ID="1637940" Value="71"/>
+    <Index ID="1637941" Value="72"/>
+    <Index ID="1637942" Value="73"/>
+    <Index ID="1637943" Value="76"/>
+    <Index ID="1637944" Value="77"/>
+    <Index ID="1637945" Value="78"/>
+    <Index ID="1637946" Value="79"/>
+    <Index ID="1637947" Value="80"/>
+    <Index ID="1637948" Value="81"/>
+    <Index ID="1637949" Value="85"/>
+    <Index ID="1637950" Value="86"/>
+    <Index ID="1637951" Value="87"/>
+    <Index ID="1637952" Value="88"/>
+    <Index ID="1637953" Value="89"/>
+    <Index ID="1637954" Value="90"/>
+    <Index ID="1637955" Value="91"/>
+    <Index ID="1637956" Value="92"/>
+    <Index ID="1637957" Value="93"/>
+    <Index ID="1637958" Value="94"/>
+    <Index ID="1637959" Value="95"/>
+    <Index ID="1637960" Value="96"/>
+    <Index ID="1637961" Value="97"/>
+    <Index ID="1637962" Value="98"/>
+    <Index ID="1637963" Value="35"/>
+    <Index ID="1637964" Value="34"/>
+    <Index ID="1637965" Value="26"/>
+    <Index ID="1637966" Value="27"/>
+    <Index ID="1637967" Value="28"/>
+    <Index ID="1637968" Value="29"/>
+    <Index ID="1637969" Value="30"/>
+    <Index ID="1637970" Value="31"/>
+    <Index ID="1637971" Value="70"/>
+    <Index ID="1637972" Value="61"/>
+    <Index ID="1637973" Value="62"/>
+    <Index ID="1637974" Value="63"/>
+    <Index ID="1637975" Value="66"/>
+    <Index ID="1637976" Value="69"/>
+    <Index ID="1637977" Value="65"/>
+    <Index ID="1637978" Value="64"/>
+    <Index ID="1637979" Value="99"/>
+    <Index ID="1637980" Value="102"/>
+    <Index ID="1637981" Value="105"/>
+    <Index ID="1637982" Value="104"/>
+    <Index ID="1637983" Value="40"/>
+    <Index ID="1637984" Value="39"/>
+    <Index ID="1637985" Value="75"/>
+    <Index ID="1637986" Value="74"/>
+    <Index ID="1637987" Value="106"/>
+    <Index ID="1637988" Value="107"/>
+    <Index ID="1637989" Value="108"/>
+    <Index ID="1637990" Value="109"/>
+    <Index ID="1637991" Value="110"/>
+    <Index ID="1637992" Value="111"/>
+    <Index ID="1637993" Value="112"/>
+    <Index ID="1637994" Value="113"/>
+    <Index ID="1637995" Value="114"/>
+    <Index ID="1637996" Value="115"/>
+    <Index ID="1637997" Value="116"/>
+    <Index ID="1637998" Value="117"/>
+    <Index ID="1637999" Value="118"/>
+    <Index ID="1638000" Value="119"/>
+    <Index ID="1638001" Value="33"/>
+    <Index ID="1638002" Value="32"/>
+    <Index ID="1638003" Value="49"/>
+    <Index ID="1638004" Value="47"/>
+    <Index ID="1638005" Value="48"/>
+    <Index ID="1638006" Value="68"/>
+    <Index ID="1638007" Value="67"/>
+    <Index ID="1638008" Value="84"/>
+    <Index ID="1638009" Value="82"/>
+    <Index ID="1638010" Value="83"/>
+    <Index ID="1638011" Value="103"/>
+    <Index ID="1679523" Value="120"/>
+    <Index ID="1679524" Value="121"/>
+    <Index ID="1679525" Value="122"/>
+    <Index ID="1739964" Value="123"/>
+    <Index ID="1739965" Value="124"/>
+    <Index ID="1739966" Value="125"/>
+    <Index ID="1739967" Value="126"/>
+    <Index ID="1739968" Value="127"/>
+    <Index ID="1739969" Value="128"/>
+    <Index ID="1739970" Value="129"/>
+    <Index ID="1739971" Value="130"/>
+    <Index ID="1746289" Value="131"/>
+    <Index ID="1746290" Value="132"/>
+    <Index ID="1746291" Value="133"/>
+    <Index ID="1853965" Value="134"/>
+    <Index ID="1853966" Value="135"/>
+    <Index ID="1853967" Value="136"/>
+    <Index ID="1853968" Value="137"/>
+    <Index ID="1853969" Value="138"/>
+    <Index ID="1853970" Value="139"/>
+    <Index ID="1853971" Value="140"/>
+    <Index ID="1853972" Value="141"/>
+    <Index ID="1853973" Value="142"/>
+    <Index ID="1853974" Value="143"/>
+    <Index ID="2032374" Value="101"/>
+    <Index ID="2032375" Value="100"/>
+    <Index ID="2109526" Value="144"/>
+    <Index ID="2146120" Value="145"/>
+    <Index ID="2311275" Value="146"/>
+    <Index ID="2320795" Value="147"/>
+    <Index ID="2320796" Value="148"/>
+    <Index ID="2320797" Value="149"/>
+    <Index ID="2320798" Value="150"/>
+    <Index ID="2320799" Value="151"/>
+    <Index ID="2320800" Value="152"/>
+    <Index ID="2477073" Value="153"/>
+    <Index ID="2477074" Value="154"/>
+    <Index ID="2477075" Value="155"/>
+    <Index ID="2477076" Value="156"/>
+    <Index ID="2486336" Value="157"/>
+    <Index ID="2486337" Value="158"/>
+    <Index ID="2495597" Value="159"/>
+    <Index ID="2495598" Value="160"/>
+    <Index ID="2504858" Value="161"/>
+    <Index ID="2504859" Value="162"/>
+    <Index ID="2504860" Value="163"/>
+    <Index ID="2504861" Value="164"/>
+    <Index ID="2604059" Value="165"/>
+    <Index ID="2604060" Value="166"/>
+    <Index ID="2622248" Value="167"/>
+    <Index ID="2631647" Value="168"/>
+    <Index ID="2655534" Value="169"/>
+    <Index ID="2655535" Value="170"/>
+    <Index ID="2670935" Value="171"/>
+    <Index ID="2670936" Value="172"/>
+    <Index ID="2670937" Value="173"/>
+    <Index ID="2670938" Value="174"/>
+    <Index ID="2777173" Value="175"/>
+    <Index ID="2795701" Value="176"/>
+    <Index ID="2795702" Value="177"/>
+    <Index ID="2816659" Value="178"/>
+    <Index ID="2850424" Value="179"/>
+    <Index ID="2860006" Value="180"/>
+    <Index ID="2937924" Value="181"/>
+    <Index ID="2937925" Value="182"/>
+    <Index ID="2974663" Value="183"/>
+    <Index ID="2974664" Value="184"/>
+    <Index ID="2974665" Value="185"/>
+    <Index ID="2974666" Value="187"/>
+    <Index ID="2974667" Value="186"/>
+    <Index ID="3046620" Value="189"/>
+    <Index ID="3046621" Value="188"/>
+    <Index ID="3458405" Value="190"/>
+    <Index ID="3458406" Value="192"/>
+    <Index ID="3458407" Value="191"/>
+    <Index ID="3458408" Value="193"/>
+    <Index ID="3458409" Value="194"/>
+    <Index ID="3458410" Value="195"/>
+    <Index ID="3580090" Value="196"/>
+    <Index ID="3633357" Value="197"/>
+    <Index ID="3633358" Value="198"/>
+    <Index ID="3633359" Value="199"/>
+    <Index ID="3633360" Value="200"/>
+    <Index ID="3714127" Value="201"/>
+    <Index ID="3726329" Value="202"/>
+    <Index ID="3726330" Value="203"/>
+    <Index ID="3889035" Value="204"/>
+    <Index ID="3933772" Value="205"/>
+    <Index ID="3933773" Value="206"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,14 @@
+VAR
+	FirstStart : USINT;
+	OldThickStart : USINT;
+	bDryCycleOld : USINT;
+	TimeCounter : UDINT;
+	t_init : USINT;
+	t_stop : USINT;
+	Init : USINT;
+	AutoEnable : USINT;
+	AutoStop : USINT;
+	TestModeEnable : BOOL;
+	TestMode_Count : USINT;
+	TestMode_CountOld : USINT;
+END_VAR

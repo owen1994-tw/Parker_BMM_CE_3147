@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<Trend xmlns="http://br-automation.co.at/AS/VC/Project" Name="Trend_Motor">
+  <Property Name="BackColor" Value="250"/>
+  <Property Name="Cursor1" Value="True"/>
+  <Property Name="Cursor1Color" Value="253"/>
+  <Property Name="Cursor1PositionDatapoint" Value="Source[global].Variable[DataSource_1.screen.Trace.Trace.Config.rCursorMove]"/>
+  <Property Name="Cursor1StatusDatapoint" Value="None"/>
+  <Property Name="Cursor2" Value="False"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="768"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="1024"/>
+  <Controls>
+    <Control ClassId="0x00001015" Name="TrendGrid_1">
+      <Property Name="BackColor" Value="250"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="250"/>
+      <Property Name="Height" Value="465"/>
+      <Property Name="Left" Value="148"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+      <Property Name="Top" Value="99"/>
+      <Property Name="Width" Value="544"/>
+    </Control>
+    <Control ClassId="0x00001019" Name="TrendScaleContainer_1">
+      <Property Name="AlignIndex" Value="1"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="40"/>
+      <Property Name="Horizontal" Value="True"/>
+      <Property Name="Left" Value="148"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+      <Property Name="Top" Value="564"/>
+      <Property Name="Width" Value="587"/>
+    </Control>
+    <Control ClassId="0x00001019" Name="TrendScaleContainer_2">
+      <Property Name="AlignIndex" Value="-1"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="465"/>
+      <Property Name="Horizontal" Value="False"/>
+      <Property Name="Left" Value="107"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+      <Property Name="Top" Value="99"/>
+      <Property Name="Width" Value="41"/>
+    </Control>
+    <Control ClassId="0x00001019" Name="TrendScaleContainer_3">
+      <Property Name="AlignIndex" Value="1"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="465"/>
+      <Property Name="Horizontal" Value="False"/>
+      <Property Name="Left" Value="692"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+      <Property Name="Top" Value="99"/>
+      <Property Name="Width" Value="88"/>
+    </Control>
+    <Control ClassId="0x00001019" Name="TrendScaleContainer_4">
+      <Property Name="AlignIndex" Value="-2"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="465"/>
+      <Property Name="Horizontal" Value="False"/>
+      <Property Name="Left" Value="48"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+      <Property Name="Top" Value="99"/>
+      <Property Name="Width" Value="60"/>
+    </Control>
+    <Control ClassId="0x00001017" Name="Scale_Positon">
+      <Property Name="BackColor" Value="250"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+      <Property Name="ForeColor" Value="51"/>
+      <Property Name="MajorPitchLinesLength" Value="5"/>
+      <Property Name="PitchLineSpacing" Value="25"/>
+      <Property Name="ScaleContainer" Value="Source[local].Trend[Trend_Motor].Control[TrendScaleContainer_2]"/>
+      <Property Name="Spacing" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+      <Property Name="UnitText" Value="Abbreviation"/>
+      <Property Name="UnitTextPosition" Value="Start"/>
+    </Control>
+    <Control ClassId="0x00001017" Name="Scale_CurrentTorque">
+      <Property Name="BackColor" Value="250"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+      <Property Name="PitchLineSpacing" Value="25"/>
+      <Property Name="ScaleContainer" Value="Source[local].Trend[Trend_Motor].Control[TrendScaleContainer_3]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+    </Control>
+    <Control ClassId="0x00001017" Name="Scale_Speed">
+      <Property Name="BackColor" Value="250"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+      <Property Name="ForeColor" Value="3"/>
+      <Property Name="MajorPitchLinesLength" Value="5"/>
+      <Property Name="PitchLineSpacing" Value="25"/>
+      <Property Name="ScaleContainer" Value="Source[local].Trend[Trend_Motor].Control[TrendScaleContainer_4]"/>
+      <Property Name="Spacing" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+      <Property Name="UnitText" Value="Abbreviation"/>
+      <Property Name="UnitTextPosition" Value="Start"/>
+    </Control>
+    <Control ClassId="0x0000101A" Name="TrendTimeScale_2">
+      <Property Name="AutomaticScrollOffset" Value="10"/>
+      <Property Name="BackColor" Value="250"/>
+      <Property Name="Cursor1TimeDatapoint" Value="None"/>
+      <Property Name="Cursor2TimeDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+      <Property Name="LabelPosition" Value="Auto"/>
+      <Property Name="ScaleContainer" Value="Source[local].Trend[Trend_Motor].Control[TrendScaleContainer_1]"/>
+      <Property Name="ScrollDatapoint" Value="Source[global].Variable[DataSource_1.screen.Trace.Trace.Config.rScrollX]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="ZoomDatapoint" Value="Source[global].Variable[DataSource_1.screen.Trace.Trace.Config.rZoomX]"/>
+    </Control>
+    <Control ClassId="0x00001016" Name="TrendCurveActTemp">
+      <Property Name="Cursor1ValueDatapoint" Value="Source[global].Variable[DataSource_1.screen.Trace.Trace.Data[0].rCursorY]"/>
+      <Property Name="Cursor2ValueDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="51"/>
+      <Property Name="Height" Value="75"/>
+      <Property Name="HorizontalScale" Value="Source[local].Trend[Trend_Motor].Control[TrendTimeScale_2]"/>
+      <Property Name="Left" Value="342"/>
+      <Property Name="MarkerType" Value="Rectangle"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.Trace.Trace.Cmd.bHideData[0]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+      <Property Name="Top" Value="214"/>
+      <Property Name="TrendData" Value="Source[local].TrendData[Position]"/>
+      <Property Name="VerticalScale" Value="Source[local].Trend[Trend_Motor].Control[Scale_Positon]"/>
+      <Property Name="Width" Value="75"/>
+      <Property Name="ZoomDisplayMode" Value="Average"/>
+    </Control>
+    <Control ClassId="0x00001016" Name="TrendCurveCpuTemp">
+      <Property Name="Cursor1ValueDatapoint" Value="Source[global].Variable[DataSource_1.screen.Trace.Trace.Data[1].rCursorY]"/>
+      <Property Name="Cursor2ValueDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="3"/>
+      <Property Name="Height" Value="75"/>
+      <Property Name="HorizontalScale" Value="Source[local].Trend[Trend_Motor].Control[TrendTimeScale_2]"/>
+      <Property Name="Left" Value="158"/>
+      <Property Name="MarkerType" Value="Rectangle"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.Trace.Trace.Cmd.bHideData[1]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+      <Property Name="Top" Value="194"/>
+      <Property Name="TrendData" Value="Source[local].TrendData[Speed]"/>
+      <Property Name="VerticalScale" Value="Source[local].Trend[Trend_Motor].Control[Scale_Speed]"/>
+      <Property Name="Width" Value="75"/>
+      <Property Name="ZoomDisplayMode" Value="Average"/>
+    </Control>
+    <Control ClassId="0x00001016" Name="TrendCurve_1">
+      <Property Name="Cursor1ValueDatapoint" Value="Source[global].Variable[DataSource_1.screen.Trace.Trace.Data[2].rCursorY]"/>
+      <Property Name="Cursor2ValueDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="237"/>
+      <Property Name="Height" Value="75"/>
+      <Property Name="HorizontalScale" Value="Source[local].Trend[Trend_Motor].Control[TrendTimeScale_2]"/>
+      <Property Name="Left" Value="342"/>
+      <Property Name="MarkerType" Value="Rectangle"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.Trace.Trace.Cmd.bHideData[2]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+      <Property Name="Top" Value="389"/>
+      <Property Name="TrendData" Value="Source[local].TrendData[Current]"/>
+      <Property Name="VerticalScale" Value="Source[local].Trend[Trend_Motor].Control[Scale_CurrentTorque]"/>
+      <Property Name="Width" Value="75"/>
+      <Property Name="ZoomDisplayMode" Value="Average"/>
+    </Control>
+    <Control ClassId="0x00001016" Name="TrendCurve_2">
+      <Property Name="Cursor1ValueDatapoint" Value="Source[global].Variable[DataSource_1.screen.Trace.Trace.Data[3].rCursorY]"/>
+      <Property Name="Cursor2ValueDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="Height" Value="75"/>
+      <Property Name="HorizontalScale" Value="Source[local].Trend[Trend_Motor].Control[TrendTimeScale_2]"/>
+      <Property Name="Left" Value="342"/>
+      <Property Name="MarkerType" Value="Rectangle"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.Trace.Trace.Cmd.bHideData[3]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
+      <Property Name="Top" Value="479"/>
+      <Property Name="TrendData" Value="Source[local].TrendData[Torque]"/>
+      <Property Name="VerticalScale" Value="Source[local].Trend[Trend_Motor].Control[Scale_CurrentTorque]"/>
+      <Property Name="Width" Value="75"/>
+      <Property Name="ZoomDisplayMode" Value="Average"/>
+    </Control>
+  </Controls>
+</Trend>

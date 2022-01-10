@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="Clamp_Frame">
+  <Property Name="BackColor" Value="9"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="768"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="1024"/>
+  <TextGroup>
+    <TextLayer LanguageId="en-GB"/>
+    <TextLayer LanguageId="zh-CN"/>
+    <TextLayer LanguageId="zh-TW"/>
+    <TextLayer LanguageId="pl"/>
+    <IndexMap/>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x0000100D" Name="Line_5">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="583"/>
+      <Property Name="EndY" Value="262"/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="StartX" Value="499"/>
+      <Property Name="StartY" Value="136"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_2">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="183"/>
+      <Property Name="EndY" Value="217"/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="StartX" Value="140"/>
+      <Property Name="StartY" Value="217"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_3">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="388"/>
+      <Property Name="EndY" Value="136"/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="StartX" Value="332"/>
+      <Property Name="StartY" Value="217"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_4">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="498"/>
+      <Property Name="EndY" Value="135"/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="StartX" Value="388"/>
+      <Property Name="StartY" Value="135"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_1">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="97"/>
+      <Property Name="EndY" Value="262"/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="StartX" Value="140"/>
+      <Property Name="StartY" Value="217"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_11">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="212"/>
+      <Property Name="EndY" Value="262"/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="StartX" Value="182"/>
+      <Property Name="StartY" Value="217"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_12">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="332"/>
+      <Property Name="EndY" Value="217"/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="StartX" Value="240"/>
+      <Property Name="StartY" Value="217"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_13">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="239"/>
+      <Property Name="EndY" Value="217"/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="StartX" Value="212"/>
+      <Property Name="StartY" Value="262"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_6">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="585"/>
+      <Property Name="EndY" Value="489"/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="StartX" Value="501"/>
+      <Property Name="StartY" Value="361"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_7">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="291"/>
+      <Property Name="EndY" Value="444"/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="StartX" Value="144"/>
+      <Property Name="StartY" Value="444"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_8">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="320"/>
+      <Property Name="EndY" Value="361"/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="StartX" Value="292"/>
+      <Property Name="StartY" Value="444"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_9">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="501"/>
+      <Property Name="EndY" Value="361"/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="StartX" Value="320"/>
+      <Property Name="StartY" Value="361"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_10">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="91"/>
+      <Property Name="EndY" Value="489"/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="StartX" Value="143"/>
+      <Property Name="StartY" Value="444"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+  </Controls>
+  <KeyMapping/>
+</Layer>

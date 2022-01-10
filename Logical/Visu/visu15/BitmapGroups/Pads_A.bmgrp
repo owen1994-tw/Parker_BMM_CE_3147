@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Pads_A">
+  <Property Name="Description" Value="Bitmap group for input pads"/>
+  <Property Name="Index" Value="52"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="3088" Value="Source[local].Bitmap[Key_NumPad]"/>
+    <BitmapRef ID="3089" Value="Source[local].Bitmap[Key_NumPad_pressed]"/>
+    <BitmapRef ID="3090" Value="Source[local].Bitmap[Key_AlphaPad]"/>
+    <BitmapRef ID="3091" Value="Source[local].Bitmap[Key_AlphaPad_pressed]"/>
+    <BitmapRef ID="3100" Value="Source[local].Bitmap[Key_NumPadLimits]"/>
+    <BitmapRef ID="3101" Value="Source[local].Bitmap[Key_NumPadLimits_pressed]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="3088" Value="0"/>
+    <Index ID="3089" Value="1"/>
+    <Index ID="3090" Value="20"/>
+    <Index ID="3091" Value="21"/>
+    <Index ID="3100" Value="22"/>
+    <Index ID="3101" Value="23"/>
+  </IndexMap>
+</BitmapGroup>

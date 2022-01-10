@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="DieHead_Heating_35_16">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="14"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="2028" Value="Source[local].Bitmap[DIEHEAD_30_20]"/>
+    <BitmapRef ID="2029" Value="Source[local].Bitmap[DIEHAED_HEAT_1_30_20]"/>
+    <BitmapRef ID="2030" Value="Source[local].Bitmap[DIEHAED_HEAT_2_30_20]"/>
+    <BitmapRef ID="2031" Value="Source[local].Bitmap[DIEHAED_HEAT_3_30_20]"/>
+    <BitmapRef ID="2473" Value="Source[local].Bitmap[DIEHAED_HEAT_4_30_20]"/>
+    <BitmapRef ID="2474" Value="Source[local].Bitmap[DIEHAED_COOL_1_30_20]"/>
+    <BitmapRef ID="2475" Value="Source[local].Bitmap[DIEHAED_COOL_2_30_20]"/>
+    <BitmapRef ID="2476" Value="Source[local].Bitmap[DIEHEAD_BROKEN_30_20]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="2028" Value="0"/>
+    <Index ID="2029" Value="1"/>
+    <Index ID="2030" Value="2"/>
+    <Index ID="2031" Value="3"/>
+    <Index ID="2473" Value="4"/>
+    <Index ID="2474" Value="5"/>
+    <Index ID="2475" Value="6"/>
+    <Index ID="2476" Value="7"/>
+  </IndexMap>
+</BitmapGroup>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.10.53 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="ANSIC" Description="system log infomation">loginfo</Object>
+    <Object Type="DataObject" Language="Simple" Description="Data index of the logbook error">log_txt</Object>
+  </Objects>
+</Package>

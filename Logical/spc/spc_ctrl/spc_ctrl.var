@@ -1,0 +1,31 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: spc_ctrl
+ * File: spc_ctrl.var
+ * Author: lij
+ * Created: July 16, 2015
+ ********************************************************************
+ * Local variables of program spc_ctrl
+ ********************************************************************)
+VAR
+	KeyMatric : ARRAY[0..99] OF USINT;
+	DataObjOperate : DatObj_Operate_typ;
+	DatObj_Info : DatObjInfo;
+	DatObj_Create : DatObjCreate;
+	DatObj_Write : DatObjWrite;
+	DatObj_Read : DatObjRead;
+	idxSPC : UDINT;
+	pData : UDINT;
+	status_tmpalloc : UINT;
+	status_tmpfree : UINT;
+	oldCycleNo : UDINT;
+	bCycleChange : BOOL;
+	bCmdRefresh : BOOL;
+	idxScreen : UDINT;
+	SPC_Dis : SPC_Screen_typ;
+	DataList : ARRAY[0..23] OF SPC_Unit_typ;
+	FocusCtrlL : ARRAY[0..19] OF UINT;
+	FocusCtrlR : ARRAY[0..19] OF UINT;
+	oldPicture : UINT;
+END_VAR

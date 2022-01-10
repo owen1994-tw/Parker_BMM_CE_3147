@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Configuration">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="16"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="3770593" Value="Actuator Type"/>
+    <Text ID="3770594" Value="Valve Type"/>
+    <Text ID="3770595" Value="Pressure Output "/>
+    <Text ID="3770596" Value="Flux Output "/>
+    <Text ID="3770597" Value="Mechanism Type"/>
+    <Text ID="3770599" Value="Sensor Type"/>
+    <Text ID="3770600" Value=""/>
+    <Text ID="3770601" Value=""/>
+    <Text ID="3770602" Value=""/>
+    <Text ID="3770603" Value=""/>
+    <Text ID="3770604" Value="Hydraulic"/>
+    <Text ID="3770605" Value="Electric"/>
+    <Text ID="3770606" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="3770593" Value="驅動類型"/>
+    <Text ID="3770594" Value="油壓閥類型"/>
+    <Text ID="3770595" Value="壓力輸出"/>
+    <Text ID="3770596" Value="流量輸出"/>
+    <Text ID="3770597" Value="機構類型"/>
+    <Text ID="3770599" Value="傳感器類型"/>
+    <Text ID="3770600" Value=""/>
+    <Text ID="3770601" Value=""/>
+    <Text ID="3770602" Value=""/>
+    <Text ID="3770603" Value=""/>
+    <Text ID="3770604" Value="油壓"/>
+    <Text ID="3770605" Value="電動"/>
+    <Text ID="3770606" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="3770593" Value="驅動類型"/>
+    <Text ID="3770594" Value="油壓閥類型"/>
+    <Text ID="3770595" Value="壓力輸出"/>
+    <Text ID="3770596" Value="流量輸出"/>
+    <Text ID="3770597" Value="機構類型"/>
+    <Text ID="3770599" Value="傳感器類型"/>
+    <Text ID="3770600" Value=""/>
+    <Text ID="3770601" Value=""/>
+    <Text ID="3770602" Value=""/>
+    <Text ID="3770603" Value=""/>
+    <Text ID="3770604" Value="油壓"/>
+    <Text ID="3770605" Value="電動"/>
+    <Text ID="3770606" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="3770593" Value="Typ sterownika"/>
+    <Text ID="3770594" Value="Typ jednostki"/>
+    <Text ID="3770595" Value="Wyjscie cisnienia"/>
+    <Text ID="3770596" Value="Wyjscie przeplywu"/>
+    <Text ID="3770597" Value="Typ mechanizmu"/>
+    <Text ID="3770599" Value=""/>
+    <Text ID="3770600" Value=""/>
+    <Text ID="3770601" Value=""/>
+    <Text ID="3770602" Value=""/>
+    <Text ID="3770603" Value=""/>
+    <Text ID="3770604" Value="Hydrauliczny"/>
+    <Text ID="3770605" Value="Elektryczny"/>
+    <Text ID="3770606" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="3770593" Value="0"/>
+    <Index ID="3770594" Value="1"/>
+    <Index ID="3770595" Value="2"/>
+    <Index ID="3770596" Value="3"/>
+    <Index ID="3770597" Value="4"/>
+    <Index ID="3770599" Value="5"/>
+    <Index ID="3770600" Value="6"/>
+    <Index ID="3770601" Value="7"/>
+    <Index ID="3770602" Value="8"/>
+    <Index ID="3770603" Value="9"/>
+    <Index ID="3770604" Value="10"/>
+    <Index ID="3770605" Value="11"/>
+    <Index ID="3770606" Value="12"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,39 @@
+VAR
+	ValveDelay : REAL;
+	tTask : REAL := 0.0;
+	tErrorDelay : REAL;
+	rMin : REAL;
+	RTInfo_Task : RTInfo := (0);
+	vActHydDT2_L : HydDT2;
+	vActHydDT2_R : HydDT2;
+	ToggleInputL : USINT;
+	ToggleInputR : USINT;
+	ToggleLOld : ARRAY[0..30] OF Hyd_Node_typ;
+	ToggleROld : ARRAY[0..30] OF Hyd_Node_typ;
+	TogLinearL : HydLinear;
+	TogLinearR : HydLinear;
+	xToggleNodeL : ARRAY[0..30] OF Hyd_Node_typ;
+	xTogLinearL : HydLinear;
+	xToggleNodeR : ARRAY[0..30] OF Hyd_Node_typ;
+	xTogLinearR : HydLinear;
+	bToggle_Init : USINT;
+	oldToggleLinNodeNum : USINT;
+	ToggleLinNodeNum : USINT;
+END_VAR
+(*For robot singal stand on timer*)
+VAR
+	OldRClampOpnDI : USINT;
+	OldLClampOpnDI : USINT;
+	bClampPropValveOutputInverse : USINT;
+	Toggle_ToleranceFactor : REAL := 1;
+END_VAR
+(*Test*)
+VAR
+	Test_vTimeProf_accel : REAL := 1000;
+	Test_vTimeProf_decel : REAL := 1000;
+END_VAR
+(*ExtInMoldSticker*)
+VAR
+	OldRExtInMoldStickerBwLimit : USINT;
+	OldLExtInMoldStickerBwLimit : USINT;
+END_VAR

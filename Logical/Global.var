@@ -1,0 +1,162 @@
+(*global variables*)
+VAR
+	gAccuLinear : DCDT_typ;
+	gAlarm : Alarm_typ;
+	gAxisCtrl : ARRAY[0..MAX_AXIS_NUM] OF Axis_Ctrl_typ;
+	gControlInfo : Control_Info_typ;
+	gDS1119_Axis : ARRAY[0..MAX_AXIS_NUM] OF DS;
+END_VAR
+VAR RETAIN
+	gExtruderA : Extruder_Ctrl_typ;
+	gExtruderB : Extruder_Ctrl_typ;
+	gExtruderC : Extruder_Ctrl_typ;
+	gExtruderD : Extruder_Ctrl_typ := (0);
+	gExtruderVisu : Extruder_Ctrl_typ;
+	gH_IO : H_Zone_typ := (0);
+END_VAR
+VAR
+	gHardWare : HardWare_typ;
+END_VAR
+VAR RETAIN
+	gHeatingPlan : Heating_Plan_typ := (0);
+END_VAR
+VAR
+	gImply : Imply_typ;
+	gMachineFix : Machine_Fix_typ;
+	gMachineIn : Machine_In_typ;
+	gMachineInfo : Machine_Info_typ;
+	gMachineOut : Machine_Out_typ;
+	gMachinePara : Machine_Para_typ;
+END_VAR
+VAR RETAIN
+	gMachineWorkDays : UDINT;
+	gMachineStopDays : UDINT;
+	gMachineWorkTime : UDINT;
+	gMacOption : Machine_Option_typ;
+	gBatchInfo : Batch_Info_typ;
+END_VAR
+VAR
+	gMacTimer : Machine_Timer_typ;
+	gPanelObj : Panel_Basic_typ;
+	gPROCESS_info : Process_Status_typ;
+	gPwd : Pwd_typ;
+	gRecipeOperate : Recipe_Operate_typ;
+	gScreenShot : ScreenShotObj_typ;
+	gServoLinear : DCDT_typ;
+END_VAR
+VAR RETAIN
+	gSPC_Current : SPC_Unit_typ;
+	gT_Par : Temp_Ctrl_typ := (0);
+END_VAR
+VAR
+	gThickData : Thick_Data_typ;
+	gTempData : ARRAY[0..100] OF DINT;
+	gThickFix : Thick_Fix_typ;
+	gThickIO : Thick_IO_typ;
+END_VAR
+VAR RETAIN
+	gThickProf : Profile_typ;
+END_VAR
+VAR
+	gTKauto : task_status_type;
+	gTKcalib : task_status_type;
+	gTKmanual : task_status_type;
+	gUSB_1 : USB_Device_typ;
+	gUSB_2 : USB_Device_typ;
+	gUserFix : User_Fix_typ;
+	gUserFix_new : User_Fix_new_typ;
+	gUserPara : User_Para_typ;
+END_VAR
+VAR RETAIN
+	gCycleTimes : UDINT;
+	gCycleTimesL : UDINT;
+	gCycleTimesR : UDINT;
+END_VAR
+VAR CONSTANT
+	LED_OFF : USINT := 0;
+	LED_ON : USINT := 1;
+	LED_QUICK_BLINK : USINT := 3;
+	LED_SLOW_BLINK : USINT := 2;
+END_VAR
+VAR
+	LMold : Mold_typ;
+	RMold : Mold_typ;
+END_VAR
+(*Test Pump*)
+VAR
+	btnTesetPQ1 : BOOL;
+	btnTesetPQ : BOOL;
+END_VAR
+(*Servo Axis*)
+VAR
+	gAxisClampL : ACP10AXIS_typ;
+	gAxisClampR : ACP10AXIS_typ;
+	gAxisCarriageL : ACP10AXIS_typ;
+	gAxisCarriageR : ACP10AXIS_typ;
+	gAxisBlowPinL : ACP10AXIS_typ;
+	gAxisBlowPinR : ACP10AXIS_typ;
+	gAxisBlowPin2L : ACP10AXIS_typ;
+	gAxisBlowPin2R : ACP10AXIS_typ;
+	gAxisTransferL : ACP10AXIS_typ;
+	gAxisTransferR : ACP10AXIS_typ;
+	gAxisUpDnL : ACP10AXIS_typ;
+	gAxisUpDnR : ACP10AXIS_typ;
+	gAxisExtrlift : ACP10AXIS_typ;
+	gAxisThick : ACP10AXIS_typ;
+END_VAR
+(*Extruder Inverter Powerlink*)
+VAR
+	ExtruderA_Retain : {REDUND_UNREPLICABLE} Extruder_Basic_typ := (0); (*wzq*)
+	ExtruderB_Retain : {REDUND_UNREPLICABLE} Extruder_Basic_typ := (0); (*wzq*)
+	ExtruderC_Retain : Extruder_Basic_typ;
+	ExtruderV_Retain : Extruder_Basic_typ;
+	gExtruderACtrl : Inverter_Ctrl_typ;
+	gExtruderBCtrl : Inverter_Ctrl_typ;
+	gExtruderCCtrl : Inverter_Ctrl_typ;
+	gExtruderVCtrl : Inverter_Ctrl_typ;
+END_VAR
+(*Robot Time*)
+VAR
+	LRobotCarriageTime : TOF_10ms;
+	RobotCarriageTime : TOF_10ms;
+	LRobotClampTime : TOF_10ms;
+	RobotClampTime : TOF_10ms;
+END_VAR
+(*Insert your comment here.*)
+VAR
+	LRobotClampTimePara : UDINT;
+	RobotClampTimePara : UDINT;
+	LRobotCarriageTimePara : UDINT;
+	RobotCarriageTimePara : UDINT;
+	usScaleIndex : USINT;
+	gLClampOpnFlag_Calib : USINT;
+	gRClampOpnFlag_Calib : USINT;
+	ParisonSacleDown : DINT;
+	ParisonSacleUp : DINT;
+	ParisonSacleDown_Old : DINT;
+	ParisonSacleUp_Old : DINT;
+	ParisonSacleDownFlag : BOOL;
+	ParisonSacleUpFlag : BOOL;
+	ParisonSacleDownFlag_Old : BOOL;
+	ParisonSacleUpFlag_Old : BOOL;
+	gLevelTooLow : BOOL;
+	gExtruderTempLow_HMIFlag : BOOL;
+	gTempfirstHeatOK : DINT;
+	gTempfirstHeatOK_Flag : BOOL;
+	gPasswordLogout : BOOL;
+	gAcs380Ctrl : Acs380Ctl_type;
+	gEnableAll_HMI : BOOL;
+	gDisableAll_HMI : BOOL;
+	gExtruderHMI_Enable : ARRAY[0..NUM_ACS380_MINUS_ONE] OF BOOL;
+END_VAR
+VAR CONSTANT
+	NUM_ACS380_MINUS_ONE : USINT := 4; (*Acs380ÊýÁ¿-1*)
+END_VAR
+VAR
+	ExIndex : USINT;
+	gExSPC : ARRAY[0..19] OF ExSPC_typ;
+	gExSPC_Clear : BOOL;
+	gAxisPwr : ACP10AXIS_typ;
+	gMotorTrace : MotorTrace_typ;
+	gAxisCarriageR_1 : ACP10AXIS_typ;
+END_VAR

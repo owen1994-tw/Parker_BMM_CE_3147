@@ -1,0 +1,59 @@
+VAR
+	TC_TIME : UINT;
+	tTask : REAL := 0.0;
+	RTInfo_v : RTInfo;
+	fubTransferBelt : HydSCurveRamp;
+	ProductCntOld : USINT;
+	idx : UINT;
+	DOInternal : ARRAY[0..199] OF USINT;
+	Power_Error : USINT;
+	DI_Error : USINT;
+	DO_Error : USINT;
+	AO_Error : USINT;
+	AI_Error : USINT;
+	AT_Error : USINT;
+	SEFETY_Error : USINT;
+	AP_Error : USINT;
+	ExtrA_Ramp : HydRampCos;
+	ExtrB_Ramp : HydRampCos;
+	ExtrV_Ramp : HydRampCos;
+	BlowPinUpFilter_R : DI_Filter_typ;
+	BlowPinUpFilter_L : DI_Filter_typ;
+	BlowPin2UpFilter_R : DI_Filter_typ;
+	BlowPin2UpFilter_L : DI_Filter_typ;
+	CarriageBwFilter_L : DI_Filter_typ;
+	CarriageBwFilter_R : DI_Filter_typ;
+	CarriageFwFilter_L : DI_Filter_typ;
+	CarriageFwFilter_R : DI_Filter_typ;
+	TopDeflashFwFilter_L : DI_Filter_typ;
+	TopDeflashFwFilter_R : DI_Filter_typ;
+	TopDeflashBwFilter_L : DI_Filter_typ;
+	TopDeflashBwFilter_R : DI_Filter_typ;
+	CoolPinUpFilter_R : DI_Filter_typ; (*Add new filter of CoolPin up Right*)
+	CoolPinUpFilter_L : DI_Filter_typ; (*Add new filter of CoolPin up Left*)
+	RobotFwFilter_L : DI_Filter_typ;
+	RobotFwFilter_R : DI_Filter_typ;
+	RobotBwFilter_L : DI_Filter_typ;
+	RobotBwFilter_R : DI_Filter_typ;
+	RobotUpFilter_L : DI_Filter_typ;
+	RobotUpFilter_R : DI_Filter_typ;
+	ParisonPumpFilter : DI_Filter_typ;
+	OilPumpFilter : DI_Filter_typ;
+	CoolingPumpFilter : DI_Filter_typ;
+	TonnagePumpFilter : DI_Filter_typ;
+	BottomDeflashFwFilter_L : DI_Filter_typ;
+	BottomDeflashFwFilter_R : DI_Filter_typ;
+	BottomDeflashBwFilter_L : DI_Filter_typ;
+	BottomDeflashBwFilter_R : DI_Filter_typ;
+	TopDeflashClsFilter_L : DI_Filter_typ;
+	TopDeflashClsFilter_R : DI_Filter_typ;
+	ErrCounter : UDINT;
+	OldCalibSatus : UINT;
+	CalibLed : USINT;
+END_VAR
+(*Lub Force Output*)
+VAR
+	bForceOutLub : BOOL;
+	RKeyMatric : ARRAY[0..MAX_KEY_COUNT] OF USINT;
+	idx_DI : UINT;
+END_VAR

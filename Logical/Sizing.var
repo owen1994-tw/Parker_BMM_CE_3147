@@ -1,0 +1,47 @@
+(********************************************************************
+ * COPYRIGHT --  B&R
+ ********************************************************************
+ * File: Sizing.var
+ * Author: lij
+ * Created: December 19, 2013
+ ********************************************************************
+ * Global Sizing var of project BMM
+ ********************************************************************)
+(*Key and object Max*)
+VAR CONSTANT
+	MAX_KEY_COUNT : UINT := 400;
+	MAX_OBJECT : USINT := 100;
+END_VAR
+(*Trend curve number*)
+VAR CONSTANT
+	TREND_CURVE_NUM : USINT := 40;
+END_VAR
+(*temperature idex and group ---> MAX*)
+VAR CONSTANT
+	MAX_IDX_ZONE : USINT := 40; (*Max. Heating zone index  ---- recipe*)
+	MAX_IDX_CONTRL_ZONES : USINT := 33; (*Max. Control Heating zone index*)
+	MAX_IDX_TEMPGROUP : USINT := 2; (*Max. Heating group index   ----- recipe*)
+END_VAR
+(*third axis control ---> MAX*)
+VAR CONSTANT
+	MAX_AXIS_NUM : USINT := 2; (*Max Axis number*)
+END_VAR
+(*Alarm index and text ---> MAX*)
+VAR CONSTANT
+	MAX_ALARM_NUM : UINT := 500; (*Max alarm number*)
+	MAX_ALARM_TEXT : UINT := 120; (*Max alarm text length*)
+END_VAR
+(*Log information buffer length*)
+VAR CONSTANT
+	MAX_LOG_BUFFER : USINT := 27; (*Max log buffer length*)
+END_VAR
+(*Frequency inventor*)
+VAR CONSTANT
+	MAX_IDX_COMM : USINT := 3;
+	MAX_IDX_CONROL_COMM : USINT := 2;
+END_VAR
+(*Energy Monitor Module*)
+VAR CONSTANT
+	MAX_IDX_ENERGY : USINT := 3;
+	MAX_TOGGLE_LIN_NUM : USINT := 30;
+END_VAR

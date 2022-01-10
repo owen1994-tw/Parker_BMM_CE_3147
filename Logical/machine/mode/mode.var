@@ -1,0 +1,9 @@
+VAR
+	TKmode : task_status_type;
+	id_auto	:UDINT;	
+	id_manual	:UDINT;	
+	id_calib	:UDINT;	
+	status_auto	:UINT;	
+	status_man	:UINT;	
+	status_calib	:UINT;	
+END_VAR

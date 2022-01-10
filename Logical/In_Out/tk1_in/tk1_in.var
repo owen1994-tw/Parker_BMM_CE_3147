@@ -1,0 +1,48 @@
+VAR
+	tTask : REAL := 0.0;
+	RTInfo_Task : RTInfo := (0);
+	LCarriageFilter : HydMovAvgFlt;
+	RCarriageFilter : HydMovAvgFlt;
+	LClampFilter : HydMovAvgFlt;
+	RClampFilter : HydMovAvgFlt;
+	LBlowpinFilter : HydMovAvgFlt;
+	RBlowpinFilter : HydMovAvgFlt;
+	ServoFilter : HydMovAvgFlt;
+	lPT2_MeltP_A : HydPT2;
+	lPT2_MeltP_B : HydPT2;
+END_VAR
+(*Extruder A*)
+VAR
+	DISpeedExtrA : BOOL;
+	vActHydDT2ExtrA : HydDT2;
+	RotatespeedExtrA : INT;
+END_VAR
+(*Extruder B*)
+VAR
+	DISpeedExtrB : BOOL;
+	vActHydDT2ExtrB : HydDT2;
+	RotatespeedExtrB : INT;
+END_VAR
+(*Extruder C*)
+VAR
+	DISpeedExtrC : BOOL;
+	vActHydDT2ExtrC : HydDT2;
+	RotatespeedExtrC : INT;
+END_VAR
+(*Extruder D*)
+VAR
+	DISpeedExtrD : BOOL;
+	vActHydDT2ExtrD : HydDT2;
+	RotatespeedExtrD : INT;
+END_VAR
+(*Extruder Visu*)
+VAR
+	DISpeedExtrVisu : BOOL;
+	vActHydDT2ExtrVisu : HydDT2;
+	RotatespeedExtrVisu : INT;
+	IPT2_ACC_P : HydPT2;
+	IPT2_OilFlux : HydPT2; (*Calculate servo flow from inverter*)
+	LinSplineOilFlux : HCRLinSpline;
+	OilFluxNode : ARRAY[0..1] OF HCRNode_typ;
+	IPT2_ACC_Extrlift_P : HydPT2;
+END_VAR

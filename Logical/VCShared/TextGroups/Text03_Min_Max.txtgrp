@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Text03_Min_Max">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="3"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="488501" Value="Minimum position"/>
+    <Text ID="488502" Value="Max position"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="488501" Value="最小位(薄)"/>
+    <Text ID="488502" Value="最大位(厚)"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="488501" Value="最小位(薄)"/>
+    <Text ID="488502" Value="最大位(厚)"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="488501" Value="Minmalna pozycja"/>
+    <Text ID="488502" Value="Max pozwycja"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="488501" Value="0"/>
+    <Index ID="488502" Value="1"/>
+  </IndexMap>
+</TextGroup>

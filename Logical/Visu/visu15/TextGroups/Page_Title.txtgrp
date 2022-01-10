@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Page_Title">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="29"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="3288834" Value=""/>
+    <Text ID="3288835" Value="Overview"/>
+    <Text ID="3288836" Value="Temperature Zone Settimg 1"/>
+    <Text ID="3288837" Value=""/>
+    <Text ID="3288838" Value="Temperature Zone Settimg 2"/>
+    <Text ID="3288839" Value="Pre-Heating"/>
+    <Text ID="3288840" Value=""/>
+    <Text ID="3288841" Value=""/>
+    <Text ID="3288842" Value=""/>
+    <Text ID="3288843" Value=""/>
+    <Text ID="3288844" Value=""/>
+    <Text ID="3288845" Value=""/>
+    <Text ID="3288846" Value="Temp. Profile 6"/>
+    <Text ID="3288847" Value="Temp. Overview"/>
+    <Text ID="3288848" Value=""/>
+    <Text ID="3288849" Value="Temp. Profile 1"/>
+    <Text ID="3288850" Value="Temp. Profile 2"/>
+    <Text ID="3288851" Value="Temp. Profile 4"/>
+    <Text ID="3288852" Value="Temp. Profile 5"/>
+    <Text ID="3288853" Value=""/>
+    <Text ID="3288854" Value=""/>
+    <Text ID="3288855" Value="Temp. Profile 3"/>
+    <Text ID="3288856" Value="Temp. Profile 7"/>
+    <Text ID="3288857" Value="Temp. Profile 8"/>
+    <Text ID="3288858" Value="Temp. Optimize 1"/>
+    <Text ID="3288859" Value="Temp. Optimize 2"/>
+    <Text ID="3288860" Value="Temp. Optimize 3"/>
+    <Text ID="3288861" Value="Temp. Optimize 4"/>
+    <Text ID="3288862" Value="Temp. Optimize 5"/>
+    <Text ID="3288863" Value="Temp. Optimize 6"/>
+    <Text ID="3288864" Value=""/>
+    <Text ID="3288865" Value=""/>
+    <Text ID="3288866" Value="Temp. Configure 1"/>
+    <Text ID="3288867" Value="Temp. Configure 2"/>
+    <Text ID="3288868" Value="Temp. Configure 3"/>
+    <Text ID="3288869" Value="Temp. Configure 4"/>
+    <Text ID="3288870" Value="Temp. Configure 5"/>
+    <Text ID="3288871" Value="Temp. Configure 6"/>
+    <Text ID="3288872" Value=""/>
+    <Text ID="3288873" Value=""/>
+    <Text ID="3288874" Value=""/>
+    <Text ID="3288875" Value="System (Timer)"/>
+    <Text ID="3288876" Value="Blow Pin (Timer)"/>
+    <Text ID="3288877" Value="DeFlash (Timer)"/>
+    <Text ID="3288878" Value="Robot (Timer)"/>
+    <Text ID="3288879" Value="Post Cooling (Timer)"/>
+    <Text ID="3288880" Value="Inflation (Timer)"/>
+    <Text ID="3288881" Value="Other(Timer)"/>
+    <Text ID="3288882" Value="Cycle Alarm 1"/>
+    <Text ID="3288883" Value="Cycle Alarm 2"/>
+    <Text ID="3288884" Value=""/>
+    <Text ID="3288885" Value="Left Mold"/>
+    <Text ID="3288886" Value="Right Mold"/>
+    <Text ID="3288887" Value="Left Carriage"/>
+    <Text ID="3288888" Value="Right Carriage"/>
+    <Text ID="3288889" Value="Robot"/>
+    <Text ID="3288890" Value=""/>
+    <Text ID="3288891" Value=""/>
+    <Text ID="3288892" Value="Punching"/>
+    <Text ID="3288893" Value="Axis Toggle Linear"/>
+    <Text ID="3288894" Value="Bottom Deflash"/>
+    <Text ID="3288895" Value="Left Blow Pin"/>
+    <Text ID="3288896" Value="Right Blow Pin"/>
+    <Text ID="3288897" Value=""/>
+    <Text ID="3288898" Value="Sub Mold"/>
+    <Text ID="3288899" Value="Swing"/>
+    <Text ID="3288900" Value=""/>
+    <Text ID="3288901" Value=""/>
+    <Text ID="3288902" Value="Accumulator"/>
+    <Text ID="3288903" Value="Calibration Mode Parameter 1"/>
+    <Text ID="3288904" Value="Calibration Mode Parameter 2"/>
+    <Text ID="3288905" Value="Machine function"/>
+    <Text ID="3288906" Value="Recipe"/>
+    <Text ID="3288907" Value="Extruder Setting"/>
+    <Text ID="3288908" Value=""/>
+    <Text ID="3297257" Value=""/>
+    <Text ID="3297258" Value="Parison Length"/>
+    <Text ID="3297259" Value=""/>
+    <Text ID="3297260" Value=""/>
+    <Text ID="3297261" Value=""/>
+    <Text ID="3297262" Value=""/>
+    <Text ID="3297263" Value="Parison Parameter Setting"/>
+    <Text ID="3297264" Value="Parison Pofile Setting"/>
+    <Text ID="3297265" Value="Parison Trace"/>
+    <Text ID="3297266" Value=""/>
+    <Text ID="3297267" Value=""/>
+    <Text ID="3297268" Value="Profile Marker"/>
+    <Text ID="3297269" Value="Profile Data"/>
+    <Text ID="3297270" Value=""/>
+    <Text ID="3297271" Value=""/>
+    <Text ID="3297272" Value="DO 4-2 "/>
+    <Text ID="3297273" Value="DI 2-1"/>
+    <Text ID="3297274" Value="DI 2-2"/>
+    <Text ID="3297275" Value=""/>
+    <Text ID="3297276" Value="DO 4-1"/>
+    <Text ID="3297277" Value="DO 4-3"/>
+    <Text ID="3297278" Value="DO 4-4"/>
+    <Text ID="3297279" Value=" AI"/>
+    <Text ID="3297280" Value=" AO"/>
+    <Text ID="3297281" Value="Module status"/>
+    <Text ID="3297282" Value=""/>
+    <Text ID="3297283" Value=""/>
+    <Text ID="3297284" Value="Energy Monitor"/>
+    <Text ID="3297285" Value="Energy Monitor"/>
+    <Text ID="3297286" Value="Machine Status"/>
+    <Text ID="3297287" Value="Automatic Condition"/>
+    <Text ID="3297288" Value="SPC Control"/>
+    <Text ID="3297289" Value="L-SPC"/>
+    <Text ID="3297290" Value="R-SPC"/>
+    <Text ID="3297291" Value=""/>
+    <Text ID="3297292" Value=""/>
+    <Text ID="3297293" Value="Current alarm"/>
+    <Text ID="3297294" Value="Historical Alarm"/>
+    <Text ID="3297295" Value=""/>
+    <Text ID="3297296" Value=""/>
+    <Text ID="3297297" Value=""/>
+    <Text ID="3297298" Value=""/>
+    <Text ID="3297299" Value=""/>
+    <Text ID="3297300" Value=""/>
+    <Text ID="3297301" Value=""/>
+    <Text ID="3297302" Value="Permission login"/>
+    <Text ID="3297303" Value="System Setting 1"/>
+    <Text ID="3297304" Value="System Setting 2"/>
+    <Text ID="3297305" Value="System Setting 3"/>
+    <Text ID="3297306" Value=""/>
+    <Text ID="3297307" Value="Industry 4.0"/>
+    <Text ID="3297308" Value=""/>
+    <Text ID="3297309" Value=""/>
+    <Text ID="3297310" Value=""/>
+    <Text ID="3297311" Value=""/>
+    <Text ID="3297312" Value="Modify Password"/>
+    <Text ID="3297313" Value="Axis Calibration"/>
+    <Text ID="3297314" Value="Axis Calibration"/>
+    <Text ID="3297315" Value="Prop Valve Dead Zone Setting"/>
+    <Text ID="3297316" Value="Pressure Calibration"/>
+    <Text ID="3297317" Value="Network setting"/>
+    <Text ID="3297318" Value="Log information"/>
+    <Text ID="3297319" Value="SDM"/>
+    <Text ID="3297320" Value="VNC key"/>
+    <Text ID="3297321" Value="Payment passward"/>
+    <Text ID="3297322" Value="Parison Init setting"/>
+    <Text ID="3297323" Value=" Parison Calibration"/>
+    <Text ID="3297324" Value=""/>
+    <Text ID="3297325" Value="Parison default"/>
+    <Text ID="3297326" Value=""/>
+    <Text ID="3297327" Value="Parison Calibration Help"/>
+    <Text ID="3297328" Value="Parison Driver"/>
+    <Text ID="3297329" Value=""/>
+    <Text ID="3297330" Value=""/>
+    <Text ID="3297331" Value=""/>
+    <Text ID="3297332" Value="Screen Calibration"/>
+    <Text ID="3297333" Value="Motor Trend"/>
+    <Text ID="3297334" Value=""/>
+    <Text ID="3297335" Value=""/>
+    <Text ID="3297336" Value=""/>
+    <Text ID="3297337" Value=""/>
+    <Text ID="3297338" Value=""/>
+    <Text ID="3297339" Value=""/>
+    <Text ID="3297340" Value=""/>
+    <Text ID="3297341" Value=""/>
+    <Text ID="3297342" Value="Fast Setting"/>
+    <Text ID="3297343" Value=""/>
+    <Text ID="3297344" Value=""/>
+    <Text ID="3297345" Value=""/>
+    <Text ID="3297346" Value=""/>
+    <Text ID="3297347" Value=""/>
+    <Text ID="3297348" Value=""/>
+    <Text ID="3297349" Value=""/>
+    <Text ID="3297350" Value=""/>
+    <Text ID="3297351" Value=""/>
+    <Text ID="3297352" Value="Configuration Setting  help"/>
+    <Text ID="3297353" Value="Clamp Configuration"/>
+    <Text ID="3297354" Value="Carriage Configuration"/>
+    <Text ID="3297355" Value="Blow Pin Configuration"/>
+    <Text ID="3297356" Value="Swing Configuration"/>
+    <Text ID="3297357" Value=""/>
+    <Text ID="3297358" Value=""/>
+    <Text ID="3297359" Value=""/>
+    <Text ID="3297360" Value=""/>
+    <Text ID="3297361" Value=""/>
+    <Text ID="3297362" Value="OEM Setting 1"/>
+    <Text ID="3297363" Value="OEM Setting 2"/>
+    <Text ID="3297364" Value="OEM Setting 3"/>
+    <Text ID="3297365" Value="OEM Setting 4"/>
+    <Text ID="3297366" Value=""/>
+    <Text ID="3450721" Value="Left Blow Pin1"/>
+    <Text ID="3450722" Value="Right Blow Pin1"/>
+    <Text ID="3450723" Value="Left Blow Pin2"/>
+    <Text ID="3450724" Value="Right Blow Pin2"/>
+    <Text ID="3542868" Value=""/>
+    <Text ID="3542869" Value=""/>
+    <Text ID="3542870" Value=""/>
+    <Text ID="3542871" Value=""/>
+    <Text ID="3542872" Value="OEM Setting 10"/>
+    <Text ID="3542873" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="3288834" Value=""/>
+    <Text ID="3288835" Value="總覽"/>
+    <Text ID="3288836" Value="溫區設定1"/>
+    <Text ID="3288837" Value=""/>
+    <Text ID="3288838" Value="溫區設定2"/>
+    <Text ID="3288839" Value="預熱"/>
+    <Text ID="3288840" Value=""/>
+    <Text ID="3288841" Value=""/>
+    <Text ID="3288842" Value=""/>
+    <Text ID="3288843" Value=""/>
+    <Text ID="3288844" Value=""/>
+    <Text ID="3288845" Value=""/>
+    <Text ID="3288846" Value="溫度曲線 6"/>
+    <Text ID="3288847" Value="溫度總欖"/>
+    <Text ID="3288848" Value=""/>
+    <Text ID="3288849" Value="溫度曲線 1"/>
+    <Text ID="3288850" Value="溫度曲線 2"/>
+    <Text ID="3288851" Value="溫度曲線 4"/>
+    <Text ID="3288852" Value="溫度曲線 5"/>
+    <Text ID="3288853" Value=""/>
+    <Text ID="3288854" Value=""/>
+    <Text ID="3288855" Value="溫度曲線 3"/>
+    <Text ID="3288856" Value="溫度曲線 7"/>
+    <Text ID="3288857" Value="溫度曲線 8"/>
+    <Text ID="3288858" Value="溫度優化 1"/>
+    <Text ID="3288859" Value="溫度優化 2"/>
+    <Text ID="3288860" Value="溫度優化 3"/>
+    <Text ID="3288861" Value="溫度優化 4"/>
+    <Text ID="3288862" Value="溫度優化 5"/>
+    <Text ID="3288863" Value="溫度優化 6"/>
+    <Text ID="3288864" Value=""/>
+    <Text ID="3288865" Value=""/>
+    <Text ID="3288866" Value="溫區配置参数 1"/>
+    <Text ID="3288867" Value="溫區配置参数 2"/>
+    <Text ID="3288868" Value="溫區配置参数 3"/>
+    <Text ID="3288869" Value="溫區配置参数 4"/>
+    <Text ID="3288870" Value="溫區配置参数 5"/>
+    <Text ID="3288871" Value="溫區配置参数 6"/>
+    <Text ID="3288872" Value=""/>
+    <Text ID="3288873" Value=""/>
+    <Text ID="3288874" Value=""/>
+    <Text ID="3288875" Value="系統(計時)"/>
+    <Text ID="3288876" Value="吹桿(計時)"/>
+    <Text ID="3288877" Value="打手把(計時)"/>
+    <Text ID="3288878" Value="機械手(計時)"/>
+    <Text ID="3288879" Value="轉接吹冷(計時)"/>
+    <Text ID="3288880" Value="脹風(計時)"/>
+    <Text ID="3288881" Value="其他(計時)"/>
+    <Text ID="3288882" Value="週期警報 1"/>
+    <Text ID="3288883" Value="週期警報 2"/>
+    <Text ID="3288884" Value=""/>
+    <Text ID="3288885" Value="左開關模"/>
+    <Text ID="3288886" Value="右開關模"/>
+    <Text ID="3288887" Value="左移模"/>
+    <Text ID="3288888" Value="右移模"/>
+    <Text ID="3288889" Value="機械手"/>
+    <Text ID="3288890" Value=""/>
+    <Text ID="3288891" Value=""/>
+    <Text ID="3288892" Value="打手把"/>
+    <Text ID="3288893" Value="驅動桿線性化"/>
+    <Text ID="3288894" Value="打瓶底"/>
+    <Text ID="3288895" Value="左吹氣桿"/>
+    <Text ID="3288896" Value="右吹氣桿"/>
+    <Text ID="3288897" Value=""/>
+    <Text ID="3288898" Value="模芯"/>
+    <Text ID="3288899" Value="抬頭"/>
+    <Text ID="3288900" Value=""/>
+    <Text ID="3288901" Value=""/>
+    <Text ID="3288902" Value="蓄壓器"/>
+    <Text ID="3288903" Value="調模參數1"/>
+    <Text ID="3288904" Value="調模參數2"/>
+    <Text ID="3288905" Value="機器功能"/>
+    <Text ID="3288906" Value="配方"/>
+    <Text ID="3288907" Value="押出設定"/>
+    <Text ID="3288908" Value=""/>
+    <Text ID="3297257" Value=""/>
+    <Text ID="3297258" Value="厚薄長度控制"/>
+    <Text ID="3297259" Value=""/>
+    <Text ID="3297260" Value=""/>
+    <Text ID="3297261" Value=""/>
+    <Text ID="3297262" Value=""/>
+    <Text ID="3297263" Value="厚薄參數設定"/>
+    <Text ID="3297264" Value="厚薄曲線設定"/>
+    <Text ID="3297265" Value="厚薄跟蹤曲線"/>
+    <Text ID="3297266" Value=""/>
+    <Text ID="3297267" Value=""/>
+    <Text ID="3297268" Value="曲線標記"/>
+    <Text ID="3297269" Value="曲線資料"/>
+    <Text ID="3297270" Value=""/>
+    <Text ID="3297271" Value=""/>
+    <Text ID="3297272" Value="數位輸出4-2"/>
+    <Text ID="3297273" Value="數位輸入2-1"/>
+    <Text ID="3297274" Value="數位輸入2-2"/>
+    <Text ID="3297275" Value=""/>
+    <Text ID="3297276" Value="數位輸出4-1"/>
+    <Text ID="3297277" Value="數位輸出4-3"/>
+    <Text ID="3297278" Value="數位輸出4-4"/>
+    <Text ID="3297279" Value="類比輸入"/>
+    <Text ID="3297280" Value="類比輸出"/>
+    <Text ID="3297281" Value="模組狀態"/>
+    <Text ID="3297282" Value=""/>
+    <Text ID="3297283" Value=""/>
+    <Text ID="3297284" Value="能源監控"/>
+    <Text ID="3297285" Value="能源監控"/>
+    <Text ID="3297286" Value="機械狀態"/>
+    <Text ID="3297287" Value="自動條件"/>
+    <Text ID="3297288" Value="SPC控制"/>
+    <Text ID="3297289" Value="左模週期"/>
+    <Text ID="3297290" Value="右模週期"/>
+    <Text ID="3297291" Value=""/>
+    <Text ID="3297292" Value=""/>
+    <Text ID="3297293" Value="當前警報"/>
+    <Text ID="3297294" Value="歷史警報"/>
+    <Text ID="3297295" Value=""/>
+    <Text ID="3297296" Value=""/>
+    <Text ID="3297297" Value=""/>
+    <Text ID="3297298" Value=""/>
+    <Text ID="3297299" Value=""/>
+    <Text ID="3297300" Value=""/>
+    <Text ID="3297301" Value=""/>
+    <Text ID="3297302" Value="權限登入"/>
+    <Text ID="3297303" Value="系統設定1 "/>
+    <Text ID="3297304" Value="系統設定2"/>
+    <Text ID="3297305" Value="系統設定3"/>
+    <Text ID="3297306" Value=""/>
+    <Text ID="3297307" Value="工業4.0"/>
+    <Text ID="3297308" Value=""/>
+    <Text ID="3297309" Value=""/>
+    <Text ID="3297310" Value=""/>
+    <Text ID="3297311" Value=""/>
+    <Text ID="3297312" Value="密碼修改"/>
+    <Text ID="3297313" Value="軸调校"/>
+    <Text ID="3297314" Value="軸调校"/>
+    <Text ID="3297315" Value="比例閥死區設定"/>
+    <Text ID="3297316" Value="壓力校正"/>
+    <Text ID="3297317" Value="網路設定"/>
+    <Text ID="3297318" Value="重要參數變更紀錄"/>
+    <Text ID="3297319" Value="系统信息"/>
+    <Text ID="3297320" Value="虛擬按鍵"/>
+    <Text ID="3297321" Value="付款密码管理"/>
+    <Text ID="3297322" Value="厚薄初始设定"/>
+    <Text ID="3297323" Value="厚薄調校"/>
+    <Text ID="3297324" Value=""/>
+    <Text ID="3297325" Value="厚薄默認參數"/>
+    <Text ID="3297326" Value=""/>
+    <Text ID="3297327" Value="厚薄調教步驟"/>
+    <Text ID="3297328" Value="厚薄驅動"/>
+    <Text ID="3297329" Value=""/>
+    <Text ID="3297330" Value=""/>
+    <Text ID="3297331" Value=""/>
+    <Text ID="3297332" Value="螢幕調校"/>
+    <Text ID="3297333" Value="伺服馬達追蹤"/>
+    <Text ID="3297334" Value=""/>
+    <Text ID="3297335" Value=""/>
+    <Text ID="3297336" Value=""/>
+    <Text ID="3297337" Value=""/>
+    <Text ID="3297338" Value=""/>
+    <Text ID="3297339" Value=""/>
+    <Text ID="3297340" Value=""/>
+    <Text ID="3297341" Value=""/>
+    <Text ID="3297342" Value="快速設定"/>
+    <Text ID="3297343" Value=""/>
+    <Text ID="3297344" Value=""/>
+    <Text ID="3297345" Value=""/>
+    <Text ID="3297346" Value=""/>
+    <Text ID="3297347" Value=""/>
+    <Text ID="3297348" Value=""/>
+    <Text ID="3297349" Value=""/>
+    <Text ID="3297350" Value=""/>
+    <Text ID="3297351" Value=""/>
+    <Text ID="3297352" Value="參數配置說明"/>
+    <Text ID="3297353" Value="開關模配置參數"/>
+    <Text ID="3297354" Value="移模配置"/>
+    <Text ID="3297355" Value="吹桿配置參數"/>
+    <Text ID="3297356" Value="抬頭配置參數"/>
+    <Text ID="3297357" Value=""/>
+    <Text ID="3297358" Value=""/>
+    <Text ID="3297359" Value=""/>
+    <Text ID="3297360" Value=""/>
+    <Text ID="3297361" Value=""/>
+    <Text ID="3297362" Value="工程頁面1"/>
+    <Text ID="3297363" Value="工程頁面2"/>
+    <Text ID="3297364" Value="工程頁面3"/>
+    <Text ID="3297365" Value="工程頁面4"/>
+    <Text ID="3297366" Value=""/>
+    <Text ID="3450721" Value="左1吹氣桿"/>
+    <Text ID="3450722" Value="右1吹氣桿"/>
+    <Text ID="3450723" Value="左2吹氣桿"/>
+    <Text ID="3450724" Value="右2吹氣桿"/>
+    <Text ID="3542868" Value=""/>
+    <Text ID="3542869" Value=""/>
+    <Text ID="3542870" Value=""/>
+    <Text ID="3542871" Value=""/>
+    <Text ID="3542872" Value="工程頁面10"/>
+    <Text ID="3542873" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="3288834" Value=""/>
+    <Text ID="3288835" Value="總覽"/>
+    <Text ID="3288836" Value="溫區設定1"/>
+    <Text ID="3288837" Value=""/>
+    <Text ID="3288838" Value="溫區設定2"/>
+    <Text ID="3288839" Value="預熱"/>
+    <Text ID="3288840" Value=""/>
+    <Text ID="3288841" Value=""/>
+    <Text ID="3288842" Value=""/>
+    <Text ID="3288843" Value=""/>
+    <Text ID="3288844" Value=""/>
+    <Text ID="3288845" Value=""/>
+    <Text ID="3288846" Value="溫度曲線 6"/>
+    <Text ID="3288847" Value="溫度總欖"/>
+    <Text ID="3288848" Value=""/>
+    <Text ID="3288849" Value="溫度曲線 1"/>
+    <Text ID="3288850" Value="溫度曲線 2"/>
+    <Text ID="3288851" Value="溫度曲線 4"/>
+    <Text ID="3288852" Value="溫度曲線 5"/>
+    <Text ID="3288853" Value=""/>
+    <Text ID="3288854" Value=""/>
+    <Text ID="3288855" Value="溫度曲線 3"/>
+    <Text ID="3288856" Value="溫度曲線 7"/>
+    <Text ID="3288857" Value="溫度曲線 8"/>
+    <Text ID="3288858" Value="溫度優化 1"/>
+    <Text ID="3288859" Value="溫度優化 2"/>
+    <Text ID="3288860" Value="溫度優化 3"/>
+    <Text ID="3288861" Value="溫度優化 4"/>
+    <Text ID="3288862" Value="溫度優化 5"/>
+    <Text ID="3288863" Value="溫度優化 6"/>
+    <Text ID="3288864" Value=""/>
+    <Text ID="3288865" Value=""/>
+    <Text ID="3288866" Value="溫區配置参数 1"/>
+    <Text ID="3288867" Value="溫區配置参数 2"/>
+    <Text ID="3288868" Value="溫區配置参数 3"/>
+    <Text ID="3288869" Value="溫區配置参数 4"/>
+    <Text ID="3288870" Value="溫區配置参数 5"/>
+    <Text ID="3288871" Value="溫區配置参数 6"/>
+    <Text ID="3288872" Value=""/>
+    <Text ID="3288873" Value=""/>
+    <Text ID="3288874" Value=""/>
+    <Text ID="3288875" Value="系統(計時)"/>
+    <Text ID="3288876" Value="吹桿(計時)"/>
+    <Text ID="3288877" Value="打手把(計時)"/>
+    <Text ID="3288878" Value="機械手(計時)"/>
+    <Text ID="3288879" Value="轉接吹冷(計時)"/>
+    <Text ID="3288880" Value="脹風(計時)"/>
+    <Text ID="3288881" Value="其他(計時)"/>
+    <Text ID="3288882" Value="週期警報 1"/>
+    <Text ID="3288883" Value="週期警報 2"/>
+    <Text ID="3288884" Value=""/>
+    <Text ID="3288885" Value="左開關模"/>
+    <Text ID="3288886" Value="右開關模"/>
+    <Text ID="3288887" Value="左移模"/>
+    <Text ID="3288888" Value="右移模"/>
+    <Text ID="3288889" Value="機械手"/>
+    <Text ID="3288890" Value=""/>
+    <Text ID="3288891" Value=""/>
+    <Text ID="3288892" Value="打手把"/>
+    <Text ID="3288893" Value="驅動桿線性化"/>
+    <Text ID="3288894" Value="打瓶底"/>
+    <Text ID="3288895" Value="左吹氣桿"/>
+    <Text ID="3288896" Value="右吹氣桿"/>
+    <Text ID="3288897" Value=""/>
+    <Text ID="3288898" Value="模芯"/>
+    <Text ID="3288899" Value="抬頭"/>
+    <Text ID="3288900" Value=""/>
+    <Text ID="3288901" Value=""/>
+    <Text ID="3288902" Value="蓄壓器"/>
+    <Text ID="3288903" Value="調模參數1"/>
+    <Text ID="3288904" Value="調模參數2"/>
+    <Text ID="3288905" Value="機器功能"/>
+    <Text ID="3288906" Value="配方"/>
+    <Text ID="3288907" Value="押出設定"/>
+    <Text ID="3288908" Value=""/>
+    <Text ID="3297257" Value=""/>
+    <Text ID="3297258" Value="厚薄長度控制"/>
+    <Text ID="3297259" Value=""/>
+    <Text ID="3297260" Value=""/>
+    <Text ID="3297261" Value=""/>
+    <Text ID="3297262" Value=""/>
+    <Text ID="3297263" Value="厚薄參數設定"/>
+    <Text ID="3297264" Value="厚薄曲線設定"/>
+    <Text ID="3297265" Value="厚薄跟蹤曲線"/>
+    <Text ID="3297266" Value=""/>
+    <Text ID="3297267" Value=""/>
+    <Text ID="3297268" Value="曲線標記"/>
+    <Text ID="3297269" Value="曲線資料"/>
+    <Text ID="3297270" Value=""/>
+    <Text ID="3297271" Value=""/>
+    <Text ID="3297272" Value="數位輸出4-2"/>
+    <Text ID="3297273" Value="數位輸入2-1"/>
+    <Text ID="3297274" Value="數位輸入2-2"/>
+    <Text ID="3297275" Value=""/>
+    <Text ID="3297276" Value="數位輸出4-1"/>
+    <Text ID="3297277" Value="數位輸出4-3"/>
+    <Text ID="3297278" Value="數位輸出4-4"/>
+    <Text ID="3297279" Value="類比輸入"/>
+    <Text ID="3297280" Value="類比輸出"/>
+    <Text ID="3297281" Value="模組狀態"/>
+    <Text ID="3297282" Value=""/>
+    <Text ID="3297283" Value=""/>
+    <Text ID="3297284" Value="能源監控"/>
+    <Text ID="3297285" Value="能源監控"/>
+    <Text ID="3297286" Value="機械狀態"/>
+    <Text ID="3297287" Value="自動條件"/>
+    <Text ID="3297288" Value="SPC控制"/>
+    <Text ID="3297289" Value="左模週期"/>
+    <Text ID="3297290" Value="右模週期"/>
+    <Text ID="3297291" Value=""/>
+    <Text ID="3297292" Value=""/>
+    <Text ID="3297293" Value="當前警報"/>
+    <Text ID="3297294" Value="歷史警報"/>
+    <Text ID="3297295" Value=""/>
+    <Text ID="3297296" Value=""/>
+    <Text ID="3297297" Value=""/>
+    <Text ID="3297298" Value=""/>
+    <Text ID="3297299" Value=""/>
+    <Text ID="3297300" Value=""/>
+    <Text ID="3297301" Value=""/>
+    <Text ID="3297302" Value="權限登入"/>
+    <Text ID="3297303" Value="系統設定1 "/>
+    <Text ID="3297304" Value="系統設定2"/>
+    <Text ID="3297305" Value="系統設定3"/>
+    <Text ID="3297306" Value=""/>
+    <Text ID="3297307" Value="工業4.0"/>
+    <Text ID="3297308" Value=""/>
+    <Text ID="3297309" Value=""/>
+    <Text ID="3297310" Value=""/>
+    <Text ID="3297311" Value=""/>
+    <Text ID="3297312" Value="密碼修改"/>
+    <Text ID="3297313" Value="軸调校"/>
+    <Text ID="3297314" Value="軸调校"/>
+    <Text ID="3297315" Value="比例閥死區設定"/>
+    <Text ID="3297316" Value="壓力校正"/>
+    <Text ID="3297317" Value="網路設定"/>
+    <Text ID="3297318" Value="重要參數變更紀錄"/>
+    <Text ID="3297319" Value="系统信息"/>
+    <Text ID="3297320" Value="虛擬按鍵"/>
+    <Text ID="3297321" Value="付款密码管理"/>
+    <Text ID="3297322" Value="厚薄初始设定"/>
+    <Text ID="3297323" Value="厚薄調校"/>
+    <Text ID="3297324" Value=""/>
+    <Text ID="3297325" Value="厚薄默認參數"/>
+    <Text ID="3297326" Value=""/>
+    <Text ID="3297327" Value="厚薄調教步驟"/>
+    <Text ID="3297328" Value="厚薄驅動"/>
+    <Text ID="3297329" Value=""/>
+    <Text ID="3297330" Value=""/>
+    <Text ID="3297331" Value=""/>
+    <Text ID="3297332" Value="螢幕調校"/>
+    <Text ID="3297333" Value="伺服馬達追蹤"/>
+    <Text ID="3297334" Value=""/>
+    <Text ID="3297335" Value=""/>
+    <Text ID="3297336" Value=""/>
+    <Text ID="3297337" Value=""/>
+    <Text ID="3297338" Value=""/>
+    <Text ID="3297339" Value=""/>
+    <Text ID="3297340" Value=""/>
+    <Text ID="3297341" Value=""/>
+    <Text ID="3297342" Value="快速設定"/>
+    <Text ID="3297343" Value=""/>
+    <Text ID="3297344" Value=""/>
+    <Text ID="3297345" Value=""/>
+    <Text ID="3297346" Value=""/>
+    <Text ID="3297347" Value=""/>
+    <Text ID="3297348" Value=""/>
+    <Text ID="3297349" Value=""/>
+    <Text ID="3297350" Value=""/>
+    <Text ID="3297351" Value=""/>
+    <Text ID="3297352" Value="參數配置說明"/>
+    <Text ID="3297353" Value="開關模配置參數"/>
+    <Text ID="3297354" Value="移模配置"/>
+    <Text ID="3297355" Value="吹桿配置參數"/>
+    <Text ID="3297356" Value="抬頭配置參數"/>
+    <Text ID="3297357" Value=""/>
+    <Text ID="3297358" Value=""/>
+    <Text ID="3297359" Value=""/>
+    <Text ID="3297360" Value=""/>
+    <Text ID="3297361" Value=""/>
+    <Text ID="3297362" Value="工程頁面1"/>
+    <Text ID="3297363" Value="工程頁面2"/>
+    <Text ID="3297364" Value="工程頁面3"/>
+    <Text ID="3297365" Value="工程頁面4"/>
+    <Text ID="3297366" Value=""/>
+    <Text ID="3450721" Value="左1吹氣桿"/>
+    <Text ID="3450722" Value="右1吹氣桿"/>
+    <Text ID="3450723" Value="左2吹氣桿"/>
+    <Text ID="3450724" Value="右2吹氣桿"/>
+    <Text ID="3542868" Value=""/>
+    <Text ID="3542869" Value=""/>
+    <Text ID="3542870" Value=""/>
+    <Text ID="3542871" Value=""/>
+    <Text ID="3542872" Value="工程頁面10"/>
+    <Text ID="3542873" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="3288834" Value=""/>
+    <Text ID="3288835" Value="Status Maszyny"/>
+    <Text ID="3288836" Value="Ustaw.Temp. strefy 1"/>
+    <Text ID="3288837" Value=""/>
+    <Text ID="3288838" Value="Ustaw.Temp. strefy 2"/>
+    <Text ID="3288839" Value="Podgrzewanie"/>
+    <Text ID="3288840" Value=""/>
+    <Text ID="3288841" Value=""/>
+    <Text ID="3288842" Value=""/>
+    <Text ID="3288843" Value=""/>
+    <Text ID="3288844" Value=""/>
+    <Text ID="3288845" Value=""/>
+    <Text ID="3288846" Value="Temp. Profil 6"/>
+    <Text ID="3288847" Value="Przeglad temp."/>
+    <Text ID="3288848" Value=""/>
+    <Text ID="3288849" Value="Temp. Profil 1"/>
+    <Text ID="3288850" Value="Temp. Profil 2"/>
+    <Text ID="3288851" Value="Temp. Profil 4"/>
+    <Text ID="3288852" Value="Temp. Profil 5"/>
+    <Text ID="3288853" Value=""/>
+    <Text ID="3288854" Value=""/>
+    <Text ID="3288855" Value="Temp. Profil 3"/>
+    <Text ID="3288856" Value="Temp. Profil 7"/>
+    <Text ID="3288857" Value="Temp. Profil 8"/>
+    <Text ID="3288858" Value="Optymalizacja temp. 1"/>
+    <Text ID="3288859" Value="Optymalizacja temp. 2"/>
+    <Text ID="3288860" Value="Optymalizacja temp. 3"/>
+    <Text ID="3288861" Value="Optymalizacja temp. 4"/>
+    <Text ID="3288862" Value="Optymalizacja temp. 5"/>
+    <Text ID="3288863" Value="Optymalizacja temp. 6"/>
+    <Text ID="3288864" Value=""/>
+    <Text ID="3288865" Value=""/>
+    <Text ID="3288866" Value="Temp. Konfiguracja 1"/>
+    <Text ID="3288867" Value="Temp. Konfiguracja 2"/>
+    <Text ID="3288868" Value="Temp. Konfiguracja 3"/>
+    <Text ID="3288869" Value="Temp. Konfiguracja 4"/>
+    <Text ID="3288870" Value="Temp. Konfiguracja 5"/>
+    <Text ID="3288871" Value="Temp. Konfiguracja 6"/>
+    <Text ID="3288872" Value=""/>
+    <Text ID="3288873" Value=""/>
+    <Text ID="3288874" Value=""/>
+    <Text ID="3288875" Value="System (czas)"/>
+    <Text ID="3288876" Value="Trzp. Rozdm. (czas)"/>
+    <Text ID="3288877" Value="Gratownik (czas)"/>
+    <Text ID="3288878" Value="Ramie robota (czas)"/>
+    <Text ID="3288879" Value="Dochłodzenie (czas)"/>
+    <Text ID="3288880" Value="Nadmuch(czas)"/>
+    <Text ID="3288881" Value="Inne (czas)"/>
+    <Text ID="3288882" Value="Alarm cyklu 1"/>
+    <Text ID="3288883" Value="Alarm cyklu 2"/>
+    <Text ID="3288884" Value=""/>
+    <Text ID="3288885" Value="L - Forma"/>
+    <Text ID="3288886" Value="P - Forma"/>
+    <Text ID="3288887" Value="L - Wozek"/>
+    <Text ID="3288888" Value="P - Wozek"/>
+    <Text ID="3288889" Value="Ramie Robota"/>
+    <Text ID="3288890" Value=""/>
+    <Text ID="3288891" Value=""/>
+    <Text ID="3288892" Value="Gratownik"/>
+    <Text ID="3288893" Value="Przelacznik osi liniowy"/>
+    <Text ID="3288894" Value="Gratownik dna"/>
+    <Text ID="3288895" Value="L - Trzp. Rozdm."/>
+    <Text ID="3288896" Value="P - Trzp. Rozdm."/>
+    <Text ID="3288897" Value=""/>
+    <Text ID="3288898" Value="Rdzen"/>
+    <Text ID="3288899" Value="Glowica"/>
+    <Text ID="3288900" Value=""/>
+    <Text ID="3288901" Value=""/>
+    <Text ID="3288902" Value="Akumulator"/>
+    <Text ID="3288903" Value="Parametry trybu kalibracji 1"/>
+    <Text ID="3288904" Value="Parametry trybu kalibracji 2"/>
+    <Text ID="3288905" Value="Funkcje Maszyny"/>
+    <Text ID="3288906" Value="Receptura"/>
+    <Text ID="3288907" Value="Ustawienia Wytłaczarki"/>
+    <Text ID="3288908" Value=""/>
+    <Text ID="3297257" Value=""/>
+    <Text ID="3297258" Value="Parison zakres"/>
+    <Text ID="3297259" Value=""/>
+    <Text ID="3297260" Value=""/>
+    <Text ID="3297261" Value=""/>
+    <Text ID="3297262" Value=""/>
+    <Text ID="3297263" Value="Parison ustawienie parametrow"/>
+    <Text ID="3297264" Value="Parison ustawienie plofilu"/>
+    <Text ID="3297265" Value="Parison Slad"/>
+    <Text ID="3297266" Value=""/>
+    <Text ID="3297267" Value=""/>
+    <Text ID="3297268" Value="Parison Znacznik"/>
+    <Text ID="3297269" Value="Dane profilu"/>
+    <Text ID="3297270" Value=""/>
+    <Text ID="3297271" Value=""/>
+    <Text ID="3297272" Value="DO 4-2 "/>
+    <Text ID="3297273" Value="DI 2-1"/>
+    <Text ID="3297274" Value="DI 2-2"/>
+    <Text ID="3297275" Value=""/>
+    <Text ID="3297276" Value="DO 4-1"/>
+    <Text ID="3297277" Value="DO 4-3"/>
+    <Text ID="3297278" Value="DO 4-4"/>
+    <Text ID="3297279" Value="AI"/>
+    <Text ID="3297280" Value="AO"/>
+    <Text ID="3297281" Value="Status Modulu"/>
+    <Text ID="3297282" Value=""/>
+    <Text ID="3297283" Value=""/>
+    <Text ID="3297284" Value="Monitor energi"/>
+    <Text ID="3297285" Value="Monitor energi"/>
+    <Text ID="3297286" Value="Status Maszyny"/>
+    <Text ID="3297287" Value="Stan Automatyczny"/>
+    <Text ID="3297288" Value="SPC kontrola"/>
+    <Text ID="3297289" Value="L - SPC"/>
+    <Text ID="3297290" Value="P - SPC"/>
+    <Text ID="3297291" Value=""/>
+    <Text ID="3297292" Value=""/>
+    <Text ID="3297293" Value="Aktualny Alarm"/>
+    <Text ID="3297294" Value="Historia Alarmow"/>
+    <Text ID="3297295" Value=""/>
+    <Text ID="3297296" Value=""/>
+    <Text ID="3297297" Value=""/>
+    <Text ID="3297298" Value=""/>
+    <Text ID="3297299" Value=""/>
+    <Text ID="3297300" Value=""/>
+    <Text ID="3297301" Value=""/>
+    <Text ID="3297302" Value="Uprawnienia logowania"/>
+    <Text ID="3297303" Value="Ustawienia Systemowe 1"/>
+    <Text ID="3297304" Value="Ustawienia Systemowe 2"/>
+    <Text ID="3297305" Value="Ustawienia Systemowe 3"/>
+    <Text ID="3297306" Value=""/>
+    <Text ID="3297307" Value="Industry 4.0"/>
+    <Text ID="3297308" Value=""/>
+    <Text ID="3297309" Value=""/>
+    <Text ID="3297310" Value=""/>
+    <Text ID="3297311" Value=""/>
+    <Text ID="3297312" Value="Modyfikacja hasla"/>
+    <Text ID="3297313" Value="Kalibracja osi"/>
+    <Text ID="3297314" Value="Kalibracja osi"/>
+    <Text ID="3297315" Value="Ustawienie martwej strefy zaworu prop."/>
+    <Text ID="3297316" Value="Kalibracja cisnienia"/>
+    <Text ID="3297317" Value="Ustawienia sieci"/>
+    <Text ID="3297318" Value="Log informacje"/>
+    <Text ID="3297319" Value="SDM"/>
+    <Text ID="3297320" Value="VNC klucz"/>
+    <Text ID="3297321" Value="Haslo"/>
+    <Text ID="3297322" Value="Parison ustawienia wstepne"/>
+    <Text ID="3297323" Value="Parison kalibracji"/>
+    <Text ID="3297324" Value=""/>
+    <Text ID="3297325" Value="Parison domyslne"/>
+    <Text ID="3297326" Value=""/>
+    <Text ID="3297327" Value="Parison pomoc kalibracji"/>
+    <Text ID="3297328" Value=""/>
+    <Text ID="3297329" Value=""/>
+    <Text ID="3297330" Value=""/>
+    <Text ID="3297331" Value=""/>
+    <Text ID="3297332" Value="Kalibracja Ekranu"/>
+    <Text ID="3297333" Value="Trend Silnika"/>
+    <Text ID="3297334" Value=""/>
+    <Text ID="3297335" Value=""/>
+    <Text ID="3297336" Value=""/>
+    <Text ID="3297337" Value=""/>
+    <Text ID="3297338" Value=""/>
+    <Text ID="3297339" Value=""/>
+    <Text ID="3297340" Value=""/>
+    <Text ID="3297341" Value=""/>
+    <Text ID="3297342" Value="Szybkie ustawienia"/>
+    <Text ID="3297343" Value=""/>
+    <Text ID="3297344" Value=""/>
+    <Text ID="3297345" Value=""/>
+    <Text ID="3297346" Value=""/>
+    <Text ID="3297347" Value=""/>
+    <Text ID="3297348" Value=""/>
+    <Text ID="3297349" Value=""/>
+    <Text ID="3297350" Value=""/>
+    <Text ID="3297351" Value=""/>
+    <Text ID="3297352" Value="Ustawienia konfiguracji pomoc"/>
+    <Text ID="3297353" Value="Forma konfiguracja"/>
+    <Text ID="3297354" Value="Wozek konfiguracja"/>
+    <Text ID="3297355" Value="Trzp. Rozdm. konfiguracja"/>
+    <Text ID="3297356" Value="Glowica konfiguracja"/>
+    <Text ID="3297357" Value=""/>
+    <Text ID="3297358" Value=""/>
+    <Text ID="3297359" Value=""/>
+    <Text ID="3297360" Value=""/>
+    <Text ID="3297361" Value=""/>
+    <Text ID="3297362" Value="Ustawienie OEM 1"/>
+    <Text ID="3297363" Value="Ustawienie OEM 2"/>
+    <Text ID="3297364" Value="Ustawienie OEM 3"/>
+    <Text ID="3297365" Value=""/>
+    <Text ID="3297366" Value=""/>
+    <Text ID="3450721" Value="L - Trzp. Rozdm. 1"/>
+    <Text ID="3450722" Value="P - Trzp. Rozdm. 1 "/>
+    <Text ID="3450723" Value="L - Trzp. Rozdm. 2"/>
+    <Text ID="3450724" Value="P - Trzp. Rozdm. 2"/>
+    <Text ID="3542868" Value=""/>
+    <Text ID="3542869" Value=""/>
+    <Text ID="3542870" Value=""/>
+    <Text ID="3542871" Value=""/>
+    <Text ID="3542872" Value="Ustawienie OEM 10"/>
+    <Text ID="3542873" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="3288834" Value="0"/>
+    <Index ID="3288835" Value="1"/>
+    <Index ID="3288836" Value="4"/>
+    <Index ID="3288837" Value="2"/>
+    <Index ID="3288838" Value="5"/>
+    <Index ID="3288839" Value="13"/>
+    <Index ID="3288840" Value="8"/>
+    <Index ID="3288841" Value="9"/>
+    <Index ID="3288842" Value="3"/>
+    <Index ID="3288843" Value="10"/>
+    <Index ID="3288844" Value="11"/>
+    <Index ID="3288845" Value="12"/>
+    <Index ID="3288846" Value="21"/>
+    <Index ID="3288847" Value="14"/>
+    <Index ID="3288848" Value="15"/>
+    <Index ID="3288849" Value="16"/>
+    <Index ID="3288850" Value="17"/>
+    <Index ID="3288851" Value="19"/>
+    <Index ID="3288852" Value="20"/>
+    <Index ID="3288853" Value="6"/>
+    <Index ID="3288854" Value="7"/>
+    <Index ID="3288855" Value="18"/>
+    <Index ID="3288856" Value="22"/>
+    <Index ID="3288857" Value="23"/>
+    <Index ID="3288858" Value="24"/>
+    <Index ID="3288859" Value="25"/>
+    <Index ID="3288860" Value="26"/>
+    <Index ID="3288861" Value="27"/>
+    <Index ID="3288862" Value="28"/>
+    <Index ID="3288863" Value="29"/>
+    <Index ID="3288864" Value="30"/>
+    <Index ID="3288865" Value="31"/>
+    <Index ID="3288866" Value="32"/>
+    <Index ID="3288867" Value="33"/>
+    <Index ID="3288868" Value="34"/>
+    <Index ID="3288869" Value="35"/>
+    <Index ID="3288870" Value="36"/>
+    <Index ID="3288871" Value="37"/>
+    <Index ID="3288872" Value="38"/>
+    <Index ID="3288873" Value="39"/>
+    <Index ID="3288874" Value="40"/>
+    <Index ID="3288875" Value="41"/>
+    <Index ID="3288876" Value="42"/>
+    <Index ID="3288877" Value="43"/>
+    <Index ID="3288878" Value="44"/>
+    <Index ID="3288879" Value="45"/>
+    <Index ID="3288880" Value="46"/>
+    <Index ID="3288881" Value="47"/>
+    <Index ID="3288882" Value="48"/>
+    <Index ID="3288883" Value="49"/>
+    <Index ID="3288884" Value="50"/>
+    <Index ID="3288885" Value="51"/>
+    <Index ID="3288886" Value="52"/>
+    <Index ID="3288887" Value="53"/>
+    <Index ID="3288888" Value="54"/>
+    <Index ID="3288889" Value="55"/>
+    <Index ID="3288890" Value="56"/>
+    <Index ID="3288891" Value="57"/>
+    <Index ID="3288892" Value="58"/>
+    <Index ID="3288893" Value="59"/>
+    <Index ID="3288894" Value="60"/>
+    <Index ID="3288895" Value="61"/>
+    <Index ID="3288896" Value="62"/>
+    <Index ID="3288897" Value="63"/>
+    <Index ID="3288898" Value="64"/>
+    <Index ID="3288899" Value="65"/>
+    <Index ID="3288900" Value="66"/>
+    <Index ID="3288901" Value="67"/>
+    <Index ID="3288902" Value="68"/>
+    <Index ID="3288903" Value="69"/>
+    <Index ID="3288904" Value="70"/>
+    <Index ID="3288905" Value="71"/>
+    <Index ID="3288906" Value="72"/>
+    <Index ID="3288907" Value="75"/>
+    <Index ID="3288908" Value="74"/>
+    <Index ID="3297257" Value="73"/>
+    <Index ID="3297258" Value="76"/>
+    <Index ID="3297259" Value="77"/>
+    <Index ID="3297260" Value="78"/>
+    <Index ID="3297261" Value="79"/>
+    <Index ID="3297262" Value="80"/>
+    <Index ID="3297263" Value="81"/>
+    <Index ID="3297264" Value="82"/>
+    <Index ID="3297265" Value="83"/>
+    <Index ID="3297266" Value="84"/>
+    <Index ID="3297267" Value="85"/>
+    <Index ID="3297268" Value="86"/>
+    <Index ID="3297269" Value="87"/>
+    <Index ID="3297270" Value="88"/>
+    <Index ID="3297271" Value="89"/>
+    <Index ID="3297272" Value="90"/>
+    <Index ID="3297273" Value="91"/>
+    <Index ID="3297274" Value="92"/>
+    <Index ID="3297275" Value="93"/>
+    <Index ID="3297276" Value="94"/>
+    <Index ID="3297277" Value="95"/>
+    <Index ID="3297278" Value="96"/>
+    <Index ID="3297279" Value="97"/>
+    <Index ID="3297280" Value="98"/>
+    <Index ID="3297281" Value="99"/>
+    <Index ID="3297282" Value="100"/>
+    <Index ID="3297283" Value="101"/>
+    <Index ID="3297284" Value="102"/>
+    <Index ID="3297285" Value="103"/>
+    <Index ID="3297286" Value="104"/>
+    <Index ID="3297287" Value="105"/>
+    <Index ID="3297288" Value="106"/>
+    <Index ID="3297289" Value="107"/>
+    <Index ID="3297290" Value="108"/>
+    <Index ID="3297291" Value="109"/>
+    <Index ID="3297292" Value="110"/>
+    <Index ID="3297293" Value="111"/>
+    <Index ID="3297294" Value="112"/>
+    <Index ID="3297295" Value="113"/>
+    <Index ID="3297296" Value="114"/>
+    <Index ID="3297297" Value="115"/>
+    <Index ID="3297298" Value="116"/>
+    <Index ID="3297299" Value="117"/>
+    <Index ID="3297300" Value="118"/>
+    <Index ID="3297301" Value="119"/>
+    <Index ID="3297302" Value="120"/>
+    <Index ID="3297303" Value="121"/>
+    <Index ID="3297304" Value="122"/>
+    <Index ID="3297305" Value="123"/>
+    <Index ID="3297306" Value="124"/>
+    <Index ID="3297307" Value="125"/>
+    <Index ID="3297308" Value="126"/>
+    <Index ID="3297309" Value="127"/>
+    <Index ID="3297310" Value="128"/>
+    <Index ID="3297311" Value="129"/>
+    <Index ID="3297312" Value="130"/>
+    <Index ID="3297313" Value="131"/>
+    <Index ID="3297314" Value="132"/>
+    <Index ID="3297315" Value="133"/>
+    <Index ID="3297316" Value="134"/>
+    <Index ID="3297317" Value="135"/>
+    <Index ID="3297318" Value="136"/>
+    <Index ID="3297319" Value="137"/>
+    <Index ID="3297320" Value="138"/>
+    <Index ID="3297321" Value="139"/>
+    <Index ID="3297322" Value="140"/>
+    <Index ID="3297323" Value="141"/>
+    <Index ID="3297324" Value="142"/>
+    <Index ID="3297325" Value="143"/>
+    <Index ID="3297326" Value="144"/>
+    <Index ID="3297327" Value="145"/>
+    <Index ID="3297328" Value="146"/>
+    <Index ID="3297329" Value="147"/>
+    <Index ID="3297330" Value="148"/>
+    <Index ID="3297331" Value="149"/>
+    <Index ID="3297332" Value="150"/>
+    <Index ID="3297333" Value="151"/>
+    <Index ID="3297334" Value="152"/>
+    <Index ID="3297335" Value="153"/>
+    <Index ID="3297336" Value="154"/>
+    <Index ID="3297337" Value="155"/>
+    <Index ID="3297338" Value="156"/>
+    <Index ID="3297339" Value="157"/>
+    <Index ID="3297340" Value="158"/>
+    <Index ID="3297341" Value="159"/>
+    <Index ID="3297342" Value="160"/>
+    <Index ID="3297343" Value="161"/>
+    <Index ID="3297344" Value="162"/>
+    <Index ID="3297345" Value="163"/>
+    <Index ID="3297346" Value="164"/>
+    <Index ID="3297347" Value="165"/>
+    <Index ID="3297348" Value="166"/>
+    <Index ID="3297349" Value="167"/>
+    <Index ID="3297350" Value="168"/>
+    <Index ID="3297351" Value="169"/>
+    <Index ID="3297352" Value="170"/>
+    <Index ID="3297353" Value="171"/>
+    <Index ID="3297354" Value="172"/>
+    <Index ID="3297355" Value="173"/>
+    <Index ID="3297356" Value="174"/>
+    <Index ID="3297357" Value="175"/>
+    <Index ID="3297358" Value="176"/>
+    <Index ID="3297359" Value="177"/>
+    <Index ID="3297360" Value="178"/>
+    <Index ID="3297361" Value="179"/>
+    <Index ID="3297362" Value="180"/>
+    <Index ID="3297363" Value="181"/>
+    <Index ID="3297364" Value="182"/>
+    <Index ID="3297365" Value="183"/>
+    <Index ID="3297366" Value="184"/>
+    <Index ID="3450721" Value="1061"/>
+    <Index ID="3450722" Value="1063"/>
+    <Index ID="3450723" Value="1062"/>
+    <Index ID="3450724" Value="1064"/>
+    <Index ID="3542868" Value="185"/>
+    <Index ID="3542869" Value="186"/>
+    <Index ID="3542870" Value="187"/>
+    <Index ID="3542871" Value="188"/>
+    <Index ID="3542872" Value="189"/>
+    <Index ID="3542873" Value="190"/>
+  </IndexMap>
+</TextGroup>

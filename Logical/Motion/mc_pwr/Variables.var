@@ -1,0 +1,43 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: mc_axis
+ * File: mc_axis.var
+ * Author: lij
+ * Created: December 21, 2011
+ ********************************************************************
+ * Local variables of program mc_axis
+ ********************************************************************)
+(*General Variables*)
+VAR
+	StepReadID : UINT := 0;
+	StepWriteID : UINT := 0;
+	mcAxis : MC_Axis_typ := (0);
+	mcParID_RW : Par_RW_typ := (0);
+	mcParID_Value : ParID_Value_typ := (0);
+	mcDriverStatus : MC_DRIVESTATUS_TYP := (0);
+END_VAR
+(*Used Functionblocks*)
+VAR
+	MC_MoveVelocity_0 : MC_MoveVelocity; (*Function Block*)
+	MC_Reset_0 : MC_Reset; (*Function Block*)
+	MC_Home_0 : MC_Home; (*Function Block*)
+	MC_Stop_0 : MC_Stop; (*Function Block*)
+	MC_Power_0 : MC_Power; (*Function Block*)
+	MC_ReadAxisError_0 : MC_ReadAxisError; (*Function Block*)
+	MC_ReadStatus_0 : MC_ReadStatus; (*Function Block*)
+	MC_MoveAdditive_0 : MC_MoveAdditive; (*Function Block*)
+	MC_MoveAbsolute_0 : MC_MoveAbsolute; (*Function Block*)
+	MC_Halt_0 : MC_Halt; (*Function Block*)
+	MC_BR_ReadDriveStatus_0 : MC_BR_ReadDriveStatus; (*Function Block*)
+	MC_ReadActualVelocity_0 : MC_ReadActualVelocity := (0); (*Function Block*)
+	MC_BR_CyclicRead_0 : MC_BR_CyclicRead := (0); (*Function Block*)
+	MC_BR_CyclicRead_1 : MC_BR_CyclicRead := (0); (*Function Block*)
+	MC_BR_CyclicWrite_0 : MC_BR_CyclicWrite := (0); (*Function Block*)
+	MC_BR_CyclicWrite_1 : MC_BR_CyclicWrite := (0); (*Function Block*)
+	MC_BR_ReadParID_0 : MC_BR_ReadParID := (0); (*Function Block*)
+	MC_BR_WriteParID_0 : MC_BR_WriteParID := (0); (*Function Block*)
+	Torque_PT1 : HydPT1;
+	OldAlarmConfirmOK : USINT;
+	NegNetworkInit : USINT;
+END_VAR

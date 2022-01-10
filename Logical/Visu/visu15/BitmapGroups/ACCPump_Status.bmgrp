@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ACCPump_Status">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="59"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="3524" Value="Source[local].Bitmap[ICON24_PUMP_OFF]"/>
+    <BitmapRef ID="3525" Value="Source[local].Bitmap[ICON24_PUMP_ON]"/>
+    <BitmapRef ID="3526" Value="Source[local].Bitmap[ICON24_PUMP_ERROR]"/>
+    <BitmapRef ID="3527" Value="Source[local].Bitmap[ICON24_PUMP_OFF]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="3524" Value="2"/>
+    <Index ID="3525" Value="3"/>
+    <Index ID="3526" Value="1"/>
+    <Index ID="3527" Value="0"/>
+  </IndexMap>
+</BitmapGroup>

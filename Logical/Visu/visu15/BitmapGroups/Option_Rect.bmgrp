@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Option_Rect">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="32"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="2130" Value="Source[local].Bitmap[ICON_OPTION_OFF]"/>
+    <BitmapRef ID="2131" Value="Source[local].Bitmap[ICON_OPTION_ON]"/>
+    <BitmapRef ID="2132" Value="Source[local].Bitmap[ICON_OPTION_OFF_FOCUS]"/>
+    <BitmapRef ID="2133" Value="Source[local].Bitmap[ICON_OPTION_ON_FOCUS]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="2130" Value="0"/>
+    <Index ID="2131" Value="1"/>
+    <Index ID="2132" Value="2"/>
+    <Index ID="2133" Value="3"/>
+  </IndexMap>
+</BitmapGroup>

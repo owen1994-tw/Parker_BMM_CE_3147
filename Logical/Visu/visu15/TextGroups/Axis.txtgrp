@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Axis">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="17"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="1627154" Value="Motor temp"/>
+    <Text ID="1627155" Value="Driver temp"/>
+    <Text ID="1627156" Value="Act current"/>
+    <Text ID="1627157" Value="Rated current"/>
+    <Text ID="1627158" Value="Act torque"/>
+    <Text ID="1627159" Value="Rated torque"/>
+    <Text ID="1627160" Value="DC BUS"/>
+    <Text ID="1627161" Value="Error No"/>
+    <Text ID="1627162" Value="Encoder value"/>
+    <Text ID="1627420" Value="Backward Protection"/>
+    <Text ID="1627421" Value="Forward protection"/>
+    <Text ID="1627422" Value="Upward protection"/>
+    <Text ID="1627423" Value="Downward protection"/>
+    <Text ID="1814760" Value="Close protection"/>
+    <Text ID="1814761" Value="Open protection"/>
+    <Text ID="1814762" Value="Effective power"/>
+    <Text ID="1814763" Value="Consumed energy"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="1627154" Value="电机温度"/>
+    <Text ID="1627155" Value="驱动器温度"/>
+    <Text ID="1627156" Value="实际电流"/>
+    <Text ID="1627157" Value="额定电流"/>
+    <Text ID="1627158" Value="实际扭矩"/>
+    <Text ID="1627159" Value="额定扭矩"/>
+    <Text ID="1627160" Value="电压"/>
+    <Text ID="1627161" Value="轴错误代码"/>
+    <Text ID="1627162" Value="编码器位置"/>
+    <Text ID="1627420" Value="后退保护限"/>
+    <Text ID="1627421" Value="前进保护限"/>
+    <Text ID="1627422" Value="上保护限"/>
+    <Text ID="1627423" Value="下保护限"/>
+    <Text ID="1814760" Value="关保护限"/>
+    <Text ID="1814761" Value="开保护限"/>
+    <Text ID="1814762" Value="有效功率"/>
+    <Text ID="1814763" Value="能源消耗"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="1627154" Value="馬達溫度"/>
+    <Text ID="1627155" Value="驅動器溫度"/>
+    <Text ID="1627156" Value="實際電流"/>
+    <Text ID="1627157" Value="額定電流"/>
+    <Text ID="1627158" Value="實際扭矩"/>
+    <Text ID="1627159" Value="額定扭矩"/>
+    <Text ID="1627160" Value="電壓"/>
+    <Text ID="1627161" Value="軸錯誤代碼"/>
+    <Text ID="1627162" Value="編碼器位置"/>
+    <Text ID="1627420" Value="後退保護限"/>
+    <Text ID="1627421" Value="前進保護限"/>
+    <Text ID="1627422" Value="上保護限"/>
+    <Text ID="1627423" Value="下保護限"/>
+    <Text ID="1814760" Value="關保護限"/>
+    <Text ID="1814761" Value="開保護限"/>
+    <Text ID="1814762" Value="有效功率"/>
+    <Text ID="1814763" Value="能源消耗"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="1627154" Value="Temp. Silnika"/>
+    <Text ID="1627155" Value="Temp. Sterownika"/>
+    <Text ID="1627156" Value="Aktualne Prad"/>
+    <Text ID="1627157" Value="Prad Znamionowy"/>
+    <Text ID="1627158" Value="Aktualne moment obrotowy"/>
+    <Text ID="1627159" Value="Moment obrotowy Znamionowy"/>
+    <Text ID="1627160" Value="DC BUS"/>
+    <Text ID="1627161" Value="Nr. Bledu"/>
+    <Text ID="1627162" Value="Wartosc Enkodera"/>
+    <Text ID="1627420" Value="Wsteczna Ochrona"/>
+    <Text ID="1627421" Value="Ochrona do przodu"/>
+    <Text ID="1627422" Value="Ochrona w gore"/>
+    <Text ID="1627423" Value="Ochrona w dol"/>
+    <Text ID="1814760" Value="Zamknij ochrone"/>
+    <Text ID="1814761" Value="Otw. ochrona"/>
+    <Text ID="1814762" Value="Moc Efektywna"/>
+    <Text ID="1814763" Value="Zuzyta Energia"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1627154" Value="0"/>
+    <Index ID="1627155" Value="1"/>
+    <Index ID="1627156" Value="2"/>
+    <Index ID="1627157" Value="3"/>
+    <Index ID="1627158" Value="4"/>
+    <Index ID="1627159" Value="5"/>
+    <Index ID="1627160" Value="6"/>
+    <Index ID="1627161" Value="7"/>
+    <Index ID="1627162" Value="8"/>
+    <Index ID="1627420" Value="9"/>
+    <Index ID="1627421" Value="10"/>
+    <Index ID="1627422" Value="11"/>
+    <Index ID="1627423" Value="12"/>
+    <Index ID="1814760" Value="13"/>
+    <Index ID="1814761" Value="14"/>
+    <Index ID="1814762" Value="15"/>
+    <Index ID="1814763" Value="16"/>
+  </IndexMap>
+</TextGroup>

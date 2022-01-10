@@ -1,0 +1,52 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: extruder
+ * File: extruder.var
+ * Author: lij
+ * Created: January 05, 2015
+ ********************************************************************
+ * Local variables of program extruder
+ ********************************************************************)
+VAR
+	tTask : REAL := 0.0;
+	RTInfo_Task : RTInfo := (0);
+	tAlarmCurentA : REAL;
+	tWarnCurentA : REAL;
+	tAlarmCurentB : REAL;
+	tWarnCurentB : REAL;
+	tAlarmExtrTempA : REAL;
+	tStopExtrTempA : REAL;
+	tColiTempNormalA : REAL;
+	bHideCurrencyA : UINT;
+	bHideMeltTempA : UINT;
+	bHidePressureA : UINT;
+	bHideCurrencyB : UINT;
+	bHideMeltTempB : UINT;
+	bHidePressureB : UINT;
+	bHideCurrencyV : UINT;
+	bHideMeltTempV : UINT;
+	bHidePressureV : UINT;
+	bHideExtrMotorCooling : UINT;
+	bHideHopperCooling : UINT;
+	btnZeroExtrA : USINT;
+	btnMaxExtrA : USINT;
+	tMaxExtrA : REAL;
+	btnZeroExtrB : USINT;
+	btnMaxExtrB : USINT;
+	tMaxExtrB : REAL;
+	btnZeroExtrA_POS : USINT;
+	btnZeroExtrB_POS : USINT;
+	ExtrA_HopperKeyOld : USINT;
+	ExtrB_HopperKeyOld : USINT;
+	LubricCheckA : Lubricate_Check_typ;
+	LubricCheckB : Lubricate_Check_typ;
+	LubricCheckVisu : Lubricate_Check_typ;
+	MotorSpeedA : speedAdjust_typ;
+	MotorSpeedB : speedAdjust_typ;
+	MotorSpeedVisu : speedAdjust_typ;
+	tExtrA_OnNormal : REAL;
+	tExtrB_OnNormal : REAL;
+	tExtrV_OnNormal : REAL;
+	cntExtruderStopDelay : UDINT;
+END_VAR

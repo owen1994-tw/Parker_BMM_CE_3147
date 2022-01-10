@@ -1,0 +1,11 @@
+VAR
+	t_init : USINT;
+	t_stop : USINT;
+	Init : USINT;
+	PKeyMatric : ARRAY[0..MAX_KEY_COUNT] OF USINT;
+	NKeyMatric : ARRAY[0..MAX_KEY_COUNT] OF USINT;
+	MachineInOld : Machine_In_typ;
+	MachineInOldN : Machine_In_typ;
+	OldRClampOpnDI : USINT;
+	OldLClampOpnDI : USINT;
+END_VAR

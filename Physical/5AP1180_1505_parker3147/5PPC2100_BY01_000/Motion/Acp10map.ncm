@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.12.129 SP?>
+<NcMapping NcSwId="Acp10" DisabledNodesAreHidden="True">
+  <NcObject Name="8V1090.001-2_ncV_AXIS1" ModuleId="8V1090.001-2_L_BlowPin" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8V1090.001-2a_ncV_AXIS1" ModuleId="8V1090.001-2a_R_BlowPin" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8V1180.001-2_ncV_AXIS1" ModuleId="8V1180.001-2_L_Carriage" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8V1180.001-2a_ncV_AXIS1" ModuleId="8V1180.001-2a_R_Carriage" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8B0P0440HW00.001-1_ncAXIS2" ModuleId="8B0P0440HW00.001-1" Type="ncAXIS" Channel="2" AcoposSimulation="Off" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8B0P0440HW00.001-1_ncV_AXIS1" ModuleId="8B0P0440HW00.001-1" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8B0P0440HW00.001-1_ncV_AXIS2" ModuleId="8B0P0440HW00.001-1" Type="ncV_AXIS" Channel="2" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0110HWS0.000-1_ncAXIS2" ModuleId="8BVI0110HWS0.000-1" Type="ncAXIS" Channel="2" AcoposSimulation="Off" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0110HWS0.000-1_ncV_AXIS1" ModuleId="8BVI0110HWS0.000-1" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0110HWS0.000-1_ncV_AXIS2" ModuleId="8BVI0110HWS0.000-1" Type="ncV_AXIS" Channel="2" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisBlowPinL" ModuleId="8V1090.001-2_L_BlowPin" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="BlowPinL" AcoposParameter="BlowPinLR" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisBlowPinR" ModuleId="8V1090.001-2a_R_BlowPin" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="BlowPinR" AcoposParameter="BlowPinLR" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisCarriageL" ModuleId="8V1180.001-2_L_Carriage" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="CarriageL" AcoposParameter="CarraigeLR" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisCarriageR" ModuleId="8V1180.001-2a_R_Carriage" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="CarriageR" AcoposParameter="CarraigeLR" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0330HWS0.000-1_ncAXIS2" ModuleId="8BVI0330HWS0.000-1" Type="ncAXIS" Channel="2" AcoposSimulation="Off" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0330HWS0.000-1_ncV_AXIS1" ModuleId="8BVI0330HWS0.000-1" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0330HWS0.000-1_ncV_AXIS2" ModuleId="8BVI0330HWS0.000-1" Type="ncV_AXIS" Channel="2" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0330HWS0.000-1a_ncAXIS2" ModuleId="8BVI0330HWS0.000-1a" Type="ncAXIS" Channel="2" AcoposSimulation="Off" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0330HWS0.000-1a_ncV_AXIS1" ModuleId="8BVI0330HWS0.000-1a" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0330HWS0.000-1a_ncV_AXIS2" ModuleId="8BVI0330HWS0.000-1a" Type="ncV_AXIS" Channel="2" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0110HWD0.000-1_ncV_AXIS1" ModuleId="8BVI0110HWD0.000-1" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0110HWD0.000-1_ncV_AXIS2" ModuleId="8BVI0110HWD0.000-1" Type="ncV_AXIS" Channel="2" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0440HWS0.000-1a_ncAXIS2" ModuleId="8BVI0440HWS0.000-1a" Type="ncAXIS" Channel="2" AcoposSimulation="Off" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0440HWS0.000-1a_ncV_AXIS1" ModuleId="8BVI0440HWS0.000-1a" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0440HWS0.000-1a_ncV_AXIS2" ModuleId="8BVI0440HWS0.000-1a" Type="ncV_AXIS" Channel="2" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0028HWD0.000-1_ncV_AXIS1" ModuleId="8BVI0028HWD0.000-1" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0028HWD0.000-1_ncV_AXIS2" ModuleId="8BVI0028HWD0.000-1" Type="ncV_AXIS" Channel="2" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisTransferR" ModuleId="8BVI0110HWS0.000-1" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="TransferR" AcoposParameter="Tansfer" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisTransferR" ModuleId="8BVI0110HWS0.000-1" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="TransferR" AcoposParameter="Tansfer" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisCarriageL" ModuleId="8BVI0330HWS0.000-1a" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="CarriageL" AcoposParameter="CarraigeLR" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0330HWS0.000-1b_ncAXIS2" ModuleId="8BVI0330HWS0.000-1b" Type="ncAXIS" Channel="2" AcoposSimulation="Off" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0330HWS0.000-1b_ncV_AXIS1" ModuleId="8BVI0330HWS0.000-1b" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0330HWS0.000-1b_ncV_AXIS2" ModuleId="8BVI0330HWS0.000-1b" Type="ncV_AXIS" Channel="2" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0440HWS0.000-1_ncAXIS2" ModuleId="8BVI0440HWS0.000-1" Type="ncAXIS" Channel="2" AcoposSimulation="Off" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0440HWS0.000-1_ncV_AXIS1" ModuleId="8BVI0440HWS0.000-1" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8BVI0440HWS0.000-1_ncV_AXIS2" ModuleId="8BVI0440HWS0.000-1" Type="ncV_AXIS" Channel="2" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisClampR" ModuleId="8BVI0440HWS0.000-1" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="ClampR" AcoposParameter="ClampLR" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisClampR" ModuleId="8BVI0330HWS0.000-1b" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="ClampR" AcoposParameter="ClampLR" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisClampL" ModuleId="8BVI0440HWS0.000-1a" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="ClampL" AcoposParameter="ClampLR" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisExtrlift" ModuleId="8BVI0028HWD0.000-1" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="ExtrLift1" AcoposParameter="ExtrLift2" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisTransferR" ModuleId="8BVI0028HWD0.000-1" Type="ncAXIS" Channel="2" AcoposSimulation="Off" InitParameter="TransferR" AcoposParameter="Tansfer" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisPwr" ModuleId="8B0P0440HW00.001-1" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="Power" AcoposParameter="Power1" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisCarriageR" ModuleId="8BVI0330HWS0.000-1" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="CarriageR" AcoposParameter="CarraigeLR" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisThick" ModuleId="8BVI0110HWD0.000-1" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="ThickInit" AcoposParameter="ThickPara" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisBlowPinR" ModuleId="8BVI0110HWD0.000-1" Type="ncAXIS" Channel="2" AcoposSimulation="Off" InitParameter="BlowPinR" AcoposParameter="BlowPinLR" Disabled="FALSE" ModuleDisabled="FALSE" />
+</NcMapping>

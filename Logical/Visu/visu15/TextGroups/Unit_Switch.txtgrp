@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Unit_Switch">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="23"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="3803274" Value="Pressure"/>
+    <Text ID="3803275" Value=""/>
+    <Text ID="3803276" Value=""/>
+    <Text ID="3803277" Value="Flow"/>
+    <Text ID="3803278" Value="%"/>
+    <Text ID="3803279" Value="bar"/>
+    <Text ID="3803280" Value=""/>
+    <Text ID="3803281" Value="Velocity"/>
+    <Text ID="3803282" Value=""/>
+    <Text ID="3803284" Value="Torque"/>
+    <Text ID="3803285" Value=""/>
+    <Text ID="3803286" Value=""/>
+    <Text ID="3803287" Value=""/>
+    <Text ID="3803288" Value="%"/>
+    <Text ID="3803289" Value=""/>
+    <Text ID="3803290" Value="%"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="3803274" Value="壓力"/>
+    <Text ID="3803275" Value=""/>
+    <Text ID="3803276" Value=""/>
+    <Text ID="3803277" Value="流量"/>
+    <Text ID="3803278" Value="%"/>
+    <Text ID="3803279" Value="bar"/>
+    <Text ID="3803280" Value=""/>
+    <Text ID="3803281" Value="速度"/>
+    <Text ID="3803282" Value=""/>
+    <Text ID="3803284" Value="扭矩"/>
+    <Text ID="3803285" Value=""/>
+    <Text ID="3803286" Value=""/>
+    <Text ID="3803287" Value=""/>
+    <Text ID="3803288" Value="%"/>
+    <Text ID="3803289" Value=""/>
+    <Text ID="3803290" Value="%"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="3803274" Value="壓力"/>
+    <Text ID="3803275" Value=""/>
+    <Text ID="3803276" Value=""/>
+    <Text ID="3803277" Value="流量"/>
+    <Text ID="3803278" Value="%"/>
+    <Text ID="3803279" Value="bar"/>
+    <Text ID="3803280" Value=""/>
+    <Text ID="3803281" Value="速度"/>
+    <Text ID="3803282" Value=""/>
+    <Text ID="3803284" Value="扭矩"/>
+    <Text ID="3803285" Value=""/>
+    <Text ID="3803286" Value=""/>
+    <Text ID="3803287" Value=""/>
+    <Text ID="3803288" Value="%"/>
+    <Text ID="3803289" Value=""/>
+    <Text ID="3803290" Value="%"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="3803274" Value="Cisnienie"/>
+    <Text ID="3803275" Value=""/>
+    <Text ID="3803276" Value=""/>
+    <Text ID="3803277" Value="Przeplyw"/>
+    <Text ID="3803278" Value="%"/>
+    <Text ID="3803279" Value="bar"/>
+    <Text ID="3803280" Value=""/>
+    <Text ID="3803281" Value="Predkosc"/>
+    <Text ID="3803282" Value=""/>
+    <Text ID="3803284" Value="Moment obrotowy"/>
+    <Text ID="3803285" Value=""/>
+    <Text ID="3803286" Value=""/>
+    <Text ID="3803287" Value=""/>
+    <Text ID="3803288" Value="%"/>
+    <Text ID="3803289" Value=""/>
+    <Text ID="3803290" Value="%"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="3803274" Value="1"/>
+    <Index ID="3803275" Value="2"/>
+    <Index ID="3803276" Value="0"/>
+    <Index ID="3803277" Value="5"/>
+    <Index ID="3803278" Value="11"/>
+    <Index ID="3803279" Value="9"/>
+    <Index ID="3803280" Value="8"/>
+    <Index ID="3803281" Value="7"/>
+    <Index ID="3803282" Value="6"/>
+    <Index ID="3803284" Value="3"/>
+    <Index ID="3803285" Value="10"/>
+    <Index ID="3803286" Value="4"/>
+    <Index ID="3803287" Value="12"/>
+    <Index ID="3803288" Value="13"/>
+    <Index ID="3803289" Value="14"/>
+    <Index ID="3803290" Value="15"/>
+  </IndexMap>
+</TextGroup>

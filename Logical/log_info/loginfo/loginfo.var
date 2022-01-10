@@ -1,0 +1,29 @@
+VAR
+	StepLog : UINT;
+	LogBuffer : Log_Buffer_typ;
+	indexLog : UINT;
+	indexRecord : UINT;
+	AsArLogGetInfo_0 : AsArLogGetInfo;
+	AsArLogRead_0 : AsArLogRead;
+	LogData : asarlogRead;
+	sLogContext : STRING[119];
+	sTmp : STRING[79];
+	DOInfo : DatObjInfo;
+	doIdent : UDINT;
+	error_read : UDINT;
+	LogBin : ARRAY[0..119] OF SINT;
+	actualIndexOld : UDINT;
+	bCmdRefresh : BOOL;
+	OptionLog : USINT;
+	percentProgressBar : UINT;
+	OptionLogOld : USINT;
+	LogDataOld : asarlogRead;
+	pSrc : REFERENCE TO SINT;
+	pDat : REFERENCE TO SINT;
+	oldPicture : UINT;
+	bCmdTypeChange : BOOL;
+	bCmdPageDown : BOOL;
+	bCmdPageUp : BOOL;
+	bCmdPageInit : BOOL;
+	bCmdPageEnd : BOOL;
+END_VAR

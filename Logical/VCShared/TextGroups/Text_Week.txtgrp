@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Text_Week">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="0"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="535639" Value=""/>
+    <Text ID="535640" Value="Monday"/>
+    <Text ID="535641" Value="Tuesday"/>
+    <Text ID="535642" Value="Wednesday"/>
+    <Text ID="535643" Value="Thursday"/>
+    <Text ID="535644" Value="Friday"/>
+    <Text ID="535645" Value="Saturday"/>
+    <Text ID="1389152" Value="Sunday"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="535639" Value=""/>
+    <Text ID="535640" Value="星期一"/>
+    <Text ID="535641" Value="星期二"/>
+    <Text ID="535642" Value="星期三"/>
+    <Text ID="535643" Value="星期四"/>
+    <Text ID="535644" Value="星期五"/>
+    <Text ID="535645" Value="星期六"/>
+    <Text ID="1389152" Value="星期天"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="535639" Value=""/>
+    <Text ID="535640" Value="星期一"/>
+    <Text ID="535641" Value="星期二"/>
+    <Text ID="535642" Value="星期三"/>
+    <Text ID="535643" Value="星期四"/>
+    <Text ID="535644" Value="星期五"/>
+    <Text ID="535645" Value="星期六"/>
+    <Text ID="1389152" Value="星期天"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="535639" Value=""/>
+    <Text ID="535640" Value="Poniedzialek"/>
+    <Text ID="535641" Value="Wtorek"/>
+    <Text ID="535642" Value="Sroda"/>
+    <Text ID="535643" Value="Czwartek"/>
+    <Text ID="535644" Value="Piatek"/>
+    <Text ID="535645" Value="Sobota"/>
+    <Text ID="1389152" Value="Niedziela"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="535639" Value="0"/>
+    <Index ID="535640" Value="1"/>
+    <Index ID="535641" Value="2"/>
+    <Index ID="535642" Value="3"/>
+    <Index ID="535643" Value="4"/>
+    <Index ID="535644" Value="5"/>
+    <Index ID="535645" Value="6"/>
+    <Index ID="1389152" Value="7"/>
+  </IndexMap>
+</TextGroup>

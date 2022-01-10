@@ -1,0 +1,160 @@
+(********************************************************************
+ * COPYRIGHT -- B&R
+ ********************************************************************
+ * Library: AsHydCon
+ * File: AsHydCon.var
+ * Author: DI Thomas J. Frauscher
+ * Created: July 2011
+ ********************************************************************
+ * Constants of library AsHydCon
+ ********************************************************************)
+VAR CONSTANT
+  HCR_ERR_DT12S_D_NEG : UINT := 32250; (*Error: The damping constant D is negative.*)
+  HCR_ERR_DT12S_T1_NEG : UINT := 32251; (*Error: The filter time constant T1 is negative.*)
+  HCR_ERR_DT12S_T1_T2_ZERO : UINT := 32252; (*No longer used.*)
+  HCR_ERR_DT12S_T2_NEG : UINT := 32253; (*Error: The filter time constant T2 is negative.*)
+  HCR_ERR_DT12S_TF_NEG_ZERO : UINT := 32254; (*Error: The filter time constant Tf is less than or equal to 0.*)
+  HCR_ERR_DT12S_TV_NEG : UINT := 32255; (*Error: The differentiation time constant Tv is negative.*)
+  HCR_ERR_FIFO_MEM : UINT := 32256; (*Error: An error occurred during memory allocation for the internal ring buffer.*)
+  HCR_ERR_FIFO_T_FIFO_NEG : UINT := 32257; (*Error: t_FIFO is negative.*)
+  HCR_ERR_JFREE_TSWITCH_NEG : UINT := 32258; (*Error: The switching time tSwitch is negative.*)
+  HCR_ERR_LIN_NODEVEC_EMPTY : UINT := 32259; (*Error: No valid pointer pNodeVec to the node vector found.*)
+  HCR_ERR_LIN_X_NOT_ASC_DESC : UINT := 32260; (*Error: The x coordinates of the node vector are not sorted in ascending or descending order.*)
+  HCR_ERR_LIN_Y_NOT_ASC_DESC : UINT := 32261; (*Error: The y coordinates (Ui with i = 1..n) of the node vector are not sorted in ascending or descending order.*)
+  HCR_ERR_PID_DY_MAX_NEG : UINT := 32262; (*Error:
+PID: The maximum manipulated variable ramp dY_max is negative.
+Position controller: The maximum change rate for the piston speed (acceleration) dv_max is negative.
+Force controller: The maximum volume flow change speed dQ_max is negative.*)
+  HCR_ERR_PID_D_MODE_INVALID : UINT := 32263; (*Error: Invalid differentiation mode (d_mode).*)
+  HCR_ERR_PID_KW_0_1 : UINT := 32264; (*Error: The set value weakening factor Kw is less than 0 or greater than 1.*)
+  HCR_ERR_PID_K_FBK_NEG : UINT := 32265; (*Error: The wind-up damping factor K_Fbk is negative.*)
+  HCR_ERR_PID_TF_NEG : UINT := 32266; (*Error: The filter time constant Tf of the differentiator is negative.*)
+  HCR_ERR_PID_TF_ZERO : UINT := 32267; (*No longer used.*)
+  HCR_ERR_PID_TN_NEG_NEG : UINT := 32268; (*Error:
+PID: The integration time constant for I_Switch < 0 Tn_neg is negative.
+Position controller: The integration time constant for movements in the 'negative' direction Tn_neg is negative.*)
+  HCR_ERR_PID_TN_POS_NEG : UINT := 32269; (*Error:
+PID: The integration time constant for I_Switch > 0 Tn_pos is negative.
+Position controller: The integration time constant for movements in the 'positive' direction Tn_pos is negative.
+Force controller: The integration time constant Tn is negative.*)
+  HCR_ERR_PID_TV_NEG : UINT := 32270; (*Error: The differentiation time constant Tv of the differentiator is negative.*)
+  HCR_ERR_PID_WX_MAX_MIN : UINT := 32271; (*Error:
+PID: The maximum set and/or actual value WX_max is lower than the minimum value WX_min.
+Position controller: The maximum value of the set and/or actual position s_max is lower than the minimum value s_min.
+Force controller: The maximum value of the set and/or actual force Fp_max is lower than the minimum value Fp_min.*)
+  HCR_ERR_PID_Y_MAX_MIN : UINT := 32272; (*Error:
+PID: The lower limit for manipulated variables Y_min is less than -100%, the upper limit for manipulated variables Y_max is greater than +100%, or Y_max is less than or equal to Y_min.
+Position controller, AutoTune: The lower limit for piston speed v_min is less than -Internal.vCyl_sup, the upper limit for piston speed v_max is greater than Internal.vCyl_sup, or v_max is less than or equal to v_min.
+Force controller: The lower limit for the valve volume flow Q_min is less than -Qnom_neg, the upper limit for the valve volume flow Q_max is greater than Qnom_pos or Q_max is less than or equal to Q_min.*)
+  HCR_ERR_PT12_T1_NEG : UINT := 32273; (*Error: The time constant T1 is negative.*)
+  HCR_ERR_PT12_T2_NEG : UINT := 32274; (*Error: The time constant T2 is negative.*)
+  HCR_ERR_PT1CP_T1_NEG : UINT := 32275; (*Error: The time constant T1 is negative.*)
+  HCR_ERR_PT2S_D_NEG : UINT := 32276; (*Error: The damping constant D is negative.*)
+  HCR_ERR_PT2S_TF_NEG_ZERO : UINT := 32277; (*Error: The filter time constant Tf is less than or equal to 0.*)
+  HCR_ERR_SERVO_Y_MIN : UINT := 32278; (*Error: The value of minimum valve opening is outside the permissible range of 0 <= yValve_min <= 1.*)
+  HCR_ERR_SYSTEM_A_CYL : UINT := 32279; (*Error: At least one of the two cylinder piston areas A_Cyl_pos or A_Cyl_neg was entered as less than or equal to 0.*)
+  HCR_ERR_SYSTEM_P_DIFF : UINT := 32280; (*Error: The tank pressure pTank is above the system pressure pSupply.*)
+  HCR_ERR_SYSTEM_P_SUPPLY : UINT := 32281; (*Error: The system pressure pSupply is less than or equal to 0.*)
+  HCR_ERR_SYSTEM_P_TANK : UINT := 32282; (*Error: The tank pressure pTank is negative.*)
+  HCR_ERR_VALVE_P_DELTA_NOM : UINT := 32283; (*Error: The nominal pressure drop at valve edge pDelta_nom is less than or equal to 0.*)
+  HCR_ERR_VALVE_Q_NOM : UINT := 32284; (*Error: At least one nominal valve volume flow (Qnom_pos or Qnom_neg) was entered as less than or equal to 0.*)
+  HCR_ERR_VALVE_Y_0 : UINT := 32285; (*Error: The value of valve overlap is outside the valid range of 0 <= yValve_0 < 1.*)
+  HCR_ERR_RAMP_T_FALL_NEG : UINT := 32286; (*Error: The fall time t_fall is negative.*)
+  HCR_ERR_RAMP_T_HOLD_NEG : UINT := 32287; (*Error: The hold time t_hold is negative.*)
+  HCR_ERR_RAMP_T_RISE_NEG : UINT := 32288; (*Error: The rise time t_rise is negative.*)
+  HCR_ERR_SPF_A_ACC_NEG_NEG_ZERO : UINT := 32289; (*Error: Acceleration in the 'negative' direction aAcc_neg is negative.*)
+  HCR_ERR_SPF_A_ACC_POS_NEG_ZERO : UINT := 32290; (*Error: Acceleration in the 'positive' direction aAcc_pos is negative.*)
+  HCR_ERR_SPF_A_DEC_NEG_NEG_ZERO : UINT := 32291; (*Error: Deceleration in the 'negative' direction aDec_neg is negative.*)
+  HCR_ERR_SPF_A_DEC_POS_NEG_ZERO : UINT := 32292; (*Error: Deceleration in the 'positive' direction aDec_pos is negative.*)
+  HCR_ERR_SPF_NIL_PTR : UINT := 32293; (*Error: The pointer pMove_Para on the motion parameter vector is an NIL-Pointer.*)
+  HCR_ERR_SPF_T_JOLT_NEG : UINT := 32294; (*Error: The jolt time t_Jolt is negative.*)
+  HCR_ERR_SPF_VC_NEG_NEG_ZERO : UINT := 32295; (*Error: The maximum speed of movement in the 'negative' direction vC_neg is negative.*)
+  HCR_ERR_SPF_VC_POS_NEG_ZERO : UINT := 32296; (*Error: The maximum speed of movement in the 'positive' direction vC_pos is negative.*)
+  HCR_ERR_SYSTEM_H_CYL : UINT := 32297; (*Error: The cylinder height was entered as less than or equal to 0.*)
+  HCR_ERR_SYSTEM_M_CYL : UINT := 32298; (*Error: The resulting moving mass of the hydraulic system was set less than or equal to 0.*)
+  HCR_ERR_SYSTEM_NIL_PTR : UINT := 32299; (*Error: No pointer pSystem_Para (pSystem_ParaAdd) specified for the system parameters HCRSystemPara_typ (HCRSystemParaAdd_typ).*)
+  HCR_ERR_SYSTEM_P_SUPPLY_MAX : UINT := 32300; (*Error: The maximum system pressure pSupply_max is less than 0.*)
+  HCR_ERR_SYSTEM_V0_NEG : UINT := 32301; (*Error: The static volume of the cylinder chamber responsible for movement in the'negative' direction was set less than 0.*)
+  HCR_ERR_SYSTEM_V0_POS : UINT := 32302; (*Error: The static volume of the cylinder chamber responsible for movement in the 'positive' direction was set less than 0.*)
+  HCR_ERR_SERVO_MODE_FY : UINT := 32303; (*Error: The selected mode for the F-y servo correction does not exist.*)
+  HCR_ERR_SERVO_MODE_VY : UINT := 32304; (*Error: The selected mode for the v-y servo correction does not exist.*)
+  HCR_ERR_PID_NIL_PTR : UINT := 32305; (*Error:
+Position controller: No pointer pPID_Para_s specified for the PID-parameters HCRPIDPara_s_typ.
+Force controller: No pointer pPID_Para_F specified for the PID-parameters HCRPIDPara_F_typ.*)
+  HCR_ERR_VALVE_NIL_PTR : UINT := 32306; (*Error: No pointer pValve_Para specified for the valve parameters HCRValvePara_typ.*)
+  HCR_ERR_NOTCH_B_NEG_ZERO : UINT := 32307; (*Error: The filter band width B is less than or equal to 0.*)
+  HCR_ERR_NOTCH_F0_NEG_ZERO : UINT := 32308; (*Error: The filter frequency f0 is less than or equal to 0.*)
+  HCR_ERR_OMEGA0_X0_CYL : UINT := 32309; (*Error: Position of cylinder piston x0_Cyl, at which the critical natural frequency of the hydraulic system occurs, lies outside the cylinder dimensions.*)
+  HCR_ERR_OMEGA0_X_CYL_MIN_MAX : UINT := 32310; (*Error: The minimum cylinder piston position value, after which the proportional gain correction is calculated is less than 0. The maximum position value, up to which the proportional gain is calculated is greater than the cylinder height h_Cyl or x_Cyl_max is less than or equal to x_Cyl_min.*)
+  HCR_ERR_IT1_T1_NEG : UINT := 32313; (*Error: The time constant T1 is negative.*)
+  HCR_ERR_IT1_TN_NEG_ZERO : UINT := 32314; (*Error: The integration time constant Tn is less than or equal to 0.*)
+  HCR_ERR_SFG_T_DELTA_NEG_ZERO : UINT := 32315; (*Error: The time t_delta, which is available for the profile generation, is less than or equal to 0.*)
+  HCR_ERR_SFG_T_DIFF : UINT := 32316; (*Error: The net time (t_delta - t_Jolt), which is available for the profile generation, is less than or equal to 0.*)
+  HCR_ERR_SFG_T_JOLT_NEG : UINT := 32317; (*Error: The jolt time t_Jolt is negative.*)
+  HCR_ERR_DT12S_TF_NEG : UINT := 32318; (*Error: The filter time constant Tf is less than 0.*)
+  HCR_WARN_DT12S_T1_TS : UINT := 32370; (*Warning: The filter time constant T1 entered is not larger than the corresponding task cycle time.*)
+  HCR_WARN_DT12S_T1_ZERO : UINT := 32371; (*Warning: The filter time constant T1 = 0.*)
+  HCR_WARN_DT12S_T2_TS : UINT := 32372; (*Warning: The filter time constant T2 entered is not larger than the corresponding task cycle time.*)
+  HCR_WARN_DT12S_T2_ZERO : UINT := 32373; (*Warning: The filter time constant T2 = 0.*)
+  HCR_WARN_DT12S_TF_TS : UINT := 32374; (*Warning: The filter time constant Tf entered is not larger than the corresponding task cycle time.*)
+  HCR_WARN_DT12S_TV_TS : UINT := 32375; (*Warning: The differentiation time constant Tv entered is not larger than the corresponding task cycle time.*)
+  HCR_WARN_DT12S_TV_ZERO : UINT := 32376; (*Warning: The differentiation time constant Tv = 0.*)
+  HCR_WARN_FIFO_T_FIFO_INT : UINT := 32377; (*Warning: t_FIFO was not entered as a whole number multiple of the cycle time.*)
+  HCR_WARN_FIFO_T_FIFO_TS : UINT := 32378; (*Warning: t_FIFO was entered as smaller than the corresponding task cycle time, and was automatically increased to this value.*)
+  HCR_WARN_JFREE_TSWITCH_5TS : UINT := 32379; (*Warning: The switching time tSwitch entered is not 5 times larger than the corresponding task cycle time.*)
+  HCR_WARN_JFREE_TSWITCH_ZERO : UINT := 32380; (*Warning: The switching time tSwitch = 0.*)
+  HCR_WARN_LIN_CRIT_RNESS : UINT := 32381; (*Warning: The smoothing factor Rness is larger than the maximum possible smoothing factor (Internal.Rness_crit).*)
+  HCR_WARN_LIN_NB_NODE : UINT := 32382; (*Warning: NbNodes <= 1.*)
+  HCR_WARN_LIN_X_NOT_ASC_DESC_S : UINT := 32383; (*Warning: Sorting of the x coordinates of the node vector is monotonic, but not strictly monotonic.*)
+  HCR_WARN_LIN_Y_NOT_ASC_DESC : UINT := 32384; (*Warning: The y coordinates of the node vector are not sorted in ascending or descending order.*)
+  HCR_WARN_LIN_Y_NOT_ASC_DESC_S : UINT := 32385; (*Warning: Sorting of the y coordinates of the node vector is monotonic, but not strictly monotonic.*)
+  HCR_WARN_PID_TF_TS : UINT := 32386; (*Warning: The filter time constant Tf of the differentiator is not larger than the corresponding task cycle time.*)
+  HCR_WARN_PID_TN_NEG_TS : UINT := 32387; (*Warning:
+PID: The integration time constant for I_Switch < 0 Tn_neg is not larger than the corresponding task cycle time.
+Position controller: The integration time constant for movements in the 'negative' direction Tn_neg is not larger than the corresponding task cycle time.*)
+  HCR_WARN_PID_TN_POS_TS : UINT := 32388; (*Warning:
+PID: The integration time constant for I_Switch > 0 Tn_pos is not larger than the corresponding task cycle time.
+Position controller: The integration time constant for movements in the 'positive' direction Tn_pos is not larger than the corresponding task cycle time.
+Force controller: The integration time constant Tn entered is not larger than the corresponding task cycle time.*)
+  HCR_WARN_PID_TV_TS : UINT := 32389; (*Warning: The differentiation time constant Tv of the differentiator is not larger than the corresponding task cycle time.*)
+  HCR_WARN_PID_YADD_100 : UINT := 32390; (*Warning:
+PID: The feed forward size Yadd was outside the permissible interval of [-100%, 100%] and has been limited accordingly.
+Position controller: The feed forward speed v_add was outside the permissible interval of [-Internal.vCyl_sup, Internal.vCyl_sup] and has been limited accordingly.
+Force controller: The feed forward volume flow Q_add was outside the permissible interval of [-Qnom_neg, Qnom_pos] and has been limited accordingly.*)
+  HCR_WARN_PID_YI_MAX : UINT := 32391; (*Warning: The integrator's manipulated variable Yi has reached its maximum value.*)
+  HCR_WARN_PID_YI_MIN : UINT := 32392; (*Warning: The integrator's manipulated variable Yi has reached its minimum value.*)
+  HCR_WARN_PID_YMAN_MAX : UINT := 32393; (*Warning:
+PID: The manipulated variable for manual operation Yman was set above the maximum permissible value Y_max and has been limited to this maximum.
+Position controller: The speed of movement for manual operation v_man was set above the maximum permissible value v_max and has been limited to this maximum.
+Force controller: The valve volume flow for manual operation Q_man was set above the maximum permissible value Q_max and has been limited to this maximum.*)
+  HCR_WARN_PID_YMAN_MIN : UINT := 32394; (*Warning:
+PID: The manipulated variable for manual operation Yman was set below the minimum permissible value Y_min and has been increased to this minimum.
+Position controller: The speed of movement for manual operation v_man was set below the minimum permissible value v_min and has been increased to this minimum.
+Force controller: The valve volume flow for manual operation Q_man was set below the minimum permissible value Q_min and has been increased to this minimum.*)
+  HCR_WARN_PT12_T1_TS : UINT := 32395; (*Warning: The time constant T1 entered is not larger than the corresponding task cycle time.*)
+  HCR_WARN_PT12_T1_ZERO : UINT := 32396; (*Warning: The time constant T1 = 0.*)
+  HCR_WARN_PT12_T2_TS : UINT := 32397; (*Warning: The time constant T2 entered is not larger than the corresponding task cycle time.*)
+  HCR_WARN_PT12_T2_ZERO : UINT := 32398; (*Warning: The time constant T2 = 0.*)
+  HCR_WARN_PT1CP_T1_TS : UINT := 32399; (*Warning: The time constant T1 entered is not larger than the corresponding task cycle time.*)
+  HCR_WARN_PT1CP_T1_ZERO : UINT := 32400; (*Warning: The time constant T1 = 0.*)
+  HCR_WARN_PT2S_TF_TS : UINT := 32401; (*Warning: The filter time constant Tf entered is not larger than the corresponding task cycle time.*)
+  HCR_WARN_SERVO_FF_CYL_NEG : UINT := 32402; (*Warning: Friction force in the 'negative' direction Ff_Cyl_neg < 0.*)
+  HCR_WARN_SERVO_FF_CYL_POS : UINT := 32403; (*Warning: Friction force in the 'positive' direction Ff_Cyl_pos < 0.*)
+  HCR_WARN_SERVO_P_CYL_NEG_HIGH : UINT := 32404; (*The calculated pressure for the 'negative' cylinder pressure chamber is too high.*)
+  HCR_WARN_SERVO_P_CYL_NEG_LOW : UINT := 32405; (*Warning: The calculated pressure for the 'negative' cylinder pressure chamber is too low.*)
+  HCR_WARN_SERVO_P_CYL_NEG_NEG : UINT := 32406; (*Warning: The measured or estimated pressure for the 'negative' cylinder pressure chamber is negative.*)
+  HCR_WARN_SERVO_P_CYL_POS_HIGH : UINT := 32407; (*Warning: The calculated pressure for the 'positive' cylinder pressure chamber is too high.*)
+  HCR_WARN_SERVO_P_CYL_POS_LOW : UINT := 32408; (*Warning: The calculated pressure for the 'positive' cylinder pressure chamber is too low.*)
+  HCR_WARN_SERVO_P_CYL_POS_NEG : UINT := 32409; (*Warning: The measured or estimated pressure for the 'positive' cylinder pressure chamber is negative.*)
+  HCR_WARN_SERVO_V_CYL_MAX : UINT := 32410; (*No longer used.*)
+  HCR_WARN_SERVO_Y_MAX : UINT := 32411; (*Warning: The valve opening yValve has reached the maximum value (-1 or +1).*)
+  HCR_WARN_SPF_MEM : UINT := 32412; (*Warning: An error occurred while allocating memory for the internal ring buffer.*)
+  HCR_WARN_AUTOTUNE_KP_INVALID : UINT := 32413; (*No longer used.*)
+  HCR_WARN_NOTCH_F0_FS : UINT := 32414; (*Warning: The filter frequency f0 is too high.*)
+  HCR_WARN_IT1_T1_TS : UINT := 32416; (*Warning: The time constant T1 entered is not larger than the corresponding task cycle time.*)
+  HCR_WARN_IT1_T1_ZERO : UINT := 32417; (*Warning: The time constant T1 = 0.*)
+  HCR_WARN_IT1_TN_TS : UINT := 32418; (*Warning: The integration time constant Tn entered is not larger than the corresponding task cycle time.*)
+  HCR_WARN_SFG_FP_END : UINT := 32419; (*Warning: Fp_end was selected equal to the value of the set force Fp_set when dFp_set ? 0.*)
+  HCR_WARN_SFG_T_DELTA_ACT : UINT := 32420; (*Warning: The time t_delta_act, which was actually required for the profile generation, deviates massively from t_delta. However, a profile generation did occur.*)
+  HCR_ERR_DISABLED : UINT := 65534; (*Error: The function block is disabled.*)
+END_VAR

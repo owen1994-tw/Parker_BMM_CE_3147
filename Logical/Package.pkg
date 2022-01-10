@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.12.129 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" Description="Global include file">GlobalIncludes</Object>
+    <Object Type="File" Description="size of recipe array and task">Sizing.var</Object>
+    <Object Type="File">Enums.typ</Object>
+    <Object Type="File" Description="Global struct type">Global.typ</Object>
+    <Object Type="File" Description="Global variable">Global.var</Object>
+    <Object Type="Package">Libraries</Object>
+    <Object Type="Package">In_Out</Object>
+    <Object Type="Package" Description="action of process">process</Object>
+    <Object Type="Package" Description="Parioson thickness control">thickness</Object>
+    <Object Type="Package" Description="HMI Setting and password">screen</Object>
+    <Object Type="Package" Description="Machine mode">machine</Object>
+    <Object Type="Package" Description="Recipe management">recipeMan</Object>
+    <Object Type="Package" Description="zone heating and cooling">Heating</Object>
+    <Object Type="Package" Description="machine spc control">spc</Object>
+    <Object Type="Package" Description="3nd dirve control using motorkey">ThirdDrive</Object>
+    <Object Type="Package" Description="communication with third party equipment">comm</Object>
+    <Object Type="Package" Description="PLC system log information">log_info</Object>
+    <Object Type="Package" Description="point var change log info">VarChgLog</Object>
+    <Object Type="Package" Description="Axis part">Motion</Object>
+    <Object Type="Package">Visu</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Pads">
+  <Property Name="Description" Value="Bitmap group for input pads"/>
+  <Property Name="Index" Value="56"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="3496" Value="Source[local].Bitmap[Key_Numpad_A]"/>
+    <BitmapRef ID="3497" Value="Source[local].Bitmap[Key_Numpad_A_pressed]"/>
+    <BitmapRef ID="3498" Value="Source[local].Bitmap[Key_AlphaPad_lowerPressed]"/>
+    <BitmapRef ID="3499" Value="Source[local].Bitmap[Key_AlphaPad_upperPressed]"/>
+    <BitmapRef ID="3500" Value="Source[local].Bitmap[Key_AlphaPad_numericPressed]"/>
+    <BitmapRef ID="3501" Value="Source[local].Bitmap[Key_AlphaPad_numeric2Pressed]"/>
+    <BitmapRef ID="3502" Value="None"/>
+    <BitmapRef ID="3503" Value="None"/>
+    <BitmapRef ID="3504" Value="Source[local].Bitmap[Key_AlphaPad_lower]"/>
+    <BitmapRef ID="3505" Value="Source[local].Bitmap[Key_AlphaPad_upper]"/>
+    <BitmapRef ID="3506" Value="Source[local].Bitmap[Key_AlphaPad_numeric]"/>
+    <BitmapRef ID="3507" Value="Source[local].Bitmap[Key_AlphaPad_numeric2]"/>
+    <BitmapRef ID="3508" Value="None"/>
+    <BitmapRef ID="3509" Value="None"/>
+    <BitmapRef ID="3510" Value="None"/>
+    <BitmapRef ID="3511" Value="Source[local].Bitmap[Key_EditPad_lower]"/>
+    <BitmapRef ID="3512" Value="Source[local].Bitmap[Key_EditPad_upper]"/>
+    <BitmapRef ID="3513" Value="Source[local].Bitmap[Key_EditPad_numeric]"/>
+    <BitmapRef ID="3514" Value="Source[local].Bitmap[Key_EditPad_numeric2]"/>
+    <BitmapRef ID="3515" Value="Source[local].Bitmap[Key_EditPad_lowerPressed]"/>
+    <BitmapRef ID="3516" Value="Source[local].Bitmap[Key_EditPad_upperPressed]"/>
+    <BitmapRef ID="3517" Value="Source[local].Bitmap[Key_EditPad_numericPressed]"/>
+    <BitmapRef ID="3518" Value="Source[local].Bitmap[Key_EditPad_numeric2Pressed]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="3496" Value="0"/>
+    <Index ID="3497" Value="1"/>
+    <Index ID="3498" Value="6"/>
+    <Index ID="3499" Value="7"/>
+    <Index ID="3500" Value="8"/>
+    <Index ID="3501" Value="9"/>
+    <Index ID="3502" Value="10"/>
+    <Index ID="3503" Value="11"/>
+    <Index ID="3504" Value="2"/>
+    <Index ID="3505" Value="3"/>
+    <Index ID="3506" Value="4"/>
+    <Index ID="3507" Value="5"/>
+    <Index ID="3508" Value="12"/>
+    <Index ID="3509" Value="13"/>
+    <Index ID="3510" Value="14"/>
+    <Index ID="3511" Value="15"/>
+    <Index ID="3512" Value="16"/>
+    <Index ID="3513" Value="17"/>
+    <Index ID="3514" Value="18"/>
+    <Index ID="3515" Value="19"/>
+    <Index ID="3516" Value="20"/>
+    <Index ID="3517" Value="21"/>
+    <Index ID="3518" Value="22"/>
+  </IndexMap>
+</BitmapGroup>

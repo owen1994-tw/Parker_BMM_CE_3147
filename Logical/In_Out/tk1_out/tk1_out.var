@@ -1,0 +1,26 @@
+VAR
+	tTask : REAL := 0.0;
+	RTInfo_Task : RTInfo := (0);
+	ExtrA_Ramp : HydRampCos;
+	ExtrB_Ramp : HydRampCos;
+	ExtrV_Ramp : HydRampCos;
+	fubP_Ramp : HydRampCos;
+	fubP2_Ramp : HydRampCos;
+	rMaxP : REAL;
+	rMaxP2 : REAL;
+	rMaxQ : REAL;
+	rMaxQ2 : REAL;
+	aoPressure : DINT;
+	aoPressure2 : DINT;
+	aoFlux : DINT;
+	aoFlux2 : DINT;
+	bEnableLeftDie : BOOL;
+	bEnableRightDie : BOOL;
+	bEnableDie3 : BOOL;
+	bEnableDie4 : BOOL;
+	bEnableCutterHeating : BOOL;
+END_VAR
+(*Extruder Speed*)
+VAR
+	oldHeatPower : USINT;
+END_VAR

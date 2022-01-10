@@ -1,0 +1,24 @@
+VAR
+	Step : UINT;
+	keyOld : USINT;
+	CleanValveTotalDis : UDINT;
+	CleanValveFwDis : UDINT;
+	CleanValveBwDis : UDINT;
+	CleanValvePulse : BOOL;
+	CleanValveIntervalDis : UDINT;
+END_VAR
+(*Clamp*)
+VAR
+	RClampCleanValveCtrl : CleanCtrl_typ;
+	LClampCleanValveCtrl : CleanCtrl_typ;
+END_VAR
+(*Carriage*)
+VAR
+	RCarriageCleanValveCtrl : CleanCtrl_typ;
+	LCarriageCleanValveCtrl : CleanCtrl_typ;
+END_VAR
+(*BlowPin*)
+VAR
+	RBlowPinCleanValveCtrl : CleanCtrl_typ;
+	LBlowPinCleanValveCtrl : CleanCtrl_typ;
+END_VAR

@@ -1,0 +1,7 @@
+VAR
+	OldAccuStart : UINT;
+	OldAccuStop : UINT;
+	IsAccuReCal : USINT;
+	GapMaxLimitOld : REAL;
+	BarAccuDis : USINT;
+END_VAR

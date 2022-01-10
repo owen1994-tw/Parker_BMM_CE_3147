@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Text07_Calibration">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="7"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="577271" Value="No tunning"/>
+    <Text ID="577272" Value="Tunning ok"/>
+    <Text ID="3754940" Value=""/>
+    <Text ID="3754941" Value=""/>
+    <Text ID="3754942" Value=""/>
+    <Text ID="3754943" Value="Reset"/>
+    <Text ID="3754944" Value="Tolerance"/>
+    <Text ID="3754945" Value=""/>
+    <Text ID="3754946" Value=""/>
+    <Text ID="3754947" Value=""/>
+    <Text ID="3754948" Value="Encoder"/>
+    <Text ID="3754949" Value="Current position"/>
+    <Text ID="3754950" Value="Zero position"/>
+    <Text ID="3754951" Value="Max position"/>
+    <Text ID="3754952" Value="Up/Close/Bw Speed"/>
+    <Text ID="3754953" Value="Down/Open/Fw Speed"/>
+    <Text ID="3754954" Value="Calibration Torque"/>
+    <Text ID="3754955" Value="Length"/>
+    <Text ID="3754956" Value="Tunning status"/>
+    <Text ID="3754957" Value="Act velocity"/>
+    <Text ID="3754958" Value="Up/Close/Bw Torque"/>
+    <Text ID="3755031" Value="Potentiometer"/>
+    <Text ID="3755032" Value="Down/Open/Fw Pressure"/>
+    <Text ID="3755033" Value="Up/Close/Bw Pressure"/>
+    <Text ID="3755034" Value="Down/Open/Fw Flow"/>
+    <Text ID="3755035" Value="Up/Close/Bw Flow"/>
+    <Text ID="3803402" Value="Down/Open/Fw Torque"/>
+    <Text ID="3803403" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="577271" Value="未调好"/>
+    <Text ID="577272" Value="已调校"/>
+    <Text ID="3754940" Value=""/>
+    <Text ID="3754941" Value=""/>
+    <Text ID="3754942" Value=""/>
+    <Text ID="3754943" Value="重新校正"/>
+    <Text ID="3754944" Value="容許誤差"/>
+    <Text ID="3754945" Value=""/>
+    <Text ID="3754946" Value=""/>
+    <Text ID="3754947" Value=""/>
+    <Text ID="3754948" Value="編碼器"/>
+    <Text ID="3754949" Value="當前位置"/>
+    <Text ID="3754950" Value="零點位置"/>
+    <Text ID="3754951" Value="最大點位置"/>
+    <Text ID="3754952" Value="上/關/退速度"/>
+    <Text ID="3754953" Value="下/開/進速度"/>
+    <Text ID="3754954" Value="校調扭矩"/>
+    <Text ID="3754955" Value="行程長度"/>
+    <Text ID="3754956" Value="調校狀態"/>
+    <Text ID="3754957" Value="實際速度"/>
+    <Text ID="3754958" Value="上/關/退扭矩"/>
+    <Text ID="3755031" Value="線性尺"/>
+    <Text ID="3755032" Value="下/開/進壓力"/>
+    <Text ID="3755033" Value="上/關/退壓力"/>
+    <Text ID="3755034" Value="下/開/進流量"/>
+    <Text ID="3755035" Value="上/關/退流量"/>
+    <Text ID="3803402" Value="下/開/進扭矩"/>
+    <Text ID="3803403" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="577271" Value="未調好"/>
+    <Text ID="577272" Value="已調校"/>
+    <Text ID="3754940" Value=""/>
+    <Text ID="3754941" Value=""/>
+    <Text ID="3754942" Value=""/>
+    <Text ID="3754943" Value="重新校正"/>
+    <Text ID="3754944" Value="容許誤差"/>
+    <Text ID="3754945" Value=""/>
+    <Text ID="3754946" Value=""/>
+    <Text ID="3754947" Value=""/>
+    <Text ID="3754948" Value="編碼器"/>
+    <Text ID="3754949" Value="當前位置"/>
+    <Text ID="3754950" Value="零點位置"/>
+    <Text ID="3754951" Value="最大點位置"/>
+    <Text ID="3754952" Value="上/關/退速度"/>
+    <Text ID="3754953" Value="下/開/進速度"/>
+    <Text ID="3754954" Value="校調扭矩"/>
+    <Text ID="3754955" Value="行程長度"/>
+    <Text ID="3754956" Value="調校狀態"/>
+    <Text ID="3754957" Value="實際速度"/>
+    <Text ID="3754958" Value="上/關/退扭矩"/>
+    <Text ID="3755031" Value="線性尺"/>
+    <Text ID="3755032" Value="下/開/進壓力"/>
+    <Text ID="3755033" Value="上/關/退壓力"/>
+    <Text ID="3755034" Value="下/開/進流量"/>
+    <Text ID="3755035" Value="上/關/退流量"/>
+    <Text ID="3803402" Value="下/開/進扭矩"/>
+    <Text ID="3803403" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="577271" Value="Strojenie blad"/>
+    <Text ID="577272" Value="Strojenie OK"/>
+    <Text ID="3754940" Value=""/>
+    <Text ID="3754941" Value=""/>
+    <Text ID="3754942" Value=""/>
+    <Text ID="3754943" Value="Reset"/>
+    <Text ID="3754944" Value="Toletancja"/>
+    <Text ID="3754945" Value=""/>
+    <Text ID="3754946" Value=""/>
+    <Text ID="3754947" Value=""/>
+    <Text ID="3754948" Value="Enkoder"/>
+    <Text ID="3754949" Value="Aktualna pozycja"/>
+    <Text ID="3754950" Value="Pozycja zerowa"/>
+    <Text ID="3754951" Value="Max pozwycja"/>
+    <Text ID="3754952" Value=""/>
+    <Text ID="3754953" Value=""/>
+    <Text ID="3754954" Value="Moment kalibracji"/>
+    <Text ID="3754955" Value="Dlugośsc"/>
+    <Text ID="3754956" Value="Stan strojenia"/>
+    <Text ID="3754957" Value="Predkosc aktual."/>
+    <Text ID="3754958" Value=""/>
+    <Text ID="3755031" Value="Potencjametr"/>
+    <Text ID="3755032" Value="Dol/Otw/Przod Cisnienie"/>
+    <Text ID="3755033" Value="Gora/Zam/Tyl Cisnienie"/>
+    <Text ID="3755034" Value="Dol/Otw/Przod Przeplyw"/>
+    <Text ID="3755035" Value="Gora/Zam/Tyl Przeplyw"/>
+    <Text ID="3803402" Value=""/>
+    <Text ID="3803403" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="577271" Value="0"/>
+    <Index ID="577272" Value="1"/>
+    <Index ID="3754940" Value="2"/>
+    <Index ID="3754941" Value="3"/>
+    <Index ID="3754942" Value="4"/>
+    <Index ID="3754943" Value="5"/>
+    <Index ID="3754944" Value="6"/>
+    <Index ID="3754945" Value="7"/>
+    <Index ID="3754946" Value="8"/>
+    <Index ID="3754947" Value="9"/>
+    <Index ID="3754948" Value="10"/>
+    <Index ID="3754949" Value="12"/>
+    <Index ID="3754950" Value="13"/>
+    <Index ID="3754951" Value="14"/>
+    <Index ID="3754952" Value="15"/>
+    <Index ID="3754953" Value="16"/>
+    <Index ID="3754954" Value="21"/>
+    <Index ID="3754955" Value="22"/>
+    <Index ID="3754956" Value="23"/>
+    <Index ID="3754957" Value="24"/>
+    <Index ID="3754958" Value="25"/>
+    <Index ID="3755031" Value="11"/>
+    <Index ID="3755032" Value="20"/>
+    <Index ID="3755033" Value="19"/>
+    <Index ID="3755034" Value="18"/>
+    <Index ID="3755035" Value="17"/>
+    <Index ID="3803402" Value="26"/>
+    <Index ID="3803403" Value="27"/>
+  </IndexMap>
+</TextGroup>

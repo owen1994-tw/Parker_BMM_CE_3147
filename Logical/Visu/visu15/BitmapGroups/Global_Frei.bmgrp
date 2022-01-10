@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Global_Frei">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="20"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="2067" Value="Source[local].Bitmap[STATUS_FLAG_ENG]"/>
+    <BitmapRef ID="2068" Value="Source[local].Bitmap[STATUS_FREI_RUS]"/>
+    <BitmapRef ID="2069" Value="Source[local].Bitmap[STATUS_FLAG_CHN]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="2067" Value="1"/>
+    <Index ID="2068" Value="2"/>
+    <Index ID="2069" Value="0"/>
+  </IndexMap>
+</BitmapGroup>

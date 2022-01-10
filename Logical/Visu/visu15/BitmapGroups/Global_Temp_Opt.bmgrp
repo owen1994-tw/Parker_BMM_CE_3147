@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Global_Temp_Opt">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="25"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="2078" Value="Source[local].Bitmap[STATE_TEMOPTENABLE]"/>
+    <BitmapRef ID="2079" Value="Source[local].Bitmap[STATE_TEMOPTDISABLE]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="2078" Value="1"/>
+    <Index ID="2079" Value="0"/>
+  </IndexMap>
+</BitmapGroup>

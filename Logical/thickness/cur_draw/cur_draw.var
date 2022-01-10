@@ -1,0 +1,27 @@
+VAR
+	vcHandle : UDINT;
+	xTemp : INT;
+	xLength : INT;
+	yTemp : INT;
+	yLength : INT;
+	width : UINT;
+	Drawbox_width : UDINT;
+	Drawbox_height : UDINT;
+	height : UINT;
+	backColor : UINT;
+	fillColor : UINT;
+	frameColor : UINT;
+	crossColor : UINT;
+	xMax : INT;
+	xScaleBmp : UINT;
+	rSetScale : REAL;
+	rActScale : REAL;
+	status : UINT;
+	Status_Attach : UINT;
+	drawStep : UINT;
+	i : UINT;
+	getAT : ARRAY[0..99] OF INT;
+	DRAW_PIC : UINT;
+	firstPos : position_typ;
+	secondPos : position_typ;
+END_VAR

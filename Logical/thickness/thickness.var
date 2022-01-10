@@ -1,0 +1,25 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Package: thickness
+ * File: thickness.var
+ * Author: lij
+ * Created: December 19, 2013
+ ********************************************************************
+ * Variables of package thickness
+ ********************************************************************)
+VAR
+	ORIGINAL_X0 : INT;
+	ORIGINAL_Y0 : INT;
+	CurveNode : ARRAY[0..399] OF curveNode_typ;
+	DrawMan : drawMan_typ;
+	SetPos : ARRAY[0..399] OF position_typ;
+	bCurveIndexChange : BOOL;
+	bCurveIndexChgBtn : BOOL;
+	ChangeEnable : USINT;
+	setColor : USINT;
+	AccuPid : Thick_PID_typ;
+	TimePid : Thick_PID_typ;
+	GapMaxLimitChange : USINT;
+	bHideDieGapMoveFrame : USINT;
+END_VAR

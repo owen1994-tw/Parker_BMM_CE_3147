@@ -1,0 +1,31 @@
+VAR
+	tTask : REAL := 0.0;
+	RTInfo_Task : RTInfo := (0);
+	RelieveCount : UDINT;
+	timeCount : UDINT;
+	chargeTime : REAL;
+	ChargeState : USINT;
+	ChargeFlag : USINT;
+	oldChargeState : USINT;
+	OilPumpDetectTime : REAL;
+	OilPumpDelayTime : REAL;
+	accChargeValveDelayTime : REAL;
+	accChargeValveTime : REAL;
+	accChargeValveDelayTimeCount : UDINT;
+	accChargeValveTimeCount : UDINT;
+	accChargeValveDelayDoneOnce : BOOL;
+END_VAR
+(*Acc Extrlift*)
+VAR
+	ChargeState_Extrlift : USINT;
+	ChargeFlag_Extrlift : USINT;
+	oldChargeState_Extrlift : USINT;
+	accChargeValveDelayTime_Extr : REAL;
+	accChargeValveTime_Extr : REAL;
+	accChargeValveDelayTimeCnt_Extr : UDINT;
+	accChargeValveTimeCount_Extr : UDINT;
+	accChargeValveDelayDoneOnce_Extr : BOOL;
+	timeCount_Extr : UDINT;
+	RelieveCount_Extr : UDINT;
+	chargeTime_Extr : REAL;
+END_VAR

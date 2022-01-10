@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Text06_Tuning_info">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="6"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="500658" Value="Need tuning"/>
+    <Text ID="500659" Value="Tuning ok"/>
+    <Text ID="500660" Value="Tuning is running"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="500658" Value="沒调校"/>
+    <Text ID="500659" Value="调校好"/>
+    <Text ID="500660" Value="正在调校"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="500658" Value="沒調校"/>
+    <Text ID="500659" Value="調校好"/>
+    <Text ID="500660" Value="正在調校"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="500658" Value="Strojenie blad"/>
+    <Text ID="500659" Value="Strojenie OK"/>
+    <Text ID="500660" Value="W trakcie dostrajania"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="500658" Value="0"/>
+    <Index ID="500659" Value="1"/>
+    <Index ID="500660" Value="2"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="LogType">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="10"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="1057833" Value="Infomation"/>
+    <Text ID="1057834" Value="Warning"/>
+    <Text ID="1057835" Value="Error"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="1057833" Value="系统信息"/>
+    <Text ID="1057834" Value="系统警告"/>
+    <Text ID="1057835" Value="系统错误"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="1057833" Value="系統資訊"/>
+    <Text ID="1057834" Value="系統警告"/>
+    <Text ID="1057835" Value="系統錯誤"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="1057833" Value="Informacja"/>
+    <Text ID="1057834" Value="Ostrzezenie"/>
+    <Text ID="1057835" Value="Blad"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1057833" Value="0"/>
+    <Index ID="1057834" Value="1"/>
+    <Index ID="1057835" Value="2"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,21 @@
+VAR
+	cmdModem : BOOL;
+	BRInitStep : UINT;
+	BRStep : UINT;
+	Status : UINT;
+	i : UINT;
+	ATCommandCount : UINT;
+	CurrentAT : UINT;
+	TempLength : UINT;
+	BRReadBuf : STRING[80];
+	BRWriteBuf : STRING[80];
+	FmDevice : STRING[80];
+	FmMode : STRING[80];
+	BRFRMwrite : FRM_write;
+	BRFRMread : FRM_read;
+	BRFRMctrl : FRM_ctrl;
+	BRFRMxopen : FRM_xopen;
+	BRFRMrbuf : FRM_rbuf;
+	BRFRMclose : FRM_close;
+	AcT : ARRAY[0..19] OF BRTransfer;
+END_VAR

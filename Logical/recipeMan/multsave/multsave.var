@@ -1,0 +1,33 @@
+VAR
+	DataObjOperate : DatObj_Operate_typ;
+	indexRecipe : UINT;
+	pData : UDINT;
+	status_tmpalloc : UINT;
+	status_tmpfree : UINT;
+	pv_get : pv_get_typ;
+	pvList : ARRAY[0..C_LINE_NUMBER] OF STRING[C_PVNAME_LENGTH];
+	pv_adr : ARRAY[0..C_LINE_NUMBER] OF UDINT;
+	pv_len : ARRAY[0..C_LINE_NUMBER] OF UDINT;
+	iLine : UINT;
+	status : UINT;
+	wCreate : UINT;
+	wWrite : UINT;
+	wRead : UINT;
+	DOCreate : DatObjCreate;
+	DOWrite : DatObjWrite;
+	DORead : DatObjRead;
+	DOInfo : DatObjInfo;
+	sizeVarSum : UDINT;
+	sizeVarSumUSB : UDINT;
+	temp_adr : UDINT;
+	temp_adr_offset : UDINT;
+	pMoldUSBData : UDINT;
+	fileSingleName : STRING[80];
+	fileAllName : STRING[80];
+	FileCreate_0 : FileCreate;
+	FileWrite_0 : FileWrite;
+	FileRead_0 : FileRead;
+	FileOpen_0 : FileOpen;
+	FileClose_0 : FileClose;
+	tempMoldMem : ARRAY[0..C_MEM_MOLD_LENGTH] OF UINT;
+END_VAR

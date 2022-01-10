@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<Border xmlns="http://br-automation.co.at/AS/VC/Project" ClassId="0x00003005" Name="DialogHeader">
+  <Property Name="BorderBitmap" Value="Source[local].Bitmap[BORDER_DIALOG_HEADER]"/>
+  <Property Name="BorderBitmapSource" Value="SingleBitmap"/>
+  <Property Name="Description" Value=" "/>
+  <Property Name="PaddingHorizontal" Value="5"/>
+  <Property Name="PaddingVertical" Value="2"/>
+  <Property Name="ReplaceColor32Bit" Value="None"/>
+  <Property Name="SplitBottom" Value="11"/>
+  <Property Name="SplitLeft" Value="2"/>
+  <Property Name="SplitRight" Value="40"/>
+  <Property Name="SplitTop" Value="2"/>
+</Border>

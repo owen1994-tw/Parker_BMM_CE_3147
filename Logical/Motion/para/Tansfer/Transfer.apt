@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.12.129 SP?>
+<AcoposParameterTable>
+  <Root Name="Parameters">
+    <Group Name="Configure Parameter">
+      <Parameter Name="SGEN_SW_END_IGNORE" ID="128" Value="1" Description="Limit values: Ignore SW end positions" />
+      <Parameter Name="UDC_DETECTION" ID="300" Value="300" Unit="V" Disabled="FALSE" Description="CTRL DC bus: Voltage detection: Lower limit" />
+      <Parameter Name="PHASE_MON_IGNORE" ID="80" Value="1" Disabled="TRUE" Description="Power mains: Ignore phase failure" />
+    </Group>
+    <Group Name="VAR_XX_X+0">
+      <Parameter Name="FUNCTION_BLOCK_CREATE" ID="777" Value="VAR_I4_0+0" Description="VAR_XX_X+0" />
+      <Group Name="VAR_R4_X_0">
+        <Parameter Name="VAR_R4_0+0" ID="4128" Value="0.0" />
+        <Parameter Name="VAR_R4_1+0" ID="4136" Value="0.0" />
+        <Parameter Name="VAR_R4_2+0" ID="4144" Value="0.142" Description="temp junction Kp" />
+        <Parameter Name="VAR_R4_3+0" ID="4152" Value="0.142" Description="temp motor Kp" />
+      </Group>
+      <Group Name="VAR_I4_X_0" Disabled="FALSE">
+        <Parameter Name="VAR_I2_0+0" ID="4160" Value="0.0" Disabled="FALSE" Description="FB0 FB VAR: Variable0 I2" />
+        <Parameter Name="VAR_I2_1+0" ID="4168" Value="0.0" Disabled="FALSE" Description="FB0 FB VAR: Variable1 I2" />
+        <Parameter Name="VAR_I2_2+0" ID="4176" Value="0.0" Disabled="FALSE" Description="FB0 FB VAR: Variable2 I2" />
+        <Parameter Name="VAR_I2_3+0" ID="4184" Value="0.0" Disabled="FALSE" Description="FB0 FB VAR: Variable3 I2" />
+      </Group>
+    </Group>
+    <Group Name="Torque Limitation" Disabled="FALSE">
+      <Group Name="Function Create" Disabled="FALSE">
+        <Parameter Name="FUNCTION_BLOCK_CREATE" ID="777" Value="ARITH_MODE+0" Disabled="FALSE" Description="ARITH_0" />
+        <Parameter Name="FUNCTION_BLOCK_CREATE" ID="777" Value="ARITH_MODE+1" Disabled="FALSE" Description="ARITH_1" />
+        <Parameter Name="FUNCTION_BLOCK_CREATE" ID="777" Value="ARITH_MODE+2" Disabled="FALSE" Description="ARITH_2" />
+        <Parameter Name="FUNCTION_BLOCK_CREATE" ID="777" Value="ARITH_MODE+3" Disabled="FALSE" Description="ARITH_3" />
+        <Parameter Name="FUNCTION_BLOCK_CREATE" ID="777" Value="ARITH_MODE+4" Disabled="FALSE" Description="ARITH_4" />
+        <Parameter Name="FUNCTION_BLOCK_CREATE" ID="777" Value="ARITH_MODE+5" Disabled="FALSE" Description="ARITH_5" />
+        <Parameter Name="FUNCTION_BLOCK_CREATE" ID="777" Value="MINMAX_MODE+0" Disabled="FALSE" Description="MINMAX_0" />
+        <Parameter Name="FUNCTION_BLOCK_CREATE" ID="777" Value="MINMAX_MODE+1" Disabled="FALSE" Description="MINMAX_1" />
+        <Parameter Name="FUNCTION_BLOCK_CREATE" ID="777" Value="EVWR_MODE+2" Disabled="FALSE" Description="EVWR_2" />
+        <Parameter Name="FUNCTION_BLOCK_CREATE" ID="777" Value="EVWR_MODE+3" Disabled="FALSE" Description="EVWR_3" />
+        <Parameter Name="FUNCTION_BLOCK_CREATE" ID="777" Value="EVWR_MODE+4" Disabled="FALSE" Description="EVWR_4" />
+        <Parameter Name="FUNCTION_BLOCK_CREATE" ID="777" Value="EVWR_MODE+5" Disabled="FALSE" Description="EVWR_5" />
+      </Group>
+      <Group Name="ARITH + 0" Disabled="FALSE">
+        <Parameter Name="ARITH_IN1_PARID+0" ID="3592" Value="TEMP_JUNCTION_LIM" Disabled="FALSE" Description="TEMP_JUNCTION_LIM -- 842" />
+        <Parameter Name="ARITH_IN2_PARID+0" ID="3600" Value="TEMP_JUNCTION" Disabled="FALSE" Description="TEMP_JUNCTION -- 382" />
+        <Parameter Name="ARITH_K1+0" ID="3632" Value="0" Disabled="FALSE" Description="FB0 FB ARITH: Multiplication factor1" />
+        <Parameter Name="ARITH_K2+0" ID="3640" Value="0" Disabled="FALSE" Description="FB0 FB ARITH: Multiplication factor2" />
+        <Parameter Name="ARITH_MODE+0" ID="3584" Value="2" Disabled="FALSE" Description="y= x1 - x2" />
+      </Group>
+      <Group Name="ARITH + 1" Disabled="FALSE">
+        <Parameter Name="ARITH_IN1_PARID+1" ID="3593" Value="ARITH_VALUE_R4+0" Disabled="FALSE" Description="3624" />
+        <Parameter Name="ARITH_IN2_PARID+1" ID="3601" Value="VAR_R4_2+0" Disabled="FALSE" Description="4144" />
+        <Parameter Name="ARITH_K1+1" ID="3633" Value="0" Disabled="FALSE" Description="FB1 FB ARITH: Multiplication factor1" />
+        <Parameter Name="ARITH_K2+1" ID="3641" Value="0" Disabled="FALSE" Description="FB1 FB ARITH: Multiplication factor2" />
+        <Parameter Name="ARITH_MODE+1" ID="3585" Value="3" Disabled="FALSE" Description="y = x1 * x2" />
+      </Group>
+      <Group Name="ARITH + 2" Disabled="FALSE">
+        <Parameter Name="ARITH_IN1_PARID+2" ID="3594" Value="MOTOR_TORQ_RATED" Disabled="FALSE" Description="MOTOR_TORQ_RATED -- 53" />
+        <Parameter Name="ARITH_IN2_PARID+2" ID="3602" Value="ARITH_VALUE_R4+1" Disabled="FALSE" Description="3625" />
+        <Parameter Name="ARITH_K1+2" ID="3634" Value="0" Disabled="FALSE" Description="FB2 FB ARITH: Multiplication factor1" />
+        <Parameter Name="ARITH_K2+2" ID="3642" Value="0" Disabled="FALSE" Description="FB2 FB ARITH: Multiplication factor2" />
+        <Parameter Name="ARITH_MODE+2" ID="3586" Value="1" Disabled="FALSE" Description="y = x1 + x2" />
+      </Group>
+      <Group Name="ARITH + 3" Disabled="FALSE">
+        <Parameter Name="ARITH_IN1_PARID+3" ID="3595" Value="MOTOR_WIND_TEMP_MAX" Disabled="FALSE" Description="74 - MOTOR_WIND_TEMP_MAX" />
+        <Parameter Name="ARITH_IN2_PARID+3" ID="3603" Value="TEMP_MOTOR" Disabled="FALSE" Description="381 - TEMP_MOTOR" />
+        <Parameter Name="ARITH_K1+3" ID="3635" Value="0" Disabled="FALSE" Description="FB3 FB ARITH: Multiplication factor1" />
+        <Parameter Name="ARITH_K2+3" ID="3643" Value="0" Disabled="FALSE" Description="FB3 FB ARITH: Multiplication factor2" />
+        <Parameter Name="ARITH_MODE+3" ID="3587" Value="2" Disabled="FALSE" Description="y = x1 - x2" />
+      </Group>
+      <Group Name="ARITH + 4" Disabled="FALSE">
+        <Parameter Name="ARITH_IN1_PARID+4" ID="3596" Value="ARITH_VALUE_R4+3" Disabled="FALSE" Description="3627" />
+        <Parameter Name="ARITH_IN2_PARID+4" ID="3604" Value="VAR_R4_3+0" Disabled="FALSE" Description="4152" />
+        <Parameter Name="ARITH_K1+4" ID="3636" Value="0" Disabled="FALSE" Description="FB4 FB ARITH: Multiplication factor1" />
+        <Parameter Name="ARITH_K2+4" ID="3644" Value="0" Disabled="FALSE" Description="FB4 FB ARITH: Multiplication factor2" />
+        <Parameter Name="ARITH_MODE+4" ID="3588" Value="3" Disabled="FALSE" Description="y = x1 * x2" />
+      </Group>
+      <Group Name="ARITH + 5" Disabled="FALSE">
+        <Parameter Name="ARITH_IN1_PARID+5" ID="3597" Value="MOTOR_TORQ_RATED" Disabled="FALSE" Description="MOTOR_TORQ_RATED -- 53" />
+        <Parameter Name="ARITH_IN2_PARID+5" ID="3605" Value="ARITH_VALUE_R4+4" Disabled="FALSE" Description="3628" />
+        <Parameter Name="ARITH_K1+5" ID="3637" Value="0" Disabled="FALSE" Description="FB5 FB ARITH: Multiplication factor1" />
+        <Parameter Name="ARITH_K2+5" ID="3645" Value="0" Disabled="FALSE" Description="FB5 FB ARITH: Multiplication factor2" />
+        <Parameter Name="ARITH_MODE+5" ID="3589" Value="1" Disabled="FALSE" Description="y = x1 + x2" />
+      </Group>
+      <Group Name="MINMAX + 0" Disabled="FALSE">
+        <Parameter Name="MINMAX_IN1_PARID+0" ID="12312" Value="MOTOR_TORQ_MAX" Disabled="FALSE" Description="MOTOR_TORQ_MAX -- 54" />
+        <Parameter Name="MINMAX_IN2_PARID+0" ID="12320" Value="ARITH_VALUE_R4+2" Disabled="FALSE" Description="3626" />
+        <Parameter Name="MINMAX_IN3_PARID+0" ID="12328" Value="ARITH_VALUE_R4+5" Disabled="FALSE" Description="3629" />
+        <Parameter Name="MINMAX_MODE+0" ID="12288" Value="1" Disabled="FALSE" Description="MIN(MOTOR_TORQ_MAX,ARITH_VALUE_R4+1)" />
+      </Group>
+      <Group Name="MINMAX + 1" Disabled="FALSE">
+        <Parameter Name="MINMAX_IN1_PARID+1" ID="12313" Value="VAR_R4_0+0" Disabled="FALSE" Description="zero" />
+        <Parameter Name="MINMAX_IN2_PARID+1" ID="12321" Value="MINMAX_VALUE_R4+0" Disabled="FALSE" Description="FB1 FB MINMAX: Parameter ID of input2" />
+        <Parameter Name="MINMAX_MODE+1" ID="12289" Value="2" Disabled="FALSE" Description="MAX(VAR_R4_0+0,MINMAX_VALUE_R4+0)" />
+      </Group>
+      <Group Name="EVWR + 2" Disabled="FALSE">
+        <Parameter Name="EVWR_EVENT_PARID+2" ID="4610" Value="CONST_I4_ONE" Disabled="FALSE" Description="FB2 FB EVWR: Parameter ID of event input" />
+        <Parameter Name="EVWR_IN_PARID+2" ID="4618" Value="MINMAX_VALUE_R4+1" Disabled="FALSE" Description="FB2 FB EVWR: Parameter ID of input" />
+        <Parameter Name="EVWR_EVENT_LEVEL+2" ID="4626" Value="1" Disabled="FALSE" Description="FB2 FB EVWR: Event level" />
+        <Parameter Name="EVWR_WR_PARID+2" ID="4634" Value="LIM_T2_POS" Disabled="FALSE" Description="348" />
+        <Parameter Name="EVWR_MODE+2" ID="4642" Value="2" Disabled="FALSE" Description="mode - cyclic write" />
+      </Group>
+      <Group Name="EVWR + 3" Disabled="FALSE">
+        <Parameter Name="EVWR_EVENT_PARID+3" ID="4611" Value="CONST_I4_ONE" Disabled="FALSE" Description="FB3 FB EVWR: Parameter ID of event input" />
+        <Parameter Name="EVWR_IN_PARID+3" ID="4619" Value="MINMAX_VALUE_R4+1" Disabled="FALSE" Description="FB3 FB EVWR: Parameter ID of input" />
+        <Parameter Name="EVWR_EVENT_LEVEL+3" ID="4627" Value="1" Disabled="FALSE" Description="FB3 FB EVWR: Event level" />
+        <Parameter Name="EVWR_WR_PARID+3" ID="4635" Value="LIM_T2_NEG" Disabled="FALSE" Description="349" />
+        <Parameter Name="EVWR_MODE+3" ID="4643" Value="2" Disabled="FALSE" Description="mode - cyclic write" />
+      </Group>
+      <Group Name="EVWR + 4" Disabled="FALSE">
+        <Parameter Name="EVWR_EVENT_PARID+4" ID="4612" Value="CONST_I4_ONE" Disabled="FALSE" Description="FB4 FB EVWR: Parameter ID of event input" />
+        <Parameter Name="EVWR_IN_PARID+4" ID="4620" Value="MINMAX_VALUE_R4+1" Disabled="FALSE" Description="FB4 FB EVWR: Parameter ID of input" />
+        <Parameter Name="EVWR_EVENT_LEVEL+4" ID="4628" Value="1" Disabled="FALSE" Description="FB4 FB EVWR: Event level" />
+        <Parameter Name="EVWR_WR_PARID+4" ID="4636" Value="LIM_T1_POS" Disabled="FALSE" Description="248" />
+        <Parameter Name="EVWR_MODE+4" ID="4644" Value="2" Disabled="FALSE" Description="mode - cyclic write" />
+      </Group>
+      <Group Name="EVWR + 5" Disabled="FALSE">
+        <Parameter Name="EVWR_EVENT_PARID+5" ID="4613" Value="CONST_I4_ONE" Disabled="FALSE" Description="FB5 FB EVWR: Parameter ID of event input" />
+        <Parameter Name="EVWR_IN_PARID+5" ID="4621" Value="MINMAX_VALUE_R4+1" Disabled="FALSE" Description="FB5 FB EVWR: Parameter ID of input" />
+        <Parameter Name="EVWR_EVENT_LEVEL+5" ID="4629" Value="1" Disabled="FALSE" Description="FB5 FB EVWR: Event level" />
+        <Parameter Name="EVWR_WR_PARID+5" ID="4637" Value="LIM_T1_NEG" Disabled="FALSE" Description="249" />
+        <Parameter Name="EVWR_MODE+5" ID="4645" Value="2" Disabled="FALSE" Description="mode - cyclic write" />
+      </Group>
+    </Group>
+    <Group Name="HardWare Limit  For ACOPOS Multi">
+      <Parameter Name="POS_LIMIT_SWITCH_PARID" ID="945" Value="VAR_I2_0+0" Description="Digital inputs: Parameter ID for positive end switch" />
+      <Parameter Name="NEG_LIMIT_SWITCH_PARID" ID="946" Value="VAR_I2_1+0" Description="Digital inputs: Parameter ID for negative end switch" />
+    </Group>
+  </Root>
+</AcoposParameterTable>

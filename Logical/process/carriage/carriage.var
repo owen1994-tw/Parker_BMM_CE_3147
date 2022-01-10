@@ -1,0 +1,35 @@
+VAR
+	tTask : REAL := 0.0;
+	RTInfo_Task : RTInfo := (0);
+	tErrorDelay : REAL;
+	rMin0 : REAL;
+	bValveChangeL : BOOL;
+	bValveChangeR : BOOL;
+	rMinCarriageBwL : REAL;
+	rMaxCarriageBwL : REAL;
+	rMinCarriageBwR : REAL;
+	rMaxCarriageBwR : REAL;
+	vActHydDT2_R : HydDT2;
+	vActHydDT2_L : HydDT2;
+	rCarriageFwL_HMI : REAL;
+	rCarriageFwR_HMI : REAL;
+	rCarriageBwR_HMI : REAL;
+	rCarriageBwL_HMI : REAL;
+END_VAR
+(*For robot singal stand on timer*)
+(*Toggle*)
+VAR
+	ToggleInputL : USINT;
+	ToggleInputR : USINT;
+	ToggleLOld : ARRAY[0..30] OF Hyd_Node_typ;
+	ToggleROld : ARRAY[0..30] OF Hyd_Node_typ;
+	TogLinearL : HydLinear;
+	TogLinearR : HydLinear;
+	xToggleNodeL : ARRAY[0..30] OF Hyd_Node_typ;
+	xTogLinearL : HydLinear;
+	xToggleNodeR : ARRAY[0..30] OF Hyd_Node_typ;
+	xTogLinearR : HydLinear;
+	bToggle_Init : USINT;
+	oldToggleLinNodeNum : USINT;
+	ToggleLinNodeNum : USINT;
+END_VAR

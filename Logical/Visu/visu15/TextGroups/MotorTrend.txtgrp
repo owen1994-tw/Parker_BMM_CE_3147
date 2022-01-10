@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.12.129 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MotorTrend">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="28"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en-GB">
+    <Text ID="3280476" Value="RCarriage"/>
+    <Text ID="3617004" Value="LCarriage"/>
+    <Text ID="3617005" Value="RBlowpin1"/>
+    <Text ID="3617006" Value="RBlowpin2"/>
+    <Text ID="3617007" Value="LBlowpin1"/>
+    <Text ID="3617008" Value="LBlowpin2"/>
+    <Text ID="3705536" Value="RClamp"/>
+    <Text ID="3705537" Value="LClamp"/>
+    <Text ID="3898152" Value="Swing"/>
+    <Text ID="3905693" Value="Parison"/>
+    <Text ID="3919981" Value="RRobotTransfer"/>
+    <Text ID="3919982" Value="LRobotTransfer"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-CN">
+    <Text ID="3280476" Value="右移模"/>
+    <Text ID="3617004" Value="左移模"/>
+    <Text ID="3617005" Value="右1吹桿"/>
+    <Text ID="3617006" Value="右2吹桿"/>
+    <Text ID="3617007" Value="左1吹桿"/>
+    <Text ID="3617008" Value="左2吹桿"/>
+    <Text ID="3705536" Value="右開關模"/>
+    <Text ID="3705537" Value="左開關模"/>
+    <Text ID="3898152" Value="抬頭"/>
+    <Text ID="3905693" Value="厚薄"/>
+    <Text ID="3919981" Value="右機械手進退"/>
+    <Text ID="3919982" Value="左機械手進退"/>
+  </TextLayer>
+  <TextLayer LanguageId="zh-TW">
+    <Text ID="3280476" Value="右移模"/>
+    <Text ID="3617004" Value="左移模"/>
+    <Text ID="3617005" Value="右1吹桿"/>
+    <Text ID="3617006" Value="右2吹桿"/>
+    <Text ID="3617007" Value="左1吹桿"/>
+    <Text ID="3617008" Value="左2吹桿"/>
+    <Text ID="3705536" Value="右開關模"/>
+    <Text ID="3705537" Value="左開關模"/>
+    <Text ID="3898152" Value="抬頭"/>
+    <Text ID="3905693" Value="厚薄"/>
+    <Text ID="3919981" Value="右機械手進退"/>
+    <Text ID="3919982" Value="左機械手進退"/>
+  </TextLayer>
+  <TextLayer LanguageId="pl">
+    <Text ID="3280476" Value="P - Wozek"/>
+    <Text ID="3617004" Value="L - Wozek"/>
+    <Text ID="3617005" Value="P - Trzp. Rozdm. 1"/>
+    <Text ID="3617006" Value="P - Trzp. Rozdm. 2"/>
+    <Text ID="3617007" Value="L - Trzp. Rozdm. 1"/>
+    <Text ID="3617008" Value="L - Trzp. Rozdm. 2"/>
+    <Text ID="3705536" Value="P - Forma"/>
+    <Text ID="3705537" Value="L - Forma"/>
+    <Text ID="3898152" Value=""/>
+    <Text ID="3905693" Value=""/>
+    <Text ID="3919981" Value=""/>
+    <Text ID="3919982" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="3280476" Value="2"/>
+    <Index ID="3617004" Value="3"/>
+    <Index ID="3617005" Value="4"/>
+    <Index ID="3617006" Value="14"/>
+    <Index ID="3617007" Value="5"/>
+    <Index ID="3617008" Value="15"/>
+    <Index ID="3705536" Value="0"/>
+    <Index ID="3705537" Value="1"/>
+    <Index ID="3898152" Value="10"/>
+    <Index ID="3905693" Value="11"/>
+    <Index ID="3919981" Value="6"/>
+    <Index ID="3919982" Value="7"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,22 @@
+VAR
+	ManualReq : USINT;
+	NegReset : USINT;
+	PosReset : USINT;
+	Step : UINT;
+	MachineStop : USINT;
+	OldManualReq : USINT;
+	AutoReq : USINT;
+	OldAutoReq : USINT;
+	AdjustReq : USINT;
+	OldAdjustReq : USINT;
+	CalibPinReq : USINT;
+	PosCalibPinReq : USINT;
+	NegCalibPinReq : USINT;
+	DrycyleReq : USINT;
+	PosDrycyleReq : USINT;
+	NegDrycyleReq : USINT;
+	DelayTime : UDINT;
+	oldCalibModeForceDI : USINT;
+	CalibModeForceDI_Init : USINT;
+	bInit_clear_gUserPara_TimeDis : USINT;
+END_VAR

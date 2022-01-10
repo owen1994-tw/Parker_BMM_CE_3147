@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.12.129 SP?>
+<Library Version="2.10.0" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>DateTimeString.st</File>
+    <File>IOForcingOperate.st</File>
+    <File>Scaler_ActZone.st</File>
+    <File>SimpFun.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="AsIO" FromVersion="1.10.2" />
+    <Dependency ObjectName="AsString" FromVersion="1.01.1" />
+    <Dependency ObjectName="AsTime" FromVersion="1.00.3" />
+    <Dependency ObjectName="runtime" FromVersion="1.09.1" />
+  </Dependencies>
+</Library>
