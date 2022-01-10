@@ -384,6 +384,7 @@ _CYCLIC void cyclic ( void )
 		}
 	}
 	
+	
 	/* Oil cooling pump auto cooling  -> OilCoolingValve */
 	if(!gMachineFix.OilCooling.OilTempCoolingStart)gMachineFix.OilCooling.OilTempCoolingStart = 40;
 	if(!gMachineFix.OilCooling.OilTempCoolingStop)gMachineFix.OilCooling.OilTempCoolingStop = 35;
@@ -398,6 +399,21 @@ _CYCLIC void cyclic ( void )
 		gMachineOut.WaterCooling = 0;
 	}
 	gMachineOut.OilCoolingValve = !gMachineOut.WaterCooling;
+	
+	/* Oil heating pump auto heating  */
+	if(!gMachineFix.OilCooling.OilTempHeatingStart)gMachineFix.OilCooling.OilTempHeatingStart = 10;
+	if(!gMachineFix.OilCooling.OilTempHeatingStop)gMachineFix.OilCooling.OilTempHeatingStop = 20;
+	
+	if(gMachineInfo.OilTemp < gMachineFix.OilCooling.OilTempHeatingStart)
+	{
+		gMachineOut.WaterHeating = 1;
+	}
+	
+	if(gMachineInfo.OilTemp < gMachineFix.OilCooling.OilTempHeatingStop)
+	{
+		gMachineOut.WaterHeating = 0;
+	}
+//	gMachineOut.OilCoolingValve = !gMachineOut.WaterHeating;
 	
 	
 	/* ------------------------ hot cutter heating  ŸáÇÐµ¶ DO -------------------------- */

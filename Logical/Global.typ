@@ -2048,6 +2048,7 @@ TYPE
 		ExtrB_Run : USINT;
 		VisuExtrRun : USINT;
 		WaterCooling : USINT;
+		WaterHeating : USINT;
 		PlateUp : USINT;
 		PlateDn : USINT;
 		PlateFw : USINT;
@@ -2942,8 +2943,8 @@ TYPE
 		OilTempAlarm : REAL;
 		OilTempCoolingStart : REAL;
 		OilTempCoolingStop : REAL;
-		Reserve3_REAL : REAL;
-		Reserve2_REAL : REAL;
+		OilTempHeatingStart : REAL;
+		OilTempHeatingStop : REAL;
 		Reserve1_REAL : REAL;
 		Reserve0_REAL : REAL;
 	END_STRUCT;

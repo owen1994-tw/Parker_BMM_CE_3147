@@ -32524,6 +32524,30 @@
           <Property Name="UserID" Value="None"/>
           <Property Name="VCType" Value="SCALED"/>
         </DataPoint>
+        <DataPoint Name="OilTempHeatingStart">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="Visu\visu15"/>
+          <Property Name="DPLimit" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="REAL"/>
+          <Property Name="PLCUnit" Value="None"/>
+          <Property Name="UnitGroup" Value="None"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="OilTempHeatingStop">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="Visu\visu15"/>
+          <Property Name="DPLimit" Value="None"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="REAL"/>
+          <Property Name="PLCUnit" Value="None"/>
+          <Property Name="UnitGroup" Value="None"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
       </Folder>
       <Folder Name="Lubrication">
         <Property Name="Description" Value=""/>

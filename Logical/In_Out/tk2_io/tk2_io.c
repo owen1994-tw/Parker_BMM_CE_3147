@@ -1243,7 +1243,7 @@ _CYCLIC void cyclic ( void )
 	DOInternal[45] = gMachineOut.RMold.CoolDeflash	| gHardWare.DOForce[44]; 
 	DOInternal[46] = gMachineOut.RMold.RobotFw  	| gHardWare.DOForce[45]; 
 	DOInternal[47] = gMachineOut.RMold.RobotCls 	| gHardWare.DOForce[46];
-	DOInternal[48] = gMachineOut.OilCoolingValve	| gHardWare.DOForce[47];
+	DOInternal[48] = gMachineOut.WaterHeating		| gHardWare.DOForce[47];
 	
 	DOInternal[49] = gMachineOut.ExtrA_On		| gHardWare.DOForce[48];
 	DOInternal[50] = gMachineOut.ExtrD_On		| gHardWare.DOForce[49];
