@@ -349,7 +349,19 @@ void RobotOpnCls( Mold_typ * pMold,Robot_OpnCls_Para_typ * pRobotOpnClsPara,Robo
 				pMold->RobotOpnCls.Step = 10400;
 			}
 			else  // for no use check limit
-			{	
+			{			
+				if (1==gMachineInfo.Auto)
+				{
+					if(pMold == &RMold)
+					{
+						RMold.Option.RobotOpnCls = gMacOption.RRobotOpnCls;
+					}
+					else
+					{
+						LMold.Option.RobotOpnCls = gMacOption.LRobotOpnCls;
+					}
+				}
+			
 				if (1 == pMold->TransDIn.RobotOpnLimit)
 				{
 					pMold->RobotOpnCls.Step = 12900;  // for no use
@@ -385,7 +397,7 @@ void RobotOpnCls( Mold_typ * pMold,Robot_OpnCls_Para_typ * pRobotOpnClsPara,Robo
 			}
 			break;
 		
-		case 10500: 			/* 夹时间 */
+		case 10500: 			/* 開时间 */
 			
 			if (1==gMachineInfo.Auto)
 			{

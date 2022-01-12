@@ -1196,7 +1196,7 @@ _CYCLIC void cyclic ( void )
 	DOInternal[11] = gMachineOut.RMold.ClampOpn			| gHardWare.DOForce[10];
 	DOInternal[12] = gMachineOut.RMold.ClampCls			| gHardWare.DOForce[11];
 	DOInternal[13] = gMachineOut.RMold.ClampOpnRelease 	| gHardWare.DOForce[12];
-	DOInternal[14] = gMachineOut.RMold.ReleaseOilValve	| gHardWare.DOForce[13];	
+	DOInternal[14] = gMachineOut.RMold.ClampClsSlow		| gHardWare.DOForce[13];	
 	DOInternal[15] = gMachineOut.RMold.CarriageFw		| gHardWare.DOForce[14];   
 	DOInternal[16] = gMachineOut.RMold.CarriageBw 		| gHardWare.DOForce[15];  
 		

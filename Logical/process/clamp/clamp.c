@@ -1991,6 +1991,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			pMoldUser->TimeDis.ClampUnLockTime = pMold->Clamp.Timer.ET;
 			if(pMold->Clamp.Timer.Q)
 			{
+				pMold->ValveOut.ClampOpnRelease = 0; /*Open Clamp Release valve*/
 				pMold->Clamp.Timer.IN = 0;
 				//				pMold->Clamp.Step = 12130;  // 微開模延遲不使用
 				pMold->Clamp.Step = 12150;
@@ -2062,7 +2063,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			/*-- Open --*/
 			pMold->ValveOut.ClampOpn  = 1;	
 			pMold->ValveOut.ClampOpnDiff = 0;
-			pMold->ValveOut.ClampOpnRelease = 1;
+			pMold->ValveOut.ClampOpnRelease = 0;
 				
 			pMold->Clamp.p_set = pClampPara->P_OpnSlow; 
 			pMold->Clamp.v_set = pMold->Clamp.V_OpnSlow;   
@@ -2078,7 +2079,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 												
 			/*-- Open --*/
 			pMold->ValveOut.ClampOpnDiff = 0;
-			pMold->ValveOut.ClampOpnRelease = 1;
+			pMold->ValveOut.ClampOpnRelease = 0;
 				
 			pMold->Clamp.vProfGen.v_set = pMold->Clamp.V_OpnSlow;
 		            
@@ -2311,7 +2312,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			/*-- Open --*/
 			pMold->ValveOut.ClampOpn  = 1;	
 			pMold->ValveOut.ClampOpnDiff = 0;
-			pMold->ValveOut.ClampOpnRelease = 1;
+			pMold->ValveOut.ClampOpnRelease = 0;
 				
 			pMold->Clamp.p_set = pClampPara->P_OpnSlow; 
 			pMold->Clamp.v_set = pMold->Clamp.V_OpnSlow;   
@@ -2327,7 +2328,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 														
 			/*-- Open --*/
 			pMold->ValveOut.ClampOpnDiff = 0;
-			pMold->ValveOut.ClampOpnRelease = 1;
+			pMold->ValveOut.ClampOpnRelease = 0;
 				
 			pMold->Clamp.vProfGen.v_set = pMold->Clamp.V_OpnSlow;
 		            
@@ -2376,7 +2377,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			/*-- Open --*/
 			pMold->ValveOut.ClampOpn  = 1;	
 			pMold->ValveOut.ClampOpnDiff = 1;
-			pMold->ValveOut.ClampOpnRelease = 1;				
+			pMold->ValveOut.ClampOpnRelease = 0;				
 				
 			pMold->Clamp.p_set = pClampPara->P_Opn; 
 			pMold->Clamp.v_set = pMold->Clamp.V_Opn;   
@@ -2392,7 +2393,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 																
 			/*-- Open --*/
 			pMold->ValveOut.ClampOpnDiff = 1;
-			pMold->ValveOut.ClampOpnRelease = 1;	
+			pMold->ValveOut.ClampOpnRelease = 0;	
 				
 			pMold->Clamp.vProfGen.v_set = pMold->Clamp.V_Opn;
 		            
@@ -2434,7 +2435,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			/*-- Open --*/
 			pMold->ValveOut.ClampOpn  = 1;	
 			pMold->ValveOut.ClampOpnDiff = 0;
-			pMold->ValveOut.ClampOpnRelease = 1;			
+			pMold->ValveOut.ClampOpnRelease = 0;			
 				
 			if(1 == gMachineInfo.MachineReset)
 			{
@@ -2459,7 +2460,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 																
 			/*-- Open --*/
 			pMold->ValveOut.ClampOpnDiff = 0;
-			pMold->ValveOut.ClampOpnRelease = 1;		
+			pMold->ValveOut.ClampOpnRelease = 0;		
 				
 				
 			if(1 == gMachineInfo.MachineReset)

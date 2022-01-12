@@ -64,7 +64,7 @@ _CYCLIC void cyclic ( void )
 	gMachineOut.PneumaticValve = gMachineIn.PneuForceNormal;
 	gMachineOut.InstancyStop = gMachineIn.InstancyStop;
 	//Safe Related Stop Mechanism
-	gMachineInfo.SafeInStop =  (gMachineIn.SafeModule || ( gMachineInfo.SafeLogicValveDelayDone && gMachineIn.SafeLogicValve && gMachineIn.CalibModeForceDI == 0)) 
+	gMachineInfo.SafeInStop =  (gMachineIn.SafeModule || ( gMachineInfo.SafeLogicValveDelayDone && gMachineIn.SafeLogicValve && gMachineInfo.SafeLogicValveOffDelayTimeOut && gMachineIn.CalibModeForceDI == 0)) 
 								&& gMachineOut.OilPump;
 	
 	if(1 == bInit_clear_gUserPara_TimeDis && PIC_OVERVIEW == gPanelObj.GetPicture)
@@ -105,7 +105,7 @@ _CYCLIC void cyclic ( void )
 		
 		//Off Delay
 		
-		if(0 == gMachineIn.SafeLogicValve)
+		if(1 == gMachineIn.SafeLogicValve)
 		{
 			if(0 == gMachineInfo.SafeLogicValveOffDelayTimeOut)
 			{
@@ -123,6 +123,7 @@ _CYCLIC void cyclic ( void )
 		}
 		else
 		{
+			gMacTimer.SafeLogicValveOffDelay.IN = 0;
 			gMachineInfo.SafeLogicValveOffDelayTimeOut = 0;
 		}
 
