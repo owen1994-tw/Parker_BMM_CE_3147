@@ -1986,7 +1986,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			// 移下前確認機械手退位(沒有確認開)
 			if( 1 == pMold->Robot.Transfer.BwPos &&  1 == pMold->TransDIn.ExtRobotUpLmit)
 			{	
-				if (13000 == pMold->Robot.Step || 0 == pMold->Robot.Step )  /*  機械手退結束  */
+				if (( pMold->Robot.Step > 11000 && pMold->Robot.Step <= 13000) || 0 == pMold->Robot.Step )  /*  機械手退結束  */
 				{
 					pMold->Robot.Step = 0;
 					
@@ -2122,22 +2122,29 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			pMold->HighBlow.Step = 100;			/*  吹气2动作   */
 			pMold->BlowDeflash.Step = 100;		/*  吹桿吹冷    */
 			/*************/
-			pMold->CoolPin2.Step = 100;         /*  轉二下		 */
-			pMold->CoolPin2Blow.Step =100;      /*  轉二下吹冷  */
-			pMold->CoolPin3.Step = 100;	       	/*  轉三下		 */
-			pMold->CoolPin3Blow.Step =100;    	/*  轉三下吹冷  */
+//			pMold->CoolPin2.Step = 100;         /*  轉二下		 */
+//			pMold->CoolPin2Blow.Step =100;      /*  轉二下吹冷  */
+//			pMold->CoolPin3.Step = 100;	       	/*  轉三下		 */
+//			pMold->CoolPin3Blow.Step =100;    	/*  轉三下吹冷  */
 			//			pMold->CoolDeflash.Step = 100;		/*  打手把吹冷     */
+			
+			
+			pMold->AutoStep = 4510;
 			if( 0 == pOptionFix->bRobotFwAfterTopdeflash)
 			{
-				pMold->Robot.Step = 100;			/*  機械手進+關  */
+//				pMold->Robot.Step = 100;			/*  機械手進+關  */
 				if (  pMold->RobotOpnCls.Step >= 10100  &&  pMold->RobotOpnCls.Step < 13000) // Robot Opn too slow
 				{
 					pMold->Alarm.RobotOpnTimeout  = 1;
+					pMold->StopAutoStep = pMold->AutoStep;
+					pMold->AutoStep = 40000;
+				}
+				else
+				{
+					pMold->Robot.Step = 100;			/*  機械手進+關  */
 				}
 			}
-			
-							
-			pMold->AutoStep = 4510;
+		
 			
 			break;
 

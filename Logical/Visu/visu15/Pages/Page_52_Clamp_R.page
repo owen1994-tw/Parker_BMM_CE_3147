@@ -1044,7 +1044,7 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="117"/>
-          <Property Name="Left" Value="434"/>
+          <Property Name="Left" Value="440"/>
           <Property Name="MarkerBitmap" Value="Source[local].Bitmap[RClampProfile]"/>
           <Property Name="MarkerFont" Value="Source[local].Font[Font_9_Number]"/>
           <Property Name="MarkerSpacing" Value="1"/>
@@ -1060,9 +1060,9 @@
           <Property Name="RangeStartValue" Value="0"/>
           <Property Name="RangeWidth" Value="8"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
-          <Property Name="Top" Value="95"/>
+          <Property Name="Top" Value="92"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.Clamp.mmAs]"/>
-          <Property Name="ValueSimulation" Value="0"/>
+          <Property Name="ValueSimulation" Value="30"/>
           <Property Name="Width" Value="300"/>
         </Control>
         <Control ClassId="0x00001012" Name="Scale_3">
@@ -1087,9 +1087,9 @@
           <Property Name="RangeStartValue" Value="0"/>
           <Property Name="RangeWidth" Value="8"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[StyleClass_1]"/>
-          <Property Name="Top" Value="95"/>
+          <Property Name="Top" Value="92"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.gMachineInfo.RClampPos1]"/>
-          <Property Name="ValueSimulation" Value="360"/>
+          <Property Name="ValueSimulation" Value="330"/>
           <Property Name="Width" Value="300"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_30">

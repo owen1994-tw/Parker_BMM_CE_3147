@@ -35,7 +35,8 @@ _INIT void init ( void )
 _CYCLIC void cyclic ( void )
 {
 	/*  ------------ 设定值问题 ------------ */
-	if(0.0 == gMachineFix.OilAccu.AccuTimeout)gMachineFix.OilAccu.AccuTimeout = 300.0;             /*   s   */
+	if(0.0 == gMachineFix.OilAccu.AccuTimeout)gMachineFix.OilAccu.AccuTimeout = 10;             /*   s   */
+	if(0.0 == gMachineFix.OilAccu_Extrlift.AccuTimeout)gMachineFix.OilAccu_Extrlift.AccuTimeout = 10;       /*   s   */
 	if(0.0 == gMachineFix.OilAccu.AccuPressureStart)gMachineFix.OilAccu.AccuPressureStart = 70.0;  /*  bar  */
 	if(0.0 == gMachineFix.OilAccu.AccuPressureStop)gMachineFix.OilAccu.AccuPressureStop = 90.0;    /*  bar  */
 	if(0.0 == gMachineFix.OilAccu.AccuPressure10V)gMachineFix.OilAccu.AccuPressure10V = 200.0;     /*  bar  */
@@ -143,7 +144,7 @@ _CYCLIC void cyclic ( void )
 					accChargeValveTimeCount ++;
 					if(timeCount * tTask > gMachineFix.OilAccu.AccuTimeout)
 					{
-						//				gAlarm.AccuChargeError = 1;
+						gAlarm.AccuChargeError = 1;
 					}
 				}
 		
@@ -282,7 +283,7 @@ _CYCLIC void cyclic ( void )
 					accChargeValveTimeCount_Extr ++;
 					if(timeCount_Extr * tTask > gMachineFix.OilAccu_Extrlift.AccuTimeout)
 					{
-						//				gAlarm.AccuChargeError = 1;
+						gAlarm.AccuCharge_ExtrliftError = 1;
 					}
 				}
 

@@ -409,7 +409,7 @@ _CYCLIC void cyclic ( void )
 		gMachineOut.WaterHeating = 1;
 	}
 	
-	if(gMachineInfo.OilTemp < gMachineFix.OilCooling.OilTempHeatingStop)
+	if(gMachineInfo.OilTemp > gMachineFix.OilCooling.OilTempHeatingStop)
 	{
 		gMachineOut.WaterHeating = 0;
 	}

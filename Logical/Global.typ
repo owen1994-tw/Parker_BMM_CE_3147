@@ -213,7 +213,7 @@ TYPE
 		V_ColiTempNormal : USINT;
 		ParisonNetworkErr : USINT;
 		ParisonAxisErr : USINT;
-		reserve0 : USINT; (*304*)
+		AccuCharge_ExtrliftError : USINT; (*304*)
 		LHwAlarm : Mold_Hw_typ; (*305~354*)
 		RHwAlarm : Mold_Hw_typ; (*355~404*)
 		A_ExtrCoolFault : USINT; (*405*)

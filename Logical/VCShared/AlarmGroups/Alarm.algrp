@@ -6077,7 +6077,7 @@
       <Text ID="1270" Value="Visu extruder cooling fan overload"/>
       <Text ID="1271" Value="Cooling pump fault"/>
       <Text ID="1272" Value="Oil accumulator sensor error"/>
-      <Text ID="1273" Value="Oil accumulator charge 300s timeout"/>
+      <Text ID="1273" Value="Oil accumulator charge timeout"/>
       <Text ID="1274" Value="Air power is not normal"/>
       <Text ID="1275" Value="Hot cutter heat not normal"/>
       <Text ID="1276" Value="Pump off,accumualtor unload timeout"/>
@@ -6193,7 +6193,7 @@
       <Text ID="1483" Value="VISI extruder motor temperature not normal"/>
       <Text ID="1484" Value="Parison Servo Axis Network Error - {ParisonErrID}|{ParisonErr1}|{ParisonErr2}|{ParisonErr3}|{ParisonErr4}"/>
       <Text ID="1485" Value="Parison Servo Axis  Error - {ParisonErrID}|{ParisonErr1}|{ParisonErr2}|{ParisonErr3}|{ParisonErr4}"/>
-      <Text ID="1486" Value="Spare0"/>
+      <Text ID="1486" Value="Extrlift Oil accumulator  charge timeout"/>
       <Text ID="1487" Value="L-Carriage forward protection limit"/>
       <Text ID="1488" Value="L-Carriage backward protection limit"/>
       <Text ID="1489" Value="L-Carriage servo network error- {LCarErrID}|{LCarErr1}|{LCarErr2}|{LCarErr3}|{LCarErr4}"/>
@@ -6527,7 +6527,7 @@
       <Text ID="1270" Value="视窗线冷却風扇过载"/>
       <Text ID="1271" Value="冷却泵浦故障"/>
       <Text ID="1272" Value="蓄压器压力传感器故障"/>
-      <Text ID="1273" Value="蓄压器充压300秒未充滿超时"/>
+      <Text ID="1273" Value="蓄压器充压未充滿超时"/>
       <Text ID="1274" Value="空压机不正常"/>
       <Text ID="1275" Value="热切刀加热不正常"/>
       <Text ID="1276" Value="油压泵浦关，蓄压器300秒未洩到20bar以下"/>
@@ -6643,7 +6643,7 @@
       <Text ID="1483" Value="V挤出机电机线圈温度不正常"/>
       <Text ID="1484" Value="型胚伺服轴网络出错 - {ParisonErrID}|{ParisonErr1}|{ParisonErr2}|{ParisonErr3}|{ParisonErr4}"/>
       <Text ID="1485" Value="型胚伺服轴出错 - {ParisonErrID}|{ParisonErr1}|{ParisonErr2}|{ParisonErr3}|{ParisonErr4}"/>
-      <Text ID="1486" Value="备0"/>
+      <Text ID="1486" Value="抬頭蓄压器充压未充滿超时"/>
       <Text ID="1487" Value="左移模进保护极限"/>
       <Text ID="1488" Value="左移模退保护极限"/>
       <Text ID="1489" Value="左移模轴网络出错- {LCarErrID}|{LCarErr1}|{LCarErr2}|{LCarErr3}|{LCarErr4}"/>
@@ -6977,7 +6977,7 @@
       <Text ID="1270" Value="視窗線冷卻風扇超載"/>
       <Text ID="1271" Value="冷卻泵浦故障"/>
       <Text ID="1272" Value="蓄壓器壓力感測器故障"/>
-      <Text ID="1273" Value="蓄壓器充壓300秒未充滿超時"/>
+      <Text ID="1273" Value="蓄压器充压未充滿超时"/>
       <Text ID="1274" Value="空壓機不正常"/>
       <Text ID="1275" Value="熱切刀加熱不正常"/>
       <Text ID="1276" Value="油壓泵浦關，蓄壓器300秒未洩到20bar以下"/>
@@ -7093,7 +7093,7 @@
       <Text ID="1483" Value="V擠出機電機線圈溫度不正常"/>
       <Text ID="1484" Value="型胚伺服軸網路出錯 - {ParisonErrID}|{ParisonErr1}|{ParisonErr2}|{ParisonErr3}|{ParisonErr4}"/>
       <Text ID="1485" Value="型胚伺服軸出錯 - {ParisonErrID}|{ParisonErr1}|{ParisonErr2}|{ParisonErr3}|{ParisonErr4}"/>
-      <Text ID="1486" Value="備0"/>
+      <Text ID="1486" Value="抬頭蓄压器充压未充滿超时"/>
       <Text ID="1487" Value="左移模進保護極限"/>
       <Text ID="1488" Value="左移模退保護極限"/>
       <Text ID="1489" Value="左移模軸網路出錯- {LCarErrID}|{LCarErr1}|{LCarErr2}|{LCarErr3}|{LCarErr4}"/>
@@ -7427,7 +7427,7 @@
       <Text ID="1270" Value="Wentylator chlodzenia Paska wizyj. Ekstruder przeciazony"/>
       <Text ID="1271" Value="Usterka silnika chlodzacego"/>
       <Text ID="1272" Value="Uszkodzenie czujnika oleju ACC."/>
-      <Text ID="1273" Value="Olej ACC. przekroczony czas ladowania 300s"/>
+      <Text ID="1273" Value="Oil accumulator charge timeout"/>
       <Text ID="1274" Value="Cisnienie kompresora nie jest w normie"/>
       <Text ID="1275" Value="Grzanie goracego noza - blad"/>
       <Text ID="1276" Value="Wylaczenie pompy, przekroczenie czasu ladowania akumulatora"/>
@@ -7543,7 +7543,7 @@
       <Text ID="1483" Value="Alarm temp. paska wizyj. Ekstruder - blad"/>
       <Text ID="1484" Value="Parison servo - blad sieci osi - {ParisonErrID}|{ParisonErr1}|{ParisonErr2}|{ParisonErr3}|{ParisonErr4}"/>
       <Text ID="1485" Value="Parison servo - blad osi - {ParisonErrID}|{ParisonErr1}|{ParisonErr2}|{ParisonErr3}|{ParisonErr4}"/>
-      <Text ID="1486" Value="zapasowy 0"/>
+      <Text ID="1486" Value="Extrlift Oil accumulator  charge timeout"/>
       <Text ID="1487" Value="L - Wozek koniec przod limit"/>
       <Text ID="1488" Value="L - Wozek koniec tyl limit"/>
       <Text ID="1489" Value="L - Wozek servo blad sieci- {LCarErrID}|{LCarErr1}|{LCarErr2}|{LCarErr3}|{LCarErr4}"/>

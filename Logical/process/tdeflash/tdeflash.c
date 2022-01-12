@@ -547,6 +547,7 @@ void TopDeflash( Mold_typ * pMold,TopDeflash_Fix_typ * pTopDeflashFix, TopDeflas
 					pMold->TopDeflash.LimitTimer.IN = 0;
 					//	pMoldUser->TimeDis.TopDeflashSecTime =0;
 					pMold->TopDeflash.p_set = 0;/*Albert*/
+					pMold->TopDeflash.v_set = 0;
 					pMold->TopDeflash.Step = 450;
 				
 					if(1 == gMachineInfo.Auto)
