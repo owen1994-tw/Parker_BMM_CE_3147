@@ -1644,7 +1644,7 @@
           <Property Name="LockingLevel" Value="1"/>
           <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource_1.gMachinePara.MoldR.Clamp.S_OpnEnd]"/>
           <Property Name="MaxValue" Value="None"/>
-          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource_1.gMachinePara.MoldR.Clamp.S_SubMoldOut]"/>
+          <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource_1.gMachinePara.MoldR.Clamp.S_OpnSlow2]"/>
           <Property Name="MinValue" Value="0"/>
           <Property Name="SimulationValue" Value="10"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.RSubMold]"/>

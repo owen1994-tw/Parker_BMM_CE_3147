@@ -389,6 +389,18 @@ _CYCLIC void cyclic ( void )
 	gMachineOut.LMold.ExtInMoldStickerAllow = LMold.ValveOut.ExtInMoldStickerAllow;/*owen*/
 	gMachineOut.RMold.ExtInMoldStickerAllow = RMold.ValveOut.ExtInMoldStickerAllow;/*owen*/
     
+	if(LMold.Clamp.ExtInMoldInDone_cnt * tTask * 2 > gMachineFix.MoldL.Clamp.ExtInMoldAlarmTime)
+	{
+		LMold.Clamp.ExtInMoldInDone_cnt = 0;
+		LMold.Alarm.ExtInMoldStickerTimeOut = 1;
+	}
+	
+	if(RMold.Clamp.ExtInMoldInDone_cnt * tTask * 2 > gMachineFix.MoldR.Clamp.ExtInMoldAlarmTime)
+	{
+		RMold.Clamp.ExtInMoldInDone_cnt = 0;
+		RMold.Alarm.ExtInMoldStickerTimeOut = 1;
+	}
+	
 	gMachineInfo.LClampPos = LMold.Clamp.mmAs;
 	gMachineInfo.RClampPos = RMold.Clamp.mmAs;
 	
@@ -1982,7 +1994,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			}
 			else
 			{
-				pMold->Clamp.Step = 12130;
+				pMold->Clamp.Step = 12150;
 			}			
 			break;
 		
@@ -2097,23 +2109,37 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 
 			/*  reached target position */
 			
-			if( 1 == pMold->Option.SubMold)
+			if( 1 == gMachineInfo.Auto ) 
 			{
-				if(pMold->Clamp.mmAs > pMold->Clamp.S_SubMoldOut - 0.1)  // 微開模
-				{		     
-					pMold->Clamp.v_set  = 0;
-					pMold->Clamp.p_set  = 0;
-					pMold->Clamp.Step = 12300;
+				if( 1 == pMold->Option.SubMold)
+				{
+					if(pMold->Clamp.mmAs > pMold->Clamp.S_SubMoldOut - 0.1)  // 微開模
+					{		     
+						pMold->Clamp.v_set  = 0;
+						pMold->Clamp.p_set  = 0;
+						pMold->Clamp.Step = 12300;
+					}
+				}
+				else
+				{
+					if(pMold->Clamp.mmAs > pMold->Clamp.S_OpnSlow - 0.1)	 // 慢轉快
+					{		     
+						pMold->Clamp.v_set  = 0;
+						pMold->Clamp.p_set  = 0;
+						pMold->Clamp.Step = 12300;
+					}
 				}
 			}
 			else
 			{
+				//手動不走模芯微開
 				if(pMold->Clamp.mmAs > pMold->Clamp.S_OpnSlow - 0.1)	 // 慢轉快
 				{		     
 					pMold->Clamp.v_set  = 0;
 					pMold->Clamp.p_set  = 0;
-					pMold->Clamp.Step = 12300;
+					pMold->Clamp.Step = 10300; // 轉接開模慢快慢
 				}
+				
 			}
 
 			
@@ -2125,7 +2151,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			break;
 
 		case 12300:
-			pMold->Clamp.LimitTimer.IN = 0;
+//			pMold->Clamp.LimitTimer.IN = 0;
 			pMold->Clamp.Timer.IN = 0;
 			pMold->ActInfo.ClampOpn  = 0;
 			pMold->ActInfo.ClampCls  = 0;		
@@ -2957,7 +2983,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 	{
 		pMold->TimeDis.ClampClsAlarmTime = pMold->Clamp.LimitTimer.ET;
 	}
-	else if(pMold->Clamp.Step > 10300 && pMold->Clamp.Step  < 10800)
+	else if((pMold->Clamp.Step > 10300 && pMold->Clamp.Step  < 10800) || (pMold->Clamp.Step > 12100 && pMold->Clamp.Step  < 12300))
 	{
 		pMold->TimeDis.ClampOpnAlarmTime = pMold->Clamp.LimitTimer.ET;
 	}
@@ -3031,6 +3057,13 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 				pMold->Alarm.CarriageNotAtFwDI  = !pMold->Carriage.FwPos;
 				pMold->Clamp.Step = 41000;
 			}
+		}
+		
+		if(0 == pMold->TransDIn.ExtInMoldStickerBwLimit || 0 == pMold->TransDIn.ExtInMoldStickerAlarm)	
+		{
+			pMold->Alarm.ExtInMoldStickerNotAtBw = !pMold->TransDIn.ExtInMoldStickerBwLimit;
+			pMold->Alarm.ExtInMoldStickerAlarm 	 = !pMold->TransDIn.ExtInMoldStickerAlarm;
+			pMold->Clamp.Step = 41000;
 		}
 		
 		/* 模内吹针在回位   */
@@ -4658,6 +4691,13 @@ void ClampDriveToggle_Drive(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Pa
 				pMold->Alarm.CarriageNotAtFwDI  = !pMold->Carriage.FwPos;
 				pMold->Clamp.Step = 41000;
 			}
+		}
+		
+		if(0 == pMold->TransDIn.ExtInMoldStickerBwLimit || 0 == pMold->TransDIn.ExtInMoldStickerAlarm)	
+		{
+			pMold->Alarm.ExtInMoldStickerNotAtBw = !pMold->TransDIn.ExtInMoldStickerBwLimit;
+			pMold->Alarm.ExtInMoldStickerAlarm 	 = !pMold->TransDIn.ExtInMoldStickerAlarm;
+			pMold->Clamp.Step = 41000;
 		}
 		
 		/* 模内吹针在回位   */

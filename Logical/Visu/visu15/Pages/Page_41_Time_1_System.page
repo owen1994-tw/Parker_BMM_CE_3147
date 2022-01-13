@@ -735,6 +735,7 @@
           <Property Name="Left" Value="347"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideRClampActuatorElectic]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
           <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
           <Property Name="TextIndexOffset" Value="1"/>
@@ -755,7 +756,7 @@
           <Property Name="MinDatapoint" Value="None"/>
           <Property Name="MinValue" Value="None"/>
           <Property Name="SimulationValue" Value="10"/>
-          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLClampActuatorElectic]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="262"/>
@@ -781,7 +782,7 @@
           <Property Name="MinDatapoint" Value="None"/>
           <Property Name="MinValue" Value="0"/>
           <Property Name="SimulationValue" Value="10"/>
-          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLClampActuatorElectic]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="262"/>
@@ -802,6 +803,7 @@
           <Property Name="MinDatapoint" Value="None"/>
           <Property Name="MinValue" Value="None"/>
           <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideRClampActuatorElectic]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="262"/>
@@ -818,7 +820,7 @@
           <Property Name="Height" Value="25"/>
           <Property Name="InputNext" Value="Enter"/>
           <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
-          <Property Name="Left" Value="558"/>
+          <Property Name="Left" Value="557"/>
           <Property Name="Locking" Value="Datapoint &lt; Level"/>
           <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
           <Property Name="LockingLevel" Value="2"/>
@@ -827,6 +829,7 @@
           <Property Name="MinDatapoint" Value="None"/>
           <Property Name="MinValue" Value="0"/>
           <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideRClampActuatorElectic]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="262"/>

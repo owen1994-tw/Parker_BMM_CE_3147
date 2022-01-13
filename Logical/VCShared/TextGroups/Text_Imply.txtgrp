@@ -212,6 +212,10 @@
     <Text ID="3889035" Value="Base forward backward  limit (Base too low)"/>
     <Text ID="3933772" Value="Enable Right Topdelash and Bottom Deflahsh interlock with Pull Bottom"/>
     <Text ID="3933773" Value="Enable Left Topdelash and Bottom Deflahsh interlock with Pull Bottom"/>
+    <Text ID="4180342" Value="Ext L-In Mold Sticker not at backward position"/>
+    <Text ID="4180343" Value="Ext R-In Mold Sticker  not at backward position"/>
+    <Text ID="4180344" Value="Ext L-In Mold Sticker Alarm"/>
+    <Text ID="4180345" Value="Ext R-In Mold Sticker Alarm"/>
   </TextLayer>
   <TextLayer LanguageId="zh-CN">
     <Text ID="1637894" Value=" "/>
@@ -421,6 +425,10 @@
     <Text ID="3889035" Value="平台前進退限到達(平台過低)"/>
     <Text ID="3933772" Value="選用右打手把打瓶底與拉瓶底互鎖"/>
     <Text ID="3933773" Value="選用左打手把打瓶底與拉瓶底互鎖"/>
+    <Text ID="4180342" Value="左外部模內貼不在退限"/>
+    <Text ID="4180343" Value="右外部模內貼不在退限"/>
+    <Text ID="4180344" Value="左外部模內貼警報"/>
+    <Text ID="4180345" Value="右外部模內貼警報"/>
   </TextLayer>
   <TextLayer LanguageId="zh-TW">
     <Text ID="1637894" Value=" "/>
@@ -630,6 +638,10 @@
     <Text ID="3889035" Value="平台前進退限到達(平台過低)"/>
     <Text ID="3933772" Value="選用右打手把打瓶底與拉瓶底互鎖"/>
     <Text ID="3933773" Value="選用左打手把打瓶底與拉瓶底互鎖"/>
+    <Text ID="4180342" Value="左外部模內貼不在退限"/>
+    <Text ID="4180343" Value="右外部模內貼不在退限"/>
+    <Text ID="4180344" Value="左外部模內貼警報"/>
+    <Text ID="4180345" Value="右外部模內貼警報"/>
   </TextLayer>
   <TextLayer LanguageId="pl">
     <Text ID="1637894" Value=""/>
@@ -839,6 +851,10 @@
     <Text ID="3889035" Value=""/>
     <Text ID="3933772" Value=""/>
     <Text ID="3933773" Value=""/>
+    <Text ID="4180342" Value=""/>
+    <Text ID="4180343" Value=""/>
+    <Text ID="4180344" Value=""/>
+    <Text ID="4180345" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="1637894" Value="0"/>
@@ -1048,5 +1064,9 @@
     <Index ID="3889035" Value="204"/>
     <Index ID="3933772" Value="205"/>
     <Index ID="3933773" Value="206"/>
+    <Index ID="4180342" Value="207"/>
+    <Index ID="4180343" Value="208"/>
+    <Index ID="4180344" Value="209"/>
+    <Index ID="4180345" Value="210"/>
   </IndexMap>
 </TextGroup>

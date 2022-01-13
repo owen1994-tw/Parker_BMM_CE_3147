@@ -70,6 +70,7 @@
           <Text ID="2645800" Value="Core pull close valve off  delay "/>
           <Text ID="4120958" Value="Hook pin bw delay"/>
           <Text ID="4120959" Value="Hook pin fw delay"/>
+          <Text ID="4175560" Value="Ext In Mold Sticker Time Check"/>
         </TextLayer>
         <TextLayer LanguageId="zh-CN">
           <Text ID="1614575" Value="開模芯延時"/>
@@ -78,6 +79,7 @@
           <Text ID="2645800" Value="關模芯閥延切"/>
           <Text ID="4120958" Value="掛勾吹針退延時"/>
           <Text ID="4120959" Value="掛勾吹針進延時"/>
+          <Text ID="4175560" Value="三次后冷却退侦测时间"/>
         </TextLayer>
         <TextLayer LanguageId="zh-TW">
           <Text ID="1614575" Value="開模芯延時"/>
@@ -86,6 +88,7 @@
           <Text ID="2645800" Value="關模芯閥延切"/>
           <Text ID="4120958" Value="掛勾吹針退延時"/>
           <Text ID="4120959" Value="掛勾吹針進延時"/>
+          <Text ID="4175560" Value="外部模內貼偵測時間"/>
         </TextLayer>
         <TextLayer LanguageId="pl">
           <Text ID="1614575" Value="Rdzen otw. opoz."/>
@@ -94,6 +97,7 @@
           <Text ID="2645800" Value="Opoz. zam. Rdzen zam."/>
           <Text ID="4120958" Value="Skosny Trzp. Rozdm. opozn. tyl"/>
           <Text ID="4120959" Value="Skosny Trzp. Rozdm. opozn. przod"/>
+          <Text ID="4175560" Value=""/>
         </TextLayer>
         <IndexMap>
           <Index ID="1614575" Value="8"/>
@@ -102,6 +106,7 @@
           <Index ID="2645800" Value="0"/>
           <Index ID="4120958" Value="3"/>
           <Index ID="4120959" Value="4"/>
+          <Index ID="4175560" Value="2"/>
         </IndexMap>
       </TextGroup>
       <Controls>
@@ -802,6 +807,77 @@
           <Property Name="Top" Value="235"/>
           <Property Name="Width" Value="180"/>
         </Control>
+        <Control ClassId="0x00001007" Name="Numeric_75">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.OnceSave]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="Left" Value="155"/>
+          <Property Name="Locking" Value="Datapoint &lt; Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+          <Property Name="LockingLevel" Value="3"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="2000"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.LevelBand_4]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="291"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.gMachineFix.MoldR.Clamp.ExtInMoldAlarmTime]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_76">
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.OnceSave]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
+          <Property Name="Left" Value="554"/>
+          <Property Name="Locking" Value="Datapoint &lt; Level"/>
+          <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
+          <Property Name="LockingLevel" Value="3"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="2000"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.LevelBand_4]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="291"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.gMachineFix.MoldR.Clamp.ExtInMoldAlarmTime]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="65"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_45">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
+          <Property Name="ForeColor" Value="1"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="341"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.LevelBand_4]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="2"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="291"/>
+          <Property Name="Width" Value="183"/>
+        </Control>
       </Controls>
       <KeyMapping/>
     </Layer>
@@ -824,13 +900,13 @@
       <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_34]"/>
       <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_67]"/>
       <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_67]"/>
-      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_36]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_76]"/>
     </MovementEntry>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_67]">
       <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_70]"/>
       <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_32]"/>
       <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_32]"/>
-      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_73]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_75]"/>
     </MovementEntry>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_33]">
       <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_35]"/>
@@ -869,13 +945,13 @@
       <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_69]"/>
     </MovementEntry>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_36]">
-      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_32]"/>
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_76]"/>
       <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_73]"/>
       <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_73]"/>
       <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_37]"/>
     </MovementEntry>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_73]">
-      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_67]"/>
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_75]"/>
       <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_36]"/>
       <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_36]"/>
       <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_74]"/>
@@ -891,6 +967,18 @@
       <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_37]"/>
       <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_37]"/>
       <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_72]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_75]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_67]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_76]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_76]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_73]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_76]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_32]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_75]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_75]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_36]"/>
     </MovementEntry>
   </MovementOrder>
   <TabSequence>
@@ -947,5 +1035,7 @@
     <TabSeqItem Index="50" Value="Source[embedded].Layer[Default].Control[Numeric_37]"/>
     <TabSeqItem Index="51" Value="Source[embedded].Layer[Default].Control[Numeric_46]"/>
     <TabSeqItem Index="52" Value="Source[embedded].Layer[Default].Control[Numeric_74]"/>
+    <TabSeqItem Index="53" Value="Source[embedded].Layer[Default].Control[Numeric_75]"/>
+    <TabSeqItem Index="54" Value="Source[embedded].Layer[Default].Control[Numeric_76]"/>
   </TabSequence>
 </Page>

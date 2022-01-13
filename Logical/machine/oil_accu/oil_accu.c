@@ -104,7 +104,7 @@ _CYCLIC void cyclic ( void )
 		
 
 		gMachineInfo.OilAccuChargeAuto = 0;
-		if(gMachineInfo.OilAccuPressure < gMachineFix.OilAccu.AccuPressureStart)
+		if((gMachineInfo.OilAccuPressure < gMachineFix.OilAccu.AccuPressureStart )&& 0 == gAlarm.AccuChargeError)
 		{
 			ChargeFlag = 1;
 		}
@@ -145,6 +145,7 @@ _CYCLIC void cyclic ( void )
 					if(timeCount * tTask > gMachineFix.OilAccu.AccuTimeout)
 					{
 						gAlarm.AccuChargeError = 1;
+						ChargeState = 0; 
 					}
 				}
 		
@@ -220,7 +221,7 @@ _CYCLIC void cyclic ( void )
 			if(1 ==  gMachineInfo.OilAccuChargeAuto_Extrlift && (PRESSURE_OUTPUT_ACC_EXTRLIFT == gMachineFix.ExtrLift.ePressueOutputType && RMold.ExtrLift.Step  == 13000 ) ) /*êPÄ£±£³Ö½YÊø && Ì§î^½YÊø*/
 			{
 				gMachineInfo.OilAccuChargeAuto_Extrlift = 0;
-				if(gMachineInfo.OilAccuPressure_Extrlift < gMachineFix.OilAccu_Extrlift.AccuPressureStop)
+				if((gMachineInfo.OilAccuPressure_Extrlift < gMachineFix.OilAccu_Extrlift.AccuPressureStart)&& 0 == gAlarm.AccuCharge_ExtrliftError)
 				{
 					ChargeFlag_Extrlift = 1;
 				}
@@ -234,7 +235,7 @@ _CYCLIC void cyclic ( void )
 		{
 			if(( 0 == gMachineFix.Option.bOilAccu_Extrlift_DisChar_Calib && 1 == gMachineInfo.Calib )  || 1 == gMachineInfo.Manual )
 			{
-				if(gMachineInfo.OilAccuPressure_Extrlift < gMachineFix.OilAccu_Extrlift.AccuPressureStart)
+				if((gMachineInfo.OilAccuPressure_Extrlift < gMachineFix.OilAccu_Extrlift.AccuPressureStart)&& 0 == gAlarm.AccuCharge_ExtrliftError)
 				{
 					ChargeFlag_Extrlift = 1;
 				}
@@ -261,7 +262,7 @@ _CYCLIC void cyclic ( void )
 				accChargeValveDelayTimeCnt_Extr = 0;
 				accChargeValveTimeCount_Extr = 0;
 			
-				if(1 == ChargeFlag_Extrlift)
+				if(1 == ChargeFlag_Extrlift )
 				{
 					ChargeFlag_Extrlift = 0;
 					ChargeState_Extrlift = 1;
@@ -284,6 +285,7 @@ _CYCLIC void cyclic ( void )
 					if(timeCount_Extr * tTask > gMachineFix.OilAccu_Extrlift.AccuTimeout)
 					{
 						gAlarm.AccuCharge_ExtrliftError = 1;
+						ChargeState_Extrlift = 0;
 					}
 				}
 

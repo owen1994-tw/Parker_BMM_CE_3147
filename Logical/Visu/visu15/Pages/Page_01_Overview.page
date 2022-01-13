@@ -223,6 +223,7 @@
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="19"/>
           <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
           <Property Name="Top" Value="550"/>
           <Property Name="Width" Value="472"/>
@@ -237,7 +238,7 @@
           <Property Name="Left" Value="29"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
-          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
           <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
           <Property Name="TextIndexOffset" Value="4"/>
@@ -256,7 +257,7 @@
           <Property Name="Left" Value="234"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
-          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
           <Property Name="TextGroup" Value="Source[local].TextGroup[Unit]"/>
           <Property Name="TextIndexOffset" Value="4"/>
@@ -282,7 +283,7 @@
           <Property Name="MinDatapoint" Value="None"/>
           <Property Name="MinValue" Value="0"/>
           <Property Name="SimulationValue" Value="100"/>
-          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="594"/>
@@ -300,6 +301,7 @@
           <Property Name="Left" Value="28"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
           <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
           <Property Name="TextIndexOffset" Value="6"/>
@@ -318,6 +320,7 @@
           <Property Name="Left" Value="233"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
           <Property Name="TextGroup" Value="Source[local].TextGroup[Unit]"/>
           <Property Name="TextIndexOffset" Value="4"/>
@@ -343,6 +346,7 @@
           <Property Name="MinDatapoint" Value="None"/>
           <Property Name="MinValue" Value="0"/>
           <Property Name="SimulationValue" Value="100"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="565"/>
@@ -362,6 +366,7 @@
           <Property Name="Left" Value="26"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
           <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
           <Property Name="TextIndexOffset" Value="8"/>
@@ -379,6 +384,7 @@
           <Property Name="Left" Value="259"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
           <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
           <Property Name="TextIndexOffset" Value="9"/>
@@ -404,6 +410,7 @@
           <Property Name="MinDatapoint" Value="None"/>
           <Property Name="MinValue" Value="0"/>
           <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="565"/>
@@ -422,6 +429,7 @@
           <Property Name="Left" Value="464"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
           <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
           <Property Name="TextIndexOffset" Value="10"/>
@@ -440,7 +448,7 @@
           <Property Name="Multiline" Value="Automatic"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
-          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
           <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
           <Property Name="TextIndexOffset" Value="11"/>
@@ -466,7 +474,7 @@
           <Property Name="MinDatapoint" Value="None"/>
           <Property Name="MinValue" Value="0"/>
           <Property Name="SimulationValue" Value="10"/>
-          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="623"/>
@@ -485,7 +493,7 @@
           <Property Name="Left" Value="464"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
-          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
           <Property Name="TextGroup" Value="Source[local].TextGroup[Unit]"/>
           <Property Name="TextIndexOffset" Value="4"/>
@@ -504,6 +512,7 @@
           <Property Name="Multiline" Value="Automatic"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
           <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
           <Property Name="TextIndexOffset" Value="13"/>
@@ -529,6 +538,7 @@
           <Property Name="MinDatapoint" Value="None"/>
           <Property Name="MinValue" Value="0"/>
           <Property Name="SimulationValue" Value="10"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="594"/>
@@ -547,6 +557,7 @@
           <Property Name="Left" Value="464"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
           <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
           <Property Name="TextIndexOffset" Value="14"/>

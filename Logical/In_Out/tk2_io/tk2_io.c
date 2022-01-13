@@ -345,7 +345,7 @@ _CYCLIC void cyclic ( void )
 	gMachineIn.ExtruderLiftDnLimit	= gHardWare.DIF371_2[9];
 	gMachineIn.PlateUpLimit			= gHardWare.DIF371_2[10];
 	gMachineIn.PlateDnLimit			= gHardWare.DIF371_2[11];
-	gMachineIn.RMold.ExtInMoldStickerBwLimit	= !gHardWare.DIF371_2[12];
+	gMachineIn.RMold.ExtInMoldStickerBwLimit	= gHardWare.DIF371_2[12];
 	gMachineIn.RMold.ExtInMoldStickerAlarm		= !gHardWare.DIF371_2[13];
 //	0	= !gHardWare.DIF371_2[14];
 	gMachineIn.TempFanErr			= !gHardWare.DIF371_2[15];

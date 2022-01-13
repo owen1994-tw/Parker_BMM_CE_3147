@@ -139,6 +139,9 @@ _CYCLIC void cyclic ( void )
 							{
 								RMold.AutorunFirstCycle = 1;  
 								LMold.AutorunFirstCycle = 0;  
+								
+								RMold.Clamp.ExtInMoldInDone_Flag = 1;  // ByPass 外部模內貼完成訊號
+								LMold.Clamp.ExtInMoldInDone_Flag = 1;  // ByPass 外部模內貼完成訊號
 							}
 							else
 							{
@@ -238,6 +241,9 @@ _CYCLIC void cyclic ( void )
 						RMold.AutorunFirstCycle = 1;  //Owen 20200923
 						LMold.AutorunFirstCycle = 0;  //Owen 20200923
 						
+						RMold.Clamp.ExtInMoldInDone_Flag = 1;  // ByPass 外部模內貼完成訊號
+//						LMold.Clamp.ExtInMoldInDone_Flag = 1;  // ByPass 外部模內貼完成訊號
+						
 						gMachineOut.AutoRun = 1;
 						
 						RMold.AutoStep = 300;
@@ -297,6 +303,9 @@ _CYCLIC void cyclic ( void )
 					{
 						RMold.AutorunFirstCycle = 0;  //Owen 20200923
 						LMold.AutorunFirstCycle = 1;  //Owen 20200923	
+						
+//						RMold.Clamp.ExtInMoldInDone_Flag = 1;  // ByPass 外部模內貼完成訊號
+						LMold.Clamp.ExtInMoldInDone_Flag = 1;  // ByPass 外部模內貼完成訊號
 						
 						gMachineOut.AutoRun = 1;
 							
@@ -463,8 +472,9 @@ _CYCLIC void cyclic ( void )
 //		AutoRunToSemiAuto();
 //	}
 		
-	/* -------------- 熱切刀加熱不正常 自動轉半自動 ---------------- */
-	if(1 == gAlarm.CutterHeatNormal || 1 == gAlarm.SwingInvertErr || 1 == gAlarm.OilTempHigh || 1 == gAlarm.OilPosition ||
+	/* -------------- 機台異常 自動轉半自動 ---------------- */
+	if(1 == gAlarm.CutterHeatNormal || 1 == gAlarm.SwingInvertErr || 1 == gAlarm.OilTempHigh || 1 == gAlarm.OilPosition 
+		|| 1 == gAlarm.AccuChargeError || 1 == gAlarm.AccuCharge_ExtrliftError || 
 		((0 == gMacOption.bDryCycle) && (1 == bDryCycleOld)))
 	{
 		AutoRunToSemiAuto();
@@ -529,14 +539,27 @@ _CYCLIC void cyclic ( void )
 	{
 		if(LMold.TimeCycle.ET >= LMold.TimeSet.CycleAlarmTime)
 		{
-			if(LMold.AutoStep > 0 && LMold.AutoStep  < 40000)LMold.AutoStep  = 40000;
-			if(LMold.AutoStep > 0 && LMold.AutoStep  < 15000)gAlarm.LCycleTime = 1;
+			if(LMold.AutoStep > 0 && LMold.AutoStep < 40000)
+			{	
+				if(LMold.AutoStep > 0 && LMold.AutoStep < 15000)
+				{
+					gAlarm.LCycleTime = 1;
+				}	
+				LMold.AutoStep  = 40000;
+			}
 		}
 	
 		if(RMold.TimeCycle.ET >= RMold.TimeSet.CycleAlarmTime)
 		{
-			if(RMold.AutoStep > 0 && RMold.AutoStep < 40000)RMold.AutoStep  = 40000;
-			if(RMold.AutoStep > 0 && RMold.AutoStep < 15000)gAlarm.RCycleTime = 1;
+			if(RMold.AutoStep > 0 && RMold.AutoStep < 40000)
+			{	
+				if(RMold.AutoStep > 0 && RMold.AutoStep < 15000)
+				{
+					gAlarm.RCycleTime = 1;
+				}	
+				RMold.AutoStep  = 40000;
+			}
+			
 		}
 		
 	}
@@ -712,7 +735,11 @@ void AutoRunToSemiAuto()
 		{
 			RMold.SemiAuto = 1;
 		}
-		LMold.AutoStep = 11000;			/*   stop keep   */
+		if(LMold.AutoStep > 0 && LMold.AutoStep <= 10000)
+		{
+			LMold.AutoStep = 11000;			/*   stop keep   */
+		}
+		
 	}
 		
 	if(0 == RMold.Option.Enable && 1 == LMold.Option.Enable)
@@ -721,7 +748,11 @@ void AutoRunToSemiAuto()
 		{
 			LMold.SemiAuto = 1;
 		}
-		RMold.AutoStep = 11000;			/*   stop keep   */
+		
+		if(RMold.AutoStep > 0 && RMold.AutoStep <= 10000)
+		{
+			RMold.AutoStep = 11000;			/*   stop keep   */
+		}
 	}
 	
 	
@@ -1329,7 +1360,8 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				pMold->Timer.PT = 2000;
 			
 				pMold->Carriage.Step = 0; /*8000; 保持架上位 */
-				pMold->AutoStep = 3300;
+//				pMold->AutoStep = 3300;
+				pMold->AutoStep = 3250;
 			}
 
 			if(40000 == pMold->Carriage.Step)   /*  架上超时 */
@@ -1338,6 +1370,42 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				pMold->StopAutoStep = pMold->AutoStep;
 				pMold->AutoStep = 40000;
 			}
+			break;
+		
+		//*** ExtInMoldSticker  ***// 
+		case 3250:
+					
+			if(1 == pMold->Option.ExtInMoldSticker)
+			{
+				if(1 == pMold->Clamp.ExtInMoldInDone_Flag )		/*  外部模內貼  退回原點完成  */
+				{
+					pMold->Clamp.ExtInMoldInDone_Flag = 0;
+					pMold->AutoStep = 3260;
+					pMold->Clamp.ExtInMoldInDone_cnt = 0;
+				}
+				else if(0 == pMold->Clamp.ExtInMoldInDone_Flag )
+				{
+					pMold->Clamp.ExtInMoldInDone_cnt = pMold->Clamp.ExtInMoldInDone_cnt + 1; 
+				}
+	
+				if(1 == pMold->Alarm.ExtInMoldStickerTimeOut)
+				{	
+					pMold->StopAutoStep = pMold->AutoStep;
+					pMold->AutoStep = 40000;
+				}
+			
+			}
+			else
+			{
+				pMold->Clamp.ExtInMoldInDone_Flag = 0;
+				pMold->AutoStep = 3260;
+			}
+			
+			break;
+		
+		case 3260:
+			
+			pMold->AutoStep   = 3300;
 			break;
 		
 		case 3300:

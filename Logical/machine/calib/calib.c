@@ -489,7 +489,8 @@ void CalibCtrl( Mold_typ *pMold)
 					if(	1 == pMold->TransDIn.TopDeflashBwLimit
 						&& 1 == pMold->TransDIn.BottomDeflashBwLimit
 						&& 1 == pMold->TransDIn.SubMoldClsLimit && 1 == pMold->TransDIn.BottomSubMoldClsLimit 
-						&& 1 == pMold->TransDIn.HookPinBwLimit)	
+						&& 1 == pMold->TransDIn.HookPinBwLimit
+						&& 1 == pMold->TransDIn.ExtInMoldStickerBwLimit && pMold->TransDIn.ExtInMoldStickerAlarm)	
 					{
 						if(((pMold == & LMold) && 1 == RMold.TransDIn.CarriageBwLimit)
 							||((pMold == & RMold) && (1 == gMachineFix.Option.bHideLeftStation || 1 == LMold.TransDIn.CarriageBwLimit)))
@@ -517,6 +518,9 @@ void CalibCtrl( Mold_typ *pMold)
 							gImply.LSubMoldFw 		= !pMold->TransDIn.SubMoldClsLimit;
 							gImply.LBottomSubMoldFw	= !pMold->TransDIn.BottomSubMoldClsLimit;
 							gImply.LHookPinBw 		= !pMold->TransDIn.HookPinBwLimit;
+							gImply.LExtInMoldStickerBw 		= !pMold->TransDIn.ExtInMoldStickerBwLimit;
+							gImply.LExtInMoldStickerAlarm 	= !pMold->TransDIn.ExtInMoldStickerAlarm;
+
 							
 						}
 						else
@@ -526,6 +530,9 @@ void CalibCtrl( Mold_typ *pMold)
 							gImply.RSubMoldFw 		= !pMold->TransDIn.SubMoldClsLimit;
 							gImply.RBottomSubMoldFw	= !pMold->TransDIn.BottomSubMoldClsLimit;
 							gImply.RHookPinBw 		= !pMold->TransDIn.HookPinBwLimit;
+							gImply.RExtInMoldStickerBw 		= !pMold->TransDIn.ExtInMoldStickerBwLimit;
+							gImply.RExtInMoldStickerAlarm 	= !pMold->TransDIn.ExtInMoldStickerAlarm;
+
 						}
 					}
 				}
@@ -569,7 +576,8 @@ void CalibCtrl( Mold_typ *pMold)
 						&& 1 == pMold->TransDIn.CoolPinUpLimit && 1 == pMold->TransDIn.CoolPin2UpLimit && 1==pMold->TransDIn.CoolPin3UpLimit 
 						&& 1 == pMold->TransDIn.RobotBwLimit
 						&& 1 == pMold->TransDIn.ExtRobotUpLmit
-						&& 1 == pMold->TransDIn.HookPinBwLimit) 
+						&& 1 == pMold->TransDIn.HookPinBwLimit
+						&& 1 == pMold->TransDIn.ExtInMoldStickerBwLimit && pMold->TransDIn.ExtInMoldStickerAlarm) 
 					{				
 						pMold->Carriage.Step = 15000;       /* Carriage down calibration */
 					}
@@ -586,6 +594,9 @@ void CalibCtrl( Mold_typ *pMold)
 						
 							gImply.LExtRobotUp 		= !pMold->TransDIn.ExtRobotUpLmit;
 							gImply.LHookPinBw 		= !pMold->TransDIn.HookPinBwLimit;
+							gImply.LExtInMoldStickerBw 		= !pMold->TransDIn.ExtInMoldStickerBwLimit;
+							gImply.LExtInMoldStickerAlarm 	= !pMold->TransDIn.ExtInMoldStickerAlarm;
+
 						}
 						else
 						{
@@ -598,6 +609,9 @@ void CalibCtrl( Mold_typ *pMold)
 			
 							gImply.RExtRobotUp 		= !pMold->TransDIn.ExtRobotUpLmit;
 							gImply.RHookPinBw 		= !pMold->TransDIn.HookPinBwLimit;
+							gImply.RExtInMoldStickerBw 		= !pMold->TransDIn.ExtInMoldStickerBwLimit;
+							gImply.RExtInMoldStickerAlarm 	= !pMold->TransDIn.ExtInMoldStickerAlarm;
+
 						}
 					
 					}	
@@ -643,7 +657,8 @@ void CalibCtrl( Mold_typ *pMold)
 					if(	1 == pMold->TransDIn.TopDeflashBwLimit
 						&& 1 == pMold->TransDIn.BottomDeflashBwLimit 
 						&& 1 == pMold->TransDIn.SubMoldClsLimit && 1 == pMold->TransDIn.BottomSubMoldClsLimit
-						&& 1 == pMold->TransDIn.HookPinBwLimit)
+						&& 1 == pMold->TransDIn.HookPinBwLimit
+						&& 1 == pMold->TransDIn.ExtInMoldStickerBwLimit && pMold->TransDIn.ExtInMoldStickerAlarm)
 					{
 						if(((pMold == & LMold) && 1 == RMold.TransDIn.CarriageBwLimit)
 							||((pMold == & RMold) && (1 == gMachineFix.Option.bHideLeftStation || 1 == LMold.TransDIn.CarriageBwLimit)))
@@ -671,6 +686,9 @@ void CalibCtrl( Mold_typ *pMold)
 							gImply.LSubMoldFw 		= !pMold->TransDIn.SubMoldClsLimit;
 							gImply.LBottomSubMoldFw	= !pMold->TransDIn.BottomSubMoldClsLimit;
 							gImply.LHookPinBw 		= !pMold->TransDIn.HookPinBwLimit;
+							gImply.LExtInMoldStickerBw 		= !pMold->TransDIn.ExtInMoldStickerBwLimit;
+							gImply.LExtInMoldStickerAlarm 	= !pMold->TransDIn.ExtInMoldStickerAlarm;
+
 						}
 						else
 						{
@@ -679,6 +697,9 @@ void CalibCtrl( Mold_typ *pMold)
 							gImply.RSubMoldFw 		= !pMold->TransDIn.SubMoldClsLimit;
 							gImply.RBottomSubMoldFw	= !pMold->TransDIn.BottomSubMoldClsLimit;
 							gImply.RHookPinBw 		= !pMold->TransDIn.HookPinBwLimit;
+							gImply.RExtInMoldStickerBw 		= !pMold->TransDIn.ExtInMoldStickerBwLimit;
+							gImply.RExtInMoldStickerAlarm 	= !pMold->TransDIn.ExtInMoldStickerAlarm;
+
 						}
 
 					}
@@ -722,7 +743,8 @@ void CalibCtrl( Mold_typ *pMold)
 						&& 1 == pMold->TransDIn.BottomDeflashBwLimit
 						&& 1 == pMold->TransDIn.CoolPinUpLimit && 1 == pMold->TransDIn.CoolPin2UpLimit && 1==pMold->TransDIn.CoolPin3UpLimit 
 						&& 1 == pMold->TransDIn.ExtRobotUpLmit
-						&& 1 == pMold->TransDIn.HookPinBwLimit) 
+						&& 1 == pMold->TransDIn.HookPinBwLimit
+						&& 1 == pMold->TransDIn.ExtInMoldStickerBwLimit && pMold->TransDIn.ExtInMoldStickerAlarm) 
 					{
 						pMold->Carriage.Step = 15000;       /* Carriage down calibration */
 					}
@@ -739,6 +761,9 @@ void CalibCtrl( Mold_typ *pMold)
 						
 							gImply.LExtRobotUp 		= !pMold->TransDIn.ExtRobotUpLmit;
 							gImply.LHookPinBw 		= !pMold->TransDIn.HookPinBwLimit;
+							gImply.LExtInMoldStickerBw 		= !pMold->TransDIn.ExtInMoldStickerBwLimit;
+							gImply.LExtInMoldStickerAlarm 	= !pMold->TransDIn.ExtInMoldStickerAlarm;
+
 							
 						}
 						else
@@ -752,6 +777,9 @@ void CalibCtrl( Mold_typ *pMold)
 					
 							gImply.RExtRobotUp 		= !pMold->TransDIn.ExtRobotUpLmit;
 							gImply.RHookPinBw 		= !pMold->TransDIn.HookPinBwLimit;
+							gImply.RExtInMoldStickerBw 		= !pMold->TransDIn.ExtInMoldStickerBwLimit;
+							gImply.RExtInMoldStickerAlarm 	= !pMold->TransDIn.ExtInMoldStickerAlarm;
+
 					
 						}
 					
@@ -850,7 +878,8 @@ void CalibCtrl( Mold_typ *pMold)
 				if( 1 == pMold->TransDIn.CoolPinUpLimit 
 					&& 1 == pMold->TransDIn.SubMoldClsLimit 
 					&& 1 == pMold->TransDIn.BottomSubMoldClsLimit
-					&& 1 == pMold->TransDIn.RobotBwLimit)
+					&& 1 == pMold->TransDIn.RobotBwLimit
+					&& 1 == pMold->TransDIn.ExtInMoldStickerBwLimit && pMold->TransDIn.ExtInMoldStickerAlarm)
 				{
 					pMold->Clamp.Step = 5000;		/*   clamp close calibration   */
 				}
@@ -863,6 +892,9 @@ void CalibCtrl( Mold_typ *pMold)
 						gImply.LSubMoldFw 		= !pMold->TransDIn.SubMoldClsLimit;
 						gImply.LBottomSubMoldFw	= !pMold->TransDIn.BottomSubMoldClsLimit;
 						gImply.LRobotBw		= !pMold->TransDIn.RobotBwLimit;
+						gImply.LExtInMoldStickerBw 		= !pMold->TransDIn.ExtInMoldStickerBwLimit;
+						gImply.LExtInMoldStickerAlarm 	= !pMold->TransDIn.ExtInMoldStickerAlarm;
+
 						
 					}
 					else
@@ -872,6 +904,9 @@ void CalibCtrl( Mold_typ *pMold)
 						gImply.RSubMoldFw 		= !pMold->TransDIn.SubMoldClsLimit;
 						gImply.RBottomSubMoldFw = !pMold->TransDIn.BottomSubMoldClsLimit;
 						gImply.RRobotBw		= !pMold->TransDIn.RobotBwLimit;
+						gImply.RExtInMoldStickerBw 		= !pMold->TransDIn.ExtInMoldStickerBwLimit;
+						gImply.RExtInMoldStickerAlarm 	= !pMold->TransDIn.ExtInMoldStickerAlarm;
+
 						
 					}/* if(pMold == & LMold) */
 				}

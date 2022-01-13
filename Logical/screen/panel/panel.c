@@ -380,6 +380,8 @@ _CYCLIC  void cyc()
 	/* ------------ hide Actuator ------------ */
 	/* ---Clamp Actuator--- */
 	bHideClampActuatorElectic  		=  (ACTUATOR_ELECTRIC != gMachineFix.MoldR.Clamp.eActuatorType);
+	bHideRClampActuatorElectic		=  (ACTUATOR_ELECTRIC != gMachineFix.MoldR.Clamp.eActuatorType);
+	bHideLClampActuatorElectic		=  (ACTUATOR_ELECTRIC != gMachineFix.MoldR.Clamp.eActuatorType || bHideLeftStation);
 	bHideClampActuatorHyd		  	=  (ACTUATOR_HYD != gMachineFix.MoldR.Clamp.eActuatorType);
 	bHideRClampActuatorHyd			=  (ACTUATOR_HYD != gMachineFix.MoldR.Clamp.eActuatorType);
 	bHideLClampActuatorHyd			=  (ACTUATOR_HYD != gMachineFix.MoldR.Clamp.eActuatorType || bHideLeftStation);

@@ -744,7 +744,7 @@
     <Text ID="2908114" Value="Core Pull Pressure"/>
     <Text ID="2908115" Value="B Extruder Color Speed"/>
     <Text ID="2908116" Value="A-Extruder Color Speed"/>
-    <Text ID="2908117" Value="Die Head / Pressurize Motor"/>
+    <Text ID="2908117" Value="Die Head / Pressurize/Calib Motor"/>
     <Text ID="2908118" Value="L_Carriage Down Check Valve"/>
     <Text ID="2908119" Value="L_Carriage Up Check Valve"/>
     <Text ID="2908120" Value="L_Carriage Down"/>
@@ -970,7 +970,7 @@
     <Text ID="4091549" Value="R-Ext In Mold Sticker Allow"/>
     <Text ID="4099130" Value="R_Hook Pin Fw"/>
     <Text ID="4099131" Value=""/>
-    <Text ID="4099132" Value=""/>
+    <Text ID="4099132" Value="Heating Water Valve"/>
     <Text ID="4099133" Value=""/>
     <Text ID="4099134" Value="L_Blowpin Transducer"/>
     <Text ID="4099135" Value=""/>
@@ -1725,7 +1725,7 @@
     <Text ID="2908114" Value="模芯壓力閥"/>
     <Text ID="2908115" Value="B-押出機色母速度"/>
     <Text ID="2908116" Value="A-押出機色母速度"/>
-    <Text ID="2908117" Value="抬頭/加壓馬達"/>
+    <Text ID="2908117" Value="抬頭/加壓/調模馬達"/>
     <Text ID="2908118" Value="左:移模下止回閥"/>
     <Text ID="2908119" Value="左:移模上止回閥"/>
     <Text ID="2908120" Value="左:移模下閥"/>
@@ -1852,7 +1852,7 @@
     <Text ID="2908243" Value=""/>
     <Text ID="2908244" Value=""/>
     <Text ID="2908245" Value=""/>
-    <Text ID="2908246" Value=""/>
+    <Text ID="2908246" Value="水冷卻閥"/>
     <Text ID="2908247" Value=""/>
     <Text ID="2908248" Value=""/>
     <Text ID="2908249" Value=""/>
@@ -1951,7 +1951,7 @@
     <Text ID="4091549" Value="右:外部模內貼允許"/>
     <Text ID="4099130" Value="右:掛勾吹針進閥"/>
     <Text ID="4099131" Value=""/>
-    <Text ID="4099132" Value=""/>
+    <Text ID="4099132" Value="加熱水閥"/>
     <Text ID="4099133" Value=""/>
     <Text ID="4099134" Value="左吹桿電阻尺"/>
     <Text ID="4099135" Value=""/>
@@ -2706,7 +2706,7 @@
     <Text ID="2908114" Value="模芯壓力閥"/>
     <Text ID="2908115" Value="B-押出機色母速度"/>
     <Text ID="2908116" Value="A-押出機色母速度"/>
-    <Text ID="2908117" Value="抬頭/加壓馬達"/>
+    <Text ID="2908117" Value="抬頭/加壓/調模馬達"/>
     <Text ID="2908118" Value="左:移模下止回閥"/>
     <Text ID="2908119" Value="左:移模上止回閥"/>
     <Text ID="2908120" Value="左:移模下閥"/>
@@ -2932,7 +2932,7 @@
     <Text ID="4091549" Value="右:外部模內貼允許"/>
     <Text ID="4099130" Value="右:掛勾吹針進閥"/>
     <Text ID="4099131" Value=""/>
-    <Text ID="4099132" Value=""/>
+    <Text ID="4099132" Value="加熱水閥"/>
     <Text ID="4099133" Value=""/>
     <Text ID="4099134" Value="左吹桿電阻尺"/>
     <Text ID="4099135" Value=""/>
@@ -3913,7 +3913,7 @@
     <Text ID="4091549" Value=""/>
     <Text ID="4099130" Value=""/>
     <Text ID="4099131" Value=""/>
-    <Text ID="4099132" Value=""/>
+    <Text ID="4099132" Value="Heating Water Valve"/>
     <Text ID="4099133" Value=""/>
     <Text ID="4099134" Value=""/>
     <Text ID="4099135" Value=""/>

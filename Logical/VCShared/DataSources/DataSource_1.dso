@@ -26222,6 +26222,18 @@
             <Property Name="UserID" Value="None"/>
             <Property Name="VCType" Value="SCALED"/>
           </DataPoint>
+          <DataPoint Name="ExtInMoldAlarmTime">
+            <Property Name="ConnectedBySharedResource" Value="False"/>
+            <Property Name="ConnectingVisus" Value="Visu\visu15"/>
+            <Property Name="DPLimit" Value="None"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="PLCType" Value="REAL"/>
+            <Property Name="PLCUnit" Value="None"/>
+            <Property Name="UnitGroup" Value="None"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+            <Property Name="VCType" Value="SCALED"/>
+          </DataPoint>
         </Folder>
         <Folder Name="BlowPin">
           <Property Name="Description" Value=""/>
@@ -48110,6 +48122,24 @@
           <Property Name="VCType" Value="INTEGER"/>
         </DataPoint>
         <DataPoint Name="bHideRobotTransferActuatorPneu">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="Visu\visu15"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="USINT"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="INTEGER"/>
+        </DataPoint>
+        <DataPoint Name="bHideLClampActuatorElectic">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="Visu\visu15"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="USINT"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="INTEGER"/>
+        </DataPoint>
+        <DataPoint Name="bHideRClampActuatorElectic">
           <Property Name="ConnectedBySharedResource" Value="False"/>
           <Property Name="ConnectingVisus" Value="Visu\visu15"/>
           <Property Name="Description" Value=""/>

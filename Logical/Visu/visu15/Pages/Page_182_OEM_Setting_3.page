@@ -623,34 +623,6 @@
           <Property Name="Top" Value="80"/>
           <Property Name="Width" Value="141"/>
         </Control>
-        <Control ClassId="0x00001018" Name="Dropdown_10">
-          <Property Name="ButtonsBitmapGroup" Value="None"/>
-          <Property Name="ButtonsPressedBitmapGroup" Value="None"/>
-          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.OnceSave]"/>
-          <Property Name="CompletionValue" Value="1"/>
-          <Property Name="ControlID" Value="0"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="Height" Value="28"/>
-          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource_1.gMachineFix.MoldR.SubMold.eActuatorType]"/>
-          <Property Name="Left" Value="717"/>
-          <Property Name="LeftBitmap" Value="None"/>
-          <Property Name="LeftTextGroup" Value="None"/>
-          <Property Name="MaxDatapoint" Value="None"/>
-          <Property Name="MaxIndex" Value="None"/>
-          <Property Name="MinDatapoint" Value="None"/>
-          <Property Name="MinIndex" Value="None"/>
-          <Property Name="OptionDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.uOptActorSubMold]"/>
-          <Property Name="RightBitmap" Value="None"/>
-          <Property Name="RightTextGroup" Value="None"/>
-          <Property Name="SimulationValue" Value="0"/>
-          <Property Name="SingleTouchSelection" Value="True"/>
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[DropDown]"/>
-          <Property Name="TextGroup" Value="Source[local].TextGroup[ActuatorType]"/>
-          <Property Name="TextIndexOffset" Value="0"/>
-          <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="106"/>
-          <Property Name="Width" Value="100"/>
-        </Control>
         <Control ClassId="0x00001005" Name="Bitmap_6">
           <Property Name="BackColor" Value="53"/>
           <Property Name="Bitmap" Value="None"/>
@@ -1786,6 +1758,34 @@
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_601]"/>
           <Property Name="Width" Value="35"/>
         </Control>
+        <Control ClassId="0x00001018" Name="Dropdown_10">
+          <Property Name="ButtonsBitmapGroup" Value="None"/>
+          <Property Name="ButtonsPressedBitmapGroup" Value="None"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.OnceSave]"/>
+          <Property Name="CompletionValue" Value="1"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="28"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource_1.gMachineFix.MoldR.SubMold.eActuatorType]"/>
+          <Property Name="Left" Value="717"/>
+          <Property Name="LeftBitmap" Value="None"/>
+          <Property Name="LeftTextGroup" Value="None"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxIndex" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIndex" Value="None"/>
+          <Property Name="OptionDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.uOptActorSubMold]"/>
+          <Property Name="RightBitmap" Value="None"/>
+          <Property Name="RightTextGroup" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="SingleTouchSelection" Value="True"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[DropDown]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[ActuatorType]"/>
+          <Property Name="TextIndexOffset" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="106"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
       </Controls>
       <KeyMapping>
         <VirtualKey Name="TP_FOCUS_UP">
@@ -2036,12 +2036,6 @@
       <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Dropdown_16]"/>
       <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Dropdown_14]"/>
     </MovementEntry>
-    <MovementEntry Control="Source[embedded].Layer[Default].Control[Dropdown_10]">
-      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Dropdown_11]"/>
-      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Dropdown_6]"/>
-      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Dropdown_8]"/>
-      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Dropdown_18]"/>
-    </MovementEntry>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[Dropdown_11]">
       <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Dropdown_15]"/>
       <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Dropdown_7]"/>
@@ -2125,6 +2119,12 @@
       <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_67]"/>
       <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Dropdown_26]"/>
       <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Dropdown_17]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Dropdown_10]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Dropdown_11]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Dropdown_6]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Dropdown_8]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Dropdown_18]"/>
     </MovementEntry>
   </MovementOrder>
   <TabSequence>

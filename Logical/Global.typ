@@ -612,7 +612,7 @@ TYPE
 		ePressueOutputType : pressure_output_enum;
 		eFluxOutputType : flux_output_enum;
 		pPress2Hold : REAL;
-		New_Member0 : REAL;
+		ExtInMoldAlarmTime : REAL;
 		New_Member1 : REAL;
 		New_Member3 : REAL;
 		New_Member4 : REAL;
@@ -734,6 +734,7 @@ TYPE
 		S_OpnSlow2Drive : REAL;
 		rAfterPress2_Tolerance : REAL;
 		ExtInMoldInDone_Flag : USINT;
+		ExtInMoldInDone_cnt : UINT;
 	END_STRUCT;
 	Clamp_User_typ : 	STRUCT 
 		Timer : timer_typ;
@@ -1502,6 +1503,10 @@ TYPE
 		PlateFwBwLimit : USINT;
 		RDeflashAndPullbottomInterlock : USINT;
 		LDeflashAndPullbottomInterlock : USINT;
+		LExtInMoldStickerBw : USINT;
+		RExtInMoldStickerBw : USINT;
+		LExtInMoldStickerAlarm : USINT;
+		RExtInMoldStickerAlarm : USINT; (*210*)
 	END_STRUCT;
 END_TYPE
 

@@ -229,19 +229,28 @@ _CYCLIC void cyclic ( void )
 	}
 	
 	/* ----------------------------- oil pump off ------------------------------- */
-	if(0 == gMachineInfo.Calib)
+	if(0 == gMachineInfo.Calib)  // Auto. Manual
 	{
-		if(1 == gMachineIn.InstancyStop || 0 == gMachineIn.SafeGate || 1 == gMachineInfo.SafeInStop)
+		if(1 == gMachineIn.InstancyStop || 0 == gMachineIn.SafeGate || 1 == gMachineInfo.SafeInStop )
 		{
 			gMachineOut.OilPump = 0;
 			gAlarm.SaftyDoor = !gMachineIn.SafeGate;
 		}
 		
 		gMachineOut.SafetyGateBypass = 0;
+		
+		if(1 == gMachineInfo.Manual)
+		{
+			if(1 == gAlarm.OilTempHigh || 1 == gAlarm.AccuChargeError || 1 == gAlarm.AccuCharge_ExtrliftError)
+			{
+				gMachineOut.OilPump = 0;
+			}
+		}
 	}
 	else
 	{
-		if(1 == gMachineIn.InstancyStop || 1 == gMachineInfo.SafeInStop)
+		
+		if(1 == gMachineIn.InstancyStop || 1 == gMachineInfo.SafeInStop || 1 == gAlarm.AccuChargeError || 1 == gAlarm.AccuCharge_ExtrliftError)
 		{
 			gMachineOut.OilPump = 0;
 			gMachineOut.SafetyGateBypass = 0;
@@ -267,6 +276,14 @@ _CYCLIC void cyclic ( void )
 				}
 			}
 		}	
+		
+		if(1 == gMachineInfo.Calib)
+		{
+			if(1 == gAlarm.OilTempHigh)
+			{
+				gMachineOut.OilPump = 0;
+			}
+		}
 	}
 	
 	/*  main pump feedback check  */
