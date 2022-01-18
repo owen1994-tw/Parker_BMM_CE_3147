@@ -104,7 +104,7 @@ _CYCLIC void cyclic ( void )
 			if( 1 == EDGEPOS(gPanelObj.KeyMatric[S$KEYMATRIX_PARISON_PUMP],PKeyMatric[S$KEYMATRIX_PARISON_PUMP])
 				||1 == EDGEPOS(gPanelObj.KeyMatric[S$KEYMATRIX_EXTRUDER_A_ABB],PKeyMatric[S$KEYMATRIX_EXTRUDER_A_ABB]))
 				{	
-				if (0==gExtruderTempLow_HMIFlag)  //ipis0213
+				if (0==gExtruderTempLow_HMIFlag && 0 == gMachineInfo.DieLipTempLow)  //ipis0213
 				{
 					if (0==gMachineInfo.bLoweringFlag)
 					{
@@ -142,7 +142,8 @@ _CYCLIC void cyclic ( void )
 				}
 				else
 				{
-					gImply.TempLow =1;		
+					gImply.TempLow =1;	
+					gImply.DieLipTempLow = gMachineInfo.DieLipTempLow;
 				}
 			}
 		}

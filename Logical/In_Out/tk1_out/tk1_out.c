@@ -807,10 +807,10 @@ _CYCLIC void cyclic ( void )
 	/* ------------------------------------------------------------------------------ */
 	/* ------------------------- temp SCR die lip Common ---------------------------- */
 	/* ------------------------------------------------------------------------------ */
-	if( (gMachineFix.Option.bDieLip[0] &&(0 == gUserPara.RightDieLipTempSCR || 0 == bEnableRightDie))||
-		(gMachineFix.Option.bDieLip[1] &&(0 == gUserPara.LiftDieLipTempSCR || 0 == bEnableLeftDie))	||
-		(gMachineFix.Option.bDieLip[2] &&(0 == gUserPara.DieLipTempSCR3 || 0 == bEnableDie3))||
-		(gMachineFix.Option.bDieLip[3] &&(0 == gUserPara.DieLipTempSCR4 || 0 == bEnableDie4)))
+	if( (gMachineFix.Option.bDieLip[0] &&(/*0 == gUserPara.RightDieLipTempSCR ||*/ 0 == bEnableRightDie))||
+		(gMachineFix.Option.bDieLip[1] &&(/*0 == gUserPara.LiftDieLipTempSCR ||*/ 0 == bEnableLeftDie))	||
+		(gMachineFix.Option.bDieLip[2] &&(/*0 == gUserPara.DieLipTempSCR3 ||*/ 0 == bEnableDie3))||
+		(gMachineFix.Option.bDieLip[3] &&(/*0 == gUserPara.DieLipTempSCR4 ||*/ 0 == bEnableDie4)))
 	{
 		gMachineInfo.DieLipTempLow = 1;
 	}

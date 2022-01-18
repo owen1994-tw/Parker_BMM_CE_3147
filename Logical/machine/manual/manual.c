@@ -925,7 +925,7 @@ void ManualCtrl( Mold_typ *pMold)
 					{
 						if( ACTUATOR_HYD  == gMachineFix.MoldR.Clamp.eActuatorType )  // Hydraulic
 						{
-							pMold->Clamp.Step = 12100;		/*   clamp release + open     */
+							pMold->Clamp.Step = 10300;		/*   clamp release + open     */
 						}
 						else if(ACTUATOR_ELECTRIC  == gMachineFix.MoldR.Clamp.eActuatorType)	//Electric
 						{

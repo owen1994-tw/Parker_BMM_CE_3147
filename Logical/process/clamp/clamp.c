@@ -2003,7 +2003,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			pMoldUser->TimeDis.ClampUnLockTime = pMold->Clamp.Timer.ET;
 			if(pMold->Clamp.Timer.Q)
 			{
-				pMold->ValveOut.ClampOpnRelease = 0; /*Open Clamp Release valve*/
+				pMold->ValveOut.ClampOpnRelease = 1; /*Open Clamp Release valve*/
 				pMold->Clamp.Timer.IN = 0;
 				//				pMold->Clamp.Step = 12130;  // 微開模延遲不使用
 				pMold->Clamp.Step = 12150;
@@ -2066,51 +2066,51 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			
 			switch (pClampFix->eValveType )
 			{
-			case VALVE_DIR: /*0:Direct*/  /*no profile*/
-			/*-- Close --*/
-			pMold->ValveOut.ClampCls  = 0;
-			pMold->ValveOut.ClampClsDiff = 0;
-			pMold->ValveOut.ClampClsSlow = 0;
-					
-			/*-- Open --*/
-			pMold->ValveOut.ClampOpn  = 1;	
-			pMold->ValveOut.ClampOpnDiff = 0;
-			pMold->ValveOut.ClampOpnRelease = 0;
-				
-			pMold->Clamp.p_set = pClampPara->P_OpnSlow; 
-			pMold->Clamp.v_set = pMold->Clamp.V_OpnSlow;   
-
-			break;
-				
-			case VALVE_PROP: /*1:Proportion valve*/ /*profile*/
-			pMold->ValveOut.ClampMoveValve = 1;
+				case VALVE_DIR: /*0:Direct*/  /*no profile*/
+					/*-- Close --*/
+					pMold->ValveOut.ClampCls  = 0;
+					pMold->ValveOut.ClampClsDiff = 0;
+					pMold->ValveOut.ClampClsSlow = 0;
 							
-			/*-- Close --*/
-			pMold->ValveOut.ClampClsDiff = 0;
-			pMold->ValveOut.ClampClsSlow = 0;			
-												
-			/*-- Open --*/
-			pMold->ValveOut.ClampOpnDiff = 0;
-			pMold->ValveOut.ClampOpnRelease = 0;
-				
-			pMold->Clamp.vProfGen.v_set = pMold->Clamp.V_OpnSlow;
-		            
-			/* call profile function */
-			HydvProfGen(& pMold->Clamp.vProfGen);
-		            
-			pMold->Clamp.p_set = pClampPara->P_OpnSlow; 
-			pMold->Clamp.v_set = pMold->Clamp.vProfGen.v_out;
-		            
-			pMold->Clamp.actTjOpn = pMold->Clamp.vProfGen.Tj;
-				
-			break;
+					/*-- Open --*/
+					pMold->ValveOut.ClampOpn  = 1;	
+					pMold->ValveOut.ClampOpnDiff = 0;
+					pMold->ValveOut.ClampOpnRelease = 1;
+						
+					pMold->Clamp.p_set = pClampPara->P_OpnSlow; 
+					pMold->Clamp.v_set = pMold->Clamp.V_OpnSlow;   
+	
+				break;
+					
+				case VALVE_PROP: /*1:Proportion valve*/ /*profile*/
+					pMold->ValveOut.ClampMoveValve = 1;
+									
+					/*-- Close --*/
+					pMold->ValveOut.ClampClsDiff = 0;
+					pMold->ValveOut.ClampClsSlow = 0;			
+														
+					/*-- Open --*/
+					pMold->ValveOut.ClampOpnDiff = 0;
+					pMold->ValveOut.ClampOpnRelease = 1;
+						
+					pMold->Clamp.vProfGen.v_set = pMold->Clamp.V_OpnSlow;
+				            
+					/* call profile function */
+					HydvProfGen(& pMold->Clamp.vProfGen);
+				            
+					pMold->Clamp.p_set = pClampPara->P_OpnSlow; 
+					pMold->Clamp.v_set = pMold->Clamp.vProfGen.v_out;
+				            
+					pMold->Clamp.actTjOpn = pMold->Clamp.vProfGen.Tj;
+					
+				break;
 			}
 				
 
 			/*  reached target position */
 			
-			if( 1 == gMachineInfo.Auto ) 
-			{
+//			if( 1 == gMachineInfo.Auto ) 
+//			{
 				if( 1 == pMold->Option.SubMold)
 				{
 					if(pMold->Clamp.mmAs > pMold->Clamp.S_SubMoldOut - 0.1)  // 微開模
@@ -2129,18 +2129,18 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 						pMold->Clamp.Step = 12300;
 					}
 				}
-			}
-			else
-			{
-				//手動不走模芯微開
-				if(pMold->Clamp.mmAs > pMold->Clamp.S_OpnSlow - 0.1)	 // 慢轉快
-				{		     
-					pMold->Clamp.v_set  = 0;
-					pMold->Clamp.p_set  = 0;
-					pMold->Clamp.Step = 10300; // 轉接開模慢快慢
-				}
-				
-			}
+//			}
+//			else
+//			{
+//				//手動不走模芯微開
+//				if(pMold->Clamp.mmAs > pMold->Clamp.S_OpnSlow - 0.1)	 // 慢轉快
+//				{		     
+//					pMold->Clamp.v_set  = 0;
+//					pMold->Clamp.p_set  = 0;
+//					pMold->Clamp.Step = 10300; // 轉接開模慢快慢
+//				}
+//				
+//			}
 
 			
 			if(1 == pMold->Clamp.OpnHWSwitch)
@@ -2338,7 +2338,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			/*-- Open --*/
 			pMold->ValveOut.ClampOpn  = 1;	
 			pMold->ValveOut.ClampOpnDiff = 0;
-			pMold->ValveOut.ClampOpnRelease = 0;
+			pMold->ValveOut.ClampOpnRelease = 1;
 				
 			pMold->Clamp.p_set = pClampPara->P_OpnSlow; 
 			pMold->Clamp.v_set = pMold->Clamp.V_OpnSlow;   
@@ -2354,7 +2354,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 														
 			/*-- Open --*/
 			pMold->ValveOut.ClampOpnDiff = 0;
-			pMold->ValveOut.ClampOpnRelease = 0;
+			pMold->ValveOut.ClampOpnRelease = 1;
 				
 			pMold->Clamp.vProfGen.v_set = pMold->Clamp.V_OpnSlow;
 		            
@@ -2403,7 +2403,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			/*-- Open --*/
 			pMold->ValveOut.ClampOpn  = 1;	
 			pMold->ValveOut.ClampOpnDiff = 1;
-			pMold->ValveOut.ClampOpnRelease = 0;				
+			pMold->ValveOut.ClampOpnRelease = 1;				
 				
 			pMold->Clamp.p_set = pClampPara->P_Opn; 
 			pMold->Clamp.v_set = pMold->Clamp.V_Opn;   
@@ -2419,7 +2419,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 																
 			/*-- Open --*/
 			pMold->ValveOut.ClampOpnDiff = 1;
-			pMold->ValveOut.ClampOpnRelease = 0;	
+			pMold->ValveOut.ClampOpnRelease = 1;	
 				
 			pMold->Clamp.vProfGen.v_set = pMold->Clamp.V_Opn;
 		            
@@ -2453,59 +2453,59 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			switch (pClampFix->eValveType )
 			{
 			case VALVE_DIR: /*0:Direct*/  /*no profile*/
-			/*-- Close --*/
-			pMold->ValveOut.ClampCls  = 0;
-			pMold->ValveOut.ClampClsDiff = 0;
-			pMold->ValveOut.ClampClsSlow = 0;
-									
-			/*-- Open --*/
-			pMold->ValveOut.ClampOpn  = 1;	
-			pMold->ValveOut.ClampOpnDiff = 0;
-			pMold->ValveOut.ClampOpnRelease = 0;			
-				
-			if(1 == gMachineInfo.MachineReset)
-			{
-			pMold->Clamp.p_set = pClampPara->P_OpnReset; 
-			pMold->Clamp.v_set = pMold->Clamp.V_OpnReset;  
-			}
-			else
-			{
-			pMold->Clamp.p_set = pClampPara->P_OpnSlow2; 
-			pMold->Clamp.v_set = pMold->Clamp.V_OpnSlow2;  
-			}
+				/*-- Close --*/
+				pMold->ValveOut.ClampCls  = 0;
+				pMold->ValveOut.ClampClsDiff = 0;
+				pMold->ValveOut.ClampClsSlow = 0;
+										
+				/*-- Open --*/
+				pMold->ValveOut.ClampOpn  = 1;	
+				pMold->ValveOut.ClampOpnDiff = 0;
+				pMold->ValveOut.ClampOpnRelease = 1;			
+					
+				if(1 == gMachineInfo.MachineReset)
+				{
+					pMold->Clamp.p_set = pClampPara->P_OpnReset; 
+					pMold->Clamp.v_set = pMold->Clamp.V_OpnReset;  
+				}
+				else
+				{
+					pMold->Clamp.p_set = pClampPara->P_OpnSlow2; 
+					pMold->Clamp.v_set = pMold->Clamp.V_OpnSlow2;  
+				}
 				
 
 			break;
 				
 			case VALVE_PROP: /*1:Proportion valve*/ /*profile*/
-			pMold->ValveOut.ClampMoveValve = 1;
-											
-			/*-- Close --*/
-			pMold->ValveOut.ClampClsDiff = 0;
-			pMold->ValveOut.ClampClsSlow = 0;			
-																
-			/*-- Open --*/
-			pMold->ValveOut.ClampOpnDiff = 0;
-			pMold->ValveOut.ClampOpnRelease = 0;		
-				
-				
-			if(1 == gMachineInfo.MachineReset)
-			{
-			pMold->Clamp.vProfGen.v_set = pMold->Clamp.V_OpnReset;
-			pMold->Clamp.p_set = pClampPara->P_OpnReset; 
-			}
-			else
-			{
-			pMold->Clamp.vProfGen.v_set = pMold->Clamp.V_OpnSlow2;
-			pMold->Clamp.p_set = pClampPara->P_OpnSlow2; 
-			}
-		            
-			/* call profile function */
-			HydvProfGen(& pMold->Clamp.vProfGen);
-				
-			pMold->Clamp.v_set = pMold->Clamp.vProfGen.v_out;
-            
-			pMold->Clamp.actTjOpn = pMold->Clamp.vProfGen.Tj;
+				pMold->ValveOut.ClampMoveValve = 1;
+												
+				/*-- Close --*/
+				pMold->ValveOut.ClampClsDiff = 0;
+				pMold->ValveOut.ClampClsSlow = 0;			
+																	
+				/*-- Open --*/
+				pMold->ValveOut.ClampOpnDiff = 0;
+				pMold->ValveOut.ClampOpnRelease = 1;		
+					
+					
+				if(1 == gMachineInfo.MachineReset)
+				{
+					pMold->Clamp.vProfGen.v_set = pMold->Clamp.V_OpnReset;
+					pMold->Clamp.p_set = pClampPara->P_OpnReset; 
+				}
+				else
+				{
+					pMold->Clamp.vProfGen.v_set = pMold->Clamp.V_OpnSlow2;
+					pMold->Clamp.p_set = pClampPara->P_OpnSlow2; 
+				}
+			            
+				/* call profile function */
+				HydvProfGen(& pMold->Clamp.vProfGen);
+					
+				pMold->Clamp.v_set = pMold->Clamp.vProfGen.v_out;
+	            
+				pMold->Clamp.actTjOpn = pMold->Clamp.vProfGen.Tj;
 
 			break;
 			}
