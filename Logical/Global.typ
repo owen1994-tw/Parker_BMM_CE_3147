@@ -48,6 +48,7 @@ TYPE
 		Timer : timer_typ;
 		LimitTimer : timer_typ;
 		Out : UINT;
+		AutoTimeOutFlag : USINT;
 	END_STRUCT;
 	Action_typ : 	STRUCT 
 		Step : UINT;
@@ -76,7 +77,7 @@ TYPE
 		SuckAir : USINT;
 		TopDeflashFw : USINT;
 		TopDeflashBw : USINT;
-		TopDeflashPuncher : USINT;
+		TopDeflashCls : USINT;
 		BottomDeflashFw : USINT;
 		BottomDeflashBw : USINT;
 		BottomDeflash : USINT;
@@ -2478,7 +2479,7 @@ TYPE
 		InnerPinNotAtBwPos : USINT;
 		ParisonTimeSmall : USINT;
 		TopDeflashNotAtFwPos : USINT;
-		BottomDefalshTimeOut : USINT;
+		BottomDeflashTimeout : USINT;
 		ClampCalErr : USINT;
 		CarriageCalErr : USINT;
 		BlowPinCalErr : USINT;
@@ -2493,7 +2494,7 @@ TYPE
 		BottleNotPutDown : USINT;
 		RobotTransferCalErr : USINT;
 		RobotUpDnCalErr : USINT; (*60/150*)
-		TopDefalshTimeOut : USINT;
+		TopDeflashTimeout : USINT;
 		ClampLinNotOK : USINT;
 		BottomDeflashNotAtBwPos : USINT;
 		BottomSubMoldNotAtClsPos : USINT;
@@ -2502,7 +2503,7 @@ TYPE
 		BottomDeflashNotAtFwPos : USINT;
 		ExtrLiftNotAtUpPos : USINT;
 		CarriageLinNotOK : USINT;
-		New_Member1 : USINT; (*70/160*)
+		TopDeflashTimeShort : USINT; (*70/160*)
 		CarriageNotAtFwBwPos : USINT;
 		ClampNotAtOpnClsPos : USINT;
 		BlowPin2NotAtUpPos : USINT;
@@ -2520,7 +2521,7 @@ TYPE
 		ExtInMoldStickerNotAtBw : USINT;
 		ExtInMoldStickerAlarm : USINT;
 		ExtInMoldStickerTimeOut : USINT;
-		New_Member3s : USINT;
+		TopDeflashOpnClsTimeout : USINT;
 		New_Member3x : USINT;
 		New_Member5 : USINT; (*90/180*)
 		New_Member21 : USINT;
@@ -2878,6 +2879,7 @@ TYPE
 		LowBlow : Blow_typ;
 		HighBlow : Blow_typ;
 		TopDeflash : TopDeflash_typ;
+		TopDeflashOpnCls : Action_Limit_typ;
 		BottomDeflash : TopDeflash_typ;
 		SupportAir : Support_typ;
 		SupportSuckAir : Action_typ;
@@ -3878,6 +3880,7 @@ TYPE
 		v_act : REAL;
 		aoPropValve : INT;
 		Out : UINT;
+		AutoTimeOutFlag : USINT;
 	END_STRUCT;
 	USB_Device_typ : 	STRUCT 
 		DeviceName : STRING[19];

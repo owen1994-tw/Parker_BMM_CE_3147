@@ -8,7 +8,4 @@ VAR
 	Init : USINT;
 	AutoEnable : USINT;
 	AutoStop : USINT;
-	TestModeEnable : BOOL;
-	TestMode_Count : USINT;
-	TestMode_CountOld : USINT;
 END_VAR

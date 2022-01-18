@@ -1747,7 +1747,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Axis_Movement]"/>
           <Property Name="TextIndexOffset" Value="73"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="195"/>
+          <Property Name="Top" Value="223"/>
           <Property Name="Width" Value="135"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_11">
@@ -1765,7 +1765,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Axis_Movement]"/>
           <Property Name="TextIndexOffset" Value="78"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="222"/>
+          <Property Name="Top" Value="250"/>
           <Property Name="Width" Value="135"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_12">
@@ -1783,7 +1783,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Axis_Movement]"/>
           <Property Name="TextIndexOffset" Value="80"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="249"/>
+          <Property Name="Top" Value="277"/>
           <Property Name="Width" Value="135"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_13">
@@ -1801,7 +1801,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Axis_Movement]"/>
           <Property Name="TextIndexOffset" Value="83"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="302"/>
+          <Property Name="Top" Value="330"/>
           <Property Name="Width" Value="135"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_14">
@@ -1819,7 +1819,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Axis_Movement]"/>
           <Property Name="TextIndexOffset" Value="86"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="329"/>
+          <Property Name="Top" Value="357"/>
           <Property Name="Width" Value="135"/>
         </Control>
         <Control ClassId="0x00001004" Name="Text_15">
@@ -1837,7 +1837,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Axis_Movement]"/>
           <Property Name="TextIndexOffset" Value="89"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="356"/>
+          <Property Name="Top" Value="384"/>
           <Property Name="Width" Value="135"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_25">
@@ -2206,7 +2206,7 @@
           <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="195"/>
+          <Property Name="Top" Value="223"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.BottomDeflash.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -2225,7 +2225,7 @@
           <Property Name="SimulationValue" Value="10100"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="195"/>
+          <Property Name="Top" Value="223"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.BottomDeflash.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -2245,7 +2245,7 @@
           <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="222"/>
+          <Property Name="Top" Value="250"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.BlowDeflash.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -2264,7 +2264,7 @@
           <Property Name="SimulationValue" Value="10100"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="222"/>
+          <Property Name="Top" Value="250"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.BlowDeflash.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -2284,7 +2284,7 @@
           <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="249"/>
+          <Property Name="Top" Value="277"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.Robot.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -2303,7 +2303,7 @@
           <Property Name="SimulationValue" Value="10100"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="249"/>
+          <Property Name="Top" Value="277"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.Robot.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -2323,7 +2323,7 @@
           <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="302"/>
+          <Property Name="Top" Value="330"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.SubMold.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -2342,7 +2342,7 @@
           <Property Name="SimulationValue" Value="10100"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="302"/>
+          <Property Name="Top" Value="330"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.SubMold.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -2362,7 +2362,7 @@
           <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="329"/>
+          <Property Name="Top" Value="357"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.BottomSubMold.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -2381,7 +2381,7 @@
           <Property Name="SimulationValue" Value="10100"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="329"/>
+          <Property Name="Top" Value="357"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.BottomSubMold.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -2401,7 +2401,7 @@
           <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="356"/>
+          <Property Name="Top" Value="384"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.SupportAir.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -2420,7 +2420,7 @@
           <Property Name="SimulationValue" Value="10100"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="356"/>
+          <Property Name="Top" Value="384"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.SupportAir.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -2783,7 +2783,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Axis_Movement]"/>
           <Property Name="TextIndexOffset" Value="91"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="409"/>
+          <Property Name="Top" Value="437"/>
           <Property Name="Width" Value="135"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_64">
@@ -2801,7 +2801,7 @@
           <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="410"/>
+          <Property Name="Top" Value="438"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.CoolPinBlow.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -2820,7 +2820,7 @@
           <Property Name="SimulationValue" Value="10100"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="410"/>
+          <Property Name="Top" Value="438"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.CoolPinBlow.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -2897,7 +2897,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Axis_Movement]"/>
           <Property Name="TextIndexOffset" Value="93"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="437"/>
+          <Property Name="Top" Value="465"/>
           <Property Name="Width" Value="135"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_68">
@@ -2915,7 +2915,7 @@
           <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="437"/>
+          <Property Name="Top" Value="465"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.CoolPin2Blow.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -2934,7 +2934,7 @@
           <Property Name="SimulationValue" Value="10100"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="437"/>
+          <Property Name="Top" Value="465"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.CoolPin2Blow.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -3011,7 +3011,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Axis_Movement]"/>
           <Property Name="TextIndexOffset" Value="95"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="464"/>
+          <Property Name="Top" Value="492"/>
           <Property Name="Width" Value="135"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_72">
@@ -3029,7 +3029,7 @@
           <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="464"/>
+          <Property Name="Top" Value="492"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.CoolPin3Blow.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -3048,7 +3048,7 @@
           <Property Name="SimulationValue" Value="10100"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="464"/>
+          <Property Name="Top" Value="492"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.CoolPin3Blow.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -3068,7 +3068,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Axis_Movement]"/>
           <Property Name="TextIndexOffset" Value="97"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="382"/>
+          <Property Name="Top" Value="410"/>
           <Property Name="Width" Value="135"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_74">
@@ -3086,7 +3086,7 @@
           <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="383"/>
+          <Property Name="Top" Value="411"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.Plate.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -3105,7 +3105,7 @@
           <Property Name="SimulationValue" Value="10100"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="383"/>
+          <Property Name="Top" Value="411"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.Plate.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -3239,7 +3239,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Axis_Movement]"/>
           <Property Name="TextIndexOffset" Value="82"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="276"/>
+          <Property Name="Top" Value="304"/>
           <Property Name="Width" Value="135"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_80">
@@ -3257,7 +3257,7 @@
           <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="276"/>
+          <Property Name="Top" Value="304"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.RobotOpnCls.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -3276,7 +3276,7 @@
           <Property Name="SimulationValue" Value="10100"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="276"/>
+          <Property Name="Top" Value="304"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.RobotOpnCls.Step]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="50"/>
@@ -3289,7 +3289,7 @@
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="25"/>
-          <Property Name="Left" Value="518"/>
+          <Property Name="Left" Value="224"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
@@ -3305,7 +3305,7 @@
           <Property Name="Description" Value=""/>
           <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
           <Property Name="Height" Value="25"/>
-          <Property Name="Left" Value="462"/>
+          <Property Name="Left" Value="168"/>
           <Property Name="MaxDatapoint" Value="None"/>
           <Property Name="MaxValue" Value="None"/>
           <Property Name="MinDatapoint" Value="None"/>
@@ -3325,7 +3325,7 @@
           <Property Name="Description" Value=""/>
           <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
           <Property Name="Height" Value="25"/>
-          <Property Name="Left" Value="659"/>
+          <Property Name="Left" Value="365"/>
           <Property Name="MaxDatapoint" Value="None"/>
           <Property Name="MaxValue" Value="None"/>
           <Property Name="MinDatapoint" Value="None"/>
@@ -3517,6 +3517,63 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
           <Property Name="Top" Value="621"/>
           <Property Name="Width" Value="9"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_20">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="53"/>
+          <Property Name="Border" Value="Source[local].Border[RaisedInner]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="518"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Axis_Movement]"/>
+          <Property Name="TextIndexOffset" Value="76"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="195"/>
+          <Property Name="Width" Value="135"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_84">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="462"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="10100"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="195"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.LMold.TopDeflashOpnCls.Step]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="50"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_85">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Font_9_Number]"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="659"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="10100"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="195"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.RMold.TopDeflashOpnCls.Step]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="50"/>
         </Control>
       </Controls>
       <KeyMapping>
@@ -4858,5 +4915,7 @@
     <TabSeqItem Index="85" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_20]"/>
     <TabSeqItem Index="86" Value="Source[embedded].Layer[Default].Control[Numeric_82]"/>
     <TabSeqItem Index="87" Value="Source[embedded].Layer[Default].Control[Numeric_83]"/>
+    <TabSeqItem Index="88" Value="Source[embedded].Layer[Default].Control[Numeric_84]"/>
+    <TabSeqItem Index="89" Value="Source[embedded].Layer[Default].Control[Numeric_85]"/>
   </TabSequence>
 </Page>

@@ -906,7 +906,6 @@
           <Text ID="2736540" Value="Swing Enable"/>
           <Text ID="2736541" Value="Cutter Enable"/>
           <Text ID="2810660" Value="Note: When you choose the bottom core pull function, make sure the mold is really bottom core pull. Otherwise the mold and cutting might interferenc."/>
-          <Text ID="2831595" Value="Enable"/>
         </TextLayer>
         <TextLayer LanguageId="zh-CN">
           <Text ID="544056" Value="機器功能"/>
@@ -930,7 +929,6 @@
           <Text ID="2736540" Value="抬頭選用"/>
           <Text ID="2736541" Value="切刀選用"/>
           <Text ID="2810660" Value="注意:選擇下模芯功能時請確認機構是否確實為下模芯，若不是可能造成切刀機構損壞。"/>
-          <Text ID="2831595" Value=""/>
         </TextLayer>
         <TextLayer LanguageId="zh-TW">
           <Text ID="544056" Value="機器功能"/>
@@ -954,7 +952,6 @@
           <Text ID="2736540" Value="抬頭選用"/>
           <Text ID="2736541" Value="切刀選用"/>
           <Text ID="2810660" Value="注意:選擇下模芯功能時請確認機構是否確實為下模芯，若不是可能造成切刀機構損壞。"/>
-          <Text ID="2831595" Value="不做後段吹冷"/>
         </TextLayer>
         <TextLayer LanguageId="pl">
           <Text ID="544056" Value="Funkcje Maszyny"/>
@@ -978,7 +975,6 @@
           <Text ID="2736540" Value="Glowica (podnoszenie) - wlacz"/>
           <Text ID="2736541" Value="Wlacz ciecia"/>
           <Text ID="2810660" Value="Uwaga: Wybierając funkcję dolnej formy dzielonej upewnij się, że forma jest naprawdę z dolnym otwieraniem. W przeciwnym razie może wystapic kolizja miedzy forma dzielona a nozem obcinajacym."/>
-          <Text ID="2831595" Value="Wlacz"/>
         </TextLayer>
         <IndexMap>
           <Index ID="544056" Value="17"/>
@@ -1002,7 +998,6 @@
           <Index ID="2736540" Value="13"/>
           <Index ID="2736541" Value="15"/>
           <Index ID="2810660" Value="0"/>
-          <Index ID="2831595" Value="1"/>
         </IndexMap>
       </TextGroup>
       <Controls>
@@ -2011,96 +2006,6 @@
           <Property Name="Top" Value="617"/>
           <Property Name="Width" Value="711"/>
         </Control>
-        <Control ClassId="0x00001007" Name="Numeric_29">
-          <Property Name="ControlID" Value="0"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="Height" Value="29"/>
-          <Property Name="InputNext" Value="Enter"/>
-          <Property Name="Left" Value="444"/>
-          <Property Name="Locking" Value="Datapoint &lt; Level"/>
-          <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
-          <Property Name="LockingLevel" Value="4"/>
-          <Property Name="MaxDatapoint" Value="None"/>
-          <Property Name="MaxValue" Value="100"/>
-          <Property Name="MinDatapoint" Value="None"/>
-          <Property Name="MinValue" Value="0"/>
-          <Property Name="SimulationValue" Value="10"/>
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
-          <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="115"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.process.autorun.TestMode_Count]"/>
-          <Property Name="ValueMode" Value="Standard"/>
-          <Property Name="Width" Value="50"/>
-        </Control>
-        <Control ClassId="0x00001007" Name="Numeric_30">
-          <Property Name="ControlID" Value="0"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Font_12_Number]"/>
-          <Property Name="Height" Value="30"/>
-          <Property Name="Left" Value="499"/>
-          <Property Name="Locking" Value="Datapoint &lt; Level"/>
-          <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
-          <Property Name="LockingLevel" Value="4"/>
-          <Property Name="MaxDatapoint" Value="None"/>
-          <Property Name="MaxValue" Value="100"/>
-          <Property Name="MinDatapoint" Value="None"/>
-          <Property Name="MinValue" Value="0"/>
-          <Property Name="SimulationValue" Value="10"/>
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
-          <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="114"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.process.autorun.TestMode_CountOld]"/>
-          <Property Name="ValueMode" Value="Standard"/>
-          <Property Name="Width" Value="50"/>
-        </Control>
-        <Control ClassId="0x00001005" Name="Bitmap_52">
-          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Option_Small_Rect]"/>
-          <Property Name="BitmapIndex" Value="0"/>
-          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
-          <Property Name="ControlID" Value="0"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="FillStyle" Value="Transparent"/>
-          <Property Name="Height" Value="24"/>
-          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource_1.process.autorun.TestModeEnable]"/>
-          <Property Name="Left" Value="309"/>
-          <Property Name="SimulationValue" Value="0"/>
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="117"/>
-          <Property Name="Width" Value="27"/>
-        </Control>
-        <Control ClassId="0x00001004" Name="Text_47">
-          <Property Name="AlignmentVertical" Value="Center"/>
-          <Property Name="ControlID" Value="0"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="FillStyle" Value="Transparent"/>
-          <Property Name="Font" Value="Source[local].Font[Font_11_9_Main]"/>
-          <Property Name="Height" Value="20"/>
-          <Property Name="Left" Value="344"/>
-          <Property Name="SimulationIndex" Value="0"/>
-          <Property Name="SimulationValue" Value="0"/>
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
-          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
-          <Property Name="TextIndexOffset" Value="1"/>
-          <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="119"/>
-          <Property Name="Width" Value="94"/>
-        </Control>
-        <Control ClassId="0x00001003" Name="HotSpot_39">
-          <Property Name="ControlID" Value="0"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_308]"/>
-          <Property Name="Height" Value="38"/>
-          <Property Name="KeyMatrixOffset" Value="None"/>
-          <Property Name="Left" Value="302"/>
-          <Property Name="Locking" Value="Datapoint &lt; Level"/>
-          <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource_1.gPanelObj.PasswordLevel]"/>
-          <Property Name="LockingLevel" Value="4"/>
-          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="107"/>
-          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_308]"/>
-          <Property Name="Width" Value="145"/>
-        </Control>
       </Controls>
       <KeyMapping>
         <VirtualKey Name="SINGLE_CUT">
@@ -2821,22 +2726,6 @@
             </KeyAction>
           </KeyActions>
         </VirtualKey>
-        <VirtualKey Name="%embVirtualKey_308">
-          <Property Name="Description" Value=""/>
-          <Property Name="VirtualKey_LED" Value="False"/>
-          <KeyActions>
-            <KeyAction ClassId="0x0000016A">
-              <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource_1.gRecipeOperate.DataSave]"/>
-              <Property Name="CompletionValue" Value="1"/>
-              <Property Name="Description" Value=""/>
-              <Property Name="Locking" Value="Never"/>
-              <Property Name="Name" Value="Action_0"/>
-              <Property Name="ResetValue" Value="0"/>
-              <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource_1.process.autorun.TestModeEnable]"/>
-            </KeyAction>
-          </KeyActions>
-        </VirtualKey>
       </KeyMapping>
     </Layer>
     <LayerRef Source="Source[local].Layer[Global_FunctionKey_F1_F16]">
@@ -2855,12 +2744,6 @@
   </Layers>
   <MovementOrder>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_16]">
-      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_29]"/>
-      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_29]"/>
-      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_29]"/>
-      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_29]"/>
-    </MovementEntry>
-    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_29]">
       <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_16]"/>
       <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_16]"/>
       <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_16]"/>
@@ -2887,18 +2770,16 @@
     <TabSeqItem Index="16" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_21]"/>
     <TabSeqItem Index="17" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_22]"/>
     <TabSeqItem Index="18" Value="Source[embedded].Layer[Default].Control[Numeric_16]"/>
-    <TabSeqItem Index="19" Value="Source[embedded].Layer[Default].Control[Numeric_29]"/>
-    <TabSeqItem Index="20" Value="Source[embedded].Layer[Default].Control[Numeric_30]"/>
-    <TabSeqItem Index="21" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_19]"/>
-    <TabSeqItem Index="22" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_26]"/>
-    <TabSeqItem Index="23" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_27]"/>
-    <TabSeqItem Index="24" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_28]"/>
-    <TabSeqItem Index="25" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_23]"/>
-    <TabSeqItem Index="26" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_29]"/>
-    <TabSeqItem Index="27" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_30]"/>
-    <TabSeqItem Index="28" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_18]"/>
-    <TabSeqItem Index="29" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_25]"/>
-    <TabSeqItem Index="30" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_16]"/>
-    <TabSeqItem Index="31" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_20]"/>
+    <TabSeqItem Index="19" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_19]"/>
+    <TabSeqItem Index="20" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_26]"/>
+    <TabSeqItem Index="21" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_27]"/>
+    <TabSeqItem Index="22" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_28]"/>
+    <TabSeqItem Index="23" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_23]"/>
+    <TabSeqItem Index="24" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_29]"/>
+    <TabSeqItem Index="25" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_30]"/>
+    <TabSeqItem Index="26" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_18]"/>
+    <TabSeqItem Index="27" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_25]"/>
+    <TabSeqItem Index="28" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_16]"/>
+    <TabSeqItem Index="29" Value="Source[local].Layer[Global_layer_Accu].Control[Numeric_20]"/>
   </TabSequence>
 </Page>

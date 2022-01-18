@@ -749,6 +749,7 @@ _CYCLIC void cyclic ( void )
 			LMold.CoolDeflash.Step	= 20000;
 			LMold.Cutter.Step		   = 20000;
 			LMold.TopDeflash.Step   = 20000;
+			LMold.TopDeflashOpnCls.Step   = 20000;
 			LMold.BottomDeflash.Step= 20000;
 			LMold.SupportAir.Step	= 20000;
 			LMold.SupportSuckAir.Step	= 20000;
@@ -781,6 +782,7 @@ _CYCLIC void cyclic ( void )
 			RMold.CoolDeflash.Step	= 20000;
 			RMold.Cutter.Step		   = 20000;
 			RMold.TopDeflash.Step	= 20000;
+			RMold.TopDeflashOpnCls.Step   = 20000;
 			RMold.BottomDeflash.Step= 20000;
 			RMold.SupportAir.Step	= 20000;
 			RMold.SupportSuckAir.Step	= 20000;
@@ -841,6 +843,7 @@ _CYCLIC void cyclic ( void )
 			LMold.CoolDeflash.Step	= 20000;
 			LMold.Cutter.Step		   = 20000;
 			LMold.TopDeflash.Step   = 20000;
+			LMold.TopDeflashOpnCls.Step   = 20000;
 			LMold.BottomDeflash.Step= 20000;
 			LMold.SupportAir.Step	= 20000;
 			LMold.SupportSuckAir.Step	= 20000;
@@ -874,6 +877,7 @@ _CYCLIC void cyclic ( void )
 			RMold.CoolDeflash.Step	= 20000;
 			RMold.Cutter.Step		   = 20000;
 			RMold.TopDeflash.Step	= 20000;
+			RMold.TopDeflashOpnCls.Step   = 20000;
 			RMold.BottomDeflash.Step= 20000;
 			RMold.SupportAir.Step	= 20000;
 			RMold.SupportSuckAir.Step	= 20000;
@@ -1137,6 +1141,7 @@ _CYCLIC void cyclic ( void )
 			LMold.CoolDeflash.Step	= 30000;
 			LMold.Cutter.Step		= 30000;
 			LMold.TopDeflash.Step	= 30000;
+			LMold.TopDeflashOpnCls.Step   = 30000;
 			LMold.BottomDeflash.Step= 30000;
 			LMold.SupportAir.Step	= 30000;
 			LMold.SupportSuckAir.Step	= 30000;
@@ -1186,6 +1191,7 @@ _CYCLIC void cyclic ( void )
 			RMold.CoolDeflash.Step	= 30000;
 			RMold.Cutter.Step		= 30000;
 			RMold.TopDeflash.Step   = 30000;
+			RMold.TopDeflashOpnCls.Step   = 30000;
 			RMold.BottomDeflash.Step= 30000;
 			RMold.SupportAir.Step	= 30000;
 			RMold.SupportSuckAir.Step	= 30000;
@@ -1495,7 +1501,7 @@ void BasicPos(Mold_typ *pMold, HWEnable_Mold_Fix_typ *pHWEnableMoldFix )
 		&& (pMold->BlowPin2.DnPos || 0 == pHWEnableMoldFix->BlowPin2 )
 		&& pMold->TransDIn.CoolPinUpLimit && pMold->TransDIn.CoolPin2UpLimit && pMold->TransDIn.CoolPin3UpLimit  
 		&& pMold->TransDIn.TopDeflashBwLimit && pMold->TransDIn.BottomDeflashBwLimit 
-		&& (0 == pMold->Option.PunchHandle || pMold->TransDIn.TopDeflashOpnLimit) 
+		&& (0 == pMold->Option.PunchHandle || pMold->TransDIn.TopDeflashOpnLimit)  
 		&& pMold->TransDIn.ExtruderLiftDnLimit 
 		&& ( pMold->ExtrLift.CalOK || ACTUATOR_ELECTRIC != gMachineFix.ExtrLift.eActuatorType)
 		//		&& pMold->TransDIn.InnerPinBwLimit 
