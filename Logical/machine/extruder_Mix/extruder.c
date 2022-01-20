@@ -840,7 +840,7 @@ void _CYCLIC extruderCYCLIC(void)
 	if(gMachineFix.ExtruderA.StopTime <= 0.0)gMachineFix.ExtruderA.StopTime = 3.0;
 	if(gMachineFix.ExtruderA.StopTime < cntExtruderStopDelay * tTask)
 	{
-		if(1 == gTKmanual.Status)
+		if(1 == gTKmanual.Status || 1 == gTKauto.Status)
 		{
 			gDisableAll_HMI 				=1;	  //ipis0719
 			//			gMachineOut.ExtrA_On =0;

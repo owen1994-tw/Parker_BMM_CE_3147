@@ -1131,36 +1131,43 @@ _CYCLIC void cyclic ( void )
 	
 	
 	/*2018.7.14 Albert assign diffent action for different action*/
-	gMachineOut.RMold.MovementValve = ((gMachineOut.RMold.ClampCls | gMachineOut.RMold.ClampOpn)&& (ACTUATOR_HYD == gMachineFix.MoldR.Clamp.eActuatorType)) 
-		| ((gMachineOut.RMold.TopDeflashBw 	| gMachineOut.RMold.TopDeflashFw ) && (ACTUATOR_HYD == gMachineFix.MoldR.TopDeflash.eActuatorType))	
-		| ((gMachineOut.RMold.CarriageFw 		| gMachineOut.RMold.CarriageBw 		) && (ACTUATOR_HYD == gMachineFix.MoldR.Carriage.eActuatorType))
-		| ((gMachineOut.RMold.BlowPinUp 		| gMachineOut.RMold.BlowPinDn		| gMachineOut.RMold.BlowPinUpMicro )&& (ACTUATOR_HYD == gMachineFix.MoldR.BlowPin.eActuatorType))
-		| ((gMachineOut.RMold.BottomDeflashFw | gMachineOut.RMold.BottomDeflashBw) && (ACTUATOR_HYD == gMachineFix.MoldR.BottomDeflash.eActuatorType))
-		/*| gMachineOut.AccuChargeValve*/ |gMachineOut.AccuChargeValve_Extrlift
-		|  ( 0 == gMachineFix.Plate.bUpDnPressureOutputLeft && (gMachineOut.PlateDn |gMachineOut.PlateUp ))
-		|  ( 0 == gMachineFix.Plate.bFwBwPressureOutputLeft && (gMachineOut.PlateFw |gMachineOut.PlateBw ))
+	if(1 == gMachineInfo.Manual  || 1 == gMachineInfo.Auto )
+	{
+		gMachineOut.RMold.MovementValve = ((gMachineOut.RMold.ClampCls | gMachineOut.RMold.ClampOpn)&& (ACTUATOR_HYD == gMachineFix.MoldR.Clamp.eActuatorType)) 
+			| ((gMachineOut.RMold.TopDeflashBw 	| gMachineOut.RMold.TopDeflashFw ) && (ACTUATOR_HYD == gMachineFix.MoldR.TopDeflash.eActuatorType))	
+			| ((gMachineOut.RMold.CarriageFw 		| gMachineOut.RMold.CarriageBw 		) && (ACTUATOR_HYD == gMachineFix.MoldR.Carriage.eActuatorType))
+			| ((gMachineOut.RMold.BlowPinUp 		| gMachineOut.RMold.BlowPinDn		| gMachineOut.RMold.BlowPinUpMicro )&& (ACTUATOR_HYD == gMachineFix.MoldR.BlowPin.eActuatorType))
+			| ((gMachineOut.RMold.BottomDeflashFw | gMachineOut.RMold.BottomDeflashBw) && (ACTUATOR_HYD == gMachineFix.MoldR.BottomDeflash.eActuatorType))
+			/*| gMachineOut.AccuChargeValve*/ |gMachineOut.AccuChargeValve_Extrlift
+			|  ( 0 == gMachineFix.Plate.bUpDnPressureOutputLeft && (gMachineOut.PlateDn |gMachineOut.PlateUp ))
+			|  ( 0 == gMachineFix.Plate.bFwBwPressureOutputLeft && (gMachineOut.PlateFw |gMachineOut.PlateBw ))
 	/*	| gMachineOut.RMold.SubMoldOpn 		| gMachineOut.RMold.SubMoldCls 	 
 		| gMachineOut.RMold.BottomSubMoldOpn 		| gMachineOut.LMold.BottomSubMoldCls */  //ipis1113
 	/*	| gMachineOut.RMold.BlowPinDnHold*/
-		| ((0 < gMachineOut.P_Test) && (PIC_IO_AO_1 == gPanelObj.GetPicture || PIC_PRESSURE_CALIBRATION == gPanelObj.GetPicture) && (1 == btnTesetPQ)
-		&&(1==gMachineIn.OilPumpOk_DI && 1==gMachineInfo.OilPumpDelayDone && 0== gMachineInfo.Auto));
+			| ((0 < gMachineOut.P_Test) && (PIC_IO_AO_1 == gPanelObj.GetPicture || PIC_PRESSURE_CALIBRATION == gPanelObj.GetPicture) && (1 == btnTesetPQ)
+			&&(1==gMachineIn.OilPumpOk_DI && 1==gMachineInfo.OilPumpDelayDone && 0== gMachineInfo.Auto));
 	
 	
-	gMachineOut.LMold.MovementValve = ((gMachineOut.LMold.ClampCls | gMachineOut.LMold.ClampOpn)&& (ACTUATOR_HYD == gMachineFix.MoldR.Clamp.eActuatorType)) 
-		| ((gMachineOut.LMold.TopDeflashBw 	| gMachineOut.LMold.TopDeflashFw ) && (ACTUATOR_HYD == gMachineFix.MoldL.TopDeflash.eActuatorType))	
-		| ((gMachineOut.LMold.CarriageFw 		| gMachineOut.LMold.CarriageBw 		) && (ACTUATOR_HYD == gMachineFix.MoldR.Carriage.eActuatorType))
-		| ((gMachineOut.LMold.BlowPinUp 		| gMachineOut.LMold.BlowPinDn		| gMachineOut.LMold.BlowPinUpMicro )&& (ACTUATOR_HYD == gMachineFix.MoldR.BlowPin.eActuatorType))
-		| ((gMachineOut.LMold.BottomDeflashFw | gMachineOut.LMold.BottomDeflashBw) && (ACTUATOR_HYD == gMachineFix.MoldL.BottomDeflash.eActuatorType))
-		|  ( 1 == gMachineFix.Plate.bUpDnPressureOutputLeft && (gMachineOut.PlateDn |gMachineOut.PlateUp ))
-		|  ( 1 == gMachineFix.Plate.bFwBwPressureOutputLeft && (gMachineOut.PlateFw |gMachineOut.PlateBw ))
-		/*| gMachineOut.AccuChargeValve*/ |gMachineOut.AccuChargeValve_Extrlift
+		gMachineOut.LMold.MovementValve = ((gMachineOut.LMold.ClampCls | gMachineOut.LMold.ClampOpn)&& (ACTUATOR_HYD == gMachineFix.MoldR.Clamp.eActuatorType)) 
+			| ((gMachineOut.LMold.TopDeflashBw 	| gMachineOut.LMold.TopDeflashFw ) && (ACTUATOR_HYD == gMachineFix.MoldL.TopDeflash.eActuatorType))	
+			| ((gMachineOut.LMold.CarriageFw 		| gMachineOut.LMold.CarriageBw 		) && (ACTUATOR_HYD == gMachineFix.MoldR.Carriage.eActuatorType))
+			| ((gMachineOut.LMold.BlowPinUp 		| gMachineOut.LMold.BlowPinDn		| gMachineOut.LMold.BlowPinUpMicro )&& (ACTUATOR_HYD == gMachineFix.MoldR.BlowPin.eActuatorType))
+			| ((gMachineOut.LMold.BottomDeflashFw | gMachineOut.LMold.BottomDeflashBw) && (ACTUATOR_HYD == gMachineFix.MoldL.BottomDeflash.eActuatorType))
+			|  ( 1 == gMachineFix.Plate.bUpDnPressureOutputLeft && (gMachineOut.PlateDn |gMachineOut.PlateUp ))
+			|  ( 1 == gMachineFix.Plate.bFwBwPressureOutputLeft && (gMachineOut.PlateFw |gMachineOut.PlateBw ))
+			/*| gMachineOut.AccuChargeValve*/ |gMachineOut.AccuChargeValve_Extrlift
 	/*	| gMachineOut.LMold.SubMoldOpn 		| gMachineOut.LMold.SubMoldCls 		
 		| gMachineOut.LMold.BottomSubMoldOpn 		| gMachineOut.LMold.BottomSubMoldCls */ //ipis1113
 	/*	| gMachineOut.LMold.BlowPinDnHold*/
 	/*	| gMachineOut.PlateDn |	gMachineOut.PlateUp*/
-		|((0 < gMachineOut.P_Test2) && (PIC_IO_AO_1 == gPanelObj.GetPicture || PIC_PRESSURE_CALIBRATION == gPanelObj.GetPicture) && (1 == btnTesetPQ)
-		&&(1==gMachineIn.OilPumpOk_DI && 1==gMachineInfo.OilPumpDelayDone && 0== gMachineInfo.Auto));
-	
+			|((0 < gMachineOut.P_Test2) && (PIC_IO_AO_1 == gPanelObj.GetPicture || PIC_PRESSURE_CALIBRATION == gPanelObj.GetPicture) && (1 == btnTesetPQ)
+			&&(1==gMachineIn.OilPumpOk_DI && 1==gMachineInfo.OilPumpDelayDone && 0== gMachineInfo.Auto));
+	}
+	else
+	{
+		gMachineOut.RMold.MovementValve = 0 ;
+		gMachineOut.LMold.MovementValve = 0 ;
+	}
 	gMachineOut.RMold.CalibValve_1 = (1 == gMachineInfo.Calib) && (((gMachineOut.RMold.ClampCls | gMachineOut.RMold.ClampOpn) && (ACTUATOR_HYD == gMachineFix.MoldR.Clamp.eActuatorType)));
 
 	gMachineOut.RMold.CalibValve_2 = (1 == gMachineInfo.Calib) && (((gMachineOut.RMold.BlowPinUp | gMachineOut.RMold.BlowPinDn | gMachineOut.RMold.BlowPinUpMicro )&& (ACTUATOR_HYD == gMachineFix.MoldR.BlowPin.eActuatorType))

@@ -477,6 +477,7 @@ _CYCLIC void cyclic ( void )
 		|| 1 == gAlarm.AccuChargeError || 1 == gAlarm.AccuCharge_ExtrliftError || 
 		((0 == gMacOption.bDryCycle) && (1 == bDryCycleOld)))
 	{
+		gPROCESS_info.extruderStopEnable = 1;
 		AutoRunToSemiAuto();
 	}
 		
