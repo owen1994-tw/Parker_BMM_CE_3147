@@ -2019,7 +2019,7 @@
           <Property Name="MinDatapoint" Value="None"/>
           <Property Name="MinValue" Value="None"/>
           <Property Name="SimulationValue" Value="10"/>
-          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.LPunchHandle]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="437"/>
@@ -2040,7 +2040,7 @@
           <Property Name="MinDatapoint" Value="None"/>
           <Property Name="MinValue" Value="None"/>
           <Property Name="SimulationValue" Value="10"/>
-          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.LPunchHandle]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="466"/>
@@ -2066,7 +2066,7 @@
           <Property Name="MinDatapoint" Value="None"/>
           <Property Name="MinValue" Value="0"/>
           <Property Name="SimulationValue" Value="10"/>
-          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.LPunchHandle]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="437"/>
@@ -2092,7 +2092,7 @@
           <Property Name="MinDatapoint" Value="None"/>
           <Property Name="MinValue" Value="0"/>
           <Property Name="SimulationValue" Value="10"/>
-          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.LPunchHandle]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="466"/>
