@@ -148,6 +148,19 @@ void TopDeflashOpnCls( Mold_typ * pMold)
 			break;
 		
 		
+		case 500:	/*  TopDeflash cls  */
+		
+			pMold->TimeDis.TopDeflashClsTime = pMold->TopDeflashOpnCls.Timer.ET;
+
+			if (1 == pMold->TopDeflashOpnCls.Timer.Q || 1 == pMold->TopDeflashOpnCls.AutoTimeOutFlag )
+			{
+				pMold->TopDeflashOpnCls.Timer.IN  = 0;
+		
+				pMold->TopDeflashOpnCls.Step = 10100;  
+			}
+
+			break;
+		
 		/* ---------------------- calibration Cls ---------------------- */
 		case 5000:
 				

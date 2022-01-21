@@ -425,7 +425,7 @@
           <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource_1.gMachineFix.Option.HWEnable.LMold.PunchHandle]"/>
           <Property Name="Left" Value="43"/>
           <Property Name="SimulationValue" Value="0"/>
-          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
           <Property Name="Top" Value="428"/>
           <Property Name="Width" Value="32"/>
@@ -503,7 +503,6 @@
           <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource_1.gMachineFix.Option.HWEnable.RMold.PunchHandle]"/>
           <Property Name="Left" Value="229"/>
           <Property Name="SimulationValue" Value="0"/>
-          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
           <Property Name="Top" Value="428"/>
           <Property Name="Width" Value="32"/>
@@ -670,7 +669,7 @@
           <Property Name="Height" Value="32"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="37"/>
-          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideLeftStation]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
           <Property Name="Top" Value="428"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_310]"/>
@@ -767,7 +766,6 @@
           <Property Name="Height" Value="32"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="223"/>
-          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
           <Property Name="Top" Value="428"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_336]"/>
