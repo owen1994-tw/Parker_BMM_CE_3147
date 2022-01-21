@@ -1276,7 +1276,7 @@
           <Property Name="MinDatapoint" Value="None"/>
           <Property Name="MinValue" Value="1"/>
           <Property Name="SimulationValue" Value="10"/>
-          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.RPunchHandle]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="79"/>
@@ -1295,7 +1295,7 @@
           <Property Name="Left" Value="313"/>
           <Property Name="SimulationIndex" Value="0"/>
           <Property Name="SimulationValue" Value="0"/>
-          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.bHideNoUse]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource_1.screen.panel.OptionHide.RPunchHandle]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
           <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
           <Property Name="TextIndexOffset" Value="22"/>

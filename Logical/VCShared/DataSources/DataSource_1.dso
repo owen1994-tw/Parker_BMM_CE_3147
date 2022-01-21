@@ -23546,6 +23546,19 @@
           <Property Name="VCType" Value="INTEGER"/>
         </DataPoint>
       </Folder>
+      <Folder Name="TopDeflashOpnCls">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <DataPoint Name="Step">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="Visu\visu15"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="UINT"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="INTEGER"/>
+        </DataPoint>
+      </Folder>
     </Folder>
     <Folder Name="gRecipeOperate">
       <Property Name="Description" Value=""/>
@@ -41187,6 +41200,19 @@
         </DataPoint>
       </Folder>
       <Folder Name="InnerPin">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <DataPoint Name="Step">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="Visu\visu15"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="UINT"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="INTEGER"/>
+        </DataPoint>
+      </Folder>
+      <Folder Name="TopDeflashOpnCls">
         <Property Name="Description" Value=""/>
         <Property Name="FolderType" Value="Struct"/>
         <DataPoint Name="Step">
@@ -65347,37 +65373,6 @@
     <Folder Name="process">
       <Property Name="Description" Value=""/>
       <Property Name="FolderType" Value="Package"/>
-      <Folder Name="autorun">
-        <Property Name="Description" Value=""/>
-        <Property Name="FolderType" Value="Program"/>
-        <DataPoint Name="TestMode_CountOld">
-          <Property Name="ConnectedBySharedResource" Value="False"/>
-          <Property Name="ConnectingVisus" Value="Visu\visu15"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="PLCType" Value="USINT"/>
-          <Property Name="UpdateTime" Value="Default"/>
-          <Property Name="UserID" Value="None"/>
-          <Property Name="VCType" Value="INTEGER"/>
-        </DataPoint>
-        <DataPoint Name="TestModeEnable">
-          <Property Name="ConnectedBySharedResource" Value="False"/>
-          <Property Name="ConnectingVisus" Value="Visu\visu15"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="PLCType" Value="BOOL"/>
-          <Property Name="UpdateTime" Value="Default"/>
-          <Property Name="UserID" Value="None"/>
-          <Property Name="VCType" Value="BOOL"/>
-        </DataPoint>
-        <DataPoint Name="TestMode_Count">
-          <Property Name="ConnectedBySharedResource" Value="False"/>
-          <Property Name="ConnectingVisus" Value="Visu\visu15"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="PLCType" Value="USINT"/>
-          <Property Name="UpdateTime" Value="Default"/>
-          <Property Name="UserID" Value="None"/>
-          <Property Name="VCType" Value="INTEGER"/>
-        </DataPoint>
-      </Folder>
       <Folder Name="highblow">
         <Property Name="Description" Value=""/>
         <Property Name="FolderType" Value="Program"/>

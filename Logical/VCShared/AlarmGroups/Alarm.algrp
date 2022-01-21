@@ -6300,7 +6300,7 @@
       <Text ID="1703" Value="D Extruder Motor Overload"/>
       <Text ID="1704" Value="E Extruder Motor Overload"/>
       <Text ID="1705" Value="Heating Error"/>
-      <Text ID="1743" Value="Left robot not at safety position"/>
+      <Text ID="1743" Value="Left topdeflash time too short to reach fw limit(handle request)"/>
       <Text ID="1744" Value="Left Carriage toggle linear not OK"/>
       <Text ID="1750" Value="Swing not at up position"/>
       <Text ID="1751" Value="Left grip not at close"/>
@@ -6312,7 +6312,7 @@
       <Text ID="1770" Value="Left bottom deflash not at forward"/>
       <Text ID="1777" Value=""/>
       <Text ID="1778" Value="Right carriage not at forward or backward"/>
-      <Text ID="1779" Value="Right robot not at safety position"/>
+      <Text ID="1779" Value="Right topdeflash time too short to reach fw limit(handle request)"/>
       <Text ID="1780" Value="Right Carriage toggle linear not OK"/>
       <Text ID="1781" Value="Swing not at up position"/>
       <Text ID="1782" Value="Right bottom deflash not at forward"/>
@@ -6351,7 +6351,7 @@
       <Text ID="1942" Value="Heater temperature low or Protection time not reach"/>
       <Text ID="1944" Value="R-Visi Extruder Motor Overload or not on"/>
       <Text ID="1987" Value="Air pressure unusual"/>
-      <Text ID="1991" Value=""/>
+      <Text ID="1991" Value="Left Punch Handle time too long"/>
       <Text ID="1992" Value="L-Ext In Mold Sticker time too long"/>
       <Text ID="1993" Value="L-Ext In Mold Sticker Alarm"/>
       <Text ID="1994" Value="L-Ext In Mold Sticker not at backward position"/>
@@ -6414,7 +6414,7 @@
       <Text ID="2147" Value=""/>
       <Text ID="2148" Value=""/>
       <Text ID="2149" Value=""/>
-      <Text ID="2150" Value=""/>
+      <Text ID="2150" Value="Right Punch Handle time too long"/>
       <Text ID="2151" Value=""/>
       <Text ID="2152" Value=""/>
       <Text ID="2153" Value=""/>
@@ -6750,7 +6750,7 @@
       <Text ID="1703" Value=""/>
       <Text ID="1704" Value=""/>
       <Text ID="1705" Value="加熱異常"/>
-      <Text ID="1743" Value=""/>
+      <Text ID="1743" Value="左打手把時間過短無打到達進止(打手挽條件)"/>
       <Text ID="1744" Value="左移模曲柄線性化未完成"/>
       <Text ID="1750" Value="抬頭不在上升位"/>
       <Text ID="1751" Value="左機械手不在夾位"/>
@@ -6762,7 +6762,7 @@
       <Text ID="1770" Value="左下打瓶底不在前進位"/>
       <Text ID="1777" Value=""/>
       <Text ID="1778" Value="右移模不在上限或下限"/>
-      <Text ID="1779" Value=""/>
+      <Text ID="1779" Value="右時間過短無打到達進止(打手挽條件)"/>
       <Text ID="1780" Value="右移模曲柄線性化未完成"/>
       <Text ID="1781" Value="抬頭不在上升位"/>
       <Text ID="1782" Value="右打瓶底不在前進位"/>
@@ -6801,7 +6801,7 @@
       <Text ID="1942" Value="电热温度过低"/>
       <Text ID="1944" Value="右刻度線馬達未啟動或過載"/>
       <Text ID="1987" Value="風壓異常"/>
-      <Text ID="1991" Value=""/>
+      <Text ID="1991" Value="左打手挽時間過長"/>
       <Text ID="1992" Value="左外部模內貼動作超時"/>
       <Text ID="1993" Value="左外部模內貼警報"/>
       <Text ID="1994" Value="左外部模內貼不在退限"/>
@@ -6864,7 +6864,7 @@
       <Text ID="2147" Value=""/>
       <Text ID="2148" Value=""/>
       <Text ID="2149" Value=""/>
-      <Text ID="2150" Value=""/>
+      <Text ID="2150" Value="右打手挽時間過長"/>
       <Text ID="2151" Value=""/>
       <Text ID="2152" Value=""/>
       <Text ID="2153" Value=""/>
@@ -7200,7 +7200,7 @@
       <Text ID="1703" Value="D-押出機馬達過載"/>
       <Text ID="1704" Value="E-押出機馬達過載"/>
       <Text ID="1705" Value="加熱異常"/>
-      <Text ID="1743" Value=""/>
+      <Text ID="1743" Value="左打手把時間過短無打到達進止(打手挽條件)"/>
       <Text ID="1744" Value="左移模曲柄線性化未完成"/>
       <Text ID="1750" Value="抬頭不在上升位"/>
       <Text ID="1751" Value="左機械手不在夾位"/>
@@ -7212,7 +7212,7 @@
       <Text ID="1770" Value="左下打瓶底不在前進位"/>
       <Text ID="1777" Value=""/>
       <Text ID="1778" Value="右移模不在上限或下限"/>
-      <Text ID="1779" Value=""/>
+      <Text ID="1779" Value="右時間過短無打到達進止(打手挽條件)"/>
       <Text ID="1780" Value="右移模曲柄線性化未完成"/>
       <Text ID="1781" Value="抬頭不在上升位"/>
       <Text ID="1782" Value="右打瓶底不在前進位"/>
@@ -7251,7 +7251,7 @@
       <Text ID="1942" Value="電熱溫度過低或防冷時間未到"/>
       <Text ID="1944" Value="右刻度線馬達未啟動或過載"/>
       <Text ID="1987" Value="風壓異常"/>
-      <Text ID="1991" Value=""/>
+      <Text ID="1991" Value="左打手挽時間過長"/>
       <Text ID="1992" Value="左外部模內貼動作超時"/>
       <Text ID="1993" Value="左外部模內貼警報"/>
       <Text ID="1994" Value="左外部模內貼不在退限"/>
@@ -7314,7 +7314,7 @@
       <Text ID="2147" Value=""/>
       <Text ID="2148" Value=""/>
       <Text ID="2149" Value=""/>
-      <Text ID="2150" Value=""/>
+      <Text ID="2150" Value="右打手挽時間過長"/>
       <Text ID="2151" Value=""/>
       <Text ID="2152" Value=""/>
       <Text ID="2153" Value=""/>
@@ -7650,7 +7650,7 @@
       <Text ID="1703" Value="D - Ekstruder - przeniazenie"/>
       <Text ID="1704" Value="E - Ekstruder - przeniazenie"/>
       <Text ID="1705" Value="Blad grzania"/>
-      <Text ID="1743" Value="L - Ramie robota nie z początek"/>
+      <Text ID="1743" Value="Left topdeflash time too short to reach fw limit(handle request)"/>
       <Text ID="1744" Value="L - Wozek pozycja liniowa nie skalibrowana"/>
       <Text ID="1750" Value="L - Glowica nie w gorze"/>
       <Text ID="1751" Value="L - Ramie robota nie w zam."/>
@@ -7662,7 +7662,7 @@
       <Text ID="1770" Value="L - Gratownik dna nie w przodzie"/>
       <Text ID="1777" Value=""/>
       <Text ID="1778" Value="P - Wozek nie w przodzie / tyle"/>
-      <Text ID="1779" Value="P - Ramie robota nie z początek"/>
+      <Text ID="1779" Value="Right topdeflash time too short to reach fw limit(handle request)"/>
       <Text ID="1780" Value="P - Wozek pozycja liniowa nie skalibrowana"/>
       <Text ID="1781" Value="P - Glowica nie w gorze"/>
       <Text ID="1782" Value="P - Gratownik dna nie w przodzie"/>
@@ -7701,7 +7701,7 @@
       <Text ID="1942" Value="Niska temperatura grzalki lub czas ochrony nie osiagniety"/>
       <Text ID="1944" Value="P - Paska wizyj. ekstruder przeciazony lub wylaczony"/>
       <Text ID="1987" Value="Cisnienie powietrza za niskie"/>
-      <Text ID="1991" Value=""/>
+      <Text ID="1991" Value="Left Punch Handle time too long"/>
       <Text ID="1992" Value=""/>
       <Text ID="1993" Value=""/>
       <Text ID="1994" Value=""/>

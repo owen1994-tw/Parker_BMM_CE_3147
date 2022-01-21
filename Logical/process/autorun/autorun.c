@@ -2219,80 +2219,52 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 
 		case 4510:
 
-			if (1 == TestModeEnable && TestMode_Count != TestMode_CountOld ) 	//ipis0218
+			if (0 == pOptionFix->bTopDeflashMode ||  1 == pOptionFix->bCoolPinUpNextCycClampCls) // topdeflash before/after cooling   /*如果使用於下一循環關模後轉一上，就不能走轉一手打手把*/
 			{
-				pMold->AutoStep = 4520;
-			}
-			else
-			{
-				TestMode_CountOld =0;//ipis0218
-				TestModeEnable=0;
-				
-				if (0 == pOptionFix->bTopDeflashMode ||  1 == pOptionFix->bCoolPinUpNextCycClampCls) // topdeflash before/after cooling   /*如果使用於下一循環關模後轉一上，就不能走轉一手打手把*/
+				if(1 == gMacOption.ACCPumpCharge_Extrlift)
 				{
-					if(1 == gMacOption.ACCPumpCharge_Extrlift)
-					{
-						pMold->TopDeflash.Step     = 90;	/*  打手把(工程頁面額外延遲時間)    */  
-						pMold->BottomDeflash.Step  = 90;	/*  打瓶底(工程頁面額外延遲時間)    */ 
-						pMold->PullBottom.Step  = 100; 		/*  拉底启动  */
-					}
-					else
-					{
-						pMold->TopDeflash.Step    = 100;	/*  打手把    */
-						pMold->BottomDeflash.Step = 100;	/*  打瓶底    */
-						pMold->PullBottom.Step  = 100; 		/*  拉底启动  */
-					}
-					
-					pMold->AutoStep = 4550;
+					pMold->TopDeflash.Step     = 90;	/*  打手把(工程頁面額外延遲時間)    */  
+					pMold->BottomDeflash.Step  = 90;	/*  打瓶底(工程頁面額外延遲時間)    */ 
+					pMold->PullBottom.Step  = 100; 		/*  拉底启动  */
 				}
 				else
 				{
-					pMold->CoolPin.Step     = 100;		/*  后冷却      */
-					pMold->CoolPinBlow.Step = 100;		/*  后冷却吹气  */
-					pMold->AutoStep = 4580;
+					pMold->TopDeflash.Step    = 100;	/*  打手把    */
+					pMold->BottomDeflash.Step = 100;	/*  打瓶底    */
+					pMold->PullBottom.Step  = 100; 		/*  拉底启动  */
 				}
+				
+				pMold->AutoStep = 4550;
 			}
-		
-			break;
-		
-		//ipis0218
-		case 4520: 
-			TestMode_CountOld = TestMode_CountOld+1;
-			pMold->AutoStep = 4600;
-			break;
-		
-		
-		case 4550:
-					
-			if(3000 == pMold->TopDeflash.Step  /*&& 3000 == pMold->BottomDeflash.Step*/)	/* 打手把结束  && 打瓶底结束  */
-			{    
-				pMold->CoolDeflash.Step = 500;
-				//				if(pMold == &RMold)
-				//				{
-				//					RMold.Option.TopDeflash  = gMacOption.RTopDeflash;
-				//					RMold.Option.PunchHandle = gMacOption.RPunchHandle;
-				//				}
-				//				
-				//				if(pMold == &LMold)
-				//				{
-				//					LMold.Option.TopDeflash  = gMacOption.LTopDeflash;
-				//					LMold.Option.PunchHandle = gMacOption.LPunchHandle;					
-				//				}
+			else
+			{
+				pMold->CoolPin.Step     = 100;		/*  后冷却      */
+				pMold->CoolPinBlow.Step = 100;		/*  后冷却吹气  */
+				pMold->AutoStep = 4580;
+			}
 			
+		
+			break;
+		
+
+		case 4550:
+						
+			/* 打手把完成 -> 機械手進+關  */
+			if(13000 == pMold->TopDeflash.Step)
+			{
+				pMold->TopDeflash.Step = 0;
 				if( 1 == pOptionFix->bRobotFwAfterTopdeflash)
 				{
 					pMold->Robot.Step = 100;			/*  機械手進+關  */
-					if (  pMold->RobotOpnCls.Step >= 10100  &&  pMold->RobotOpnCls.Step < 13000) // Robot Opn too slow
+					if ( pMold->RobotOpnCls.Step >= 10100  &&  pMold->RobotOpnCls.Step < 13000) // Robot Opn too slow
 					{
 						pMold->Alarm.RobotOpnTimeout  = 1;
 					}
 				}
-               				
-				
 				pMold->AutoStep = 4560;
 			}
-
-			if(40000 == pMold->TopDeflash.Step || 40000 == pMold->BottomDeflash.Step)	/* 打手把故障  && 打瓶底故障  */
+			
+			if( 40000 == pMold->TopDeflash.Step  || 40000 == pMold->BottomDeflash.Step )	/* 打手把+打手挽 / 打瓶底 超時  */
 			{
 				pMold->TopDeflash.Step = 0;
 				pMold->BottomDeflash.Step = 0;
@@ -2300,30 +2272,49 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				pMold->StopAutoStep = pMold->AutoStep;
 				pMold->AutoStep = 40000;
 			}
-			
-			
+	
 			// detect TopDeflashBwLimit BottomDeflashBwLimit
 			if( pMold->HighBlow.Step >=900 &&  pMold->HighBlow.Step<=3000 )/*  AirVentingTime2 finish  */					
 			{
-
-				if(pMold->TopDeflash.Step < 1300)
+				/*--------- 打手把+打手挽-----打瓶底-----拉瓶底---------- */
+				/*  打手把+打手挽  */
+				if( pMold->TopDeflash.Step > 100 && pMold->TopDeflash.Step < 2100 )			// Topdeflash Fw Not Done 
 				{
-					pMold->Alarm.TopDefalshTimeOut = 1;
-					pMold->TopDeflash.Step = 1950;   //  Force TopDeflash Backward
+					pMold->Alarm.TopDeflashTimeout = 1;
+					pMold->TopDeflash.AutoTimeOutFlag = 1;  		  // TopDeflash Pass Delay
+					pMold->TopDeflashOpnCls.AutoTimeOutFlag = 1;	  // TopDeflashOpnCls Pass Delay
+				}
+				else if ( 2100 == pMold->TopDeflash.Step  &&  pMold->TopDeflashOpnCls.Step < 10500 )  // Topdeflash Fw Done, but doing Topdeflash Opn/Cls
+				{
+					if(0 == pMold->Alarm.TopDeflashTimeout)pMold->Alarm.TopDeflashOpnClsTimeout = 1;
+					pMold->TopDeflash.AutoTimeOutFlag = 1;  		  // TopDeflash Pass Delay
+					pMold->TopDeflashOpnCls.AutoTimeOutFlag = 1;	  // TopDeflashOpnCls Pass Delay	
+				}
+				else if( pMold->TopDeflash.Step > 10100 && pMold->TopDeflash.Step < 10300 )			// Topdeflash Fw and Opn/Cls Done, Topdeflash BwDelay Not Done 
+				{
+					if(0 == pMold->Alarm.TopDeflashOpnClsTimeout)pMold->Alarm.TopDeflashTimeout = 1;
+					pMold->TopDeflash.AutoTimeOutFlag = 1;  		  // TopDeflash Pass Delay
+					pMold->TopDeflashOpnCls.AutoTimeOutFlag = 1;	  // TopDeflashOpnCls Pass Delay	
 				}
 				
-				if(pMold->BottomDeflash.Step < 1300)
+				/*  打瓶底  */
+				if( pMold->BottomDeflash.Step > 100 && pMold->BottomDeflash.Step < 2100 )	// BottomDeflash Fw Not Done 
 				{
-					pMold->Alarm.BottomDefalshTimeOut = 1;
-					pMold->BottomDeflash.Step = 1950;   //  Force BottomDeflash Backward
+					pMold->BottomDeflash.AutoTimeOutFlag = 1;	// BottomDeflash Pass Delay
+					pMold->Alarm.BottomDeflashTimeout = 1;
+				}
+				else if( pMold->BottomDeflash.Step > 10100 && pMold->BottomDeflash.Step < 10300 )	// BottomDeflash Fw Done, but doing BottomDeflash BwDelay Not Done 
+				{
+					pMold->BottomDeflash.AutoTimeOutFlag = 1;	// BottomDeflash Pass Delay
 				}
 			
+				/*  拉瓶底  */
 				if(pMold->PullBottom.Step > 100 && pMold->PullBottom.Step < 500)
 				{
 					pMold->Alarm.PullBottomTimeOut = 1;
 					pMold->PullBottom.Step = 500;   //  Force PullBottom 
 				}
-				
+				/*--------- 打手把+打手挽-----打瓶底-----拉瓶底---------- */
 				if( 3000 == pMold->HighBlow.Step)
 				{
 					pMold->AutoStep  = 4600;
@@ -2336,25 +2327,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		
 
 		case 4560:
-			//			if(3000 == pMold->BottomDeflash.Step)	/* 底打飞边结束  */
-			//			{
-			//				if(pMold == &RMold)
-			//				{
-			//					RMold.Option.BottomDeflash = gMacOption.RBottomDeflash;
-			//				}
-			//				
-			//				if(pMold == &LMold)
-			//				{
-			//					LMold.Option.BottomDeflash = gMacOption.LBottomDeflash;					
-			//				}
-			//
-			//				pMold->BottomDeflash.Step = 0;
-			//			}
-			//			else
-			//			{
-			//			//	pMold->Alarm.BottomDefalshTimeOut = 1;
-			//			}/* if(3000 == pMold->BottomDeflash.Step) */
-		
+
 			if (0 == pOptionFix->bTopDeflashMode) 
 			{		
 				pMold->AutoStep = 4570;
@@ -2391,7 +2364,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			{
 				if(pMold->BlowDeflash.Step < 500 && pMold->BlowDeflash.Step > 0)pMold->BlowDeflash.Step = 500;
 				
-				pMold->Alarm.TopDefalshTimeOut = 1;
+				pMold->Alarm.TopDeflashTimeout = 1;
 			
 				pMold->Lock.Step  = 30000;	/* 锁模结束  */
 				pMold->Clamp.Step = 0;
@@ -2480,48 +2453,52 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			
 			break;
 
-		
-		
-		//		case 4650:
-		//			if(3000 == pMold->HighBlow.Step )/*  吹气结束  */
-		//			{
-		//				if (0 == pMold->TransDIn.TopDeflashBwLimit)
-		//				{
-		//					pMold->Alarm.TopDefalshTimeOut = !pMold->TransDIn.TopDeflashBwLimit;
-		//					
-		//					pMold->TopDeflash.Step = 1950;   // Backward
-		//				}
-		//				if (0 == pMold->TransDIn.BottomDeflashBwLimit)
-		//				{
-		//	 				pMold->Alarm.BottomDefalshTimeOut = !pMold->TransDIn.BottomDeflashBwLimit;
-		//					pMold->BottomDeflash.Step = 1950;  // Backward
-		//					
-		//				}
-		//				pMold->AutoStep  = 4700;
-		//			
-		//			}
-		//		
-		//		
-		//			break;
-		
-		
-		case 4700:	
-			
-			//			if(3000 == pMold->HighBlow.Step)/*  吹气结束  */
-			//			if(3000 == pMold->TopDeflash.Step && 3000== pMold->BottomDeflash.Step)/*  Backward finish  */	
-			//			if( pMold->HighBlow.Step >=780 &&  pMold->HighBlow.Step<=3000 )/*  AirVentingTime2 finish  */
-				
+		case 4700:		
 			if( pMold->HighBlow.Step >=900 &&  pMold->HighBlow.Step<=3000 ) /*  AirVentingTime2 finish  */	
-			{
-				//				if (0 == pMold->TransDIn.TopDeflashBwLimit ||0 == pMold->TransDIn.BottomDeflashBwLimit)
-				//				{
-				//					pMold->Alarm.BottomDefalshTimeOut = !pMold->TransDIn.BottomDeflashBwLimit;
-				//					pMold->Alarm.TopDefalshTimeOut = !pMold->TransDIn.TopDeflashBwLimit;
-				//				}
+			{	
+				/*--------- 打手把+打手挽-----打瓶底-----拉瓶底---------- */
+				/*  打手把+打手挽  */
+				if( pMold->TopDeflash.Step > 100 && pMold->TopDeflash.Step < 2100 )			// Topdeflash Fw Not Done 
+				{
+					pMold->Alarm.TopDeflashTimeout = 1;
+					pMold->TopDeflash.AutoTimeOutFlag = 1;  		  // TopDeflash Pass Delay
+					pMold->TopDeflashOpnCls.AutoTimeOutFlag = 1;	  // TopDeflashOpnCls Pass Delay
+				}
+				else if ( 2100 == pMold->TopDeflash.Step  &&  pMold->TopDeflashOpnCls.Step < 10500 )  // Topdeflash Fw Done, but doing Topdeflash Opn/Cls
+				{
+					if(0 == pMold->Alarm.TopDeflashTimeout)pMold->Alarm.TopDeflashOpnClsTimeout = 1;
+					pMold->TopDeflash.AutoTimeOutFlag = 1;  		  // TopDeflash Pass Delay
+					pMold->TopDeflashOpnCls.AutoTimeOutFlag = 1;	  // TopDeflashOpnCls Pass Delay	
+				}
+				else if( pMold->TopDeflash.Step > 10100 && pMold->TopDeflash.Step < 10300 )			// Topdeflash Fw and Opn/Cls Done, Topdeflash BwDelay Not Done 
+				{
+					if(0 == pMold->Alarm.TopDeflashOpnClsTimeout)pMold->Alarm.TopDeflashTimeout = 1;
+					pMold->TopDeflash.AutoTimeOutFlag = 1;  		  // TopDeflash Pass Delay
+					pMold->TopDeflashOpnCls.AutoTimeOutFlag = 1;	  // TopDeflashOpnCls Pass Delay	
+				}
 				
+				/*  打瓶底  */
+				if( pMold->BottomDeflash.Step > 100 && pMold->BottomDeflash.Step < 2100 )	// BottomDeflash Fw Not Done 
+				{
+					pMold->BottomDeflash.AutoTimeOutFlag = 1;	// BottomDeflash Pass Delay
+					pMold->Alarm.BottomDeflashTimeout = 1;
+				}
+				else if( pMold->BottomDeflash.Step > 10100 && pMold->BottomDeflash.Step < 10300 )	// BottomDeflash Fw Done, but doing BottomDeflash BwDelay Not Done 
+				{
+					pMold->BottomDeflash.AutoTimeOutFlag = 1;	// BottomDeflash Pass Delay
+				}
+			
+				/*  拉瓶底  */
+				if(pMold->PullBottom.Step > 100 && pMold->PullBottom.Step < 500)
+				{
+					pMold->Alarm.PullBottomTimeOut = 1;
+					pMold->PullBottom.Step = 500;   //  Force PullBottom 
+				}
+				/*--------- 打手把+打手挽-----打瓶底-----拉瓶底---------- */
+
 				if (pMold->CoolPinBlow.Step!=3000)
 				{
-					pMold->Alarm.TopDefalshTimeOut = 1;	
+					pMold->Alarm.TopDeflashTimeout = 1;	
 				}
 			
 				pMold->BlowDeflash.Step = 500;		/*  轉一下   	force stop	*/
@@ -2576,7 +2553,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			
 				if(3000 == pMold->HighBlow.Step)
 				{
-					pMold->AutoStep  = 4750;
+					pMold->AutoStep  = 4710;
 					
 //					//Blowpin
 //					if( ACTUATOR_ELECTRIC == gMachineFix.MoldR.BlowPin.eActuatorType )	/*  電動關模加壓超时 */
@@ -2597,6 +2574,29 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			
 			}
 			break;
+		
+		
+		case 4710:
+	
+			if( (0 == pMold->TopDeflash.Step || 13000 == pMold->TopDeflash.Step )  && 13000 == pMold->BottomDeflash.Step )	/*  打手把+打手挽 && 打瓶底 结束  */
+			{    			
+				pMold->TopDeflash.Step = 0;
+				pMold->BottomDeflash.Step = 0;
+			
+				//Reset AutoTimeOutFlag
+				//打手把+打手挽
+				pMold->TopDeflash.AutoTimeOutFlag = 0;  	// TopDeflash Pass Delay
+				pMold->TopDeflashOpnCls.AutoTimeOutFlag = 0;// TopDeflashOpnCls Pass Delay
+				//打瓶底+轉一下+轉一關
+				pMold->BottomDeflash.AutoTimeOutFlag = 0;	// BottomDeflash Pass Delay
+
+			
+				pMold->AutoStep = 4750;
+			}
+			
+			
+			break;
+		
       
 		case 4750:
 			pMold->AutoStep  = 6000;

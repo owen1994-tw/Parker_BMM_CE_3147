@@ -53,6 +53,7 @@
     <Task Name="mac_lubr" Source="machine.mac_lubr.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
     <Task Name="oil_accu" Source="machine.oil_accu.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
     <Task Name="mbusMaster" Source="comm.mbusMaster.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
+    <Task Name="tdeflashop" Source="process.tdeflashopncls.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#5">
     <Task Name="h_pid" Source="Heating.h_pid.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />

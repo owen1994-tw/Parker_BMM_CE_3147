@@ -164,12 +164,10 @@ void MoldReset_Hybrid( Mold_typ * pMold)
 			break;
 		
 		
-		case 250:/*TopDeflash open (handle backward)  打手挽退+打手把退*/ 
-			pMold->ValveOut.BlowPinDnHold =0;
-			if((1 == pMold->Option.PunchHandle) && (0 == pMold->TransDIn.TopDeflashOpnLimit))
-				//	if((0 == pMold->TransDIn.TopDeflashOpnLimit))
+		case 250:/*TopDeflash open (handle backward)  打手挽退*/ 
+			if(0 == pMold->TransDIn.TopDeflashOpnLimit)
 			{		
-				pMold->TopDeflash.Step = 1100;
+				pMold->TopDeflashOpnCls.Step = 10100;
 				pMold->ResetStep = 260;
 			}
 			else
@@ -179,27 +177,25 @@ void MoldReset_Hybrid( Mold_typ * pMold)
 			
 			break;
 		
-		case 260:
-		
-			if(3000 == pMold->TopDeflash.Step)
+		case 260: /*wait topdeflash open finish*/
+			if(13000 == pMold->TopDeflashOpnCls.Step)
 			{
-				pMold->TopDeflash.Step = 0;
+				pMold->TopDeflashOpnCls.Step = 0;
 				pMold->ResetStep = 300;
 			}
 			
-			if(40000 == pMold->TopDeflash.Step)
+			if(40000 == pMold->TopDeflashOpnCls.Step)
 			{
-				pMold->TopDeflash.Step = 0;
+				pMold->TopDeflashOpnCls.Step = 0;
 				pMold->ResetStep = 40000;
-			}				
+			}					
 		
 			break;
 					
 		case 300:/*TopDeflash Backward*/
-			//	if((1 == pMold->Option.TopDeflash) && (0 == pMold->TransDIn.TopDeflashBwLimit))
 			if(0 == pMold->TransDIn.TopDeflashBwLimit)
 			{
-				pMold->TopDeflash.Step = 1300;
+				pMold->TopDeflash.Step = 10100;
 				pMold->ResetStep = 310;
 			}
 			else
@@ -209,7 +205,7 @@ void MoldReset_Hybrid( Mold_typ * pMold)
 			break;
 
 		case 310:/*wait topdeflash backward finish*/
-			if(3000 == pMold->TopDeflash.Step)
+			if(13000 == pMold->TopDeflash.Step)
 			{
 				pMold->TopDeflash.Step = 0;
 				pMold->ResetStep = 400;
@@ -223,10 +219,9 @@ void MoldReset_Hybrid( Mold_typ * pMold)
 			break;
 		
 		case 400:/*BottomDeflash Backward*/
-			//	if((1 == pMold->Option.BottomDeflash) && (0 == pMold->TransDIn.BottomDeflashBwLimit))
 			if(0 == pMold->TransDIn.BottomDeflashBwLimit)
 			{
-				pMold->BottomDeflash.Step = 1300;
+				pMold->BottomDeflash.Step = 10100;
 				pMold->ResetStep = 410;
 			}
 			else
@@ -236,7 +231,7 @@ void MoldReset_Hybrid( Mold_typ * pMold)
 			break;
 
 		case 410:/*wait BottomDeflash backward finish*/
-			if(3000 == pMold->BottomDeflash.Step)
+			if(13000 == pMold->BottomDeflash.Step)
 			{
 				pMold->BottomDeflash.Step = 0;
 				pMold->ResetStep = 500;

@@ -1245,17 +1245,30 @@ void CalibCtrl( Mold_typ *pMold)
 
 	/* ------------------------------  Top Deflasher forward ----------------------------- */
 	if(1 == EDGEPOS(gPanelObj.KeyMatric[S$KEYMATRIX_TOP_DEFLASH_FW  ],PKeyMatric[S$KEYMATRIX_TOP_DEFLASH_FW  ]))
-	{
+		{
 		if(pMold->Option.TopDeflash)
 		{
 			if(1 == gMachineOut.OilPump)
 			{
 				if(1 == pMold->TransDIn.CarriageBwLimit
 					&& 1 == pMold->Clamp.ClsPos
-					&& 1 == pMold->TransDIn.TopDeflashOpnLimit
-					&& 1 == pMold->TransDIn.CoolPinUpLimit)
+					&& 1 == pMold->TransDIn.TopDeflashOpnLimit)
 				{	
-					pMold->TopDeflash.Step = 5000;		
+					if( ACTUATOR_PNEU  == gMachineFix.MoldR.TopDeflash.eActuatorType )
+					{
+						if(5000 == pMold->TopDeflash.Step)
+						{
+							pMold->TopDeflash.Step = 15000;
+						}
+						else
+						{
+							pMold->TopDeflash.Step = 5000;
+						}
+					}
+					else // Hyd
+					{
+						pMold->TopDeflash.Step = 5000;
+					}	
 				}
 				else
 				{
@@ -1263,15 +1276,13 @@ void CalibCtrl( Mold_typ *pMold)
 					{
 						gImply.LCarriageBw	= !pMold->TransDIn.CarriageBwLimit;	
 						gImply.LClampCls	= !pMold->Clamp.ClsPos;
-						gImply.LTopDeflashOpn	= !pMold->TransDIn.TopDeflashOpnLimit;	
-						gImply.LCoolPinUp	= !pMold->TransDIn.CoolPinUpLimit;	
+						gImply.LTopDeflashOpn	= !pMold->TransDIn.TopDeflashOpnLimit;
 					}
 					else
 					{
 						gImply.RCarriageBw	= !pMold->TransDIn.CarriageBwLimit;	
 						gImply.RClampCls	= !pMold->Clamp.ClsPos;
-						gImply.RTopDeflashOpn	= !pMold->TransDIn.TopDeflashOpnLimit;	
-						gImply.RCoolPinUp	= !pMold->TransDIn.CoolPinUpLimit;	
+						gImply.RTopDeflashOpn	= !pMold->TransDIn.TopDeflashOpnLimit;
 					}
 				}
 			}
@@ -1297,24 +1308,31 @@ void CalibCtrl( Mold_typ *pMold)
 
 	/* ------------------------------ Top Deflasher backward ----------------------------- */
 	if(1 == EDGEPOS(gPanelObj.KeyMatric[S$KEYMATRIX_TOP_DEFLASH_BW  ],PKeyMatric[S$KEYMATRIX_TOP_DEFLASH_BW  ]))
-	{
+		{
 		if(pMold->Option.TopDeflash)
 		{
 			if(1 == gMachineOut.OilPump)
 			{
-				if(1 == pMold->TransDIn.TopDeflashOpnLimit)
+				if( 1 == pMold->TransDIn.TopDeflashOpnLimit)
 				{
-					pMold->TopDeflash.Step = 15000;	
+					if( ACTUATOR_PNEU  == gMachineFix.MoldR.TopDeflash.eActuatorType )
+					{
+						pMold->TopDeflash.Step = 15000; 
+					}
+					else // Hyd
+					{
+						pMold->TopDeflash.Step = 15000;
+					}
 				}
 				else
 				{
 					if(pMold == & LMold)
 					{
-						gImply.LTopDeflashOpn	= !pMold->TransDIn.TopDeflashOpnLimit;	
+						gImply.LTopDeflashOpn	= !pMold->TransDIn.TopDeflashOpnLimit;
 					}
 					else
 					{
-						gImply.RTopDeflashOpn	= !pMold->TransDIn.TopDeflashOpnLimit;	
+						gImply.RTopDeflashOpn	= !pMold->TransDIn.TopDeflashOpnLimit;
 					}
 				}
 			}
@@ -1330,26 +1348,41 @@ void CalibCtrl( Mold_typ *pMold)
 	}
 	
 
-	if( ACTUATOR_HYD  == gMachineFix.MoldR.TopDeflash.eActuatorType )
-	{
-		if(1 == EDGENEG(gPanelObj.KeyMatric[S$KEYMATRIX_TOP_DEFLASH_BW],NKeyMatric[S$KEYMATRIX_TOP_DEFLASH_BW]))
-			{
-			pMold->TopDeflash.Step = 20000;
-		}
+
+	if(1 == EDGENEG(gPanelObj.KeyMatric[S$KEYMATRIX_TOP_DEFLASH_BW],NKeyMatric[S$KEYMATRIX_TOP_DEFLASH_BW]))
+		{
+		pMold->TopDeflash.Step = 20000;
 	}
+	
 	
 	
 
 	/* ------------------------------  Bottom Deflasher Forward ----------------------------- */
 	if(1 == EDGEPOS(gPanelObj.KeyMatric[S$KEYMATRIX_BOT_DEFLASH_FW],PKeyMatric[S$KEYMATRIX_BOT_DEFLASH_FW]))
-	{
+		{
 		if(pMold->Option.BottomDeflash)
 		{
 			if(1 == gMachineOut.OilPump)
 			{
-				if(1 == pMold->TransDIn.CarriageBwLimit && 1 == pMold->Clamp.ClsPos)
+				if(1 == pMold->TransDIn.CarriageBwLimit 
+					&& 1 == pMold->Clamp.ClsPos
+					&& 1 == pMold->TransDIn.CoolPinUpLimit)
 				{
-					pMold->BottomDeflash.Step = 5000;
+					if( ACTUATOR_PNEU  == gMachineFix.MoldR.BottomDeflash.eActuatorType )
+					{
+						if(5000 == pMold->BottomDeflash.Step)
+						{
+							pMold->BottomDeflash.Step = 15000;
+						}
+						else
+						{
+							pMold->BottomDeflash.Step = 5000;
+						}
+					}
+					else // Hyd
+					{
+						pMold->BottomDeflash.Step = 5000;
+					}
 				}
 				else
 				{
@@ -1357,11 +1390,13 @@ void CalibCtrl( Mold_typ *pMold)
 					{
 						gImply.LCarriageBw	= !pMold->TransDIn.CarriageBwLimit;			
 						gImply.LClampCls	= !pMold->Clamp.ClsPos;
+						gImply.LCoolPinUp	= !pMold->TransDIn.CoolPinUpLimit;
 					}
 					else
 					{
 						gImply.RCarriageBw	= !pMold->TransDIn.CarriageBwLimit;
 						gImply.RClampCls	= !pMold->Clamp.ClsPos;
+						gImply.RCoolPinUp	= !pMold->TransDIn.CoolPinUpLimit;
 					}
 				}
 			}
@@ -1378,19 +1413,26 @@ void CalibCtrl( Mold_typ *pMold)
 	}
 
 	if(1 == EDGENEG(gPanelObj.KeyMatric[S$KEYMATRIX_BOT_DEFLASH_FW],NKeyMatric[S$KEYMATRIX_BOT_DEFLASH_FW]))
-	{
+		{
 		pMold->BottomDeflash.Step = 20000;
 	}
 	
 	
 	/* ------------------------------  Bottom Deflasher Backward ----------------------------- */
 	if(1 == EDGEPOS(gPanelObj.KeyMatric[S$KEYMATRIX_BOT_DEFLASH_BW],PKeyMatric[S$KEYMATRIX_BOT_DEFLASH_BW]))
-	{
+		{
 		if(pMold->Option.BottomDeflash)
 		{
 			if(1 == gMachineOut.OilPump)
 			{
-				pMold->BottomDeflash.Step = 15000;	
+				if( ACTUATOR_PNEU  == gMachineFix.MoldR.BottomDeflash.eActuatorType )
+				{
+					pMold->BottomDeflash.Step = 15000; 
+				}
+				else // Hyd
+				{
+					pMold->BottomDeflash.Step = 15000;
+				}
 			}
 			else
 			{
@@ -1405,8 +1447,49 @@ void CalibCtrl( Mold_typ *pMold)
 	}
 
 	if(1 == EDGENEG(gPanelObj.KeyMatric[S$KEYMATRIX_BOT_DEFLASH_BW],NKeyMatric[S$KEYMATRIX_BOT_DEFLASH_BW]))
-	{
+		{
 		pMold->BottomDeflash.Step = 20000;
+	}
+	
+	/* ------------------------------  Deflasher handle ----------------------------- */
+	if(1 == EDGEPOS(gPanelObj.KeyMatric[S$KEYMATRIX_HANDLE_PUNCHER   ],PKeyMatric[S$KEYMATRIX_HANDLE_PUNCHER   ]))
+		{
+		if(pMold->Option.PunchHandle)
+		{
+			if(1 == gMachineOut.OilPump)
+			{
+				if (1 == pMold->TransDIn.TopDeflashFwLimit)
+				{
+					if(1 == pMold->ValveOut.TopDeflashCls) // Cls
+					{
+						pMold->TopDeflashOpnCls.Step = 15000;
+					}
+					else
+					{
+						pMold->TopDeflashOpnCls.Step = 5000;
+					}
+				}
+				else
+				{
+					if(pMold == & LMold)
+					{
+						gImply.LTopDeflashFw = !pMold->TransDIn.TopDeflashFwLimit;
+					}
+					else
+					{
+						gImply.RTopDeflashFw = !pMold->TransDIn.TopDeflashFwLimit;
+					}
+				}
+			}
+			else
+			{
+				gImply.OilPumpNotOn  = !gMachineOut.OilPump;
+			}
+		}
+		else
+		{
+			gImply.NoFunction = 1;
+		}
 	}
 	
 
@@ -2419,48 +2502,9 @@ void CalibCtrl( Mold_typ *pMold)
 		}
 	}
 	
-	/* ------------------------------  Deflasher handle ----------------------------- */
-	if(1 == EDGEPOS(gPanelObj.KeyMatric[S$KEYMATRIX_HANDLE_PUNCHER   ],PKeyMatric[S$KEYMATRIX_HANDLE_PUNCHER   ]))
-	{
-		if(pMold->Option.PunchHandle)
-		{
-			if(1 == gMachineOut.OilPump)
-			{
-			
-				if (1 == pMold->TransDIn.TopDeflashFwLimit)
-				{
-					pMold->ValveOut.TopDeflashCls = !pMold->ValveOut.TopDeflashCls;
-				}
-				else
-				{
-					if(pMold == & LMold)
-					{
-						gImply.LTopDeflashFw = 1;
-					}
-					else
-					{
-						gImply.RTopDeflashFw = 1;
-					}
-				}
-			}
-			else
-			{
-				gImply.OilPumpNotOn  = !gMachineOut.OilPump;
-			}
-		}
-		else
-		{
-			gImply.NoFunction = 1;
-			pMold->ValveOut.TopDeflashCls = 0;
-		}
-	}
+
 	
 	
-	
-	//	if(1 == EDGENEG(gPanelObj.KeyMatric[S$KEYMATRIX_CUTTER_FW],NKeyMatric[S$KEYMATRIX_CUTTER_FW]))
-	//	{
-	//		RMold.Cutter.Step = 20000;
-	//	}
 }/* end of CalibCtrl( Mold_typ *pMold)  */
 /* ------------------------------------------------------------------*/
 

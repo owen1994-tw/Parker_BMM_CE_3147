@@ -39,6 +39,7 @@
     <Task Name="blowdef" Source="process.blowdef.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
     <Task Name="bdeflash" Source="process.bdeflash.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
     <Task Name="tdeflash" Source="process.tdeflash.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
+    <Task Name="tdeflashop" Source="process.tdeflashopncls.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
     <Task Name="pullbottom" Source="process.pullbottom.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
     <Task Name="inerpin" Source="process.inerpin.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
     <Task Name="highblow" Source="process.highblow.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
@@ -204,16 +205,6 @@
     <BinaryObject Name="times" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="arialxsr" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="vccslider" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="vcpfar00" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="Role" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="ashwd" Source="" Memory="SystemROM" Language="Binary" />
-    <BinaryObject Name="arconfig" Source="" Memory="SystemROM" Language="Binary" />
-    <BinaryObject Name="iomap" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="User" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="asfw" Source="" Memory="SystemROM" Language="Binary" />
-    <BinaryObject Name="sysconf" Source="" Memory="SystemROM" Language="Binary" />
-    <BinaryObject Name="Acp10map" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="acp10cfg" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="vcpfmtcx" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="vcpk" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="vcpfapc" Source="" Memory="UserROM" Language="Binary" />
@@ -221,6 +212,16 @@
     <BinaryObject Name="vcpdi815" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="vcpdi855" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="vcpdihd" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="sysconf" Source="" Memory="SystemROM" Language="Binary" />
+    <BinaryObject Name="asfw" Source="" Memory="SystemROM" Language="Binary" />
+    <BinaryObject Name="User" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="iomap" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="arconfig" Source="" Memory="SystemROM" Language="Binary" />
+    <BinaryObject Name="ashwd" Source="" Memory="SystemROM" Language="Binary" />
+    <BinaryObject Name="Role" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="acp10cfg" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="Acp10map" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="vcpfar00" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="vcpkat" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="tahomabd" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="arialbd" Source="" Memory="UserROM" Language="Binary" />
