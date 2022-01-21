@@ -2981,7 +2981,7 @@ TYPE
 		bRobotFwAfterTopdeflash : BOOL;
 		bBlowingTime2LowBlow : BOOL;
 		bOilAccu_Extrlift_DisChar_Calib : BOOL;
-		res2_BOOL5 : BOOL;
+		bMovementValve_Disable_Calib : BOOL;
 		res2_BOOL6 : BOOL;
 		res1_BOOL4 : BOOL;
 		res2_BOOL7 : BOOL;

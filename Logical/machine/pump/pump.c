@@ -280,7 +280,7 @@ _CYCLIC void cyclic ( void )
 		
 		if(1 == gMachineInfo.Calib)
 		{
-			if(1 == gAlarm.OilTempHigh)
+			if(1 == gAlarm.OilTempHigh || 1 == gAlarm.AccuChargeError || 1 == gAlarm.AccuCharge_ExtrliftError)
 			{
 				gMachineOut.OilPump = 0;
 			}
