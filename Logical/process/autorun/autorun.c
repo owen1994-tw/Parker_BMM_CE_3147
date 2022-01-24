@@ -1127,8 +1127,8 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 
 		case 2100:
 	
-			pMold->SubMold.Step 	  = 10100;  /*  Topsubmold open        */
-			pMold->BottomSubMold.Step = 10100;	/*  Bottomsubmold open     */
+//			pMold->SubMold.Step 	  = 10100;  /*  Topsubmold open        */
+//			pMold->BottomSubMold.Step = 10100;	/*  Bottomsubmold open     */
 			pMold->Clamp.Step 		  = 10100;	/*  Clamp open */
 			
 			pMold->AutoStep = 2200; 
@@ -2014,7 +2014,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				if( 3000 == pMold->CoolPin.Step )  	/*  ÞDÒ»ÉÏ½YÊø   */
 				{
 					pMold->CoolPin.Step = 0;
-					pMold->AutoStep = 4200;		
+					pMold->AutoStep = 4180;		
 				}
 			
 				if ( 40000 == pMold->CoolPin.Step )    /*  ÞDÒ»ÉÏ³¬•r   */ 
@@ -2026,7 +2026,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			}
 			else
 			{
-				pMold->AutoStep = 4200;	
+				pMold->AutoStep = 4180;	
 			}
 			
 			if(ACTUATOR_ELECTRIC == gMachineFix.ExtrLift.eActuatorType) 
@@ -2050,6 +2050,32 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			
 			break;
 		
+		case 4180:  
+			// ÒÆÏÂÇ°´_ÕJ’ì¹´´µá˜ÍËÎ»
+			if( 1 == pMold->TransDIn.HookPinBwLimit )
+			{	
+				if (13000 == pMold->HookPin.Step || 0 == pMold->HookPin.Step )  /*  ’ì¹´´µá˜ÍË½YÊø  */
+				{
+					pMold->HookPin.Step = 0;
+					pMold->AutoStep = 4200;	
+				}
+			}
+			else
+			{	
+				pMold->Alarm.HookPinNotAtBwPos = 1;
+				pMold->StopAutoStep = pMold->AutoStep;
+				pMold->AutoStep = 40000;
+			}
+			
+			if(40000 == pMold->HookPin.Step)   /*  ’ì¹´´µá˜ÍË³¬•r */
+			{
+				pMold->HookPin.Step = 0;
+				pMold->StopAutoStep = pMold->AutoStep;
+				pMold->AutoStep = 40000;
+			}
+			
+			break;
+		
 		
 		case 4200:  
 			// ÒÆÏÂÇ°´_ÕJ™CÐµÊÖÍËÎ»(›]ÓÐ´_ÕJé_)
@@ -2062,7 +2088,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 					pMold->Carriage.Step = 10100;	/*  ÒÆÏÂ†¢„Ó   */
 					pMold->ValveOut.RobotCarriageUp = 0;  // Reset Íâ²¿™CÐµÊÖÓÌ–
 					pMold->PinPart.Step  = 100;		/*  ´µÕë¿é½ø   */
-					pMold->AutoStep = 4250;	
+					pMold->AutoStep = 4300;	
 				}
 			}
 			else
@@ -2078,32 +2104,6 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			if(40000 == pMold->Robot.Step)   /*  ™CÐµÊÖÍË³¬•r */
 			{
 				pMold->Robot.Step = 0;
-				pMold->StopAutoStep = pMold->AutoStep;
-				pMold->AutoStep = 40000;
-			}
-			
-			break;
-		
-		case 4250:  
-			// ÒÆÏÂÇ°´_ÕJ’ì¹´´µá˜ÍËÎ»
-			if( 1 == pMold->TransDIn.HookPinBwLimit )
-			{	
-				if (13000 == pMold->HookPin.Step || 0 == pMold->HookPin.Step )  /*  ’ì¹´´µá˜ÍË½YÊø  */
-				{
-					pMold->HookPin.Step = 0;
-					pMold->AutoStep = 4300;	
-				}
-			}
-			else
-			{	
-				pMold->Alarm.HookPinNotAtBwPos = 1;
-				pMold->StopAutoStep = pMold->AutoStep;
-				pMold->AutoStep = 40000;
-			}
-			
-			if(40000 == pMold->HookPin.Step)   /*  ’ì¹´´µá˜ÍË³¬•r */
-			{
-				pMold->HookPin.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
 				pMold->AutoStep = 40000;
 			}
