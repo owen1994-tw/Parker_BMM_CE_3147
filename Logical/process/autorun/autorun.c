@@ -135,13 +135,13 @@ _CYCLIC void cyclic ( void )
 					{
 						if(1 == LMold.Carriage.BwPos && 1 == RMold.Carriage.BwPos)
 						{
-							if(1 == gMachineFix.Option.bExtParisonCtrl)   /* Íâ²¿±Úºñ¿ØÖÆ */
+							if(1 == gMachineFix.Option.bExtParisonCtrl)   /* ï¿½â²¿ï¿½Úºï¿½ï¿½ï¿½ï¿½ */
 							{
 								RMold.AutorunFirstCycle = 1;  
 								LMold.AutorunFirstCycle = 0;  
 								
-								RMold.Clamp.ExtInMoldInDone_Flag = 1;  // ByPass Íâ²¿Ä£ƒÈÙNÍê³ÉÓÌ–
-								LMold.Clamp.ExtInMoldInDone_Flag = 1;  // ByPass Íâ²¿Ä£ƒÈÙNÍê³ÉÓÌ–
+								RMold.Clamp.ExtInMoldInDone_Flag = 1;  // ByPass ï¿½â²¿Ä£ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ÓÌ–
+								LMold.Clamp.ExtInMoldInDone_Flag = 1;  // ByPass ï¿½â²¿Ä£ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ÓÌ–
 							}
 							else
 							{
@@ -241,8 +241,8 @@ _CYCLIC void cyclic ( void )
 						RMold.AutorunFirstCycle = 1;  //Owen 20200923
 						LMold.AutorunFirstCycle = 0;  //Owen 20200923
 						
-						RMold.Clamp.ExtInMoldInDone_Flag = 1;  // ByPass Íâ²¿Ä£ƒÈÙNÍê³ÉÓÌ–
-//						LMold.Clamp.ExtInMoldInDone_Flag = 1;  // ByPass Íâ²¿Ä£ƒÈÙNÍê³ÉÓÌ–
+						RMold.Clamp.ExtInMoldInDone_Flag = 1;  // ByPass ï¿½â²¿Ä£ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ÓÌ–
+//						LMold.Clamp.ExtInMoldInDone_Flag = 1;  // ByPass ï¿½â²¿Ä£ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ÓÌ–
 						
 						gMachineOut.AutoRun = 1;
 						
@@ -304,8 +304,8 @@ _CYCLIC void cyclic ( void )
 						RMold.AutorunFirstCycle = 0;  //Owen 20200923
 						LMold.AutorunFirstCycle = 1;  //Owen 20200923	
 						
-//						RMold.Clamp.ExtInMoldInDone_Flag = 1;  // ByPass Íâ²¿Ä£ƒÈÙNÍê³ÉÓÌ–
-						LMold.Clamp.ExtInMoldInDone_Flag = 1;  // ByPass Íâ²¿Ä£ƒÈÙNÍê³ÉÓÌ–
+//						RMold.Clamp.ExtInMoldInDone_Flag = 1;  // ByPass ï¿½â²¿Ä£ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ÓÌ–
+						LMold.Clamp.ExtInMoldInDone_Flag = 1;  // ByPass ï¿½â²¿Ä£ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ÓÌ–
 						
 						gMachineOut.AutoRun = 1;
 							
@@ -459,12 +459,12 @@ _CYCLIC void cyclic ( void )
 			LMold.LengthCtrl.Step = 100;
 		}
 	}
-	/* --------------------  ¹¤Î»×Ô¶¯¹ý³Ì ----------------------- */
+	/* --------------------  ï¿½ï¿½Î»ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ ----------------------- */
 
 	AutoRun(&RMold,&gMachineFix.Option,&gSPC_Current.MoldR);
 	AutoRun(&LMold,&gMachineFix.Option,&gSPC_Current.MoldL);
 	
-	/* -------------- Ì§î^®³£ ×Ô„ÓÞD°ë×Ô„Ó ---------------- */
+	/* -------------- Ì§ï¿½^ï¿½ï¿½ï¿½ï¿½ ï¿½Ô„ï¿½ï¿½Dï¿½ï¿½ï¿½Ô„ï¿½ ---------------- */
 //	if(1 == gAlarm.RAlarm.ExtrLiftNotAtUpPos || 1 == gAlarm.LAlarm.ExtrLiftNotAtUpPos || 1 == gAlarm.RAlarm.ExtrLiftNotAtDnPos || 1 == gAlarm.LAlarm.ExtrLiftNotAtDnPos 
 //		&& 1 == gMachineInfo.ExtrliftAlarmReqSemiAutoFlag)
 //	{
@@ -472,7 +472,7 @@ _CYCLIC void cyclic ( void )
 //		AutoRunToSemiAuto();
 //	}
 		
-	/* -------------- ™CÌ¨®³£ ×Ô„ÓÞD°ë×Ô„Ó ---------------- */
+	/* -------------- ï¿½CÌ¨ï¿½ï¿½ï¿½ï¿½ ï¿½Ô„ï¿½ï¿½Dï¿½ï¿½ï¿½Ô„ï¿½ ---------------- */
 	if(1 == gAlarm.CutterHeatNormal || 1 == gAlarm.SwingInvertErr || 1 == gAlarm.OilTempHigh || 1 == gAlarm.OilPosition 
 		|| 1 == gAlarm.AccuChargeError || 1 == gAlarm.AccuCharge_ExtrliftError || 
 		((0 == gMacOption.bDryCycle) && (1 == bDryCycleOld)))
@@ -483,7 +483,7 @@ _CYCLIC void cyclic ( void )
 		
 	bDryCycleOld = gMacOption.bDryCycle;
 		
-	/* -------------- ïL‰º®³£ ×Ô„ÓÞD°ë×Ô„Ó ---------------- */
+	/* -------------- ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô„ï¿½ï¿½Dï¿½ï¿½ï¿½Ô„ï¿½ ---------------- */
 	if(1 == gAlarm.AirPressureLow && 1 == gMachineInfo.AirPressureLowDlyFlag )
 	{
 		gMachineInfo.AirPressureLowDlyFlag  = 0;
@@ -492,7 +492,7 @@ _CYCLIC void cyclic ( void )
 	
 
 	
-	/* ---------------- ÓÍ±ÃÔËÐÐ¼ì²âÎÞ×Ô¶¯Í£Ö¹ ---------------- */
+	/* ---------------- ï¿½Í±ï¿½ï¿½ï¿½ï¿½Ð¼ï¿½ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½Í£Ö¹ ---------------- */
 	if(0 == gMachineOut.OilPump && gTKauto.Active != 1)
 	{
 		if(1 == RMold.Option.Enable && 1 == LMold.Option.Enable)
@@ -513,7 +513,7 @@ _CYCLIC void cyclic ( void )
 		}
 	}
 
-	if(1 == gMachineOut.OilPump && 1 == gAlarm.OilPumpErr && gTKauto.Active > 500 ) /*  ×Ô¶¯ÔËÐÐ5s¼ì²â  */
+	if(1 == gMachineOut.OilPump && 1 == gAlarm.OilPumpErr && gTKauto.Active > 500 ) /*  ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½5sï¿½ï¿½ï¿½  */
 	{
 		if(1 == RMold.Option.Enable && 1 == LMold.Option.Enable)
 		{
@@ -531,7 +531,7 @@ _CYCLIC void cyclic ( void )
 		}
 	}
 
-	/* ---------------------  ÖÜÆÚ¼°³¬Ê±´¦Àí  -------------------------*/
+	/* ---------------------  ï¿½ï¿½ï¿½Ú¼ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½  -------------------------*/
 
 	gMachineInfo.LTimeCyc = LMold.TimeCycle.ET/10;
 	gMachineInfo.RTimeCyc = RMold.TimeCycle.ET/10;
@@ -586,7 +586,7 @@ _CYCLIC void cyclic ( void )
 		}
 	}/* if(0 == gMachineIn.SafeGate) */
 	
-	/* ---------------------  Çå³ýgExSPCƒÈÈÝ  -------------------------*/
+	/* ---------------------  ï¿½ï¿½ï¿½gExSPCï¿½ï¿½ï¿½ï¿½  -------------------------*/
 	if(1 == gExSPC_Clear )
 	{
 		gExSPC_Clear = 0;
@@ -706,10 +706,10 @@ void AutoInit( Mold_typ *pMold)
 
 	memset(&pMold->ValveOut.ClampCls,0,sizeof(pMold->ValveOut)-12);
 	
-	pMold->ValveOut.RobotCarriageUp = 0;// Reset Íâ²¿™CÐµÊÖÓÌ–
-	pMold->ValveOut.RobotCarriageDn = 0;// Reset Íâ²¿™CÐµÊÖÓÌ–
-	pMold->ValveOut.RobotClampOpn = 0;// Reset Íâ²¿™CÐµÊÖÓÌ–
-	pMold->ValveOut.RobotClampCls = 0;// Reset Íâ²¿™CÐµÊÖÓÌ–
+	pMold->ValveOut.RobotCarriageUp = 0;// Reset ï¿½â²¿ï¿½CÐµï¿½ï¿½ÓÌ–
+	pMold->ValveOut.RobotCarriageDn = 0;// Reset ï¿½â²¿ï¿½CÐµï¿½ï¿½ÓÌ–
+	pMold->ValveOut.RobotClampOpn = 0;// Reset ï¿½â²¿ï¿½CÐµï¿½ï¿½ÓÌ–
+	pMold->ValveOut.RobotClampCls = 0;// Reset ï¿½â²¿ï¿½CÐµï¿½ï¿½ÓÌ–
 
 }/* void AutoInit( Mold_typ *pMold) */
 
@@ -767,7 +767,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		case 100:
 			if(0 == gMacOption.Cut1stCycle)
 			{
-				pMold->Cutter.Step = 100;		   /*   ÇÐµ¶Æô¶¯   */
+				pMold->Cutter.Step = 100;		   /*   ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½   */
 				pMold->AutoStep = 200;
 			}
 			else
@@ -778,15 +778,15 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				}
 				else
 				{
-					gThickIO.In.StartThick = 1;      /*   ±ÚºñÆô¶¯   */
+					gThickIO.In.StartThick = 1;      /*   ï¿½Úºï¿½ï¿½ï¿½ï¿½ï¿½   */
 				}
-				pMold->LengthCtrl.Step = 100; 	/* 	³¤¶È¿ØÖÆ  */
+				pMold->LengthCtrl.Step = 100; 	/* 	ï¿½ï¿½ï¿½È¿ï¿½ï¿½ï¿½  */
 				pMold->AutoStep = 300;
 			}
 			break;
 
 		case 200:
-			if(3000 == pMold->Cutter.Step)		/*   ÇÐµ¶Íê³É   */
+			if(3000 == pMold->Cutter.Step)		/*   ï¿½Ðµï¿½ï¿½ï¿½ï¿½   */
 			{
 				pMold->Cutter.Step =0;
 				pMold->AutoStep = 300;
@@ -797,23 +797,27 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			gThickIO.Out.ControlEnd = 1;
 			pMold->AutoStep = 3050;          	
 			break;
+
+		case 400:
+       	
+			break;
       
 		/* ----------- second station start --------------- */	
 		case 900:
-			/*pMold->Carriage.Step = 18000;*/	/*  ±£³ÖÁíÒ»Ä£»ØÎ»  */
+			/*pMold->Carriage.Step = 18000;*/	/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ä£ï¿½ï¿½Î»  */
 			if(pMold == &LMold)
 			{
-				if(0 == RMold.BlowPin.Step && 0 == RMold.BlowPin2.Step )		/*  ´µÕëÏÂ½áÊø  */
+				if(0 == RMold.BlowPin.Step && 0 == RMold.BlowPin2.Step )		/*  ï¿½ï¿½ï¿½ï¿½ï¿½Â½ï¿½ï¿½ï¿½  */
 				{
 					if(1 == pMold->NextCycStart)
 					{	
 						gMachineOut.LeftStation = 1;
 						pMold->NextCycStart = 0;
-						pMold->AutoStep = 3000;    /*  È¥ÁÏ³¤¿ØÖÆÑ¡Ôñ·ÖÖ§  */
+						pMold->AutoStep = 3000;    /*  È¥ï¿½Ï³ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½Ö§  */
 					}
 					else
 					{
-						if(1 == pMold->SemiAuto)	/*  ×Ô¶¯Í£Ö¹ */
+						if(1 == pMold->SemiAuto)	/*  ï¿½Ô¶ï¿½Í£Ö¹ */
 						{
 							pMold->AutoStep = 0;
 						}
@@ -823,17 +827,17 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		
 			if(pMold == &RMold)
 			{
-				if(0 == LMold.BlowPin.Step && 0 == LMold.BlowPin2.Step)/*  ´µÕëÏÂ½áÊø  */
+				if(0 == LMold.BlowPin.Step && 0 == LMold.BlowPin2.Step)/*  ï¿½ï¿½ï¿½ï¿½ï¿½Â½ï¿½ï¿½ï¿½  */
 				{
 					if(1 == pMold->NextCycStart)
 					{
 						gMachineOut.LeftStation = 0;
 						pMold->NextCycStart = 0;
-						pMold->AutoStep = 3000;    /*  È¥ÁÏ³¤¿ØÖÆÑ¡Ôñ·ÖÖ§  */
+						pMold->AutoStep = 3000;    /*  È¥ï¿½Ï³ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½Ö§  */
 					}
 					else
 					{
-						if(1 == pMold->SemiAuto)	/*  ×Ô¶¯Í£Ö¹ */
+						if(1 == pMold->SemiAuto)	/*  ï¿½Ô¶ï¿½Í£Ö¹ */
 						{
 							pMold->AutoStep = 0;
 						}
@@ -847,8 +851,8 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		/* -------------------------------------------------- */	
 		case 1000:
 		
-			/*pMold->Carriage.Step = 18000;*/		/*  ±£³ÖÁíÒ»Ä£»ØÎ»  */											
-			if(1 == pMold->NextCycStart)		/*  µÈ´ý×´Ì¬  */	
+			/*pMold->Carriage.Step = 18000;*/		/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ä£ï¿½ï¿½Î»  */											
+			if(1 == pMold->NextCycStart)		/*  ï¿½È´ï¿½×´Ì¬  */	
 			{
 				if (pMold == &RMold)
 				{
@@ -892,30 +896,30 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			
 			//			if(pMold->Option.BlowPin)
 			//			{
-			//				pMold->BlowPin.Step = 15300;		/* ´µÕëÎ¢³é  	*/
+			//				pMold->BlowPin.Step = 15300;		/* ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½  	*/
 			//			}
 			//			
 			//			if(pMold->Option.BlowPin2)
 			//			{
-			//				pMold->BlowPin2.Step = 15300;		/* ´µÕëÎ¢³é  	*/
+			//				pMold->BlowPin2.Step = 15300;		/* ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½  	*/
 			//			}
 			
-			if( ACTUATOR_ELECTRIC == gMachineFix.MoldR.Clamp.eActuatorType )	/*  ëŠ„ÓêPÄ£¼Ó‰º³¬Ê± */
+			if( ACTUATOR_ELECTRIC == gMachineFix.MoldR.Clamp.eActuatorType )	/*  ëŠ„ï¿½ï¿½PÄ£ï¿½Ó‰ï¿½ï¿½ï¿½Ê± */
 			{
 				if( 3900 == pMold->Clamp.Step)
 				{
 					pMold->Clamp.Step = 0;
 				}
 			}
-			pMold->BlowPin.Step = 15300;		/* ´µÕëÎ¢³é  	*/
-			pMold->BlowPin2.Step = 15300;		/* ´µÕëÎ¢³é  	*/
+			pMold->BlowPin.Step = 15300;		/* ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½  	*/
+			pMold->BlowPin2.Step = 15300;		/* ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½  	*/
 			
 			pMold->AutoStep = 1300;
 			break;
 
 		case 1300:			
 			
-			//			if(18000 == pMold->BlowPin.Step)	/* ´µÕëÎ¢³é½áÊø  */
+			//			if(18000 == pMold->BlowPin.Step)	/* ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½ï¿½ï¿½ï¿½  */
 			//			{
 			//				pMold->BlowPin.Step = 0;
 			//				if(1 == pMold->Option.BottomSubMold)   // ipis1112
@@ -923,12 +927,12 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			//					pMold->ValveOut.BlowPinDnHold =1;
 			//				}
 			//				pMold->AutoStep = 1400;
-			//				pMold->PinPart.Step = 10100;		/*  ´µÕë¿éÍË   	*/  
+			//				pMold->PinPart.Step = 10100;		/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½   	*/  
 			//			}
 			
 			//			if( 1 == pMold->Option.BlowPin && 0 == pMold->Option.BlowPin2  )
 			//			{
-			//				if(18000 == pMold->BlowPin.Step)	/* ´µÕëÎ¢³é½áÊø  */
+			//				if(18000 == pMold->BlowPin.Step)	/* ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½ï¿½ï¿½ï¿½  */
 			//				{
 			//					pMold->BlowPin.Step = 0;
 			//					if(1 == pMold->Option.BottomSubMold)   // ipis1112
@@ -936,13 +940,13 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			//						pMold->ValveOut.BlowPinDnHold =1;
 			//					}
 			//					pMold->AutoStep = 1400;
-			//					pMold->PinPart.Step = 10100;		/*  ´µÕë¿éÍË   	*/  
+			//					pMold->PinPart.Step = 10100;		/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½   	*/  
 			//				}
 			//
 			//			}
 			//			else if( 0 == pMold->Option.BlowPin && 1 == pMold->Option.BlowPin2  )
 			//			{
-			//				if(18000 == pMold->BlowPin2.Step)	/* ´µÕëÎ¢³é½áÊø  */
+			//				if(18000 == pMold->BlowPin2.Step)	/* ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½ï¿½ï¿½ï¿½  */
 			//				{
 			//					pMold->BlowPin2.Step = 0;
 			//					if(1 == pMold->Option.BottomSubMold)   // ipis1112
@@ -950,13 +954,13 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			//						pMold->ValveOut.BlowPinDnHold =1;
 			//					}
 			//					pMold->AutoStep = 1400;
-			//					pMold->PinPart.Step = 10100;		/*  ´µÕë¿éÍË   	*/  
+			//					pMold->PinPart.Step = 10100;		/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½   	*/  
 			//				}
 			//
 			//			}
 			//			else if( 1 == pMold->Option.BlowPin && 1 == pMold->Option.BlowPin2  )
 			//			{
-			if(18000 == pMold->BlowPin.Step && 18000 == pMold->BlowPin2.Step)	/* ´µÕëÎ¢³é½áÊø  */
+			if(18000 == pMold->BlowPin.Step && 18000 == pMold->BlowPin2.Step)	/* ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½ï¿½ï¿½ï¿½  */
 			{
 				pMold->BlowPin.Step = 0;
 				pMold->BlowPin2.Step = 0;
@@ -965,7 +969,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 					pMold->ValveOut.BlowPinDnHold =1;
 				}
 				pMold->AutoStep = 1400;
-				pMold->PinPart.Step = 10100;		/*  ´µÕë¿éÍË   	*/  
+				pMold->PinPart.Step = 10100;		/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½   	*/  
 			}
 
 			//			}
@@ -974,13 +978,13 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			break;
 
 		case 1400:
-			if(13000 == pMold->PinPart.Step)	/*  ´µÕë¿éÍË½áÊø */
+			if(13000 == pMold->PinPart.Step)	/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë½ï¿½ï¿½ï¿½ */
 			{
 				pMold->PinPart.Step = 18000;
 				pMold->AutoStep = 1900;
 			}
 
-			if(40000 == pMold->PinPart.Step )	/*  ´µÕë¿éÍË³¬Ê± */
+			if(40000 == pMold->PinPart.Step )	/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë³ï¿½Ê± */
 			{
 				pMold->PinPart.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -988,20 +992,20 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			}
 			break;
 		/*---------------no use--------------------------------------------------------------*/    
-		/*  ½ÊÑÀÎ¢¿ªÄ£ -- ½ÊÑÀ -- ×ÓÄ£Î¢¿ª -- */
+		/*  ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½Ä£ -- ï¿½ï¿½ï¿½ï¿½ -- ï¿½ï¿½Ä£Î¢ï¿½ï¿½ -- */
 		case 1500:
-			pMold->Clamp.Step = 11100;		  	/*  ½ÊÑÀÎ¢¿ªÄ£ */
+			pMold->Clamp.Step = 11100;		  	/*  ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½Ä£ */
 			pMold->AutoStep = 1600;
 			break;
 
 		case 1600:
-			if(13000 == pMold->Clamp.Step)	/*  ½ÊÑÀÎ¢¿ªÄ£½áÊø  */
+			if(13000 == pMold->Clamp.Step)	/*  ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½  */
 			{
 				pMold->Clamp.Step = 0;
 				pMold->AutoStep   = 1700;
 			}
 
-			if(40000 == pMold->Clamp.Step)  	/*  ½ÊÑÀÎ¢¿ªÄ£³¬Ê±   */
+			if(40000 == pMold->Clamp.Step)  	/*  ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½Ä£ï¿½ï¿½Ê±   */
 			{
 				pMold->Clamp.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -1010,12 +1014,12 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			break;
 
 		case 1700:	
-			pMold->Screw.Step = 10100;			/* ½ÊÑÀÍË    	*/
+			pMold->Screw.Step = 10100;			/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½    	*/
 			pMold->AutoStep   = 1800;
 			break;
 
 		case 1800:
-			if(13000 == pMold->Screw.Step)	/*  ½ÊÑÀÍË½áÊø  */
+			if(13000 == pMold->Screw.Step)	/*  ï¿½ï¿½ï¿½ï¿½ï¿½Ë½ï¿½ï¿½ï¿½  */
 			{
 				if(pMold == &RMold)
 				{
@@ -1031,7 +1035,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				pMold->AutoStep   = 1900;
 			}
 
-			if(40000 == pMold->Screw.Step)  	/*  ½ÊÑÀÍË³¬Ê±   */
+			if(40000 == pMold->Screw.Step)  	/*  ï¿½ï¿½ï¿½ï¿½ï¿½Ë³ï¿½Ê±   */
 			{
 				pMold->Screw.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -1041,7 +1045,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		/*-----------------------------------------------------------------------------*/ 
 		
 		case 1900:
-			if(3000 == pMold->Robot.Step && 3000 == pMold->RobotOpnCls.Step ) /*  ™CÐµÊÖßM+êP½YÊø  */
+			if(3000 == pMold->Robot.Step && 3000 == pMold->RobotOpnCls.Step ) /*  ï¿½CÐµï¿½ï¿½ï¿½M+ï¿½Pï¿½Yï¿½ï¿½  */
 			{
 				if(ACTUATOR_PNEU  == gMachineFix.MoldR.RobotTransfer.eActuatorType)
 				{
@@ -1085,14 +1089,14 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			}
 			
 			
-			if(40000 == pMold->Robot.Step)	/* ™CÐµÊÖßM¹ÊÕÏ   */
+			if(40000 == pMold->Robot.Step)	/* ï¿½CÐµï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½   */
 			{
 				pMold->Robot.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
 				pMold->AutoStep = 40000;
 			}
 			
-			if(40000 == pMold->RobotOpnCls.Step)/* ™CÐµÊÖêP¹ÊÕÏ   */
+			if(40000 == pMold->RobotOpnCls.Step)/* ï¿½CÐµï¿½ï¿½ï¿½Pï¿½ï¿½ï¿½ï¿½   */
 			{
 				pMold->RobotOpnCls.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -1105,19 +1109,19 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		case 2000:
 			if ( 1 == pMold->TransDIn.TopDeflashBwLimit && 1 == pMold->TransDIn.BottomDeflashBwLimit )  // ipis wait all bw
 			{
-				pMold->Clamp.Step = 12100;		  	/*  é_Ä£›ª‰º + Î¢é_Ä£ */
+				pMold->Clamp.Step = 12100;		  	/*  ï¿½_Ä£ï¿½ï¿½ï¿½ï¿½ + Î¢ï¿½_Ä£ */
 				pMold->AutoStep = 2050;
 			}		
 			break;
 				
 		case 2050:
 
-			if(13000 == pMold->Clamp.Step)		/*  é_Ä£›ª‰º½áÊø  */
+			if(13000 == pMold->Clamp.Step)		/*  ï¿½_Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  */
 			{
 				pMold->AutoStep = 2100;
 			}	
 						
-			if(40000 == pMold->Clamp.Step)  	/*  é_Ä£›ª‰º³¬Ê±	*/
+			if(40000 == pMold->Clamp.Step)  	/*  ï¿½_Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±	*/
 			{
 				pMold->Clamp.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -1136,28 +1140,28 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			break;
 
 		case 2200:
-			if(13000 == pMold->SubMold.Step && 13000 == pMold->BottomSubMold.Step )	/*  ×ÓÄ£¿ª½áÊø  */
+			if(13000 == pMold->SubMold.Step && 13000 == pMold->BottomSubMold.Step )	/*  ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  */
 			{
 				pMold->SubMold.Step = 0;
 				pMold->BottomSubMold.Step =0;
 				pMold->AutoStep = 2300;
 			}
 
-			if(40000 == pMold->SubMold.Step)  /*  ×ÓÄ£¿ª³¬Ê±  */
+			if(40000 == pMold->SubMold.Step)  /*  ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½Ê±  */
 			{
 				pMold->SubMold.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
 				pMold->AutoStep = 40000;
 			}
 			
-			if(40000 == pMold->BottomSubMold.Step)  /*  ÏÂ×ÓÄ£¿ª³¬Ê±  */
+			if(40000 == pMold->BottomSubMold.Step)  /*  ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½Ê±  */
 			{
 				pMold->BottomSubMold.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
 				pMold->AutoStep = 40000;
 			}
 			
-			if(40000 == pMold->Clamp.Step)  	/*  é_Ä£³¬Ê±		*/
+			if(40000 == pMold->Clamp.Step)  	/*  ï¿½_Ä£ï¿½ï¿½Ê±		*/
 			{
 				pMold->Clamp.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -1169,12 +1173,12 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		case 2300:
 			if (pMold->Clamp.mmAs > pMold->Clamp.S_SubMoldIn )  //ipis1113
 			{
-				pMold->SubMold.Step  = 100;  		/*  ×ÓÄ£¹Ø±Õ ÓÐÉÏ×ÓÄ£µÄÊ±ºò±ØÐëÏÈ¹Ø±Õ×ÓÄ£¿ÉÒÔ¼ÜÉÏ*/ //ipis1113
+				pMold->SubMold.Step  = 100;  		/*  ï¿½ï¿½Ä£ï¿½Ø±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¹Ø±ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½*/ //ipis1113
 				pMold->BottomSubMold.Step  = 100;  	
 				pMold->AutoStep = 2400; //ipis1113
 			
 			}
-			if(40000 == pMold->Clamp.Step)  	/*  ¿ªÄ£³¬Ê±   */
+			if(40000 == pMold->Clamp.Step)  	/*  ï¿½ï¿½Ä£ï¿½ï¿½Ê±   */
 			{
 				pMold->Clamp.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -1185,21 +1189,21 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		
 		
 		case 2400:   /***Cycle End***/
-			if(13000 == pMold->Clamp.Step )	/*  ¿ªÄ£½áÊø  */
+			if(13000 == pMold->Clamp.Step )	/*  ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½  */
 			{
 				pMold->Clamp.Step = 0;
 				
 				if (1 == pMold->Option.ExtRobot)
 				{
-					pMold->ValveOut.RobotClampOpn = 1;	/*  Íâ²¿™CÐµÊÖ  */
+					pMold->ValveOut.RobotClampOpn = 1;	/*  ï¿½â²¿ï¿½CÐµï¿½ï¿½  */
 				}
-				pMold->Robot.Step = 10100;		/*  ™CÐµÊÖÍË+é_  */
-				pMold->HookPin.Step = 10100;		/*  ’ì¹´´µá˜ÍË  */
+				pMold->Robot.Step = 10100;		/*  ï¿½CÐµï¿½ï¿½ï¿½ï¿½+ï¿½_  */
+				pMold->HookPin.Step = 10100;		/*  ï¿½ì¹´ï¿½ï¿½ï¿½ï¿½ï¿½  */
 			
 				pMold->AutoStep   = 2450;
 			}
 		
-			if(40000 == pMold->Clamp.Step)  	/*  ¿ªÄ£³¬Ê±   */
+			if(40000 == pMold->Clamp.Step)  	/*  ï¿½ï¿½Ä£ï¿½ï¿½Ê±   */
 			{
 				pMold->Clamp.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -1208,14 +1212,14 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			break;
 
 		case 2450: //top submold cls must check before carriage fw  ipis1112
-			if( 3000 == pMold->SubMold.Step && 3000 == pMold->BottomSubMold.Step )		/*  ×ÓÄ£¹Ø½áÊø  */
+			if( 3000 == pMold->SubMold.Step && 3000 == pMold->BottomSubMold.Step )		/*  ï¿½ï¿½Ä£ï¿½Ø½ï¿½ï¿½ï¿½  */
 			{
 				pMold->SubMold.Step = 0;
 				pMold->BottomSubMold.Step = 0;
 				pMold->AutoStep   = 2500;
 			}
 			
-			if(40000 == pMold->SubMold.Step)  	/*  ×ÓÄ£¹Ø³¬Ê±   */
+			if(40000 == pMold->SubMold.Step)  	/*  ï¿½ï¿½Ä£ï¿½Ø³ï¿½Ê±   */
 			{
 				pMold->SubMold.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -1224,7 +1228,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			break;
 		
 		case 2500:
-			if(1 == pMold->Option.PinOpenUp)	/*  ¿ªÄ£ºó´µÕëÉÏ£¬Ä£ÄÚÌù±êÓÃ,´ËÏîÄ¿²»ÓÃ */
+			if(1 == pMold->Option.PinOpenUp)	/*  ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½Ï£ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½ */
 			{
 				pMold->BlowPin.Step = 10100;
 				pMold->AutoStep     = 2600;
@@ -1235,7 +1239,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			}
 			break;
 
-		case 2600:				/* ´µÕëÉÏ¹ý³Ì */
+		case 2600:				/* ï¿½ï¿½ï¿½ï¿½ï¿½Ï¹ï¿½ï¿½ï¿½ */
 			if( 13000 == pMold->BlowPin.Step)
 			{
 				pSPC->tBlowPinUp = pMold->TimeDis.BlowPinUpAlarmTime/100.0;
@@ -1243,7 +1247,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				pMold->AutoStep = 2650;
 			}
 
-			if(40000 == pMold->BlowPin.Step)/*  ´µÕëÉÏ³¬Ê±  */
+			if(40000 == pMold->BlowPin.Step)/*  ï¿½ï¿½ï¿½ï¿½ï¿½Ï³ï¿½Ê±  */
 			{
 				pMold->BlowPin.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -1252,7 +1256,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			break;
 
 		case 2650:	
-			if(1 == pMold->SemiAuto)		/*  ×Ô¶¯Í£Ö¹ */						
+			if(1 == pMold->SemiAuto)		/*  ï¿½Ô¶ï¿½Í£Ö¹ */						
 			{
 				pMold->CurCycEnd = 1;
 				if (13000 == pMold->Robot.Step && (13000 == pMold->RobotOpnCls.Step || 0 == pMold->RobotOpnCls.Step ) )
@@ -1264,14 +1268,14 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 					pMold->AutoStep = 15450; //15100
 				}
 				
-				if(40000 == pMold->Robot.Step)	/* ™CÐµÊÖÍË¹ÊÕÏ   */
+				if(40000 == pMold->Robot.Step)	/* ï¿½CÐµï¿½ï¿½ï¿½Ë¹ï¿½ï¿½ï¿½   */
 				{
 					pMold->Robot.Step = 0;
 					pMold->StopAutoStep = pMold->AutoStep;
 					pMold->AutoStep = 40000;
 				}
 			
-				if(40000 == pMold->RobotOpnCls.Step)/* ™CÐµÊÖé_¹ÊÕÏ   */
+				if(40000 == pMold->RobotOpnCls.Step)/* ï¿½CÐµï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½   */
 				{
 					pMold->RobotOpnCls.Step = 0;
 					pMold->StopAutoStep = pMold->AutoStep;
@@ -1286,7 +1290,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 
 		
 		case 2700:
-			if(1 == pMold->Clamp.OpnPos)		/* ¿ªÄ£ÅÐ¶Ï    */
+			if(1 == pMold->Clamp.OpnPos)		/* ï¿½ï¿½Ä£ï¿½Ð¶ï¿½    */
 			{
 				pMold->AutoStep = 3000;
 			}
@@ -1324,17 +1328,17 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		/* ------------ carriage tansport start --------------- */
 		case 3100:
 			
-			pMold->InnerPin.Step = 30000;  		/*  Ä£ÄÚ´µÕë¸´Î» */
-			pMold->Sealer.Step   = 30000;    	/*  ·â¿ÚÆû¸×¸´Î» */
-			pMold->Screw.Step    = 100;			/*  ½ÊÑÀ½ø       */
-			pMold->Carriage.Step = 100;         /*  ¼ÜÉÏÆô¶¯   	 */
+			pMold->InnerPin.Step = 30000;  		/*  Ä£ï¿½Ú´ï¿½ï¿½ë¸´Î» */
+			pMold->Sealer.Step   = 30000;    	/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¸ï¿½Î» */
+			pMold->Screw.Step    = 100;			/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½       */
+			pMold->Carriage.Step = 100;         /*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½   	 */
 			pMold->AutoStep = 3200;
 			
-			pMold->ValveOut.RobotCarriageDn = 0;// Reset Íâ²¿™CÐµÊÖÓÌ–
+			pMold->ValveOut.RobotCarriageDn = 0;// Reset ï¿½â²¿ï¿½CÐµï¿½ï¿½ÓÌ–
 
 			break;
 
-		case 3200:								      /*  ¼ÜÉÏ¹ý³Ì   */
+		case 3200:								      /*  ï¿½ï¿½ï¿½Ï¹ï¿½ï¿½ï¿½   */
 			if(3000 == pMold->Carriage.Step)
 			{
 				if (1 == pMold->Option.ExtRobot)
@@ -1342,17 +1346,17 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 					pMold->ValveOut.RobotCarriageUp = 1;
 				}
 			
-				if(pMold->Robot.Step > 10100 && pMold->Robot.Step < 10300) // ŠÖÆ™CÐµÊÖÍË½YÊø (é_²»ŠÖÆ)
+				if(pMold->Robot.Step > 10100 && pMold->Robot.Step < 10300) // ï¿½ï¿½ï¿½Æ™CÐµï¿½ï¿½ï¿½Ë½Yï¿½ï¿½ (ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 				{
 					pMold->Alarm.RobotBwTimeout  = 1;
-					pMold->RobotOpnCls.RobotBwTimeOutFlag = 1;	/*  ™CÐµÊÖé_ force 	*/
-					pMold->Robot.Step  = 10300;					/*  ™CÐµÊÖÍË force 	*/
+					pMold->RobotOpnCls.RobotBwTimeOutFlag = 1;	/*  ï¿½CÐµï¿½ï¿½ï¿½_ force 	*/
+					pMold->Robot.Step  = 10300;					/*  ï¿½CÐµï¿½ï¿½ï¿½ï¿½ force 	*/
 					pMold->Robot.Timer.IN = 0;	
 				}
 //				else if ( 13000 == pMold->Robot.Step && (pMold->RobotOpnCls.Step > 10100 &&  pMold->RobotOpnCls.Step < 10300 ))
 //				{
 //					pMold->Alarm.RobotOpnTimeout  = 1;
-//					pMold->RobotOpnCls.Step = 10300; /*  ™CÐµÊÖé_ force 	*/
+//					pMold->RobotOpnCls.Step = 10300; /*  ï¿½CÐµï¿½ï¿½ï¿½_ force 	*/
 //					pMold->RobotOpnCls.Timer.IN = 0;
 //				}
 				
@@ -1360,12 +1364,12 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				pMold->Timer.IN = 1;
 				pMold->Timer.PT = 2000;
 			
-				pMold->Carriage.Step = 0; /*8000; ±£³Ö¼ÜÉÏÎ» */
+				pMold->Carriage.Step = 0; /*8000; ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½Î» */
 //				pMold->AutoStep = 3300;
 				pMold->AutoStep = 3250;
 			}
 
-			if(40000 == pMold->Carriage.Step)   /*  ¼ÜÉÏ³¬Ê± */
+			if(40000 == pMold->Carriage.Step)   /*  ï¿½ï¿½ï¿½Ï³ï¿½Ê± */
 			{
 				pMold->Carriage.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -1378,7 +1382,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 					
 			if(1 == pMold->Option.ExtInMoldSticker)
 			{
-				if(1 == pMold->Clamp.ExtInMoldInDone_Flag )		/*  Íâ²¿Ä£ƒÈÙN  ÍË»ØÔ­ücÍê³É  */
+				if(1 == pMold->Clamp.ExtInMoldInDone_Flag )		/*  ï¿½â²¿Ä£ï¿½ï¿½ï¿½N  ï¿½Ë»ï¿½Ô­ï¿½cï¿½ï¿½ï¿½  */
 				{
 					pMold->Clamp.ExtInMoldInDone_Flag = 0;
 					pMold->AutoStep = 3260;
@@ -1412,7 +1416,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		case 3300:
 			pMold->TimeDis.MoldClsWait = pMold->Timer.ET;
 			
-			if(1 == gMachineFix.Option.bExtParisonCtrl)   /* Íâ²¿±Úºñ¿ØÖÆ */
+			if(1 == gMachineFix.Option.bExtParisonCtrl)   /* ï¿½â²¿ï¿½Úºï¿½ï¿½ï¿½ï¿½ */
 			{
 				//Ext Parison Internal Timer
 				if(1 == gMacTimer.ExtParison.Q || 1 == pMold->AutorunFirstCycle)
@@ -1439,7 +1443,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			}
 			else
 			{
-				if(1 == gThickIO.Out.ControlEnd)	/*  ±ÚºñÊ±¼ä³¬Ê± */
+				if(1 == gThickIO.Out.ControlEnd)	/*  ï¿½Úºï¿½Ê±ï¿½ä³¬Ê± */
 				{
 					if( 1 == pMold->AutorunFirstCycle) /*Parison Alarm Bypass*/  //owen 20200923
 					{
@@ -1464,7 +1468,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		case 3400:
 			pMold->TimeDis.MoldClsWait = pMold->Timer.ET;
 			
-			if(1 == gMachineFix.Option.bExtParisonCtrl)   /* Íâ²¿±Úºñ¿ØÖÆ */
+			if(1 == gMachineFix.Option.bExtParisonCtrl)   /* ï¿½â²¿ï¿½Úºï¿½ï¿½ï¿½ï¿½ */
 			{
 				//ExtParison Internal Timer
 				if(1 == RMold.Option.Enable && 1 == LMold.Option.Enable)	
@@ -1476,7 +1480,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 					gMacTimer.ExtParison.PT = gUserPara.ThickTime_OneMold;
 				}
 			
-				if(gMacTimer.ExtParison.PT != 0)	/*  ±ÚºñÊ±¼äÉèÖÃ·ÇÁãÊ±´¦Àí */
+				if(gMacTimer.ExtParison.PT != 0)	/*  ï¿½Úºï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½Ã·ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ */
 				{
 					if(1 == gMacTimer.ExtParison.Q || 1 == pMold->AutorunFirstCycle)
 					{
@@ -1493,7 +1497,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			}
 			else
 			{
-				if(gThickProf.TimSet.CycleTime != 0)	/*  ±ÚºñÊ±¼äÉèÖÃ·ÇÁãÊ±´¦Àí */
+				if(gThickProf.TimSet.CycleTime != 0)	/*  ï¿½Úºï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½Ã·ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ */
 				{
 					if(1 == gThickIO.Out.ControlEnd)
 					{
@@ -1512,7 +1516,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		case 3500:
 			pMold->TimeDis.MoldClsWait = pMold->Timer.ET;
 			pMold->Timer.IN = 0;
-			pMold->TimeDis.CycleAlarmTime = pMold->TimeCycle.ET;  /*  ÖÜÆÚÊ±¼äÊÕ¼¯  */
+			pMold->TimeDis.CycleAlarmTime = pMold->TimeCycle.ET;  /*  ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½Õ¼ï¿½  */
 			pSPC->tCycle = pMold->TimeDis.CycleAlarmTime/100.0;
 			pMold->TimeCycle.IN = 0;
 			pMold->AutoStep = 3700;
@@ -1606,7 +1610,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 					gExSPC[ExIndex].RMold.CarriageFwHoldTime + gExSPC[ExIndex].RMold.MoldClsWait; 
 			}
 			
-			// ëpÄ£Ôö¼ÓExIndex—l¼þ  //†ÎÄ£Ôö¼ÓExIndex—l¼þ        
+			// ï¿½pÄ£ï¿½ï¿½ï¿½ï¿½ExIndexï¿½lï¿½ï¿½  //ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ExIndexï¿½lï¿½ï¿½        
 			if(pMold == & LMold  || (pMold == & RMold && LMold.AutoStep == 10000) )
 			{
 				if (ExIndex< 19)		ExIndex = ExIndex+1;
@@ -1617,14 +1621,14 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			break;
 		
 		case 3700:
-			//			if(3000 == pMold->Screw.Step)		/*  ½ÊÑÀ½ø½áÊø  */
+			//			if(3000 == pMold->Screw.Step)		/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  */
 			//			{
 			//				pMold->Screw.Step = 0;
 			//		pMold->AutoStep   = 3800;   // ipis1112
 			pMold->AutoStep   = 3800;
 			//			}
 
-			//			if(40000 == pMold->Screw.Step)  	/*  ½ÊÑÀ½ø³¬Ê±   */
+			//			if(40000 == pMold->Screw.Step)  	/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±   */
 			//			{
 			//				pMold->Screw.Step = 0;
 			//				pMold->StopAutoStep = pMold->AutoStep;
@@ -1633,8 +1637,8 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			break;
 		
 		case 3800:
-			pMold->Sealer.Step   = 100;			/*   ·â¿Ú       */
-			pMold->Clamp.Step    = 100;         /*   ºÏÄ£       */
+			pMold->Sealer.Step   = 100;			/*   ï¿½ï¿½ï¿½       */
+			pMold->Clamp.Step    = 100;         /*   ï¿½ï¿½Ä£       */
 			if(ACTUATOR_ELECTRIC == gMachineFix.ExtrLift.eActuatorType) 
 			{
 				RMold.ExtrLift.Step = 100;			/*   Ì§Í·       */
@@ -1643,18 +1647,18 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			{
 				pMold->ExtrLift.Step = 100;			/*   Ì§Í·       */
 			}
-			pMold->InnerPin.Step = 100;			/*  Ä£ÄÚÐ¡´µÕë  */
-			pMold->SupportSuckAir.Step = 100;   /*  Ä£î^³éÕæ¿Õ  */
-			pMold->Cutter.Step = 100;			/*   ÇÐµ¶Æô¶¯   */
+			pMold->InnerPin.Step = 100;			/*  Ä£ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½  */
+			pMold->SupportSuckAir.Step = 100;   /*  Ä£ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½  */
+			pMold->Cutter.Step = 100;			/*   ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½   */
 			
-			if( SUPPORTAIR_MODE_AFTER_CLAMP_CLS == gMachineFix.MoldR.SupportAir.eSupportAirMode) // Ã›ïL†¢„Ó£¨ÒÔêPÄ£žé†¢„Ó—l¼þ£©
+			if( SUPPORTAIR_MODE_AFTER_CLAMP_CLS == gMachineFix.MoldR.SupportAir.eSupportAirMode) // Ã›ï¿½Lï¿½ï¿½ï¿½Ó£ï¿½ï¿½ï¿½ï¿½PÄ£ï¿½é†¢ï¿½Ó—lï¿½ï¿½ï¿½ï¿½
 			{
 				pMold->SupportAir.Step = 100;// air support
 			}
 			
 			if(1 == gMachineFix.Option.bExtParisonCtrl)
 			{
-				gMachineInfo.ExtParisonCtrlStart = 1; /*   Íâ²¿±ÚºñÆô¶¯   */
+				gMachineInfo.ExtParisonCtrlStart = 1; /*   ï¿½â²¿ï¿½Úºï¿½ï¿½ï¿½ï¿½ï¿½   */
 				//ExtParison Internal Timer
 				gMacTimer.ExtParison.IN = 1;
 				if(1 == RMold.Option.Enable && 1 == LMold.Option.Enable)	
@@ -1668,14 +1672,14 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			}
 			else
 			{
-				gThickIO.In.StartThick = 1;      /*   ±ÚºñÆô¶¯   */
-				pMold->LengthCtrl.Start = 1; 	 /*   ³¤¶È¿ØÖÆ   */
+				gThickIO.In.StartThick = 1;      /*   ï¿½Úºï¿½ï¿½ï¿½ï¿½ï¿½   */
+				pMold->LengthCtrl.Start = 1; 	 /*   ï¿½ï¿½ï¿½È¿ï¿½ï¿½ï¿½   */
 				//	RMold.SupportAir.Step = 100;/*Albert Mold Pre-Blow*/
 				pMold->SupportAir.cntTime = gThickProf.TimSet.CycleTime;/*Albert*/
 			}
-			pMold->ValveOut.RobotClampOpn = 0; // Reset Íâ²¿™CÐµÊÖÓÌ–
+			pMold->ValveOut.RobotClampOpn = 0; // Reset ï¿½â²¿ï¿½CÐµï¿½ï¿½ÓÌ–
 			
-			pMold->OnceBlowPinUp = 1;    /*—UÏÂ´Î”µÓ‹Ëã*/ 
+			pMold->OnceBlowPinUp = 1;    /*ï¿½Uï¿½Â´Î”ï¿½Ó‹ï¿½ï¿½*/ 
 			
 			pMold->TimeCycle.IN   = 1;
 			pMold->TimeCycle.PT   = pMold->TimeSet.CycleAlarmTime;
@@ -1734,10 +1738,10 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			pMold->AutoStep = 3900;
 			break;
 
-		case 3900:   /*   ºÏÄ£¹ý³Ì   */
+		case 3900:   /*   ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½   */
 			if ( 1 == pOptionFix->bBlowUpDuringClampCls)
 			{
-				if(pMold->Clamp.mmAs < pMold->Clamp.S_BlowPinUp)	/*  ºÏÄ£ÖÐ´µÕëÉÏ    */
+				if(pMold->Clamp.mmAs < pMold->Clamp.S_BlowPinUp)	/*  ï¿½ï¿½Ä£ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½    */
 				{
 					if(1 == pMold->OnceBlowPinUp)
 					{
@@ -1770,7 +1774,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 					if(1 == pMold->OnceBlowPinUp)
 					{
 						pMold->OnceBlowPinUp = 0;
-						if(0 == pMold->Option.PinOpenUp)	/*  ºÏÄ£ºó´µÕëÉÏ    */
+						if(0 == pMold->Option.PinOpenUp)	/*  ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½    */
 						{
 							//							pMold->BlowPin.Step = 10100;    		
 							//							if( 1 == pMold->Option.BlowPin && 0 == pMold->Option.BlowPin2  )
@@ -1793,13 +1797,13 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				pMold->Clamp.Step = 3400; /*Clamp holding and locking step*/
 				pMold->AutoStep = 3950;   
 			
-				if ( 1 == pOptionFix->bCoolPinUpNextCycClampCls)    /*  ì¶ÏÂÒ»Ñ­­hêPÄ£ááÞDÒ»ÉÏ    */
+				if ( 1 == pOptionFix->bCoolPinUpNextCycClampCls)    /*  ï¿½ï¿½ï¿½Ò»Ñ­ï¿½hï¿½PÄ£ï¿½ï¿½ï¿½DÒ»ï¿½ï¿½    */
 				{
 					pMold->CoolPin.Step = 500; /*force stop*/
 				}
 			}
 
-			if(40000 == pMold->Clamp.Step)      /*  ºÏÄ£³¬Ê±   */
+			if(40000 == pMold->Clamp.Step)      /*  ï¿½ï¿½Ä£ï¿½ï¿½Ê±   */
 			{
 				pMold->Clamp.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -1823,7 +1827,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			
 			break;
  
-		case 3950:   /* êPÄ£±£³Ö   &&  ´µÕëÉÏ¹ý³Ì  &&  (ì¶ÏÂÒ»Ñ­­hêPÄ£ááÞDÒ»ÉÏ && ÞDÒ»ÉÏ³¬•r)  */
+		case 3950:   /* ï¿½PÄ£ï¿½ï¿½ï¿½ï¿½   &&  ï¿½ï¿½ï¿½ï¿½ï¿½Ï¹ï¿½ï¿½ï¿½  &&  (ï¿½ï¿½ï¿½Ò»Ñ­ï¿½hï¿½PÄ£ï¿½ï¿½ï¿½DÒ»ï¿½ï¿½ && ï¿½DÒ»ï¿½Ï³ï¿½ï¿½r)  */
 			
 			if (pMold->Clamp.Step > 3400 && pMold->Clamp.Step < 4000)
 			{
@@ -1844,21 +1848,21 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				pMold->AutoStep = 40000;
 			}
 			
-			if(40000 == pMold->Clamp.Step)      /*  ºÏÄ£³¬Ê±   */
+			if(40000 == pMold->Clamp.Step)      /*  ï¿½ï¿½Ä£ï¿½ï¿½Ê±   */
 			{
 				pMold->Clamp.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
 				pMold->AutoStep = 40000;
 			}
 			
-			if(40000 == pMold->Clamp.Step)      /*  ºÏÄ£³¬Ê±   */
+			if(40000 == pMold->Clamp.Step)      /*  ï¿½ï¿½Ä£ï¿½ï¿½Ê±   */
 			{
 				pMold->Clamp.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
 				pMold->AutoStep = 40000;
 			}
 			
-			if ( 40000 == pMold->CoolPin.Step && 1 == pOptionFix->bCoolPinUpNextCycClampCls)    /*  ì¶ÏÂÒ»Ñ­­hêPÄ£ááÞDÒ»ÉÏ && ÞDÒ»ÉÏ³¬•r   */  
+			if ( 40000 == pMold->CoolPin.Step && 1 == pOptionFix->bCoolPinUpNextCycClampCls)    /*  ï¿½ï¿½ï¿½Ò»Ñ­ï¿½hï¿½PÄ£ï¿½ï¿½ï¿½DÒ»ï¿½ï¿½ && ï¿½DÒ»ï¿½Ï³ï¿½ï¿½r   */  
 			{
 				pMold->CoolPin.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -1874,7 +1878,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			
 			break;
 
-		case 4100:								      /*  ´µÕëÉÏ¹ý³Ì  */
+		case 4100:								      /*  ï¿½ï¿½ï¿½ï¿½ï¿½Ï¹ï¿½ï¿½ï¿½  */
 			if(0 == pMold->Option.PinOpenUp)
 			{
 				//				if( 13000 == pMold->BlowPin.Step)
@@ -1935,28 +1939,28 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			
 
 
-				if(40000 == pMold->BlowPin.Step)/*  ´µÕëÉÏ³¬Ê±  */
+				if(40000 == pMold->BlowPin.Step)/*  ï¿½ï¿½ï¿½ï¿½ï¿½Ï³ï¿½Ê±  */
 				{
 					pMold->BlowPin.Step = 0;
 					pMold->StopAutoStep = pMold->AutoStep;
 					pMold->AutoStep = 40000;
 				}
 			
-				if(40000 == pMold->BlowPin2.Step)/*  ´µÕëÉÏ³¬Ê±  */
+				if(40000 == pMold->BlowPin2.Step)/*  ï¿½ï¿½ï¿½ï¿½ï¿½Ï³ï¿½Ê±  */
 				{
 					pMold->BlowPin2.Step = 0;
 					pMold->StopAutoStep = pMold->AutoStep;
 					pMold->AutoStep = 40000;
 				}
 			
-				if(40000 == pMold->Clamp.Step)      /*  ºÏÄ£³¬Ê±   */
+				if(40000 == pMold->Clamp.Step)      /*  ï¿½ï¿½Ä£ï¿½ï¿½Ê±   */
 				{
 					pMold->Clamp.Step = 0;
 					pMold->StopAutoStep = pMold->AutoStep;
 					pMold->AutoStep = 40000;
 				}
 			
-				if ( 40000 == pMold->CoolPin.Step && 1 == pOptionFix->bCoolPinUpNextCycClampCls)    /*  ì¶ÏÂÒ»Ñ­­hêPÄ£ááÞDÒ»ÉÏ && ÞDÒ»ÉÏ³¬•r   */ 
+				if ( 40000 == pMold->CoolPin.Step && 1 == pOptionFix->bCoolPinUpNextCycClampCls)    /*  ï¿½ï¿½ï¿½Ò»Ñ­ï¿½hï¿½PÄ£ï¿½ï¿½ï¿½DÒ»ï¿½ï¿½ && ï¿½DÒ»ï¿½Ï³ï¿½ï¿½r   */ 
 				{
 					pMold->CoolPin.Step = 0;
 					pMold->StopAutoStep = pMold->AutoStep;
@@ -1973,7 +1977,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			
 			if(ACTUATOR_HYD == gMachineFix.MoldR.Clamp.eActuatorType)  //Hyd Clamp
 			{ 
-				if( 3900 == pMold->Clamp.Step )  /*  êPÄ£±£³Ö½YÊø   */
+				if( 3900 == pMold->Clamp.Step )  /*  ï¿½PÄ£ï¿½ï¿½ï¿½Ö½Yï¿½ï¿½   */
 				{
 					pMold->Clamp.Step = 0;
 				
@@ -1986,7 +1990,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 					pMold->AutoStep = 4170;		
 				}
 				
-				if(40000 == pMold->Clamp.Step)      /*  ºÏÄ£³¬Ê±   */
+				if(40000 == pMold->Clamp.Step)      /*  ï¿½ï¿½Ä£ï¿½ï¿½Ê±   */
 				{
 					pMold->Clamp.Step = 0;
 					pMold->StopAutoStep = pMold->AutoStep;
@@ -2011,13 +2015,13 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			
 			if(1 == pOptionFix->bCoolPinUpNextCycClampCls)
 			{
-				if( 3000 == pMold->CoolPin.Step )  	/*  ÞDÒ»ÉÏ½YÊø   */
+				if( 3000 == pMold->CoolPin.Step )  	/*  ï¿½DÒ»ï¿½Ï½Yï¿½ï¿½   */
 				{
 					pMold->CoolPin.Step = 0;
 					pMold->AutoStep = 4180;		
 				}
 			
-				if ( 40000 == pMold->CoolPin.Step )    /*  ÞDÒ»ÉÏ³¬•r   */ 
+				if ( 40000 == pMold->CoolPin.Step )    /*  ï¿½DÒ»ï¿½Ï³ï¿½ï¿½r   */ 
 				{
 					pMold->CoolPin.Step = 0;
 					pMold->StopAutoStep = pMold->AutoStep;
@@ -2031,7 +2035,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			
 			if(ACTUATOR_ELECTRIC == gMachineFix.ExtrLift.eActuatorType) 
 			{
-				if(40000 == RMold.ExtrLift.Step)     // ÒÆÏÂÇ°´_ÕJÌ§î^‚Éœy•rég³¬•r
+				if(40000 == RMold.ExtrLift.Step)     // ï¿½ï¿½ï¿½ï¿½Ç°ï¿½_ï¿½JÌ§ï¿½^ï¿½Éœyï¿½rï¿½gï¿½ï¿½ï¿½r
 				{
 					RMold.ExtrLift.Step = 0;
 					pMold->StopAutoStep = pMold->AutoStep;
@@ -2040,7 +2044,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			}
 			else
 			{
-				if(40000 == pMold->ExtrLift.Step)     // ÒÆÏÂÇ°´_ÕJÌ§î^‚Éœy•rég³¬•r
+				if(40000 == pMold->ExtrLift.Step)     // ï¿½ï¿½ï¿½ï¿½Ç°ï¿½_ï¿½JÌ§ï¿½^ï¿½Éœyï¿½rï¿½gï¿½ï¿½ï¿½r
 				{
 					pMold->ExtrLift.Step = 0;
 					pMold->StopAutoStep = pMold->AutoStep;
@@ -2051,10 +2055,10 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			break;
 		
 		case 4180:  
-			// ÒÆÏÂÇ°´_ÕJ’ì¹´´µá˜ÍËÎ»
+			// ï¿½ï¿½ï¿½ï¿½Ç°ï¿½_ï¿½Jï¿½ì¹´ï¿½ï¿½ï¿½ï¿½ï¿½Î»
 			if( 1 == pMold->TransDIn.HookPinBwLimit )
 			{	
-				if (13000 == pMold->HookPin.Step || 0 == pMold->HookPin.Step )  /*  ’ì¹´´µá˜ÍË½YÊø  */
+				if (13000 == pMold->HookPin.Step || 0 == pMold->HookPin.Step )  /*  ï¿½ì¹´ï¿½ï¿½ï¿½ï¿½Ë½Yï¿½ï¿½  */
 				{
 					pMold->HookPin.Step = 0;
 					pMold->AutoStep = 4200;	
@@ -2067,7 +2071,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				pMold->AutoStep = 40000;
 			}
 			
-			if(40000 == pMold->HookPin.Step)   /*  ’ì¹´´µá˜ÍË³¬•r */
+			if(40000 == pMold->HookPin.Step)   /*  ï¿½ì¹´ï¿½ï¿½ï¿½ï¿½Ë³ï¿½ï¿½r */
 			{
 				pMold->HookPin.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -2078,16 +2082,16 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		
 		
 		case 4200:  
-			// ÒÆÏÂÇ°´_ÕJ™CÐµÊÖÍËÎ»(›]ÓÐ´_ÕJé_)
+			// ï¿½ï¿½ï¿½ï¿½Ç°ï¿½_ï¿½Jï¿½CÐµï¿½ï¿½ï¿½ï¿½Î»(ï¿½]ï¿½Ð´_ï¿½Jï¿½_)
 			if( 1 == pMold->Robot.Transfer.BwPos &&  1 == pMold->TransDIn.ExtRobotUpLmit)
 			{	
-				if (( pMold->Robot.Step > 11000 && pMold->Robot.Step <= 13000) || 0 == pMold->Robot.Step )  /*  ™CÐµÊÖÍË½YÊø  */
+				if (( pMold->Robot.Step > 11000 && pMold->Robot.Step <= 13000) || 0 == pMold->Robot.Step )  /*  ï¿½CÐµï¿½ï¿½ï¿½Ë½Yï¿½ï¿½  */
 				{
 					pMold->Robot.Step = 0;
 					
-					pMold->Carriage.Step = 10100;	/*  ÒÆÏÂ†¢„Ó   */
-					pMold->ValveOut.RobotCarriageUp = 0;  // Reset Íâ²¿™CÐµÊÖÓÌ–
-					pMold->PinPart.Step  = 100;		/*  ´µÕë¿é½ø   */
+					pMold->Carriage.Step = 10100;	/*  ï¿½ï¿½ï¿½Â†ï¿½ï¿½ï¿½   */
+					pMold->ValveOut.RobotCarriageUp = 0;  // Reset ï¿½â²¿ï¿½CÐµï¿½ï¿½ÓÌ–
+					pMold->PinPart.Step  = 100;		/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½   */
 					pMold->AutoStep = 4300;	
 				}
 			}
@@ -2101,7 +2105,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				pMold->AutoStep = 40000;
 			}
 			
-			if(40000 == pMold->Robot.Step)   /*  ™CÐµÊÖÍË³¬•r */
+			if(40000 == pMold->Robot.Step)   /*  ï¿½CÐµï¿½ï¿½ï¿½Ë³ï¿½ï¿½r */
 			{
 				pMold->Robot.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -2110,11 +2114,11 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			
 			break;
 
-		case 4300:								      /*  ¼ÜÏÂ¹ý³Ì  */
+		case 4300:								      /*  ï¿½ï¿½ï¿½Â¹ï¿½ï¿½ï¿½  */
 			if((13000 == pMold->Carriage.Step) )
 			{
-				pMold->CurCycEnd = 1;				 /*ÁíÍâÒ»Ä£œÊ‚ä*/
-				pMold->Carriage.Step = 0; /*18000;	 ±£³Ö¼ÜÏÂÎ» */
+				pMold->CurCycEnd = 1;				 /*ï¿½ï¿½ï¿½ï¿½Ò»Ä£ï¿½Ê‚ï¿½*/
+				pMold->Carriage.Step = 0; /*18000;	 ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½Î» */
 			
 				if(1 == pMold->Option.ExtRobot)
 				{
@@ -2124,7 +2128,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				pMold->AutoStep = 4400;	          
 			}
 			
-			if(40000 == pMold->Carriage.Step)   /*  ¼ÜÏÂ³¬Ê± */
+			if(40000 == pMold->Carriage.Step)   /*  ï¿½ï¿½ï¿½Â³ï¿½Ê± */
 			{
 				pMold->Carriage.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -2140,7 +2144,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				pMold->AutoStep = 4410; //ipis0308
 			}
 
-			if(40000 == pMold->PinPart.Step)   /*  ´µÕë¿é½ø³¬Ê± */
+			if(40000 == pMold->PinPart.Step)   /*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê± */
 			{
 				pMold->PinPart.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -2149,7 +2153,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			break;
 		
 		case 4410:
-			pMold->HookPin.Step = 100;			/*  ’ì¹´´µá˜ßM  */
+			pMold->HookPin.Step = 100;			/*  ï¿½ì¹´ï¿½ï¿½ï¿½ï¿½M  */
 			pMold->AutoStep = 4420; 
 
 			break;
@@ -2161,7 +2165,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				pMold->AutoStep = 4500; 
 			}
 
-			if(40000 == pMold->HookPin.Step)   /*  ’ì¹´´µ³¬Ê± */
+			if(40000 == pMold->HookPin.Step)   /*  ï¿½ì¹´ï¿½ï¿½ï¿½ï¿½Ê± */
 			{
 				pMold->HookPin.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -2173,35 +2177,35 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 
 			//			if( 1 == pMold->Option.BlowPin && 0 == pMold->Option.BlowPin2  )
 			//			{
-			//				pMold->BlowPin.Step = 100;			/*  ´µÕëÏÂ  	 */
+			//				pMold->BlowPin.Step = 100;			/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  	 */
 			//			}
 			//			else if( 0 == pMold->Option.BlowPin && 1 == pMold->Option.BlowPin2  )
 			//			{
-			//				pMold->BlowPin2.Step = 100;			/*  ´µÕëÏÂ  	 */
+			//				pMold->BlowPin2.Step = 100;			/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  	 */
 			//			}
 			//			else if( 1 == pMold->Option.BlowPin && 1 == pMold->Option.BlowPin2  )
 			//			{
 			/*************/
-			pMold->BlowPin.Step = 100;			/*  ´µÕëÏÂ  	 */
-			pMold->BlowPin2.Step = 100;			/*  ´µÕëÏÂ  	 */
+			pMold->BlowPin.Step = 100;			/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  	 */
+			pMold->BlowPin2.Step = 100;			/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  	 */
 			//			}
-			//			pMold->BlowPin.Step = 100;			/*  ´µÕëÏÂ  	 */
+			//			pMold->BlowPin.Step = 100;			/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  	 */
 			/*************/
-			pMold->LowBlow.Step = 100;			/*  ´µÆø1¶¯×÷   */
-			pMold->HighBlow.Step = 100;			/*  ´µÆø2¶¯×÷   */
-			pMold->BlowDeflash.Step = 100;		/*  ´µ—U´µÀä    */
+			pMold->LowBlow.Step = 100;			/*  ï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½ï¿½ï¿½   */
+			pMold->HighBlow.Step = 100;			/*  ï¿½ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½ï¿½   */
+			pMold->BlowDeflash.Step = 100;		/*  ï¿½ï¿½ï¿½Uï¿½ï¿½ï¿½ï¿½    */
 			/*************/
-//			pMold->CoolPin2.Step = 100;         /*  ÞD¶þÏÂ		 */
-//			pMold->CoolPin2Blow.Step =100;      /*  ÞD¶þÏÂ´µÀä  */
-//			pMold->CoolPin3.Step = 100;	       	/*  ÞDÈýÏÂ		 */
-//			pMold->CoolPin3Blow.Step =100;    	/*  ÞDÈýÏÂ´µÀä  */
-			//			pMold->CoolDeflash.Step = 100;		/*  ´òÊÖ°Ñ´µÀä     */
+//			pMold->CoolPin2.Step = 100;         /*  ï¿½Dï¿½ï¿½ï¿½ï¿½		 */
+//			pMold->CoolPin2Blow.Step =100;      /*  ï¿½Dï¿½ï¿½ï¿½Â´ï¿½ï¿½ï¿½  */
+//			pMold->CoolPin3.Step = 100;	       	/*  ï¿½Dï¿½ï¿½ï¿½ï¿½		 */
+//			pMold->CoolPin3Blow.Step =100;    	/*  ï¿½Dï¿½ï¿½ï¿½Â´ï¿½ï¿½ï¿½  */
+			//			pMold->CoolDeflash.Step = 100;		/*  ï¿½ï¿½ï¿½Ö°Ñ´ï¿½ï¿½ï¿½     */
 			
 			
 			pMold->AutoStep = 4510;
 			if( 0 == pOptionFix->bRobotFwAfterTopdeflash)
 			{
-//				pMold->Robot.Step = 100;			/*  ™CÐµÊÖßM+êP  */
+//				pMold->Robot.Step = 100;			/*  ï¿½CÐµï¿½ï¿½ï¿½M+ï¿½P  */
 				if (  pMold->RobotOpnCls.Step >= 10100  &&  pMold->RobotOpnCls.Step < 13000) // Robot Opn too slow
 				{
 					pMold->Alarm.RobotOpnTimeout  = 1;
@@ -2210,7 +2214,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				}
 				else
 				{
-					pMold->Robot.Step = 100;			/*  ™CÐµÊÖßM+êP  */
+					pMold->Robot.Step = 100;			/*  ï¿½CÐµï¿½ï¿½ï¿½M+ï¿½P  */
 				}
 			}
 		
@@ -2219,27 +2223,27 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 
 		case 4510:
 
-			if (0 == pOptionFix->bTopDeflashMode ||  1 == pOptionFix->bCoolPinUpNextCycClampCls) // topdeflash before/after cooling   /*Èç¹ûÊ¹ÓÃì¶ÏÂÒ»Ñ­­hêPÄ£ááÞDÒ»ÉÏ£¬¾Í²»ÄÜ×ßÞDÒ»ÊÖ´òÊÖ°Ñ*/
+			if (0 == pOptionFix->bTopDeflashMode ||  1 == pOptionFix->bCoolPinUpNextCycClampCls) // topdeflash before/after cooling   /*ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ñ­ï¿½hï¿½PÄ£ï¿½ï¿½ï¿½DÒ»ï¿½Ï£ï¿½ï¿½Í²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½DÒ»ï¿½Ö´ï¿½ï¿½Ö°ï¿½*/
 			{
 				if(1 == gMacOption.ACCPumpCharge_Extrlift)
 				{
-					pMold->TopDeflash.Step     = 90;	/*  ´òÊÖ°Ñ(¹¤³Ìí“Ãæî~ÍâÑÓßt•rég)    */  
-					pMold->BottomDeflash.Step  = 90;	/*  ´òÆ¿µ×(¹¤³Ìí“Ãæî~ÍâÑÓßt•rég)    */ 
-					pMold->PullBottom.Step  = 100; 		/*  À­µ×Æô¶¯  */
+					pMold->TopDeflash.Step     = 90;	/*  ï¿½ï¿½ï¿½Ö°ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½ï¿½ï¿½tï¿½rï¿½g)    */  
+					pMold->BottomDeflash.Step  = 90;	/*  ï¿½ï¿½Æ¿ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½ï¿½ï¿½tï¿½rï¿½g)    */ 
+					pMold->PullBottom.Step  = 100; 		/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  */
 				}
 				else
 				{
-					pMold->TopDeflash.Step    = 100;	/*  ´òÊÖ°Ñ    */
-					pMold->BottomDeflash.Step = 100;	/*  ´òÆ¿µ×    */
-					pMold->PullBottom.Step  = 100; 		/*  À­µ×Æô¶¯  */
+					pMold->TopDeflash.Step    = 100;	/*  ï¿½ï¿½ï¿½Ö°ï¿½    */
+					pMold->BottomDeflash.Step = 100;	/*  ï¿½ï¿½Æ¿ï¿½ï¿½    */
+					pMold->PullBottom.Step  = 100; 		/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  */
 				}
 				
 				pMold->AutoStep = 4550;
 			}
 			else
 			{
-				pMold->CoolPin.Step     = 100;		/*  ºóÀäÈ´      */
-				pMold->CoolPinBlow.Step = 100;		/*  ºóÀäÈ´´µÆø  */
+				pMold->CoolPin.Step     = 100;		/*  ï¿½ï¿½ï¿½ï¿½È´      */
+				pMold->CoolPinBlow.Step = 100;		/*  ï¿½ï¿½ï¿½ï¿½È´ï¿½ï¿½ï¿½ï¿½  */
 				pMold->AutoStep = 4580;
 			}
 			
@@ -2249,13 +2253,13 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 
 		case 4550:
 						
-			/* ´òÊÖ°ÑÍê³É -> ™CÐµÊÖßM+êP  */
+			/* ï¿½ï¿½ï¿½Ö°ï¿½ï¿½ï¿½ï¿½ -> ï¿½CÐµï¿½ï¿½ï¿½M+ï¿½P  */
 			if(13000 == pMold->TopDeflash.Step)
 			{
 				pMold->TopDeflash.Step = 0;
 				if( 1 == pOptionFix->bRobotFwAfterTopdeflash)
 				{
-					pMold->Robot.Step = 100;			/*  ™CÐµÊÖßM+êP  */
+					pMold->Robot.Step = 100;			/*  ï¿½CÐµï¿½ï¿½ï¿½M+ï¿½P  */
 					if ( pMold->RobotOpnCls.Step >= 10100  &&  pMold->RobotOpnCls.Step < 13000) // Robot Opn too slow
 					{
 						pMold->Alarm.RobotOpnTimeout  = 1;
@@ -2264,7 +2268,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				pMold->AutoStep = 4560;
 			}
 			
-			if( 40000 == pMold->TopDeflash.Step  || 40000 == pMold->BottomDeflash.Step )	/* ´òÊÖ°Ñ+´òÊÖÍì / ´òÆ¿µ× ³¬•r  */
+			if( 40000 == pMold->TopDeflash.Step  || 40000 == pMold->BottomDeflash.Step )	/* ï¿½ï¿½ï¿½Ö°ï¿½+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ / ï¿½ï¿½Æ¿ï¿½ï¿½ ï¿½ï¿½ï¿½r  */
 			{
 				pMold->TopDeflash.Step = 0;
 				pMold->BottomDeflash.Step = 0;
@@ -2276,8 +2280,8 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			// detect TopDeflashBwLimit BottomDeflashBwLimit
 			if( pMold->HighBlow.Step >=900 &&  pMold->HighBlow.Step<=3000 )/*  AirVentingTime2 finish  */					
 			{
-				/*--------- ´òÊÖ°Ñ+´òÊÖÍì-----´òÆ¿µ×-----À­Æ¿µ×---------- */
-				/*  ´òÊÖ°Ñ+´òÊÖÍì  */
+				/*--------- ï¿½ï¿½ï¿½Ö°ï¿½+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-----ï¿½ï¿½Æ¿ï¿½ï¿½-----ï¿½ï¿½Æ¿ï¿½ï¿½---------- */
+				/*  ï¿½ï¿½ï¿½Ö°ï¿½+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  */
 				if( pMold->TopDeflash.Step > 100 && pMold->TopDeflash.Step < 2100 )			// Topdeflash Fw Not Done 
 				{
 					pMold->Alarm.TopDeflashTimeout = 1;
@@ -2297,7 +2301,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 					pMold->TopDeflashOpnCls.AutoTimeOutFlag = 1;	  // TopDeflashOpnCls Pass Delay	
 				}
 				
-				/*  ´òÆ¿µ×  */
+				/*  ï¿½ï¿½Æ¿ï¿½ï¿½  */
 				if( pMold->BottomDeflash.Step > 100 && pMold->BottomDeflash.Step < 2100 )	// BottomDeflash Fw Not Done 
 				{
 					pMold->BottomDeflash.AutoTimeOutFlag = 1;	// BottomDeflash Pass Delay
@@ -2308,13 +2312,13 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 					pMold->BottomDeflash.AutoTimeOutFlag = 1;	// BottomDeflash Pass Delay
 				}
 			
-				/*  À­Æ¿µ×  */
+				/*  ï¿½ï¿½Æ¿ï¿½ï¿½  */
 				if(pMold->PullBottom.Step > 100 && pMold->PullBottom.Step < 500)
 				{
 					pMold->Alarm.PullBottomTimeOut = 1;
 					pMold->PullBottom.Step = 500;   //  Force PullBottom 
 				}
-				/*--------- ´òÊÖ°Ñ+´òÊÖÍì-----´òÆ¿µ×-----À­Æ¿µ×---------- */
+				/*--------- ï¿½ï¿½ï¿½Ö°ï¿½+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-----ï¿½ï¿½Æ¿ï¿½ï¿½-----ï¿½ï¿½Æ¿ï¿½ï¿½---------- */
 				if( 3000 == pMold->HighBlow.Step)
 				{
 					pMold->AutoStep  = 4600;
@@ -2342,8 +2346,8 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		
 		case 4570:
 
-			pMold->CoolPin.Step     = 100;		/*  ºóÀäÈ´      */
-			pMold->CoolPinBlow.Step = 100;		/*  ºóÀäÈ´´µÆø  */
+			pMold->CoolPin.Step     = 100;		/*  ï¿½ï¿½ï¿½ï¿½È´      */
+			pMold->CoolPinBlow.Step = 100;		/*  ï¿½ï¿½ï¿½ï¿½È´ï¿½ï¿½ï¿½ï¿½  */
 		
 
 			pMold->AutoStep = 4600;
@@ -2360,13 +2364,13 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			}	
 			
 			/*----ipis0221-----------------------------------------------------------------------*/	
-			if(3000 == pMold->HighBlow.Step )/*  ´µÆø½áÊø  */
+			if(3000 == pMold->HighBlow.Step )/*  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  */
 			{
 				if(pMold->BlowDeflash.Step < 500 && pMold->BlowDeflash.Step > 0)pMold->BlowDeflash.Step = 500;
 				
 				pMold->Alarm.TopDeflashTimeout = 1;
 			
-				pMold->Lock.Step  = 30000;	/* ËøÄ£½áÊø  */
+				pMold->Lock.Step  = 30000;	/* ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½  */
 				pMold->Clamp.Step = 0;
 				//			pMold->LowBlow.Step = 0;
 				//			pMold->HighBlow.Step = 0;
@@ -2374,23 +2378,23 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				pMold->CoolPin2.Timer.IN = 0;
 				pMold->CoolPin3.Timer.IN = 0;
 			
-				if ( 0 == pOptionFix->bCoolPinUpNextCycClampCls)    /*  ²»Ê¹ÓÃ"ì¶ÏÂÒ»Ñ­­hêPÄ£ááÞDÒ»ÉÏ"    */
+				if ( 0 == pOptionFix->bCoolPinUpNextCycClampCls)    /*  ï¿½ï¿½Ê¹ï¿½ï¿½"ï¿½ï¿½ï¿½Ò»Ñ­ï¿½hï¿½PÄ£ï¿½ï¿½ï¿½DÒ»ï¿½ï¿½"    */
 				{
-					pMold->CoolPin.Step     = 500;		/*  ºóÀäÈ´   force stop   */
+					pMold->CoolPin.Step     = 500;		/*  ï¿½ï¿½ï¿½ï¿½È´   force stop   */
 				}
-				pMold->CoolPinBlow.Step = 900;		/*  ºóÀäÈ´´µÆø force stop */
+				pMold->CoolPinBlow.Step = 900;		/*  ï¿½ï¿½ï¿½ï¿½È´ï¿½ï¿½ï¿½ï¿½ force stop */
 			
-				pMold->CoolPin2.Step     = 500;		/*  ºóÀäÈ´   force stop   */
-				pMold->CoolPin2Blow.Step = 900;		/*  ºóÀäÈ´´µÆø force stop */
+				pMold->CoolPin2.Step     = 500;		/*  ï¿½ï¿½ï¿½ï¿½È´   force stop   */
+				pMold->CoolPin2Blow.Step = 900;		/*  ï¿½ï¿½ï¿½ï¿½È´ï¿½ï¿½ï¿½ï¿½ force stop */
 			
-				pMold->CoolPin3.Step     = 500;		/*  ºóÀäÈ´   force stop   */
-				pMold->CoolPin3Blow.Step = 900;		/*  ºóÀäÈ´´µÆø force stop */
+				pMold->CoolPin3.Step     = 500;		/*  ï¿½ï¿½ï¿½ï¿½È´   force stop   */
+				pMold->CoolPin3Blow.Step = 900;		/*  ï¿½ï¿½ï¿½ï¿½È´ï¿½ï¿½ï¿½ï¿½ force stop */
 			
 			
-				pMold->InnerPin.Step = 10100;	   /* Ä£ÄÚ´µÕëÍË    */
+				pMold->InnerPin.Step = 10100;	   /* Ä£ï¿½Ú´ï¿½ï¿½ï¿½ï¿½ï¿½    */
 				//			pMold->Lock.Step    = 10100;		/*  Ð¶Ñ¹         */
 			
-				//	pMold->BlowPin.Step = 0;         /* ´µÕë±£³ÖÏÂ½áÊø*/
+				//	pMold->BlowPin.Step = 0;         /* ï¿½ï¿½ï¿½ë±£ï¿½ï¿½ï¿½Â½ï¿½ï¿½ï¿½*/
 
 			
 	
@@ -2407,10 +2411,10 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 					
 			if(3000 == pMold->CoolPin.Step)
 			{  
-				pMold->TopDeflash.Step  = 100;		/*  ¶¥´ò·É±ß    */
+				pMold->TopDeflash.Step  = 100;		/*  ï¿½ï¿½ï¿½ï¿½É±ï¿½    */
 				pMold->AutoStep = 4550;
 			}			
-			if(40000 == pMold->CoolPin.Step) /*ºóÀäÈ´ÉÏ³¬Ê±   */
+			if(40000 == pMold->CoolPin.Step) /*ï¿½ï¿½ï¿½ï¿½È´ï¿½Ï³ï¿½Ê±   */
 			{
 				pMold->CoolPin.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -2423,7 +2427,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		case 4600:
 			if( ACTUATOR_HYD == gMachineFix.MoldR.BlowPin.eActuatorType )	
 			{
-				if(3000 == pMold->BlowPin.Step && 3000 == pMold->BlowPin2.Step  && 1== pMold->TransDIn.TopDeflashBwLimit ) /*  ´µÕëÏÂ½áÊø */	
+				if(3000 == pMold->BlowPin.Step && 3000 == pMold->BlowPin2.Step  && 1== pMold->TransDIn.TopDeflashBwLimit ) /*  ï¿½ï¿½ï¿½ï¿½ï¿½Â½ï¿½ï¿½ï¿½ */	
 				{
 					pMold->BlowPin.Step = 0;
 					pMold->BlowPin2.Step = 0;
@@ -2431,14 +2435,14 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 					pMold->AutoStep = 4700;
 				}
 
-				if(40000 == pMold->BlowPin.Step )	/*  ´µÕëÏÂ³¬Ê± */
+				if(40000 == pMold->BlowPin.Step )	/*  ï¿½ï¿½ï¿½ï¿½ï¿½Â³ï¿½Ê± */
 				{
 					pMold->BlowPin.Step = 0;
 					pMold->StopAutoStep = pMold->AutoStep;
 					pMold->AutoStep = 40000;
 				}
 			
-				if(40000 == pMold->BlowPin2.Step )	/*  ´µÕëÏÂ³¬Ê± */
+				if(40000 == pMold->BlowPin2.Step )	/*  ï¿½ï¿½ï¿½ï¿½ï¿½Â³ï¿½Ê± */
 				{
 					pMold->BlowPin.Step = 0;
 					pMold->StopAutoStep = pMold->AutoStep;
@@ -2456,8 +2460,8 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		case 4700:		
 			if( pMold->HighBlow.Step >=900 &&  pMold->HighBlow.Step<=3000 ) /*  AirVentingTime2 finish  */	
 			{	
-				/*--------- ´òÊÖ°Ñ+´òÊÖÍì-----´òÆ¿µ×-----À­Æ¿µ×---------- */
-				/*  ´òÊÖ°Ñ+´òÊÖÍì  */
+				/*--------- ï¿½ï¿½ï¿½Ö°ï¿½+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-----ï¿½ï¿½Æ¿ï¿½ï¿½-----ï¿½ï¿½Æ¿ï¿½ï¿½---------- */
+				/*  ï¿½ï¿½ï¿½Ö°ï¿½+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  */
 				if( pMold->TopDeflash.Step > 100 && pMold->TopDeflash.Step < 2100 )			// Topdeflash Fw Not Done 
 				{
 					pMold->Alarm.TopDeflashTimeout = 1;
@@ -2477,7 +2481,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 					pMold->TopDeflashOpnCls.AutoTimeOutFlag = 1;	  // TopDeflashOpnCls Pass Delay	
 				}
 				
-				/*  ´òÆ¿µ×  */
+				/*  ï¿½ï¿½Æ¿ï¿½ï¿½  */
 				if( pMold->BottomDeflash.Step > 100 && pMold->BottomDeflash.Step < 2100 )	// BottomDeflash Fw Not Done 
 				{
 					pMold->BottomDeflash.AutoTimeOutFlag = 1;	// BottomDeflash Pass Delay
@@ -2488,62 +2492,62 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 					pMold->BottomDeflash.AutoTimeOutFlag = 1;	// BottomDeflash Pass Delay
 				}
 			
-				/*  À­Æ¿µ×  */
+				/*  ï¿½ï¿½Æ¿ï¿½ï¿½  */
 				if(pMold->PullBottom.Step > 100 && pMold->PullBottom.Step < 500)
 				{
 					pMold->Alarm.PullBottomTimeOut = 1;
 					pMold->PullBottom.Step = 500;   //  Force PullBottom 
 				}
-				/*--------- ´òÊÖ°Ñ+´òÊÖÍì-----´òÆ¿µ×-----À­Æ¿µ×---------- */
+				/*--------- ï¿½ï¿½ï¿½Ö°ï¿½+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-----ï¿½ï¿½Æ¿ï¿½ï¿½-----ï¿½ï¿½Æ¿ï¿½ï¿½---------- */
 
 				if (pMold->CoolPinBlow.Step!=3000)
 				{
 					pMold->Alarm.TopDeflashTimeout = 1;	
 				}
 			
-				pMold->BlowDeflash.Step = 500;		/*  ÞDÒ»ÏÂ   	force stop	*/
+				pMold->BlowDeflash.Step = 500;		/*  ï¿½DÒ»ï¿½ï¿½   	force stop	*/
 				
-				if ( 0 == pOptionFix->bCoolPinUpNextCycClampCls)    /*  ²»Ê¹ÓÃ"ì¶ÏÂÒ»Ñ­­hêPÄ£ááÞDÒ»ÉÏ"    */
+				if ( 0 == pOptionFix->bCoolPinUpNextCycClampCls)    /*  ï¿½ï¿½Ê¹ï¿½ï¿½"ï¿½ï¿½ï¿½Ò»Ñ­ï¿½hï¿½PÄ£ï¿½ï¿½ï¿½DÒ»ï¿½ï¿½"    */
 				{
-					pMold->CoolPin.Step     = 500;		/*  ºóÀäÈ´   force stop   */
+					pMold->CoolPin.Step     = 500;		/*  ï¿½ï¿½ï¿½ï¿½È´   force stop   */
 				}
-				pMold->CoolPinBlow.Step = 900;		/*  ÞDÒ»ÏÂ´µÀä force stop  */
+				pMold->CoolPinBlow.Step = 900;		/*  ï¿½DÒ»ï¿½Â´ï¿½ï¿½ï¿½ force stop  */
 			
-				pMold->CoolPin2.Step     = 500;		/*  ÞD¶þÏÂ   	force stop	*/
-				pMold->CoolPin2Blow.Step = 900;		/*  ÞD¶þÏÂ´µÀä force stop  */
+				pMold->CoolPin2.Step     = 500;		/*  ï¿½Dï¿½ï¿½ï¿½ï¿½   	force stop	*/
+				pMold->CoolPin2Blow.Step = 900;		/*  ï¿½Dï¿½ï¿½ï¿½Â´ï¿½ï¿½ï¿½ force stop  */
 			
-				pMold->CoolPin3.Step     = 500;		/*  ÞDÈýÏÂ   	force stop	*/
-				pMold->CoolPin3Blow.Step = 900;		/*  ÞDÈýÏÂ´µÀä force stop  */
+				pMold->CoolPin3.Step     = 500;		/*  ï¿½Dï¿½ï¿½ï¿½ï¿½   	force stop	*/
+				pMold->CoolPin3Blow.Step = 900;		/*  ï¿½Dï¿½ï¿½ï¿½Â´ï¿½ï¿½ï¿½ force stop  */
 			
 				if( pMold->Robot.Step > 100 && pMold->Robot.Step < 300)
 				{
 					pMold->Alarm.RobotFwTimeout  = 1;
-					pMold->RobotOpnCls.RobotFwTimeOutFlag = 1;	/*  ™CÐµÊÖêP force 	*/
-					pMold->Robot.Step = 300;     		/*  ™CÐµÊÖßM force 	*/
+					pMold->RobotOpnCls.RobotFwTimeOutFlag = 1;	/*  ï¿½CÐµï¿½ï¿½ï¿½P force 	*/
+					pMold->Robot.Step = 300;     		/*  ï¿½CÐµï¿½ï¿½ï¿½M force 	*/
 					pMold->Robot.Timer.IN = 0;
 				}
 				else if ( 3000 == pMold->Robot.Step && (pMold->RobotOpnCls.Step > 100 &&  pMold->RobotOpnCls.Step < 300 ))
 				{
 					pMold->Alarm.RobotClsTimeout  = 1;
-					pMold->RobotOpnCls.Step = 300; /*  ™CÐµÊÖêP force 	*/
+					pMold->RobotOpnCls.Step = 300; /*  ï¿½CÐµï¿½ï¿½ï¿½P force 	*/
 					pMold->RobotOpnCls.Timer.IN = 0;
 				}
 			
 				
-				pMold->InnerPin.Step = 10100;	   /* Ä£ÄÚ´µÕëÍË    */
+				pMold->InnerPin.Step = 10100;	   /* Ä£ï¿½Ú´ï¿½ï¿½ï¿½ï¿½ï¿½    */
 				//			pMold->Lock.Step    = 10100;		/*  Ð¶Ñ¹         */
 			
 				//	pMold->AutoStep  = 4800;
 			
 				// Elec Blowpin
-				if( ACTUATOR_ELECTRIC == gMachineFix.MoldR.BlowPin.eActuatorType )	/*  ëŠ„Ó´µ—U2¶ÎµÍ‰ºS³¬Ê± */
+				if( ACTUATOR_ELECTRIC == gMachineFix.MoldR.BlowPin.eActuatorType )	/*  ëŠ„Ó´ï¿½ï¿½U2ï¿½ÎµÍ‰ï¿½Sï¿½ï¿½Ê± */
 				{
 					if( pMold->BlowPin.Step > 1300 && pMold->BlowPin.Step < 1500)
 					{
 						pMold->BlowPin.Step = 1500;
 					}
 			
-					if(40000 == pMold->BlowPin.Step)     // ´µšâÍê³Éáá´_ÕJëŠ„Ó´µ—U2¶ÎµÍ‰º³¬•r
+					if(40000 == pMold->BlowPin.Step)     // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½JëŠ„Ó´ï¿½ï¿½U2ï¿½ÎµÍ‰ï¿½ï¿½ï¿½ï¿½r
 					{
 						pMold->BlowPin.Step = 0;
 						pMold->StopAutoStep = pMold->AutoStep;
@@ -2556,14 +2560,14 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 					pMold->AutoStep  = 4710;
 					
 //					//Blowpin
-//					if( ACTUATOR_ELECTRIC == gMachineFix.MoldR.BlowPin.eActuatorType )	/*  ëŠ„ÓêPÄ£¼Ó‰º³¬Ê± */
+//					if( ACTUATOR_ELECTRIC == gMachineFix.MoldR.BlowPin.eActuatorType )	/*  ëŠ„ï¿½ï¿½PÄ£ï¿½Ó‰ï¿½ï¿½ï¿½Ê± */
 //					{
 //						if( pMold->BlowPin.Step > 1300 && pMold->BlowPin.Step < 1500)
 //						{
 //							pMold->BlowPin.Step = 1500;
 //						}
 //			
-//						if(40000 == pMold->BlowPin.Step)     // ´µšâÍê³Éáá´_ÕJëŠ„ÓêPÄ£¼Ó‰º³¬•r
+//						if(40000 == pMold->BlowPin.Step)     // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½JëŠ„ï¿½ï¿½PÄ£ï¿½Ó‰ï¿½ï¿½ï¿½ï¿½r
 //						{
 //							pMold->BlowPin.Step = 0;
 //							pMold->StopAutoStep = pMold->AutoStep;
@@ -2578,16 +2582,16 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		
 		case 4710:
 	
-			if( (0 == pMold->TopDeflash.Step || 13000 == pMold->TopDeflash.Step )  && 13000 == pMold->BottomDeflash.Step )	/*  ´òÊÖ°Ñ+´òÊÖÍì && ´òÆ¿µ× ½áÊø  */
+			if( (0 == pMold->TopDeflash.Step || 13000 == pMold->TopDeflash.Step )  && 13000 == pMold->BottomDeflash.Step )	/*  ï¿½ï¿½ï¿½Ö°ï¿½+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ && ï¿½ï¿½Æ¿ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½  */
 			{    			
 				pMold->TopDeflash.Step = 0;
 				pMold->BottomDeflash.Step = 0;
 			
 				//Reset AutoTimeOutFlag
-				//´òÊÖ°Ñ+´òÊÖÍì
+				//ï¿½ï¿½ï¿½Ö°ï¿½+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				pMold->TopDeflash.AutoTimeOutFlag = 0;  	// TopDeflash Pass Delay
 				pMold->TopDeflashOpnCls.AutoTimeOutFlag = 0;// TopDeflashOpnCls Pass Delay
-				//´òÆ¿µ×+ÞDÒ»ÏÂ+ÞDÒ»êP
+				//ï¿½ï¿½Æ¿ï¿½ï¿½+ï¿½DÒ»ï¿½ï¿½+ï¿½DÒ»ï¿½P
 				pMold->BottomDeflash.AutoTimeOutFlag = 0;	// BottomDeflash Pass Delay
 
 			
@@ -2614,7 +2618,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			//				
 			//				//	pMold->AutoStep  = 6000;
 			//			}	
-			//			if(40000 == pMold->CoolPin.Step) /*ºóÀäÈ´ÉÏ³¬Ê±   */
+			//			if(40000 == pMold->CoolPin.Step) /*ï¿½ï¿½ï¿½ï¿½È´ï¿½Ï³ï¿½Ê±   */
 			//			{
 			//				pMold->CoolPin.Step = 0;
 			//				pMold->StopAutoStep = pMold->AutoStep;
@@ -2644,7 +2648,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		//			}
 		//			else
 		//			{
-		//				if(40000 == pMold->CoolPin.Step) /*ºóÀäÈ´ÉÏ³¬Ê±   */
+		//				if(40000 == pMold->CoolPin.Step) /*ï¿½ï¿½ï¿½ï¿½È´ï¿½Ï³ï¿½Ê±   */
 		//				{
 		//					pMold->CoolPin.Step = 0;
 		//					pMold->StopAutoStep = pMold->AutoStep;
@@ -2654,8 +2658,8 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		//			break;
 		
 		case 4850:
-			//			pMold->TopDeflash.Step  = 100;		/*  ¶¥´ò·É±ß    */
-			//			pMold->BottomDeflash.Step = 100;	/*  µ×´ò·É±ß       */
+			//			pMold->TopDeflash.Step  = 100;		/*  ï¿½ï¿½ï¿½ï¿½É±ï¿½    */
+			//			pMold->BottomDeflash.Step = 100;	/*  ï¿½×´ï¿½É±ï¿½       */
 			//			pMold->AutoStep = 4900;
 			pMold->AutoStep = 5100;
 			//			if(3000 == pMold->CoolPin2.Step)
@@ -2674,7 +2678,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			//			}
 			//			else
 			//			{
-			//				if(40000 == pMold->CoolPin2.Step) /*ºóÀäÈ´ÉÏ³¬Ê±   */
+			//				if(40000 == pMold->CoolPin2.Step) /*ï¿½ï¿½ï¿½ï¿½È´ï¿½Ï³ï¿½Ê±   */
 			//				{
 			//					pMold->CoolPin2.Step = 0;
 			//					pMold->StopAutoStep = pMold->AutoStep;
@@ -2687,8 +2691,8 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		
 		case 5100:
 			
-			pMold->CoolPin.Step     = 100;		/*  ºóÀäÈ´      */
-			pMold->CoolPinBlow.Step = 100;		/*  ºóÀäÈ´´µÆø  */
+			pMold->CoolPin.Step     = 100;		/*  ï¿½ï¿½ï¿½ï¿½È´      */
+			pMold->CoolPinBlow.Step = 100;		/*  ï¿½ï¿½ï¿½ï¿½È´ï¿½ï¿½ï¿½ï¿½  */
 			pMold->AutoStep = 5300;
 			break;
 		
@@ -2719,7 +2723,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 		
 				pMold->AutoStep = 6000;
 			}	
-			if(40000 == pMold->CoolPin.Step) /*ºóÀäÈ´ÉÏ³¬Ê±   */
+			if(40000 == pMold->CoolPin.Step) /*ï¿½ï¿½ï¿½ï¿½È´ï¿½Ï³ï¿½Ê±   */
 			{
 				pMold->CoolPin.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -2755,17 +2759,17 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			//			{
 			//				gCycleTimesR++;
 			//			}
-			pMold->AutoStep = 1000;				/*  ÏÂÒ»¹ý³ÌµÄµÈ´ý  */
+			pMold->AutoStep = 1000;				/*  ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ÌµÄµÈ´ï¿½  */
 			
 			//clamp
-			if( ACTUATOR_ELECTRIC == gMachineFix.MoldR.Clamp.eActuatorType )	/*  ëŠ„ÓêPÄ£¼Ó‰º³¬Ê± */
+			if( ACTUATOR_ELECTRIC == gMachineFix.MoldR.Clamp.eActuatorType )	/*  ëŠ„ï¿½ï¿½PÄ£ï¿½Ó‰ï¿½ï¿½ï¿½Ê± */
 			{
 				if( pMold->Clamp.Step > 3400 && pMold->Clamp.Step < 3800)
 				{
 					pMold->Clamp.Step = 3800;
 				}
 			
-				if(40000 == pMold->Clamp.Step)     // ´µšâÍê³Éáá´_ÕJëŠ„ÓêPÄ£¼Ó‰º³¬•r
+				if(40000 == pMold->Clamp.Step)     // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½JëŠ„ï¿½ï¿½PÄ£ï¿½Ó‰ï¿½ï¿½ï¿½ï¿½r
 				{
 					pMold->Clamp.Step = 0;
 					pMold->StopAutoStep = pMold->AutoStep;
@@ -2775,7 +2779,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			
 			if(ACTUATOR_ELECTRIC == gMachineFix.ExtrLift.eActuatorType) 
 			{
-				if(40000 == RMold.ExtrLift.Step)     // ´µšâÍê³Éáá´_ÕJÌ§î^‚Éœy•rég³¬•r
+				if(40000 == RMold.ExtrLift.Step)     // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½JÌ§ï¿½^ï¿½Éœyï¿½rï¿½gï¿½ï¿½ï¿½r
 				{
 					RMold.ExtrLift.Step = 0;
 					pMold->StopAutoStep = pMold->AutoStep;
@@ -2784,7 +2788,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			}
 			else
 			{
-				if(40000 == pMold->ExtrLift.Step)     // ´µšâÍê³Éáá´_ÕJÌ§î^‚Éœy•rég³¬•r
+				if(40000 == pMold->ExtrLift.Step)     // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½JÌ§ï¿½^ï¿½Éœyï¿½rï¿½gï¿½ï¿½ï¿½r
 				{
 					pMold->ExtrLift.Step = 0;
 					pMold->StopAutoStep = pMold->AutoStep;
@@ -2793,14 +2797,14 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			}
 			
 			//Blowpin
-			if( ACTUATOR_ELECTRIC == gMachineFix.MoldR.BlowPin.eActuatorType )	/*  ëŠ„ÓêPÄ£¼Ó‰º³¬Ê± */
+			if( ACTUATOR_ELECTRIC == gMachineFix.MoldR.BlowPin.eActuatorType )	/*  ëŠ„ï¿½ï¿½PÄ£ï¿½Ó‰ï¿½ï¿½ï¿½Ê± */
 			{
 				if( 3000 == pMold->BlowPin.Step )
 				{
 					pMold->BlowPin.Step = 0;
 				}
 				
-				if(40000 == pMold->BlowPin.Step)     // ´µšâÍê³Éáá´_ÕJëŠ„Ó´µ—U2¶ÎµÍ‰º³¬•r
+				if(40000 == pMold->BlowPin.Step)     // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½JëŠ„Ó´ï¿½ï¿½U2ï¿½ÎµÍ‰ï¿½ï¿½ï¿½ï¿½r
 				{
 					pMold->BlowPin.Step = 0;
 					pMold->StopAutoStep = pMold->AutoStep;
@@ -2810,7 +2814,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			
 			
 			//coolpin1/2/3 
-			if(40000 == pMold->CoolPin.Step || 40000 == pMold->CoolPin2.Step || 40000 == pMold->CoolPin3.Step)     // ´µšâÍê³ÉááÞD123‚Éœy•rég³¬•r
+			if(40000 == pMold->CoolPin.Step || 40000 == pMold->CoolPin2.Step || 40000 == pMold->CoolPin3.Step)     // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½D123ï¿½Éœyï¿½rï¿½gï¿½ï¿½ï¿½r
 			{
 				pMold->CoolPin.Step = 0;
 				pMold->CoolPin2.Step = 0;
@@ -2822,9 +2826,9 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			
 			break;
 
-		/*  ------------------------------ µ¥Ä£ÔËÐÐ  ------------------------------ */
+		/*  ------------------------------ ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½  ------------------------------ */
 		case 10000:
-			pMold->Carriage.Step = 0;  /* 18000;  ±£³ÖÁíÒ»Ä£»ØÎ»  */
+			pMold->Carriage.Step = 0;  /* 18000;  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ä£ï¿½ï¿½Î»  */
 			break;
 
 		case 11000:
@@ -2832,11 +2836,11 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			pMold->AutoStep = 0;
 			break;
 
-		/*  ------------------------------ ×Ô¶¯Í£Ö¹  ------------------------------ */
+		/*  ------------------------------ ï¿½Ô¶ï¿½Í£Ö¹  ------------------------------ */
 		case 15100:
-			if(0 == gMacOption.bAutoStopPinDown)   /*  ¿ªÄ£ºó´µÕë±£³ÖÏÂÎ»  */
+			if(0 == gMacOption.bAutoStopPinDown)   /*  ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ë±£ï¿½ï¿½ï¿½ï¿½Î»  */
 			{
-				pMold->BlowPin.Step = 10100;    		/*  ¿ªÄ£ºó´µÕëÉÏ    */
+				pMold->BlowPin.Step = 10100;    		/*  ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½    */
 				pMold->AutoStep     = 15200;
 			}
 			else
@@ -2853,7 +2857,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				pMold->AutoStep = 15300;
 			}
 
-			if(40000 == pMold->BlowPin.Step)/*  ´µÕëÉÏ³¬Ê±  */
+			if(40000 == pMold->BlowPin.Step)/*  ï¿½ï¿½ï¿½ï¿½ï¿½Ï³ï¿½Ê±  */
 			{
 				pMold->BlowPin.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -2862,7 +2866,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			break;
 
 		case 15300:
-			pMold->Robot.Step = 10100;		   /*  »úÐµÊÖÍËËÉ  */
+			pMold->Robot.Step = 10100;		   /*  ï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  */
 			if(pMold == &RMold)
 			{
 				gMachineOut.LeftStation = 1;
@@ -2881,7 +2885,7 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 				pMold->AutoStep   = 15500;
 			}
 
-			if(40000 == pMold->Robot.Step) /* ™CÐµÊÖÍË+é_¹ÊÕÏ   */
+			if(40000 == pMold->Robot.Step) /* ï¿½CÐµï¿½ï¿½ï¿½ï¿½+ï¿½_ï¿½ï¿½ï¿½ï¿½   */
 			{
 				pMold->Robot.Step = 0;
 				pMold->StopAutoStep = pMold->AutoStep;
@@ -2921,21 +2925,21 @@ void AutoRun( Mold_typ *pMold,Option_Fix_typ * pOptionFix,SPC_Mold_typ * pSPC)
 			}
 			break;
 
-		/* ------------------------------  ÊÖ¶¯°´×Ô¶¯Í£Ö¹   ----------------------------- */
+		/* ------------------------------  ï¿½Ö¶ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½Í£Ö¹   ----------------------------- */
 		case 20000:
 			pMold->Timer.IN     = 0;
 			pMold->TimeCycle.IN = 0;
 			pMold->AutoStep = 0;
 			break;
 
-		/* ------------------------------    ×Ô¶¯¼±Í£      ------------------------------ */
+		/* ------------------------------    ï¿½Ô¶ï¿½ï¿½ï¿½Í£      ------------------------------ */
 		case 30000:
 			pMold->Timer.IN     = 0;
 			pMold->TimeCycle.IN = 0;
 			pMold->AutoStep = 0;
 			break;
 
-		/* ------------------------------    ¹ÊÕÏ×Ô¶¯Í£    -------------------------------- */
+		/* ------------------------------    ï¿½ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½Í£    -------------------------------- */
 		case 40000:
 			pMold->Timer.IN     = 0;
 			pMold->TimeCycle.IN = 0;
