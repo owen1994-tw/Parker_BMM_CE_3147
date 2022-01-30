@@ -4,7 +4,7 @@
  * Program: clamp
  * File: clamp.c
  * Author: lijianjun
- * Created: March 06, 2013
+ * Created: March 06, 2013  2222 3333
  ********************************************************************
  * Implementation of program clamp --- open and close 
  ********************************************************************/
@@ -98,7 +98,7 @@ _CYCLIC void cyclic ( void )
 	bClampPropValveOutputInverse  = gMachineFix.Option.bClampPropValveOutputInverse;
 	
 	
-	/*--- ™C˜‹¾€ÐÔ£¬ŠÖÆ¾€ÐÔ»¯ ----*/
+	/*--- ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ô£ï¿½ï¿½ï¿½ï¿½Æ¾ï¿½ï¿½Ô»ï¿½ ----*/
 	if( ACTUATOR_ELECTRIC ==  gMachineFix.MoldR.Clamp.eActuatorType)
 	{
 		int ToggleLinIndex;
@@ -612,7 +612,7 @@ void ClampSwitch(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pC
 		case 3000:
 			break;
 
-		/* --------------- µ÷Ð£¹ØÄ£ --------------- */
+		/* --------------- ï¿½ï¿½Ð£ï¿½ï¿½Ä£ --------------- */
 		case 5000:
 			pMold->ActInfo.ClampCls  = 1;
 			pMold->ValveOut.ClampCls = 1;
@@ -669,7 +669,7 @@ void ClampSwitch(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pC
 			pMold->ValveOut.ClampOpn = 1;
 			pMold->ValveOut.ClampOpnDiff = 1;
 
-			/*if(1 == gMachineInfo.MachineReset && 1 == gMachineInfo.Manual)*/  /* ×Ô¶¯¸´Î» */
+			/*if(1 == gMachineInfo.MachineReset && 1 == gMachineInfo.Manual)*/  /* ï¿½Ô¶ï¿½ï¿½ï¿½Î» */
 			if(1 == gMachineInfo.MachineReset)
 			{
 				pMold->Clamp.p_set = pClampPara->P_OpnReset;
@@ -702,7 +702,7 @@ void ClampSwitch(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pC
 			pMold->ValveOut.ClampOpn = 1;
 			pMold->ValveOut.ClampOpnDiff = 1;/*Keep Out since we use perprotional valve to slow down*/
 
-			if(1 == gMachineInfo.MachineReset && 1 == gMachineInfo.Manual)  /* ×Ô¶¯¸´Î» */
+			if(1 == gMachineInfo.MachineReset && 1 == gMachineInfo.Manual)  /* ï¿½Ô¶ï¿½ï¿½ï¿½Î» */
 			{
 				pMold->Clamp.p_set = pClampPara->P_OpnReset;
 				pMold->Clamp.vRamp.Set = pMold->Clamp.V_OpnReset;
@@ -755,7 +755,7 @@ void ClampSwitch(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pC
 			}
 			break;
 
-		/* --------------- ½ÊÑÀÎ¢¿ªÄ£ --------------- */
+		/* --------------- ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½Ä£ --------------- */
 		case 11100:
 			if(pMold->TimeSet.ScrewMicroOpnTime > 0 && 0 == pMold->TransDIn.ClampOpnMicroLimit)
 			{
@@ -824,7 +824,7 @@ void ClampSwitch(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pC
 			pMold->Clamp.Step = 13000;
 			break;
 
-		/* --------------- ×ÓÄ£Î¢¿ªÄ£ --------------- */
+		/* --------------- ï¿½ï¿½Ä£Î¢ï¿½ï¿½Ä£ --------------- */
 		case 12100:
 			if(pMold->TimeSet.SubMoldMicroOpnTime > 0 && 0 == pMold->TransDIn.ClampOpnMicroLimit)
 			{
@@ -906,7 +906,7 @@ void ClampSwitch(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pC
 		case 13000:
 			break;
 
-		/* --------------- µ÷Ð£¿ªÄ£ --------------- */
+		/* --------------- ï¿½ï¿½Ð£ï¿½ï¿½Ä£ --------------- */
 		case 15000:
 			pMold->ActInfo.ClampOpn  = 1;
 			pMold->ValveOut.ClampOpn = 1;
@@ -1121,7 +1121,7 @@ void ClampSwitch(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pC
    
 	if(pMold->Clamp.Step < 3000 && pMold->Clamp.Step > 200) 	/* clamp close  */
 	{
-		/* ×ÓÄ£·Ç¿ªÎ»»òºÏÎ» */
+		/* ï¿½ï¿½Ä£ï¿½Ç¿ï¿½Î»ï¿½ï¿½ï¿½Î» */
 		if(0 == pMold->TransDIn.SubMoldOpnLimit && 0 == pMold->TransDIn.SubMoldClsLimit)
 		{
 			pMold->Alarm.SubMoldNotAtOpnPos  = !pMold->TransDIn.SubMoldOpnLimit;
@@ -1139,7 +1139,7 @@ void ClampSwitch(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pC
 		}
 
 
-		/* Ä£ÄÚ´µÕëÔÚ»ØÎ»   */
+		/* Ä£ï¿½Ú´ï¿½ï¿½ï¿½ï¿½Ú»ï¿½Î»   */
 		/*if(0 == pMold->TransDIn.InnerPinBwLimit)
 		{
 		pMold->Alarm.InnerPinNotAtBwPos = !pMold->TransDIn.InnerPinBwLimit;
@@ -1148,7 +1148,7 @@ void ClampSwitch(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pC
    
 		if(1 == gMachineInfo.TimeLimit)
 		{
-			/* ÐÍÅßÎ»  */
+			/* ï¿½ï¿½ï¿½ï¿½Î»  */
 			if(0 == pMold->Carriage.FwPos)
 			{
 				pMold->Alarm.CarriageNotAtFwDI  = !pMold->Carriage.FwPos;
@@ -1157,7 +1157,7 @@ void ClampSwitch(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pC
 		}
 		else
 		{
-			/* ·Ç¼ÜÉÏ¼ÜÏÂ && ´µÕë·ÇÉÏÎ»  */
+			/* ï¿½Ç¼ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ && ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»  */
 			if(0 == pMold->Carriage.BwPos && 0 == pMold->Carriage.FwPos &&
 				0 == pMold->BlowPin.UpPos)
 			{
@@ -1170,7 +1170,7 @@ void ClampSwitch(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pC
 
 	if(pMold->Clamp.Step < 13000 && pMold->Clamp.Step > 10200)  /* clamp open  */
 	{
-		/* ÇÐ·É±ß·ÇÍËÎ»  */
+		/* ï¿½Ð·É±ß·ï¿½ï¿½ï¿½Î»  */
 		if( 0 == pMold->TransDIn.TopDeflashBwLimit)
 		{
 			pMold->Alarm.TopDeflashNotAtBwPos = !pMold->TransDIn.TopDeflashBwLimit;
@@ -1308,7 +1308,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 	else
 	{
 		pMold->Clamp.mmAs = pMold->Clamp.mmAs;
-		if(0 == gMachineInfo.Calib)	/* ·Çµ÷Ð£Ä£Ê½  */
+		if(0 == gMachineInfo.Calib)	/* ï¿½Çµï¿½Ð£Ä£Ê½  */
 		{
 			if(pMold->Clamp.Step > 0 && pMold->Clamp.Step < 20000)
 			{
@@ -1931,7 +1931,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			break;
 		
 
-		/* --------------- µ÷Ð£¹ØÄ£ --------------- */
+		/* --------------- ï¿½ï¿½Ð£ï¿½ï¿½Ä£ --------------- */
 		case 5000:
 			if(0 == pMold->Clamp.ClsHWSwitch)
 			{
@@ -1982,9 +1982,9 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			break;
 
 		/*-------------------------------------------------------------------------------*/
-		/*-------------------------------- é_Ä£›ª‰º  ----------------------------------*/
+		/*-------------------------------- ï¿½_Ä£ï¿½ï¿½ï¿½ï¿½  ----------------------------------*/
 		/*-------------------------------------------------------------------------------*/		
-		case 12100:/*UnLock Process   é_Ä£›ª‰º*/			
+		case 12100:/*UnLock Process   ï¿½_Ä£ï¿½ï¿½ï¿½ï¿½*/			
 			if(pMoldUser->TimeSet.ClampUnLockTime != 0)
 			{
 				pMold->Clamp.Timer.IN = 1;
@@ -2004,7 +2004,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			if(pMold->Clamp.Timer.Q)
 			{
 				pMold->Clamp.Timer.IN = 0;
-				//				pMold->Clamp.Step = 12130;  // Î¢é_Ä£ÑÓßt²»Ê¹ÓÃ
+				//				pMold->Clamp.Step = 12130;  // Î¢ï¿½_Ä£ï¿½ï¿½ï¿½tï¿½ï¿½Ê¹ï¿½ï¿½
 				pMold->Clamp.Step = 12150;
 			}
 			break;
@@ -2023,7 +2023,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 		//			}
 		//			break;
 		//
-		//		case 12140: /* delay ok Î¢é_Ä£*/
+		//		case 12140: /* delay ok Î¢ï¿½_Ä£*/
 		//			pMold->TimeDis.ClampMircoOpnDelay = pMold->Clamp.Timer.ET;
 		//			if (1 == pMold->Clamp.Timer.Q)
 		//			{
@@ -2066,7 +2066,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			break;
 		
 		
-		case 12200:		/* delay ok Î¢é_Ä£ é_µ½ÂýÞD¿ìÎ»ÖÃ*/
+		case 12200:		/* delay ok Î¢ï¿½_Ä£ ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½Dï¿½ï¿½Î»ï¿½ï¿½*/
 
 			pMold->ActInfo.ClampOpn  = 1;
 			
@@ -2117,7 +2117,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			
 			if( 1 == pMold->Option.SubMold)
 			{
-				if(pMold->Clamp.mmAs > pMold->Clamp.S_SubMoldOut - 0.1)  // Î¢é_Ä£
+				if(pMold->Clamp.mmAs > pMold->Clamp.S_SubMoldOut - 0.1)  // Î¢ï¿½_Ä£
 				{		     
 					pMold->Clamp.v_set  = 0;
 					pMold->Clamp.p_set  = 0;
@@ -2126,7 +2126,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			}
 			else
 			{
-				if(pMold->Clamp.mmAs > pMold->Clamp.S_OpnSlow - 0.1)	 // ÂýÞD¿ì
+				if(pMold->Clamp.mmAs > pMold->Clamp.S_OpnSlow - 0.1)	 // ï¿½ï¿½ï¿½Dï¿½ï¿½
 				{		     
 					pMold->Clamp.v_set  = 0;
 					pMold->Clamp.p_set  = 0;
@@ -2218,7 +2218,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			{
 				pMold->Clamp.LimitTimer.IN = 1;
 				if(1 == gMachineInfo.MachineReset)
-					/*if(1 == gMachineInfo.MachineReset && 1 == gMachineInfo.Manual)*/  /* ×Ô„ÓÍšw  */
+					/*if(1 == gMachineInfo.MachineReset && 1 == gMachineInfo.Manual)*/  /* ï¿½Ô„ÓÍšw  */
 				{
 					pMold->Clamp.LimitTimer.PT = pMold->TimeSet.CycleAlarmTime;
 				}
@@ -2243,7 +2243,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			
 				pMold->Clamp.vProfGen.v_start = 0.0;
 			
-				/*if(1 == gMachineInfo.MachineReset && 1 == gMachineInfo.Manual)*/  /* ×Ô„ÓÍšw  */
+				/*if(1 == gMachineInfo.MachineReset && 1 == gMachineInfo.Manual)*/  /* ï¿½Ô„ÓÍšw  */
 				if(1 == gMachineInfo.MachineReset)
 				{
 					pMold->Clamp.vProfGen.decel_end = 5.0 * pMold->Clamp.vProfGen.v_set;
@@ -2586,7 +2586,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 
 			break;
 
-		/* --------------- ½ÊÑÀÎ¢¿ªÄ£ --------------- */
+		/* --------------- ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½Ä£ --------------- */
 		case 11100:
 			if(1 == pMold->Option.Screw)
 			{
@@ -2681,7 +2681,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 		case 13000:
 			break;
 
-		/* --------------- µ÷Ð£¿ªÄ£ --------------- */
+		/* --------------- ï¿½ï¿½Ð£ï¿½ï¿½Ä£ --------------- */
 		case 15000:
 			if(0 == pMold->Clamp.OpnHWSwitch)
 			{
@@ -3014,7 +3014,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			pMold->Clamp.Step = 41000;
 		}
 		
-		if(1 == gMachineInfo.Auto && 1 == gMachineFix.Option.bCoolPinUpNextCycClampCls)   /* ÌØÊâÄ£Ê½  "ì¶ÏÂÒ»Ñ­­hêPÄ£ááÞDÒ»ÉÏ"  */
+		if(1 == gMachineInfo.Auto && 1 == gMachineFix.Option.bCoolPinUpNextCycClampCls)   /* ï¿½ï¿½ï¿½ï¿½Ä£Ê½  "ï¿½ï¿½ï¿½Ò»Ñ­ï¿½hï¿½PÄ£ï¿½ï¿½ï¿½DÒ»ï¿½ï¿½"  */
 		{
 			//			if ( 0 == pMold->TransDIn.CoolPin2UpLimit || 0 == pMold->TransDIn.CoolPin3UpLimit )
 			//			{						
@@ -3058,7 +3058,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 			pMold->Clamp.Step = 41000;
 		}
 		
-		/* Ä£ÄÚ´µÕëÔÚ»ØÎ»   */
+		/* Ä£ï¿½Ú´ï¿½ï¿½ï¿½ï¿½Ú»ï¿½Î»   */
 		//      if(0 == pMold->TransDIn.InnerPinBwLimit)
 		//      {
 		//         pMold->Alarm.InnerPinNotAtBwPos = !pMold->TransDIn.InnerPinBwLimit;
@@ -3090,7 +3090,7 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 	if(pMold->Clamp.Step < 13000 && pMold->Clamp.Step > 10200)  /* clamp open  */
 	{
 
-		/* ÇÐ·É±ß·ÇÍËÎ»  */
+		/* ï¿½Ð·É±ß·ï¿½ï¿½ï¿½Î»  */
 		if( 0 == pMold->TransDIn.TopDeflashBwLimit )
 		{
 			pMold->Alarm.TopDeflashNotAtBwPos = !pMold->TransDIn.TopDeflashBwLimit;
@@ -3198,11 +3198,11 @@ void ClampLVDT(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Para_typ * pCla
 		{
 			if(bClampPropValveOutputInverse == 0)
 			{
-				pMold->Clamp.aoPropValve = pMold->Clamp.v_set * 32767/100;   /* µçÑ¹Êä³ö  0 -- 100 ---> 0.0 -- 10.0v*/
+				pMold->Clamp.aoPropValve = pMold->Clamp.v_set * 32767/100;   /* ï¿½ï¿½Ñ¹ï¿½ï¿½ï¿½  0 -- 100 ---> 0.0 -- 10.0v*/
 			}
 			else
 			{
-				pMold->Clamp.aoPropValve = -(pMold->Clamp.v_set * 32767/100);   /* µçÑ¹Êä³ö  0 -- 100 ---> 0.0 -- 10.0v*/
+				pMold->Clamp.aoPropValve = -(pMold->Clamp.v_set * 32767/100);   /* ï¿½ï¿½Ñ¹ï¿½ï¿½ï¿½  0 -- 100 ---> 0.0 -- 10.0v*/
 			}
 			
 		}
@@ -3429,7 +3429,7 @@ void ClampDriveToggle_Drive(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Pa
 	{
 		pMold->Clamp.mmAsDrive = pMold->Clamp.mmAsDrive;
 
-		if(0 == gMachineInfo.Calib)	/* ·Çµ÷Ð£Ä£Ê½  */
+		if(0 == gMachineInfo.Calib)	/* ï¿½Çµï¿½Ð£Ä£Ê½  */
 		{
 			if(pMold->Clamp.Step > 0 && pMold->Clamp.Step < 20000)
 			{
@@ -3763,7 +3763,7 @@ void ClampDriveToggle_Drive(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Pa
 			break;
  
 		
-		/* lock Start £¨¼Ó‰º£©*/
+		/* lock Start ï¿½ï¿½ï¿½Ó‰ï¿½ï¿½ï¿½*/
 		/*---------*/
 		case 3400:
 			/*---------*/
@@ -3923,7 +3923,7 @@ void ClampDriveToggle_Drive(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Pa
 			break;
 		
 
-		/* --------------- µ÷Ð£¹ØÄ£ --------------- */
+		/* --------------- ï¿½ï¿½Ð£ï¿½ï¿½Ä£ --------------- */
 		case 5000:
 			if(0 == pMold->Clamp.ClsHWSwitch)
 			{
@@ -3939,7 +3939,7 @@ void ClampDriveToggle_Drive(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Pa
 				pMold->Clamp.Step = 41000;
 			}	
 			break;
-		/* --------------- ½ÊÑÀÎ¢¿ªÄ£ --------------- */
+		/* --------------- ï¿½ï¿½ï¿½ï¿½Î¢ï¿½ï¿½Ä£ --------------- */
 		case 11100:
 			if(1 == pMold->Option.Screw)
 			{
@@ -4015,9 +4015,9 @@ void ClampDriveToggle_Drive(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Pa
 			break;
 		
 		/*-------------------------------------------------------------------------------*/
-		/*----------------------- é_Ä£›ª‰º + ×ÓÄ£Î¢é_Ä£ ---------------------------------*/
+		/*----------------------- ï¿½_Ä£ï¿½ï¿½ï¿½ï¿½ + ï¿½ï¿½Ä£Î¢ï¿½_Ä£ ---------------------------------*/
 		/*-------------------------------------------------------------------------------*/		
-		case 12100:/*UnLock Process   é_Ä£›ª‰º*/			
+		case 12100:/*UnLock Process   ï¿½_Ä£ï¿½ï¿½ï¿½ï¿½*/			
 			//			if(pMoldUser->TimeSet.ClampUnLockTime != 0)
 			//			{
 			//				pMold->Clamp.Timer.IN = 1;
@@ -4028,11 +4028,11 @@ void ClampDriveToggle_Drive(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Pa
 			//			{
 			if( 1 == pMold->Option.SubMold)
 			{
-				pMold->Clamp.Step = 12130; //Î¢é_ÑÓßt+ Î¢é_
+				pMold->Clamp.Step = 12130; //Î¢ï¿½_ï¿½ï¿½ï¿½t+ Î¢ï¿½_
 			}
 			else
 			{
-				pMold->Clamp.Step = 12300; //Î¢é_ÑÓßt+ Î¢é_ Ìøß^
+				pMold->Clamp.Step = 12300; //Î¢ï¿½_ï¿½ï¿½ï¿½t+ Î¢ï¿½_ ï¿½ï¿½ï¿½^
 			}
 				
 			//			}			
@@ -4044,7 +4044,7 @@ void ClampDriveToggle_Drive(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Pa
 		//			if(pMold->Clamp.Timer.Q)
 		//			{
 		//				pMold->Clamp.Timer.IN = 0;
-		//				//				pMold->Clamp.Step = 12130;  // Î¢é_Ä£ÑÓßt²»Ê¹ÓÃ
+		//				//				pMold->Clamp.Step = 12130;  // Î¢ï¿½_Ä£ï¿½ï¿½ï¿½tï¿½ï¿½Ê¹ï¿½ï¿½
 		//				pMold->Clamp.Step = 12150;
 		//			}
 		//			break;
@@ -4062,7 +4062,7 @@ void ClampDriveToggle_Drive(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Pa
 			}
 			break;
 
-		case 12140: /* delay ok Î¢é_Ä£*/
+		case 12140: /* delay ok Î¢ï¿½_Ä£*/
 			pMold->TimeDis.ClampMircoOpnDelay = pMold->Clamp.Timer.ET;
 			if (1 == pMold->Clamp.Timer.Q)
 			{
@@ -4092,7 +4092,7 @@ void ClampDriveToggle_Drive(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Pa
 			pMold->Clamp.vProfGen.v_start = 0.0;
 			pMold->Clamp.vProfGen.v_end	= 0.0;
 			
-			pMold->Clamp.vProfGen.s_end = pMold->Clamp.S_SubMoldOut; // Î¢é_Ä£
+			pMold->Clamp.vProfGen.s_end = pMold->Clamp.S_SubMoldOut; // Î¢ï¿½_Ä£
 
 			pMold->Clamp.vProfGen.init  = 1;
 
@@ -4100,7 +4100,7 @@ void ClampDriveToggle_Drive(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Pa
 			break;
 		
 		
-		case 12200:		/* é_µ½ Î¢é_Ä£ Î»ÖÃ*/
+		case 12200:		/* ï¿½_ï¿½ï¿½ Î¢ï¿½_Ä£ Î»ï¿½ï¿½*/
 
 			pMold->ActInfo.ClampOpn  = 1;
 
@@ -4116,7 +4116,7 @@ void ClampDriveToggle_Drive(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Pa
 
 			/*  reached target position */
 			
-			if(pMold->Clamp.mmAs > pMold->Clamp.S_SubMoldOut - 0.1)  // Î¢é_Ä£
+			if(pMold->Clamp.mmAs > pMold->Clamp.S_SubMoldOut - 0.1)  // Î¢ï¿½_Ä£
 			{		     
 				pMold->Clamp.v_set  = 0;
 				pMold->Clamp.p_set  = 0;
@@ -4198,7 +4198,7 @@ void ClampDriveToggle_Drive(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Pa
 			
 				pMold->Clamp.LimitTimer.IN = 1;
 				if(1 == gMachineInfo.MachineReset)
-					/*if(1 == gMachineInfo.MachineReset && 1 == gMachineInfo.Manual)*/  /* ×Ô„ÓÍšw  */
+					/*if(1 == gMachineInfo.MachineReset && 1 == gMachineInfo.Manual)*/  /* ï¿½Ô„ÓÍšw  */
 				{
 					pMold->Clamp.LimitTimer.PT = pMold->TimeSet.CycleAlarmTime;
 				}
@@ -4223,7 +4223,7 @@ void ClampDriveToggle_Drive(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Pa
 			
 				pMold->Clamp.vProfGen.v_start = 0.0;
 			
-				/*if(1 == gMachineInfo.MachineReset && 1 == gMachineInfo.Manual)*/  /* ×Ô„ÓÍšw  */
+				/*if(1 == gMachineInfo.MachineReset && 1 == gMachineInfo.Manual)*/  /* ï¿½Ô„ÓÍšw  */
 				if(1 == gMachineInfo.MachineReset)
 				{
 //					pMold->Clamp.vProfGen.decel_end = 5.0 * pMold->Clamp.vProfGen.v_set;
@@ -4425,7 +4425,7 @@ void ClampDriveToggle_Drive(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Pa
 		case 13000:
 			break;
 
-		/* --------------- µ÷Ð£¿ªÄ£ --------------- */
+		/* --------------- ï¿½ï¿½Ð£ï¿½ï¿½Ä£ --------------- */
 		case 15000:
 			if(0 == pMold->Clamp.OpnHWSwitch)
 			{
@@ -4648,7 +4648,7 @@ void ClampDriveToggle_Drive(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Pa
 		}
 	
 		
-		if(1 == gMachineInfo.Auto && 1 == gMachineFix.Option.bCoolPinUpNextCycClampCls)   /* ÌØÊâÄ£Ê½  "ì¶ÏÂÒ»Ñ­­hêPÄ£ááÞDÒ»ÉÏ"  */
+		if(1 == gMachineInfo.Auto && 1 == gMachineFix.Option.bCoolPinUpNextCycClampCls)   /* ï¿½ï¿½ï¿½ï¿½Ä£Ê½  "ï¿½ï¿½ï¿½Ò»Ñ­ï¿½hï¿½PÄ£ï¿½ï¿½ï¿½DÒ»ï¿½ï¿½"  */
 		{
 //			if ( 0 == pMold->TransDIn.CoolPin2UpLimit || 0 == pMold->TransDIn.CoolPin3UpLimit )
 //			{						
@@ -4692,7 +4692,7 @@ void ClampDriveToggle_Drive(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Pa
 			pMold->Clamp.Step = 41000;
 		}
 		
-		/* Ä£ÄÚ´µÕëÔÚ»ØÎ»   */
+		/* Ä£ï¿½Ú´ï¿½ï¿½ï¿½ï¿½Ú»ï¿½Î»   */
 		//      if(0 == pMold->TransDIn.InnerPinBwLimit)
 		//      {
 		//         pMold->Alarm.InnerPinNotAtBwPos = !pMold->TransDIn.InnerPinBwLimit;
@@ -4724,7 +4724,7 @@ void ClampDriveToggle_Drive(Mold_typ * pMold, Clamp_Fix_typ * pClampFix,Clamp_Pa
 	if(pMold->Clamp.Step < 13000 && pMold->Clamp.Step > 10200)  /* clamp open  */
 	{
 
-		/* ÇÐ·É±ß·ÇÍËÎ»  */
+		/* ï¿½Ð·É±ß·ï¿½ï¿½ï¿½Î»  */
 		if( 0 == pMold->TransDIn.TopDeflashBwLimit )
 		{
 			pMold->Alarm.TopDeflashNotAtBwPos = !pMold->TransDIn.TopDeflashBwLimit;
