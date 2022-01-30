@@ -4,7 +4,7 @@
  * Program: carriage
  * File: carriage.c
  * Author: lijianjun
- * Created: March 06, 2013
+ * Created: March 06, 2014
  **************************************************************************************
  * Implementation of program carriage --- forward and backward 
  *************************************************************************************/
@@ -175,7 +175,7 @@ _CYCLIC void cyclic ( void )
 	
 
 	
-	/*--- ™C˜‹¾€ÐÔ£¬ŠÖÆ¾€ÐÔ»¯ ----*/
+	/*--- æ©Ÿæ§‹ç·šæ€§ï¼Œå¼·åˆ¶ç·šæ€§åŒ– ----*/
 	if( ACTUATOR_ELECTRIC ==  gMachineFix.MoldR.Carriage.eActuatorType)
 	{
 		int ToggleLinIndex;
@@ -828,7 +828,7 @@ void TransportSwitch(Mold_typ * pMold, Carriage_Fix_typ * pCarriageFix,Carriage_
 		case 3000:
 			break;
 			
-		/*  --------------- µ÷Ð£ÒÆÄ£½ø --------------- */
+		/*  --------------- è°ƒæ ¡ç§»æ¨¡è¿› --------------- */
 		case 5000:
 			
 			if(0 == pMold->TransDIn.CarriageFwLimit)
@@ -1110,7 +1110,7 @@ void TransportSwitch(Mold_typ * pMold, Carriage_Fix_typ * pCarriageFix,Carriage_
 		case 13000:
 			break;
         
-		/*  --------------- Ð£µ÷ÒÆÄ£ÍË --------------- */
+		/*  --------------- æ ¡è°ƒç§»æ¨¡é€€ --------------- */
 		case 15000:
 			
 			if(0 == pMold->TransDIn.CarriageBwLimit)
@@ -1408,7 +1408,7 @@ void TransportSwitch(Mold_typ * pMold, Carriage_Fix_typ * pCarriageFix,Carriage_
 		if( 1 == gMachineInfo.Auto)				/*  Auto or AutoReset mode  */
 		{
 			//  if(pMold->Clamp.mmAs  < pMold->Clamp.S_OpnEnd - gMachineFix.MoldR.Clamp.TolerForClampOpn) //ipis0719	
-			if(0 == pMold->Clamp.OpnPos  &&  300 == pMold->Carriage.Step )  // while carriage up start £¬OpnPos need active. When carriage is moving£¬the OpnPos no need any more  //owen 
+			if(0 == pMold->Clamp.OpnPos  &&  300 == pMold->Carriage.Step )  // while carriage up start ï¼ŒOpnPos need active. When carriage is movingï¼Œthe OpnPos no need any more  //owen 
 			{
 				pMold->Alarm.ClampNotAtOpnDI = !pMold->Clamp.OpnPos;
 				pMold->Carriage.Step = 41000;
@@ -1640,7 +1640,7 @@ void TransportLVDT(Mold_typ * pMold, Carriage_Fix_typ * pCarriageFix,Carriage_Pa
 	else
 	{
 		pMold->Carriage.mmAs = pMold->Carriage.mmAs;
-		if(0 == gMachineInfo.Calib)	/* ·Çµ÷Ð£Ä£Ê½  */
+		if(0 == gMachineInfo.Calib)	/* éžè°ƒæ ¡æ¨¡å¼  */
 		{
 			if(pMold->Carriage.Step > 0 && pMold->Carriage.Step < 20000)
 			{
@@ -1996,7 +1996,7 @@ void TransportLVDT(Mold_typ * pMold, Carriage_Fix_typ * pCarriageFix,Carriage_Pa
 			
 			break;
 			
-		/*  --------------- µ÷Ð£ÒÆÄ£½ø --------------- */
+		/*  --------------- è°ƒæ ¡ç§»æ¨¡è¿› --------------- */
 		case 5000:
 			pMold->ActInfo.CarriageFw  = 1;
 			
@@ -2060,7 +2060,7 @@ void TransportLVDT(Mold_typ * pMold, Carriage_Fix_typ * pCarriageFix,Carriage_Pa
 		case 10300:
 
 			pMold->Carriage.LimitTimer.IN = 1;
-			if(1 == gMachineInfo.MachineReset )  /* ×Ô„ÓÍšw  */
+			if(1 == gMachineInfo.MachineReset )  /* è‡ªå‹•å¾©æ­¸  */
 			{
 			pMold->Carriage.LimitTimer.PT = pMold->TimeSet.CarriageBwAlarmTime;
 			}
@@ -2384,7 +2384,7 @@ void TransportLVDT(Mold_typ * pMold, Carriage_Fix_typ * pCarriageFix,Carriage_Pa
 
 			break;
         
-		/*  --------------- Ð£µ÷ÒÆÄ£ÍË --------------- */
+		/*  --------------- æ ¡è°ƒç§»æ¨¡é€€ --------------- */
 		case 15000:
 			pMold->ActInfo.CarriageBw  = 1;
 			
@@ -2703,7 +2703,7 @@ void TransportLVDT(Mold_typ * pMold, Carriage_Fix_typ * pCarriageFix,Carriage_Pa
 		if( 1 == gMachineInfo.Auto)				/*  Auto or AutoReset mode  */
 		{
 			//  if(pMold->Clamp.mmAs  < pMold->Clamp.S_OpnEnd - gMachineFix.MoldR.Clamp.TolerForClampOpn) //ipis0719	
-			if(0 == pMold->Clamp.OpnPos  &&  300 == pMold->Carriage.Step )  // while carriage up start £¬OpnPos need active. When carriage is moving£¬the OpnPos no need any more  //owen 
+			if(0 == pMold->Clamp.OpnPos  &&  300 == pMold->Carriage.Step )  // while carriage up start ï¼ŒOpnPos need active. When carriage is movingï¼Œthe OpnPos no need any more  //owen 
 			{
 				pMold->Alarm.ClampNotAtOpnDI = !pMold->Clamp.OpnPos;
 				pMold->Carriage.Step = 41000;
@@ -2918,7 +2918,7 @@ void TransportLVDT(Mold_typ * pMold, Carriage_Fix_typ * pCarriageFix,Carriage_Pa
 		
 		if(5000 == pMold->Carriage.Step || 15000 == pMold->Carriage.Step )
 		{
-			pMold->Carriage.aoPropValve = pMold->Carriage.v_set * 32767/100;   /* µçÑ¹Êä³ö  0 -- 100 ---> 0.0 -- 10.0v*/
+			pMold->Carriage.aoPropValve = pMold->Carriage.v_set * 32767/100;   /* ç”µåŽ‹è¾“å‡º  0 -- 100 ---> 0.0 -- 10.0v*/
 		}
 		else
 		{
@@ -3086,7 +3086,7 @@ void TransportDriveToggle_Drive(Mold_typ * pMold, Carriage_Fix_typ * pCarriageFi
 	{
 		pMold->Carriage.mmAsDrive = pMold->Carriage.mmAsDrive;
 		//      pMold->Carriage.mmAs = pMold->Carriage.mmAs;
-		if(0 == gMachineInfo.Calib)	/* ·Çµ÷Ð£Ä£Ê½  */
+		if(0 == gMachineInfo.Calib)	/* éžè°ƒæ ¡æ¨¡å¼  */
 		{
 			if(pMold->Carriage.Step > 0 && pMold->Carriage.Step < 20000)
 			{
@@ -3794,7 +3794,7 @@ void TransportDriveToggle_Drive(Mold_typ * pMold, Carriage_Fix_typ * pCarriageFi
 		if( 1 == gMachineInfo.Auto)				/*  Auto or AutoReset mode  */
 		{
 			//  if(pMold->Clamp.mmAs  < pMold->Clamp.S_OpnEnd - gMachineFix.MoldR.Clamp.TolerForClampOpn) //ipis0719	
-			if(0 == pMold->Clamp.OpnPos  &&  300 == pMold->Carriage.Step )  // while carriage up start £¬OpnPos need active. When carriage is moving£¬the OpnPos no need any more  //owen 
+			if(0 == pMold->Clamp.OpnPos  &&  300 == pMold->Carriage.Step )  // while carriage up start ï¼ŒOpnPos need active. When carriage is movingï¼Œthe OpnPos no need any more  //owen 
 			{
 				pMold->Alarm.ClampNotAtOpnDI = !pMold->Clamp.OpnPos;
 				pMold->Carriage.Step = 41000;
