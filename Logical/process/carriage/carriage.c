@@ -4,7 +4,7 @@
  * Program: carriage
  * File: carriage.c
  * Author: lijianjun
- * Created: March 06, 2015
+ * Created: March 06, 2014
  **************************************************************************************
  * Implementation of program carriage --- forward and backward 
  *************************************************************************************/
